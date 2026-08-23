@@ -3,6 +3,12 @@
 Roughly priority order. Update as items close.
 
 ## Resolved
+- Editable DOCX handout no longer published on the site (tampering/
+  impersonation risk) — build_site.py excludes .docx from the print/
+  output, printables.md routes requests through translations@ email
+  instead. Note: the source .docx is still in the public GitHub repo
+  itself; ask if you want it stripped from there too.
+
 - Site live end-to-end: `trustbutverifyproject.org` (canonical), plus
   `trustbutverifyproject.com`, `tbvproject.com`, `tbvproject.org` all 301 →
   canonical. Misspelled typo domains dropped, auto-renew cancelled.
