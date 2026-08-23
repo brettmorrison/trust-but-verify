@@ -88,6 +88,10 @@ PHOTOS = {
                             author="BwDraco",
                             url="https://commons.wikimedia.org/wiki/File:Nano_SIM_card_and_tray.jpg",
                             license="CC BY-SA 3.0"),
+    "scams/phantom-hacker": dict(file="phantom-hacker.jpg", alt="A woman holding a phone in each hand while sitting at a laptop",
+                                  author="Shixart1985",
+                                  url="https://commons.wikimedia.org/wiki/File:Frustrated_woman_holds_telephone_receiver_while_working_at_laptop.jpg",
+                                  license="CC BY 2.0"),
 }
 
 LANGS = [

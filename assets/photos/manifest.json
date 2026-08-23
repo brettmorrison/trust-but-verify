@@ -55,12 +55,13 @@
   },
   {
     "topic": "phantom-hacker",
-    "file": null,
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Old_typewriter_and_vintage_telephone_in_use_by_an_elderly_man_reading_a_book_in_a_cozy_room_setting.jpg",
+    "file": "assets/photos/web/phantom-hacker.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Frustrated_woman_holds_telephone_receiver_while_working_at_laptop.jpg",
     "license": "CC BY 2.0",
     "author": "Shixart1985",
-    "title": "Old typewriter and vintage telephone in use by an elderly man reading a book in a cozy room setting.jpg",
-    "skipped_reason": "Rejected on human review: an antique typewriter and rotary phone reads as anachronistic on a page about a modern remote-tech-support scam — the opposite of the tech-support angle. Downloaded but not used."
+    "title": "Frustrated woman holds telephone receiver while working at laptop.jpg",
+    "skipped_reason": null,
+    "note": "First candidate (antique typewriter, see git history) was rejected on human review as anachronistic. This replacement was sourced in a follow-up manual search directly against the Commons API."
   },
   {
     "topic": "government-impersonation",
