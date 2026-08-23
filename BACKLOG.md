@@ -63,6 +63,15 @@ Roughly priority order. Update as items close.
   forwards to translations@ via Resend, nothing stored). Code is
   deployed; needs a one-time Resend account + RESEND_API_KEY secret to
   actually send — see "Set up the feedback form" below.
+- Fixed two real bugs and completed print materials for all 45
+  languages: (1) reportlab's Latin-1-only base font produced solid
+  black tofu boxes for Greek/Gujarati/Hebrew/Georgian/Khmer/Punjabi/
+  Serbian fridge sheets — fixed with real Unicode TTFs + bidi (Hebrew)
+  + arabic_reshaper (Farsi/Pashto/Urdu wallet cards); (2) a greedy
+  regex bug silently gave 15 already-live wallet cards the wrong
+  tagline (the closing line, not the actual tagline) — fixed. Fridge
+  sheets and wallet cards are both 45/45 now (was 38/45 and 28/45).
+  printables.md's tables rebuilt from disk.
 
 ## Open
 1. Confirm Cloudflare Web Analytics is toggled on (Analytics & Logs → Web
@@ -84,23 +93,17 @@ Roughly priority order. Update as items close.
    just the account/key setup, a user action.
 5. Circulate the translation validator recruitment page — nothing
    non-English is validated yet, across all 45 languages.
-6. Wallet cards exist for 28 of 45 languages; fridge sheets for 38 of 45.
-   The missing 7 (Greek, Gujarati, Hebrew, Georgian, Khmer, Punjabi,
-   Serbian) need real Unicode font embedding (Noto Sans per script) plus
-   bidi reshaping for Hebrew — WeasyPrint (not installed this session) or
-   a properly font-equipped reportlab pipeline, not the plain-Helvetica
-   approach that broke this session.
-7. Deeper content only exists in 4 languages (es/vi/zh/ru) plus English —
+6. Deeper content only exists in 4 languages (es/vi/zh/ru) plus English —
    the other 40 are single landing pages. Decide whether to expand any.
-8. SEO metadata pass (meta titles/descriptions) per page/language — done
+7. SEO metadata pass (meta titles/descriptions) per page/language — done
    for English; per-language pass not started.
-9. Verify whether any *stable, national* (not local/volatile) same-
+8. Verify whether any *stable, national* (not local/volatile) same-
    language-community fraud-support orgs are worth adding alongside the
    two hotlines in resources-by-language.md — needs real verification,
    the file already deliberately avoids hardcoding volatile local orgs.
-10. resources-by-language.md's language table (federal-materials
-    availability) only covers the original ~16 languages, not all 45.
-11. The 4 new scam pages (charity/Medicare/SIM-swap/lottery) exist in
+9. resources-by-language.md's language table (federal-materials
+   availability) only covers the original ~16 languages, not all 45.
+10. The 4 new scam pages (charity/Medicare/SIM-swap/lottery) exist in
     English only — no translations yet, unlike the original 13.
 
 ## Unrelated flag
