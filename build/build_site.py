@@ -385,9 +385,11 @@ figure.hero-photo figcaption a{color:var(--muted)}
 .eng-phrase{unicode-bidi:isolate;white-space:nowrap}
 
 .feedback-form label{font-weight:700}
+.feedback-form .hp{position:absolute;left:-9999px}
 .feedback-form textarea,.feedback-form input[type=email]{
   border:3px solid var(--rule);border-radius:.3rem;margin-top:.4rem;
-  background:var(--paper);color:var(--ink)}
+  background:var(--paper);color:var(--ink);width:100%;max-width:32rem;
+  font:inherit;padding:.6rem;box-sizing:border-box}
 .feedback-form textarea:focus,.feedback-form input[type=email]:focus{
   outline:none;border-color:var(--accent)}
 .feedback-form button{
