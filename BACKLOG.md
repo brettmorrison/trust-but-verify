@@ -67,6 +67,12 @@ Roughly priority order. Update as items close.
 13. Candidate new scam-type pages, not yet written: charity scams, Medicare/
     health insurance scams, SIM-swap, lottery/sweepstakes (each mentioned in
     passing elsewhere, no dedicated page).
+14. Investigate whether any *stable, national* (not local/volatile) same-
+    language-community fraud-support organizations exist worth adding
+    alongside the two hotlines in resources-by-language.md. That file
+    already deliberately avoids hardcoding local orgs because dead numbers
+    on a fraud site actively harm trust — any addition needs real
+    verification, not a quick search.
 
 ## Unrelated flag
 Password reset email clusters in GoDaddy account from an earlier session —

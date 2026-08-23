@@ -63,12 +63,6 @@ Prints eight to a page. Available in 13 languages so far — the rest are next.
 | العربية Arabic | [PDF](/print/wallet-card-ar.pdf) | Українська Ukrainian | [PDF](/print/wallet-card-uk.pdf) |
 | | | Bahasa Indonesia | [PDF](/print/wallet-card-id.pdf) |
 
-### Download the editable handout
-
-[Word document](/print/handout-editable.docx) — same content as the fridge
-sheet, with a blank space for your own front desk number.
-
-
 ## The wallet card
 
 Small enough for a wallet or to sit by the phone. Three steps on the front, the
@@ -79,14 +73,18 @@ Prints eight to a page. Cut and hand out at the end of a talk.
 Available in 13 languages so far, with the rest on the way — again, only the
 English card is validated. The others carry the same warning line.
 
-## The editable handout (Word)
+## Adding your own front desk number
 
-Same content as the fridge sheet, in a Word document, so you can add your own
-front desk number, your logo, or a local police contact.
+If you run a facility, a version with a blank space for your own front desk
+number, logo, or local police contact is genuinely useful — a resident who can
+walk twenty feet to ask a person is far better protected than one who has to
+call a national hotline.
 
-If you run a facility, put your front desk number on it. A resident who can walk
-twenty feet to ask a person is far better protected than one who has to call a
-national hotline.
+We don't publish that file for open download. An editable copy still carrying
+this project's name is exactly the kind of thing someone could quietly alter
+and pass off as official — a real risk on a fraud-prevention site of all
+places. Email **translations@trustbutverifyproject.org** and we'll send it to
+you directly.
 
 ---
 

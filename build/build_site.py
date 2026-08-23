@@ -520,7 +520,9 @@ def build():
     dest = os.path.join(OUT, "print")
     os.makedirs(dest, exist_ok=True)
     for fn in sorted(os.listdir(PRINT)):
-        if fn.endswith(".pdf") or fn.endswith(".docx"):
+        # .docx intentionally excluded: an editable file carrying the site's
+        # branding is a tampering/impersonation risk. PDFs only.
+        if fn.endswith(".pdf"):
             shutil.copy(os.path.join(PRINT, fn), os.path.join(dest, fn))
 
     # robots + sitemap
