@@ -66,6 +66,12 @@ Roughly priority order. Update as items close.
 - Real photos (Wikimedia Commons, properly licensed + attributed) added
   to the home page, about page, and 14 scam-type pages. Full record in
   assets/photos/manifest.json. 6 topics still have no photo — see Open.
+- resources-by-language.md's federal-materials table expanded from 16
+  to all 45 languages, checked against ftc.gov/languages and
+  ssa.gov/multilanguage directly — also fixed two languages (Arabic,
+  Farsi) that were wrongly marked "Limited" when they actually have
+  real federal materials. Also fixed: the page had zero internal links
+  pointing to it anywhere on the site; linked from home.md.
 - Fixed two real bugs and completed print materials for all 45
   languages: (1) reportlab's Latin-1-only base font produced solid
   black tofu boxes for Greek/Gujarati/Hebrew/Georgian/Khmer/Punjabi/
@@ -104,11 +110,9 @@ Roughly priority order. Update as items close.
    language-community fraud-support orgs are worth adding alongside the
    two hotlines in resources-by-language.md — needs real verification,
    the file already deliberately avoids hardcoding volatile local orgs.
-9. resources-by-language.md's language table (federal-materials
-   availability) only covers the original ~16 languages, not all 45.
-10. The 4 new scam pages (charity/Medicare/SIM-swap/lottery) exist in
-    English only — no translations yet, unlike the original 13.
-11. 6 pages still have no hero photo: charity-scams and government-
+9. The 4 new scam pages (charity/Medicare/SIM-swap/lottery) exist in
+   English only — no translations yet, unlike the original 13.
+10. 6 pages still have no hero photo: charity-scams and government-
     impersonation (candidates were sourced but rejected on review —
     museum artifact / no visible connection to the topic, see
     assets/photos/manifest.json), plus recovery-scam, lottery-
