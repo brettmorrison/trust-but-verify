@@ -38,44 +38,18 @@ same point: a number looked up independently instead of trusted on the call.
 
 ## Why "Trust But Verify"
 
-Most scam education has a tone problem. It tells older adults that the world is
-full of predators and they are the prey, and that message does two things: it
-frightens people, and it insults them. Frightened, insulted people don't change
-their habits. They stop listening.
+*Trust but verify* translates a Russian proverb — *doveryai, no proveryai* —
+that entered American English in the 1980s. It doesn't say trust nobody. It
+says: keep trusting, just check first.
 
-*Trust but verify* is the translation of a Russian proverb — *doveryai, no
-proveryai* — that entered American English in the 1980s. It says something better:
-keep trusting. Trust is not the mistake. Just check first.
+## The rules this site follows
 
-That distinction is the whole project.
-
-## What we believe
-
-**People are not the weak link.** They're the last line of defense, standing
-against an industry that took $7.7 billion from Americans over 60 in a single
-year. Blaming them for losing a fight they were never resourced for is both
-unkind and useless.
-
-**One rule beats a hundred warnings.** Nobody remembers a list of forty scams.
-Everybody can remember three steps.
-
-**Shame is the scammer's ally.** It keeps people quiet, which keeps money
-unrecovered and crews unreported. Every page here is written so someone who has
-already lost money can read it without flinching.
-
-**Repetition, not novelty.** The same three steps, said many times, in many
-languages, on many refrigerators.
-
-## What this will never be
-
-- **Never a business.** No products, no premium tier, no affiliate links, no
-  referral fees, no sponsors, and no "recommended service" that pays us.
-- **Not a data collector, and honest about the one exception.** No cookies, no
-  accounts, no mailing list, nothing sold, nothing shared. We keep an anonymous
-  count of how many people read each page — no name attached, no way to trace
-  it back to you. A site about protecting your information should say plainly
-  what little it keeps.
-- **Never fear-based.** Fear is the scammer's instrument. We won't borrow it.
+One rule beats a list of forty scams to memorize — hence the three steps,
+repeated everywhere. No shame, ever: someone who's already lost money should
+be able to read any page here without flinching. Free, no products, no
+sponsors, no affiliate links, nothing sold. No cookies, no accounts, no
+mailing list — see [privacy](/privacy) for the one exception (anonymous
+pageview counts) and exactly what that means.
 
 ## Use anything here
 
@@ -83,23 +57,16 @@ Everything on this site is free to print, copy, translate, adapt, rebrand, and
 distribute. Put your organization's name on it. Change the wording. Hand it out
 at a church, a library, a clinic, a union hall, a family dinner.
 
-You do not need our permission and you don't need to credit us. If a sentence
-here ends up on someone's refrigerator without our name attached, that's the
-project working exactly as intended.
+You do not need our permission and you don't need to credit us.
 
 ## About the translations
 
 Everything on this site that isn't in English was translated by AI and **has not
-been validated by a native speaker.** We say so at the top of every translated
-page, in that language, and those pages are not to be printed or distributed
-until we have validation and confirmation from a native speaker.
+been validated by a native speaker.** Every translated page says so at the
+top, in that language, and shouldn't be printed or distributed until
+validated and confirmed by one.
 
-That's a deliberate choice. A page about who to trust cannot itself be something
-you have to take on faith. If we can't vouch for it, we say we can't.
-
-Twelve languages are drafted and none is validated. That ratio is the wrong way
-round, and only a native speaker can fix it.
-
+45 languages are drafted; almost none are validated yet.
 [We need readers.](/help-translate) One or two hours per language, no
 professional qualification needed, name on the page only if you want it.
 
@@ -119,13 +86,6 @@ We use federal data only, and we say the year.
 
 ---
 
-## What we think will actually happen
-
-Not that scams end. They won't.
-
-But somewhere, someone will be standing in a kitchen with a phone against their
-ear and a frightened feeling in their chest — and they'll glance at a piece of
-paper on the refrigerator and say the sentence out loud: *"I'm going to hang up
-and call the number on my card."*
-
-That's a person who just kept their savings. That's the entire ambition.
+Scams won't stop. The goal is smaller than that: someone standing in a
+kitchen, phone against their ear, glances at a sheet on the fridge and hangs
+up to call the number on their card instead. That's the whole ambition.

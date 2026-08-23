@@ -205,7 +205,7 @@ def depth_prefix(outpath):
 MARK = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" '
         'stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" '
         'aria-hidden="true"><circle cx="10" cy="10" r="6.75"/>'
-        '<path d="M7.3 10.3 9.3 12.6 13 6.9"/>'
+        '<path d="M7.5 10 9.2 11.7 12.3 7.8"/>'
         '<path d="M15.1 15.1 20.5 20.5"/></svg>')
 
 CSS = """
@@ -544,7 +544,7 @@ def build():
                'stroke-width="2.6"/>'
                '<path fill="none" stroke="#123f7a" stroke-width="2.6" '
                'stroke-linecap="round" stroke-linejoin="round" '
-               'd="M7 10.4 9.2 12.8 13.2 6.7"/>'
+               'd="M7.5 10 9.2 11.7 12.3 7.8"/>'
                '<path fill="none" stroke="#123f7a" stroke-width="2.6" '
                'stroke-linecap="round" d="M15.1 15.1 20.5 20.5"/></svg>')
     open(os.path.join(OUT, "favicon.svg"), "w", encoding="utf-8").write(favicon)
