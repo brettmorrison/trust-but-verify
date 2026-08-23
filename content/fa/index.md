@@ -11,7 +11,7 @@ validated_by: (none yet)
 
 **لازم نیست به همه شک کنید. فقط یک گام اضافه کنید.**
 
-> وقتی پاسخ دادند، به انگلیسی بگویید: "Farsi, please"
+> وقتی پاسخ دادند، به انگلیسی بگویید: <span class="eng-phrase">"Farsi, please"</span>
 
 ## پیش از انتقال هر مبلغی
 
@@ -46,7 +46,7 @@ validated_by: (none yet)
 
 **877-908-3360** — AARP Fraud Watch · دوشنبه تا جمعه
 
-وقتی پاسخ دادند، به انگلیسی بگویید: "Farsi, please"
+وقتی پاسخ دادند، به انگلیسی بگویید: <span class="eng-phrase">"Farsi, please"</span>
 
 گزارش: ic3.gov  ·  reportfraud.ftc.gov
 

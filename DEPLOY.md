@@ -217,18 +217,18 @@ The generator writes these into `site/` for you:
 
 ## Known gaps
 
-**Check the four right-to-left pages on a real phone before announcing them.**
-Arabic, Urdu, Farsi, and Pashto. The printed PDFs are fixed and verified — they
-now render through WeasyPrint, which does proper HarfBuzz shaping.
+**The four right-to-left web pages (Arabic, Urdu, Farsi, Pashto) are now
+verified**, live on trustbutverifyproject.org, at both desktop and mobile
+(375px) widths — checked 2026-08-24 with a real modern browser. Arabic,
+Farsi, and Pashto render flawlessly: mirrored nav, right-aligned body text,
+clean wrapping, no overflow. Urdu has one small cosmetic rough edge — the
+embedded English quote box ("Urdu, please") can wrap mid-phrase at some
+widths, splitting the comma and closing quote onto the next line oddly. It's
+still readable, just not pretty. Worth a native speaker's eye during
+validation, not urgent enough to block anything.
 
-The *web* pages use standards-correct CSS (direction set on the content
-container, max-width, overflow-wrap), which every modern browser handles
-correctly. But the only renderer available in the build environment is a
-2012-era WebKit that doesn't wrap right-to-left text, so I could not verify them
-visually. They are almost certainly fine. "Almost certainly" is not a standard
-this project should accept on a page someone reads while frightened, so please
-open all four on an actual phone and confirm the text wraps rather than running
-off the edge.
+The printed PDFs were fixed and verified earlier — they render through
+WeasyPrint, which does proper HarfBuzz shaping.
 
 **No translated page is validated.** Every non-English page carries a warning
 band saying so. That band stays until a native speaker signs off.

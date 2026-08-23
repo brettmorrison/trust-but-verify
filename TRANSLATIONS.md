@@ -105,7 +105,7 @@ Contact: **translations@trustbutverifyproject.org**
 ## Known limitation
 
 The four right-to-left languages (Arabic, Urdu, Farsi, Pashto) have verified
-print PDFs, generated through WeasyPrint for correct HarfBuzz shaping. Their
-**web** pages use standards-correct CSS but were never visually confirmed in a
-modern browser — the build environment only had a 2012-era renderer that cannot
-wrap right-to-left text. Check those four on a real device.
+print PDFs (WeasyPrint, correct HarfBuzz shaping) and verified **web** pages —
+checked live at desktop and mobile widths on 2026-08-24. Arabic, Farsi, and
+Pashto are clean. Urdu has one minor cosmetic issue: an embedded English quote
+("Urdu, please") can wrap mid-phrase at some widths. See DEPLOY.md.

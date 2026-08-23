@@ -380,6 +380,8 @@ figure.hero-photo img{width:100%;aspect-ratio:16/9;object-fit:cover;
 figure.hero-photo figcaption{font-size:.78rem;color:var(--muted);margin-top:.4rem}
 figure.hero-photo figcaption a{color:var(--muted)}
 
+.eng-phrase{unicode-bidi:isolate;white-space:nowrap}
+
 .feedback-form label{font-weight:700}
 .feedback-form textarea,.feedback-form input[type=email]{
   border:3px solid var(--rule);border-radius:.3rem;margin-top:.4rem;

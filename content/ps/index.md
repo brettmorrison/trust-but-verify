@@ -11,7 +11,7 @@ validated_by: (none yet)
 
 **پر ټولو شک کولو ته اړتیا نشته. یوازې یو ګام ورزیات کړئ.**
 
-> کله چې ځواب درکړي، په انګلیسي کې ووایاست: "Pashto, please"
+> کله چې ځواب درکړي، په انګلیسي کې ووایاست: <span class="eng-phrase">"Pashto, please"</span>
 
 ## د هرې پیسې لېږلو دمخه
 
@@ -46,7 +46,7 @@ validated_by: (none yet)
 
 **877-908-3360** — AARP Fraud Watch · دوشنبه تر جمعې
 
-کله چې ځواب درکړي، په انګلیسي کې ووایاست: "Pashto, please"
+کله چې ځواب درکړي، په انګلیسي کې ووایاست: <span class="eng-phrase">"Pashto, please"</span>
 
 راپور: ic3.gov  ·  reportfraud.ftc.gov
 

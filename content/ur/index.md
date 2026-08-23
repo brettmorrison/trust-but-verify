@@ -11,7 +11,7 @@ validated_by: (none yet)
 
 **ہر کسی پر شک کرنے کی ضرورت نہیں۔ صرف ایک قدم بڑھا دیں۔**
 
-> فون اٹھنے پر انگریزی میں کہیں: "Urdu, please"
+> فون اٹھنے پر انگریزی میں کہیں: <span class="eng-phrase">"Urdu, please"</span>
 
 ## کوئی بھی رقم بھیجنے سے پہلے
 
@@ -46,7 +46,7 @@ validated_by: (none yet)
 
 **877-908-3360** — AARP فراڈ واچ · پیر تا جمعہ
 
-فون اٹھنے پر انگریزی میں کہیں: "Urdu, please"
+فون اٹھنے پر انگریزی میں کہیں: <span class="eng-phrase">"Urdu, please"</span>
 
 اطلاع دیں: ic3.gov  ·  reportfraud.ftc.gov
 
