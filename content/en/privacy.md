@@ -21,9 +21,10 @@ No selling or sharing data — there's none to sell.
 no script (this site's CSP blocks scripts entirely). It shows which pages
 get read. It can't connect a visit to a person or a return visit.
 
-**If you use the feedback form**, what you type is emailed to the maintainer
-to read and reply to — not stored in a database or added to any list. Prefer
-email? **translations@trustbutverifyproject.org** works the same way.
+**If you use the [feedback form](/feedback)**, what you type is emailed to
+the maintainer to read and reply to — not stored in a database or added to
+any list. Prefer email? **translations@trustbutverifyproject.org** works
+the same way.
 
 **Standard server logs** — Cloudflare briefly logs technical request data
 (like IP address) for security, same as nearly every site online. We don't

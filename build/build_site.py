@@ -302,6 +302,17 @@ a.card:hover,a.card:focus-visible{border-color:var(--accent);background:#fff}
 a.card span{display:block;font-weight:400;font-size:.88rem;color:var(--muted);
   margin-top:.3rem}
 
+.feedback-form label{font-weight:700}
+.feedback-form textarea,.feedback-form input[type=email]{
+  border:3px solid var(--rule);border-radius:.3rem;margin-top:.4rem;
+  background:var(--paper);color:var(--ink)}
+.feedback-form textarea:focus,.feedback-form input[type=email]:focus{
+  outline:none;border-color:var(--accent)}
+.feedback-form button{
+  font:inherit;font-weight:800;border:3px solid var(--rule);border-radius:.4rem;
+  background:var(--accent);color:#fff;padding:.7rem 1.6rem;cursor:pointer}
+.feedback-form button:hover,.feedback-form button:focus-visible{border-color:var(--ink)}
+
 /* wide-screen nav rail: pure bonus for viewers with room, single column
    reading experience is unaffected below this breakpoint */
 aside.rail{display:none}
@@ -636,7 +647,13 @@ def build():
         "  Content-Security-Policy: default-src 'none'; style-src 'self'; img-src 'self'; "
         "base-uri 'none'; form-action 'none'; frame-ancestors 'none'\n"
         "  Strict-Transport-Security: max-age=31536000; includeSubDomains\n"
-        "\n/print/*\n  Cache-Control: public, max-age=86400\n")
+        "\n/print/*\n  Cache-Control: public, max-age=86400\n"
+        # The one page on the site with a <form>: same policy as everywhere
+        # else, except form-action allows same-origin so the feedback form
+        # can actually submit to /api/feedback.
+        "\n/feedback/*\n"
+        "  Content-Security-Policy: default-src 'none'; style-src 'self'; img-src 'self'; "
+        "base-uri 'none'; form-action 'self'; frame-ancestors 'none'\n")
 
     # 404
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(

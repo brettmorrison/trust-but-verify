@@ -48,6 +48,41 @@ every build. Regenerate locally whenever a page's title or description
 changes, then commit the PNGs.
 
 ---
+
+## The feedback form (`/feedback`)
+
+The form at `/feedback` posts to a Cloudflare Pages Function
+(`functions/api/feedback.js`) that emails the message to
+`translations@trustbutverifyproject.org` via [Resend](https://resend.com)
+and stores nothing. It needs one-time setup:
+
+1. Create a free Resend account at resend.com (100 emails/day, 3,000/month —
+   plenty for a feedback form).
+2. In Resend, **Domains** → **Add Domain** → `trustbutverifyproject.org`.
+   Resend shows you a handful of DNS records (SPF/DKIM) to add.
+3. Add those records in Cloudflare → **DNS** → **Records** for
+   trustbutverifyproject.org. If Cloudflare Email Routing already added an
+   SPF `TXT` record at the root, don't create a second one — edit the
+   existing `TXT` record and merge in Resend's `include:` value instead
+   (a domain can only have one SPF record; two will break both).
+4. Back in Resend, click **Verify** on the domain — usually confirms within
+   a few minutes.
+5. Resend → **API Keys** → **Create API Key** → name it `tbv-feedback-form`,
+   permission **Sending access only**, restricted to
+   trustbutverifyproject.org if that scoping option is offered. Copy the
+   key — it's shown once.
+6. Cloudflare Pages → the `trust-but-verify` project → **Settings** →
+   **Environment variables** → **Add variable**: name `RESEND_API_KEY`,
+   paste the key, click the **Encrypt** / **Secret** toggle so it's not
+   visible again after saving, apply to **Production** (and Preview if you
+   want the form to work on preview deploys too). Save, then redeploy
+   (Cloudflare → Deployments → **Retry deployment** on the latest one, or
+   just push any commit) so the Function picks up the new variable.
+
+Until step 6 is done, the form returns "Feedback form is not configured
+yet." instead of erroring silently.
+
+---
 ## Fallback — drag and drop (if you ever need it)
 
 Only useful for a one-off emergency deploy. The git method above is the normal path; a drag-and-drop project cannot later be connected to git, so don't start here.

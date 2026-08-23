@@ -72,9 +72,9 @@ professional qualification needed, name on the page only if you want it.
 
 ## Corrections
 
-If something here is wrong, out of date, or unclear, we want to know. Statistics
-come from the FBI's Internet Crime Complaint Center and the FTC, and get reviewed
-every April when the new federal reports come out.
+If something here is wrong, out of date, or unclear, [tell us](/feedback).
+Statistics come from the FBI's Internet Crime Complaint Center and the FTC,
+and get reviewed every April when the new federal reports come out.
 
 ## Where the numbers come from
 
