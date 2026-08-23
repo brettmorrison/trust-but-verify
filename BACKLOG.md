@@ -63,6 +63,9 @@ Roughly priority order. Update as items close.
   forwards to translations@ via Resend, nothing stored). Code is
   deployed; needs a one-time Resend account + RESEND_API_KEY secret to
   actually send — see "Set up the feedback form" below.
+- Real photos (Wikimedia Commons, properly licensed + attributed) added
+  to the home page, about page, and 13 scam-type pages. Full record in
+  assets/photos/manifest.json. 7 topics still have no photo — see Open.
 - Fixed two real bugs and completed print materials for all 45
   languages: (1) reportlab's Latin-1-only base font produced solid
   black tofu boxes for Greek/Gujarati/Hebrew/Georgian/Khmer/Punjabi/
@@ -105,6 +108,13 @@ Roughly priority order. Update as items close.
    availability) only covers the original ~16 languages, not all 45.
 10. The 4 new scam pages (charity/Medicare/SIM-swap/lottery) exist in
     English only — no translations yet, unlike the original 13.
+11. 7 pages still have no hero photo: charity-scams, government-
+    impersonation, and phantom-hacker (candidates were sourced but
+    rejected on review — wrong tone/anachronistic, see
+    assets/photos/manifest.json), plus recovery-scam, lottery-
+    sweepstakes, for-family, and printables (nothing suitable found on
+    Wikimedia Commons at all). Try again, or leave them photo-less —
+    the site reads fine either way.
 
 ## Unrelated flag
 Password reset email clusters in GoDaddy account from an earlier session —
