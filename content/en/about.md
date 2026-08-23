@@ -9,16 +9,32 @@ lang: en
 
 ## Where this came from
 
-This started as a 25-minute talk in the activity room of an assisted living
-community, given by a volunteer whose parents live there.
+This started as a 25-minute talk I gave in the activity room of the assisted
+living community where my parents live.
 
-He works in cybersecurity — specifically data protection and privacy — which
-turned out to matter less than expected. The people in that room did not need to
-understand encryption. They needed a rule short enough to remember while a
-stranger was shouting at them on the phone.
+I work in data protection and privacy, which mattered less than I expected.
+Nobody in that room needed encryption. They needed a rule short enough to
+remember while a stranger was shouting at them on the phone.
 
-The talk went well. Then people asked for something to hand to a neighbor. Then a
-different community asked for the slides. So it became this.
+The talk went well. People asked for something to hand a neighbor. Then it
+became this. [More about me on LinkedIn.](https://www.linkedin.com/in/brettmorrison/)
+
+## This happens to families like yours
+
+A great-uncle took out a reverse mortgage — $300,000 of his house, gone. A
+coworker's father was on the phone with "Microsoft," being walked into his
+bank account, until she caught the call in time. A coworker's daughter sent
+money for months to a boyfriend she'd never met, "working in Oman."
+
+None of them are foolish. This project exists so you can catch it the way
+that coworker did — in the moment, not after.
+
+The same patterns show up constantly in federal prosecutions: a
+[Rhode Island romance scam](https://www.justice.gov/usao-ri/pr/indiana-woman-admits-victimizing-96-year-old-rhode-island-widower-through-online-romance)
+that cost a widower $80,000, a
+["phantom hacker" case](https://www.fbi.gov/contact-us/field-offices/phoenix/news/california-man-pleads-guilty-to-role-in-phantom-hacker-scheme-targeting-elderly-victims)
+where scammers collected $500,000 in gold bullion. Every one collapses at the
+same point: a number looked up independently instead of trusted on the call.
 
 ## Why "Trust But Verify"
 
@@ -76,7 +92,7 @@ project working exactly as intended.
 Everything on this site that isn't in English was translated by AI and **has not
 been validated by a native speaker.** We say so at the top of every translated
 page, in that language, and those pages are not to be printed or distributed
-until someone has read them.
+until we have validation and confirmation from a native speaker.
 
 That's a deliberate choice. A page about who to trust cannot itself be something
 you have to take on faith. If we can't vouch for it, we say we can't.
