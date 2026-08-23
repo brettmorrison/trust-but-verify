@@ -22,8 +22,15 @@ Roughly priority order. Update as items close.
   (redesigned from a shield-and-checkmark that read as borrowed from
   antivirus/security-badge branding) + matching favicon.
 - **45 languages total**, all wired into the header switcher (LANGS list
-  in build_site.py — the actual source of truth for site nav). QR codes
-  and fridge sheets exist for all of them.
+  in build_site.py — the actual source of truth for site nav).
+- **Fixed a critical bug, already caught and corrected:** reportlab's
+  default font can't render non-Latin scripts, so every fridge sheet/
+  wallet card generated for Greek, Gujarati, Hebrew, Georgian, Khmer,
+  Punjabi, or Serbian came out as solid black boxes — briefly live on the
+  deployed site. Deleted the broken files, removed their dead links, kept
+  the 15 Latin-script wallet cards that render correctly. Fridge sheets
+  now exist for 38 languages, wallet cards for 28 — accurate counts,
+  verified against what's actually on disk, not hand-maintained.
 - Editable DOCX handout no longer published (tampering/impersonation risk)
   — routed through translations@ email instead. Note: the source .docx is
   still in the public GitHub repo itself; ask if you want it stripped from
@@ -50,9 +57,12 @@ Roughly priority order. Update as items close.
    Not started — real new infrastructure, not a copy change.
 5. Circulate the translation validator recruitment page — nothing
    non-English is validated yet, across all 45 languages.
-6. Wallet cards only exist in 13 of 45 languages — the rest need WeasyPrint
-   (not installed in this session) or a reportlab-based generator like the
-   fridge-sheet one.
+6. Wallet cards exist for 28 of 45 languages; fridge sheets for 38 of 45.
+   The missing 7 (Greek, Gujarati, Hebrew, Georgian, Khmer, Punjabi,
+   Serbian) need real Unicode font embedding (Noto Sans per script) plus
+   bidi reshaping for Hebrew — WeasyPrint (not installed this session) or
+   a properly font-equipped reportlab pipeline, not the plain-Helvetica
+   approach that broke this session.
 7. Deeper content only exists in 4 languages (es/vi/zh/ru) plus English —
    the other 40 are single landing pages. Decide whether to expand any.
 8. SEO metadata pass (meta titles/descriptions) per page/language.
