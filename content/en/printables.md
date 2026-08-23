@@ -17,8 +17,9 @@ don't need to ask us.
 One page. 18-point type. The three steps, the three signs, the payment red flags,
 and the two helplines.
 
-**Made to be taped to a refrigerator**, not filed in a drawer. That's where
-someone will be standing when the phone rings.
+**Made to be taped to a refrigerator, or kept next to the computer** — not
+filed in a drawer. Those are the places someone will actually be standing when
+the phone rings or a scary popup fills the screen.
 
 Available in **24 languages**: English, Spanish, Vietnamese, Chinese, Russian,
 Korean, Tagalog, Hindi, Bengali, Armenian, Amharic, Albanian, Japanese, Arabic,
