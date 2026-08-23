@@ -58,6 +58,11 @@ Roughly priority order. Update as items close.
 - Four new scam-type pages: charity-scams.md, medicare-scams.md,
   sim-swap.md, lottery-sweepstakes.md — wired into the home grid and
   cross-linked, each with a real FBI IC3/FTC/HHS-OIG citation.
+- Feedback form built: /feedback page (plain HTML form, no JS, honeypot
+  spam defense) + functions/api/feedback.js (Cloudflare Pages Function,
+  forwards to translations@ via Resend, nothing stored). Code is
+  deployed; needs a one-time Resend account + RESEND_API_KEY secret to
+  actually send — see "Set up the feedback form" below.
 
 ## Open
 1. Confirm Cloudflare Web Analytics is toggled on (Analytics & Logs → Web
@@ -69,10 +74,14 @@ Roughly priority order. Update as items close.
    a broken placeholder that never decodes back, because the site's own
    strict no-JS CSP blocks the decode script. One dashboard toggle fixes
    every instance at once.
-4. Build the feedback-form backend: a Cloudflare Pages Function that
-   forwards submissions to email, no storage, honeypot instead of Turnstile
-   (Turnstile needs client-side JS, which conflicts with the site's CSP).
-   Not started — real new infrastructure, not a copy change.
+4. Set up the feedback form: create a Resend account, verify
+   trustbutverifyproject.org (add its DNS records in Cloudflare —
+   merge into the existing SPF TXT record if Email Routing already
+   made one, don't add a second), generate an API key, and add it as
+   the `RESEND_API_KEY` secret on the Cloudflare Pages project. Full
+   steps in DEPLOY.md. The code (functions/api/feedback.js,
+   content/en/feedback.md) is already built and deployed — this is
+   just the account/key setup, a user action.
 5. Circulate the translation validator recruitment page — nothing
    non-English is validated yet, across all 45 languages.
 6. Wallet cards exist for 28 of 45 languages; fridge sheets for 38 of 45.
