@@ -10,6 +10,10 @@ lang: en
 If you're here because you're worried about a parent, the hard part isn't the
 information. It's the conversation.
 
+**[Download this as a slide deck (PPTX)](/print/trust-but-verify-for-family.pptx)**
+— 12 slides with speaker notes, for giving this to a wider family group or a
+support group instead of reading it alone.
+
 Because the conversation you want to have — *"be careful, you're vulnerable"* —
 is the one that guarantees they will never tell you when something happens. And
 the goal is not that your mother never gets a scam call. She will get several
