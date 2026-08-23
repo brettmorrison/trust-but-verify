@@ -230,10 +230,6 @@ this project should accept on a page someone reads while frightened, so please
 open all four on an actual phone and confirm the text wraps rather than running
 off the edge.
 
-**Seven language folders are quarantined** in `_quarantine/` — Ukrainian,
-French, German, Portuguese, Polish, Romanian, Indonesian. Their origin is
-unconfirmed, so they're not built into the site. Delete them or verify them.
-
 **No translated page is validated.** Every non-English page carries a warning
 band saying so. That band stays until a native speaker signs off.
 
