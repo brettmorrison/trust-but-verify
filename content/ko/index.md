@@ -58,6 +58,8 @@ validated_by: (none yet)
 
 [영어 전체 페이지](/)
 
+
+**Other languages:** [Español](/es/) · [Tiếng Việt](/vi/) · [中文](/zh/) · [Русский](/ru/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ਪੰਜਾਬੀ](/pa/) · [ગુજરાતી](/gu/) · [Af-Soomaali](/so/) · [ខ្មែរ](/km/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/)
 ---
 
 ## 도와주시겠습니까

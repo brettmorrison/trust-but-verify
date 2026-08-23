@@ -60,6 +60,8 @@ validated_by: (none yet)
 
 [अंग्रेज़ी में पूरे पन्ने](/)
 
+
+**Other languages:** [Español](/es/) · [Tiếng Việt](/vi/) · [中文](/zh/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ਪੰਜਾਬੀ](/pa/) · [ગુજરાતી](/gu/) · [Af-Soomaali](/so/) · [ខ្មែរ](/km/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/)
 ---
 
 ## क्या आप हमारी मदद करेंगे

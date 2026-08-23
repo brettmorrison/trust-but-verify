@@ -59,6 +59,7 @@ UI = {
    langpage="Help in your language", skip="Skip to the main content",
    navhome="Home", navscams="Scam types", navprint="Print materials",
    navabout="About", navtalk="Give this talk", navhelp="Help translate",
+   navprivacy="Privacy",
    railtitle="Find your way", s_romance="Someone I met online",
    s_tech="Fake tech support", s_bank="Bank / “phantom hacker”",
    s_gov="Government impersonation", s_grandparent="Grandchild in trouble",
@@ -176,10 +177,15 @@ def depth_prefix(outpath):
 
 # ---------------------------------------------------------------------- layout
 
+# A magnifying glass with a checkmark inside — not a shield-and-checkmark,
+# which reads as borrowed from antivirus/security-badge branding (McAfee,
+# Norton, generic "verified" seals). This ties to the site's own two ideas
+# instead: look it up yourself (the glass), then it checks out (the check).
 MARK = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" '
-        'stroke-width="2" stroke-linecap="round" stroke-linejoin="round" '
-        'aria-hidden="true"><path d="M12 2.5 19.5 5.5V11C19.5 16 16 19.8 12 21.5 '
-        '8 19.8 4.5 16 4.5 11V5.5Z"/><path d="M8.2 11.6 10.8 14.2 15.8 9"/></svg>')
+        'stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" '
+        'aria-hidden="true"><circle cx="10" cy="10" r="6.75"/>'
+        '<path d="M7.3 10.3 9.3 12.6 13 6.9"/>'
+        '<path d="M15.1 15.1 20.5 20.5"/></svg>')
 
 CSS = """
 :root{
@@ -367,6 +373,7 @@ PAGE = """<!DOCTYPE html>
     <a href="{pre}about/">{navabout}</a>
     <a href="{pre}give-this-talk/">{navtalk}</a>
     <a href="{pre}help-translate/">{navhelp}</a>
+    <a href="{pre}privacy/">{navprivacy}</a>
   </nav>
   <p><strong>{helpline}</strong>
      National Elder Fraud Hotline
@@ -493,6 +500,7 @@ def build():
             navabout=html.escape(ui(lang, "navabout")),
             navtalk=html.escape(ui(lang, "navtalk")),
             navhelp=html.escape(ui(lang, "navhelp")),
+            navprivacy=html.escape(ui(lang, "navprivacy")),
             s_romance=html.escape(ui(lang, "s_romance")),
             s_tech=html.escape(ui(lang, "s_tech")),
             s_bank=html.escape(ui(lang, "s_bank")),
@@ -509,11 +517,13 @@ def build():
 
     # favicon: same mark, filled solid so it reads at 16px
     favicon = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">'
-               '<path fill="#123f7a" d="M12 2.5 19.5 5.5V11C19.5 16 16 19.8 12 21.5 '
-               '8 19.8 4.5 16 4.5 11V5.5Z"/>'
-               '<path fill="none" stroke="#fffdf9" stroke-width="2.4" '
+               '<circle cx="10" cy="10" r="7" fill="none" stroke="#123f7a" '
+               'stroke-width="2.6"/>'
+               '<path fill="none" stroke="#123f7a" stroke-width="2.6" '
                'stroke-linecap="round" stroke-linejoin="round" '
-               'd="M8.2 11.6 10.8 14.2 15.8 9"/></svg>')
+               'd="M7 10.4 9.2 12.8 13.2 6.7"/>'
+               '<path fill="none" stroke="#123f7a" stroke-width="2.6" '
+               'stroke-linecap="round" d="M15.1 15.1 20.5 20.5"/></svg>')
     open(os.path.join(OUT, "favicon.svg"), "w", encoding="utf-8").write(favicon)
 
     # printables
@@ -524,6 +534,14 @@ def build():
         # branding is a tampering/impersonation risk. PDFs only.
         if fn.endswith(".pdf"):
             shutil.copy(os.path.join(PRINT, fn), os.path.join(dest, fn))
+
+    # the talk deck — not editable-branded like the handout, a slide deck
+    # being edited and re-shared doesn't carry the same impersonation risk
+    talk_dir = os.path.join(ROOT, "formats", "talk")
+    if os.path.isdir(talk_dir):
+        for fn in sorted(os.listdir(talk_dir)):
+            if fn.endswith(".pptx"):
+                shutil.copy(os.path.join(talk_dir, fn), os.path.join(dest, fn))
 
     # robots + sitemap
     open(os.path.join(OUT, "robots.txt"), "w").write(
@@ -554,7 +572,7 @@ def build():
     # 404
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
         PAGE.format(lang="en", dirattr="", mark=MARK, title="Page not found — Trust But Verify",
-                    desc="That page isn't here.", canonical=SITE + "/404.html", pre="./",
+                    desc="That page isn't here.", canonical=SITE + "/404.html", pre="/",
                     crumb="",
                     body="<h1>That page isn't here.</h1>"
                          "<p>Nothing is wrong and you haven't broken anything. "
@@ -562,14 +580,15 @@ def build():
                          "<p><a href=\"/\">Start from the beginning</a>, or if something "
                          "is happening right now and you need a person: "
                          "<strong>833-372-8311</strong>.</p>",
-                    langs=lang_nav("./", "en"), langbtn="\U0001F310 " + lang_label("en"),
+                    langs=lang_nav("/", "en"), langbtn="\U0001F310 " + lang_label("en"),
                     skip=UI["en"]["skip"], strap=UI["en"]["strap"],
                     helpline=UI["en"]["help"], langpage=UI["en"]["langpage"],
                     free=UI["en"]["free"], nocookie=UI["en"]["nocookie"],
                     railtitle=UI["en"]["railtitle"], navhome=UI["en"]["navhome"],
                     navscams=UI["en"]["navscams"], navprint=UI["en"]["navprint"],
                     navabout=UI["en"]["navabout"], navtalk=UI["en"]["navtalk"],
-                    navhelp=UI["en"]["navhelp"], s_romance=UI["en"]["s_romance"],
+                    navhelp=UI["en"]["navhelp"], navprivacy=UI["en"]["navprivacy"],
+                    s_romance=UI["en"]["s_romance"],
                     s_tech=UI["en"]["s_tech"], s_bank=UI["en"]["s_bank"],
                     s_gov=UI["en"]["s_gov"], s_grandparent=UI["en"]["s_grandparent"],
                     s_kidnap=UI["en"]["s_kidnap"], s_signs=UI["en"]["s_signs"]))

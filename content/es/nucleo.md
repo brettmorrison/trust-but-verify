@@ -10,23 +10,14 @@ validated_by: (none yet)
 
 > ### ⚠ AVISO — TRADUCCIÓN SIN VALIDAR
 >
-> **Este texto fue traducido por inteligencia artificial y todavía no lo ha
-> revisado un hablante nativo.** Los datos, los números de teléfono y los
-> consejos son correctos. Pero la redacción puede sonar rara o poco natural, y
-> podría haber errores.
+> Traducido por IA, aún no revisado por un hablante nativo. No lo imprima ni
+> distribuya todavía.
 >
-> **No lo imprima ni lo distribuya todavía.** Úselo para leerlo, comentarlo y
-> corregirlo.
+> **¿Habla español?** Una hora de su tiempo basta para revisarlo. Escriba a
+> **translations@trustbutverifyproject.org**
 >
-> **¿Habla español? Ayúdenos.** No hace falta ser traductor profesional. Solo
-> léalo y díganos qué suena mal, qué suena condescendiente y qué diría usted en
-> su lugar. Una hora de su tiempo hace que este material sirva para miles de
-> personas.
->
-> Escriba a **translations@trustbutverifyproject.org**
->
-> *(NOTICE — UNVALIDATED AI TRANSLATION. Not reviewed by a native speaker. Do
-> not print or distribute. Native Spanish speakers: please help us check it.)*
+> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
+> Please do not print or distribute this yet.)*
 
 # No hace falta desconfiar de todo el mundo.
 
@@ -319,3 +310,5 @@ Es voluntario, se hace en una o dos horas, y usted decide si quiere que
 aparezca su nombre o no.
 
 **Escriba a translations@trustbutverifyproject.org**
+
+**Other languages:** [Tiếng Việt](/vi/) · [中文](/zh/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ਪੰਜਾਬੀ](/pa/) · [ગુજરાતી](/gu/) · [Af-Soomaali](/so/) · [ខ្មែរ](/km/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/) · [English](/)

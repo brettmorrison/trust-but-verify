@@ -28,8 +28,9 @@ and Indonesian.
 
 **Only the English version is validated and ready to print.** The rest are
 AI translations that no native speaker has checked yet. They carry a warning
-band saying so, in their own language, and they should not be handed out until
-that band comes off. [Help us check one.](/help-translate)
+band saying so, in their own language — you'll need to get one validated by a
+native speaker before handing it out. If you can help and want to
+contribute, [please help us check one.](/help-translate)
 
 
 ### Download the fridge sheet
@@ -90,18 +91,8 @@ you directly.
 
 ## For running your own session
 
-**The 5-minute lobby talk.** A script anybody can read aloud. No slides, no
-expertise, no preparation. Works at a residents' meeting, a church group, a
-library, or a family gathering.
-
-**The 25-minute talk.** Slides and a full speaker script with timings. This is the
-original talk the project came from.
-
-**The volunteer answer sheet.** For whoever staffs a table afterward — the
-questions people actually ask, with short answers ready.
-
-**The 60-second script.** For a community radio spot, a voicemail message, a
-church bulletin, or a newsletter.
+Scripts, a slide deck, and practical delivery notes for giving this talk
+yourself — no expertise required. **[See all of it here.](/give-this-talk)**
 
 ---
 

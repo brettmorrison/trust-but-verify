@@ -272,3 +272,5 @@ validated_by: (none yet)
 完全自愿，一两个小时就能完成，是否署名由您自己决定。
 
 **请联系：translations@trustbutverifyproject.org**
+
+**Other languages:** [Español](/es/) · [Tiếng Việt](/vi/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ਪੰਜਾਬੀ](/pa/) · [ગુજરાતી](/gu/) · [Af-Soomaali](/so/) · [ខ្មែរ](/km/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/) · [English](/)
