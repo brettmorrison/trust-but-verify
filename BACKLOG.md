@@ -3,82 +3,75 @@
 Roughly priority order. Update as items close.
 
 ## Resolved
-- Editable DOCX handout no longer published on the site (tampering/
-  impersonation risk) — build_site.py excludes .docx from the print/
-  output, printables.md routes requests through translations@ email
-  instead. Note: the source .docx is still in the public GitHub repo
-  itself; ask if you want it stripped from there too.
-
-- Site live end-to-end: `trustbutverifyproject.org` (canonical), plus
-  `trustbutverifyproject.com`, `tbvproject.com`, `tbvproject.org` all 301 →
-  canonical. Misspelled typo domains dropped, auto-renew cancelled.
-- Repo public: https://github.com/brettmorrison/trust-but-verify
-- Real deliverable deployed via Cloudflare Pages (17 → 24 languages of print
-  material, 24 fridge sheets, 13 wallet cards, talk deck, speaker script).
-- Site navigation added (2026-08-23) — header nav, JS-free language switcher,
-  wide-screen sidebar rail, footer links. Previously the site had none, so
-  8 of 12 scam-type pages were unreachable from anywhere.
-- Home page rebuilt as a "What kind of call did you get?" card grid linking
-  every scam-type page — large tap targets, single column on mobile.
-- New content: `virtual-kidnapping.md` (real, distinct FBI-tracked scam, not
-  the same as the grandparent/bail scam); cold-call tech-support variant
-  added to `tech-support-popup.md`; password-manager section added to
-  `phishing.md` (built-in OS options only, no product endorsement).
-- Trust-blue accent color (10.24:1 contrast, WCAG AAA) + shield-checkmark
-  logo mark + SVG favicon, all inline/self-hosted, no new requests.
-- 7 new language landing pages shipped: German, French, Portuguese, Polish,
-  Romanian, Ukrainian, Indonesian — fridge sheets already existed for these,
-  web pages now match.
-- `printables.md` download tables fixed — previously undercounted both
-  fridge sheets (said 13, 24 actually exist) and wallet cards (listed 3 of
-  13) even before this session's additions.
-- QR codes added to all 24 fridge sheets, linking to each language's own
-  page (`build/add_qr_codes.py`, re-run after regenerating any sheet).
-- Analytics copy (README/about/home + all 17 original language footer
-  strings) updated to match Cloudflare Web Analytics running in cookie-free
-  automatic mode.
+- Site live end-to-end at `trustbutverifyproject.org`, plus `.com`,
+  `tbvproject.com`, `tbvproject.org` all 301 → canonical. Misspelled typo
+  domains dropped, auto-renew cancelled. Repo public:
+  https://github.com/brettmorrison/trust-but-verify
+- Full navigation added (header, JS-free language switcher, wide-screen
+  sidebar, footer) — previously the site had none, so most scam-type pages
+  were unreachable from anywhere.
+- Home page rebuilt as a "What kind of call did you get?" card grid to all
+  13 scam-type pages.
+- New content: virtual-kidnapping.md, cold-call tech-support variant,
+  password-manager section, give-this-talk.md hub page (talk deck, speaker
+  script, and 3 other talk formats now have real URLs, linked for the
+  first time), privacy.md, terms.md.
+- About page: first-person origin story, personal + verified DOJ/FBI case
+  examples, linked to LinkedIn.
+- Trust-blue color (10.24:1 contrast) + magnifying-glass-and-checkmark logo
+  (redesigned from a shield-and-checkmark that read as borrowed from
+  antivirus/security-badge branding) + matching favicon.
+- **45 languages total**, all wired into the header switcher (LANGS list
+  in build_site.py — the actual source of truth for site nav). QR codes
+  and fridge sheets exist for all of them.
+- Editable DOCX handout no longer published (tampering/impersonation risk)
+  — routed through translations@ email instead. Note: the source .docx is
+  still in the public GitHub repo itself; ask if you want it stripped from
+  there too.
+- Fixed: 404 page's relative stylesheet path broke on any missing URL that
+  looked like a subdirectory; talk deck .pptx was never actually copied to
+  the deployed site; printables.md's download tables were undercounting
+  both fridge sheets and wallet cards even before this session's additions.
+- Zero broken internal links across all 89 pages, verified by script.
 
 ## Open
-1. Confirm Cloudflare Web Analytics is actually toggled on in the dashboard
-   (Analytics & Logs → Web Analytics, automatic mode) — copy already
-   assumes it is.
+1. Confirm Cloudflare Web Analytics is toggled on (Analytics & Logs → Web
+   Analytics, automatic mode) — copy already assumes it is.
 2. Set up `translations@trustbutverifyproject.org` via Cloudflare Email
-   Routing.
-3. Circulate the translation validator recruitment page
-   (`content/en/help-translate.md`) — nothing non-English is validated yet.
-4. Build full `content/` pages for the 7 print-only-until-now languages
-   (they only had a single landing page written this session, not the
-   fuller multi-page treatment `es`/`vi`/`zh`/`ru` have) — same question
-   applies to whether the original 12 single-landing-page languages
-   (am, ar, bn, fa, hi, hy, ja, ko, ps, sq, tl, ur) get expanded too.
-5. Wallet cards only exist in 13 of 24 languages — regenerate the missing
-   11 (needs WeasyPrint + system deps, not installed in this session).
-6. SEO metadata pass (meta titles/descriptions, clean URLs) per page/language.
-7. Share cards (Open Graph / Twitter Card images) per page/language, with
-   real photos — see next item.
-8. **Not started, distinct type of work:** source Creative-Commons-licensed
-   photos for share cards, with correct attribution. Needs real web research
-   and license verification per image, not just generation — flagged
-   separately since a misattributed photo is a real risk for a public
-   nonprofit site.
-9. **Not started:** research reportfraud.ftc.gov and ic3.gov for additional
-   content ideas.
-10. **Not started:** one-page infographic (separate from the fridge sheet).
-11. **Not started:** a new presentation + speaker notes for volunteers who
-    give the talk to help others resist scams (distinct from the existing
-    `formats/talk/trust-but-verify-talk.pptx` — clarify how it differs
-    before building).
-12. **Not started:** a second, new presentation targeted at family members
-    of seniors, on how to help "inoculate" a senior they love.
-13. Candidate new scam-type pages, not yet written: charity scams, Medicare/
-    health insurance scams, SIM-swap, lottery/sweepstakes (each mentioned in
-    passing elsewhere, no dedicated page).
-14. Investigate whether any *stable, national* (not local/volatile) same-
-    language-community fraud-support organizations exist worth adding
-    alongside the two hotlines in resources-by-language.md. That file
-    already deliberately avoids hardcoding local orgs because dead numbers
-    on a fraud site actively harm trust — any addition needs real
-    verification, not a quick search.
+   Routing, if not already done.
+3. Turn off Cloudflare's Email Address Obfuscation (Scrape Shield) for
+   trustbutverifyproject.org — it rewrites the email address site-wide into
+   a broken placeholder that never decodes back, because the site's own
+   strict no-JS CSP blocks the decode script. One dashboard toggle fixes
+   every instance at once.
+4. Build the feedback-form backend: a Cloudflare Pages Function that
+   forwards submissions to email, no storage, honeypot instead of Turnstile
+   (Turnstile needs client-side JS, which conflicts with the site's CSP).
+   Not started — real new infrastructure, not a copy change.
+5. Circulate the translation validator recruitment page — nothing
+   non-English is validated yet, across all 45 languages.
+6. Wallet cards only exist in 13 of 45 languages — the rest need WeasyPrint
+   (not installed in this session) or a reportlab-based generator like the
+   fridge-sheet one.
+7. Deeper content only exists in 4 languages (es/vi/zh/ru) plus English —
+   the other 40 are single landing pages. Decide whether to expand any.
+8. SEO metadata pass (meta titles/descriptions) per page/language.
+9. Share cards (Open Graph images) per page/language — needs sourced,
+   correctly-attributed Creative Commons photos, real research work, not
+   generation. Not started.
+10. One-page infographic — built (formats/print/infographic-en.pdf,
+    English only), not yet linked from anywhere on the site.
+11. Two new presentations requested, not started: one for volunteers
+    giving the talk (distinct from the existing deck — clarify how), one
+    for family members of seniors on how to help protect them.
+12. Candidate new scam-type pages: charity scams, Medicare/health insurance
+    scams, SIM-swap, lottery/sweepstakes.
+13. Verify whether any *stable, national* (not local/volatile) same-
+    language-community fraud-support orgs are worth adding alongside the
+    two hotlines in resources-by-language.md — needs real verification,
+    the file already deliberately avoids hardcoding volatile local orgs.
+14. resources-by-language.md's language table (federal-materials
+    availability) only covers the original ~16 languages, not all 45.
 
 ## Unrelated flag
 Password reset email clusters in GoDaddy account from an earlier session —
