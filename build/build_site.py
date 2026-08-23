@@ -345,6 +345,9 @@ PAGE = """<!DOCTYPE html>
 <meta property="og:description" content="{desc}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{ogimage}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{ogimage}">
 <link rel="stylesheet" href="{pre}style.css">
 <link rel="icon" href="{pre}favicon.svg" type="image/svg+xml">
 </head>
@@ -496,6 +499,8 @@ def build():
         canonical = SITE + "/" + (outrel[:-len("index.html")]).replace(os.sep, "/")
         crumb = ("" if outrel == "index.html"
                  else '<p class="crumb"><a href="%s">← Back to the start</a></p>' % pre)
+        og_rel = slug.strip("/") or "index"
+        ogimage = SITE + "/og/" + og_rel.replace("/", "_") + ".png"
 
         page = PAGE.format(
             lang=lang,
@@ -504,6 +509,7 @@ def build():
             title=html.escape(title),
             desc=html.escape(meta.get("description", "")),
             canonical=canonical,
+            ogimage=ogimage,
             pre=pre,
             crumb=crumb,
             body=body_html,
@@ -566,6 +572,16 @@ def build():
             if fn.endswith(".pptx"):
                 shutil.copy(os.path.join(talk_dir, fn), os.path.join(dest, fn))
 
+    # social share cards (og:image) — committed, not built in CI; see
+    # build/make_share_cards.py for why
+    og_src = os.path.join(ROOT, "formats", "og")
+    if os.path.isdir(og_src):
+        og_dest = os.path.join(OUT, "og")
+        os.makedirs(og_dest, exist_ok=True)
+        for fn in sorted(os.listdir(og_src)):
+            if fn.endswith(".png"):
+                shutil.copy(os.path.join(og_src, fn), os.path.join(og_dest, fn))
+
     # robots + sitemap
     open(os.path.join(OUT, "robots.txt"), "w").write(
         "User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n" % SITE)
@@ -595,7 +611,8 @@ def build():
     # 404
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
         PAGE.format(lang="en", dirattr="", mark=MARK, title="Page not found — Trust But Verify",
-                    desc="That page isn't here.", canonical=SITE + "/404.html", pre="/",
+                    desc="That page isn't here.", canonical=SITE + "/404.html",
+                    ogimage=SITE + "/og/index.png", pre="/",
                     crumb="",
                     body="<h1>That page isn't here.</h1>"
                          "<p>Nothing is wrong and you haven't broken anything. "

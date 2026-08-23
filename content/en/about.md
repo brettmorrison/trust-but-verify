@@ -32,7 +32,7 @@ that coworker did — in the moment, not after.
 The same patterns show up constantly in federal prosecutions: a
 [Rhode Island romance scam](https://www.justice.gov/usao-ri/pr/indiana-woman-admits-victimizing-96-year-old-rhode-island-widower-through-online-romance)
 that cost a widower $80,000, a
-["phantom hacker" case](https://www.fbi.gov/contact-us/field-offices/phoenix/news/california-man-pleads-guilty-to-role-in-phantom-hacker-scheme-targeting-elderly-victims)
+["phantom hacker" case](https://www.justice.gov/usao-az/pr/california-man-pleads-guilty-role-phantom-hacker-scheme-targeting-elderly-victims)
 where scammers collected $500,000 in gold bullion. Every one collapses at the
 same point: a number looked up independently instead of trusted on the call.
 

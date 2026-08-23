@@ -39,6 +39,14 @@ needs WeasyPrint, wkhtmltopdf, and Noto fonts for sixteen scripts, none of which
 are in Cloudflare's build image. Regenerate locally when a translation changes,
 then commit the result.
 
+The social share-card PNGs (`formats/og/*.png`, one per page, used for
+`og:image`) are committed the same way and for the same reason — they're
+built with macOS system fonts (`build/make_share_cards.py`) that neither
+exist in Cloudflare's Linux build image nor are licensed for redistribution
+in the first place. `build_site.py` just copies them into `site/og/` on
+every build. Regenerate locally whenever a page's title or description
+changes, then commit the PNGs.
+
 ---
 ## Fallback — drag and drop (if you ever need it)
 
