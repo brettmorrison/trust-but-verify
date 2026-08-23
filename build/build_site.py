@@ -496,6 +496,21 @@ def build():
         if slug.strip("/") not in ("", lang):
             title = "%s — Trust But Verify" % title
 
+        # QAPage structured data for the questions/ pages — microdata, not a
+        # <script type="application/ld+json"> block, because the site's own
+        # CSP is default-src 'none' with no script-src exception, so a
+        # <script> tag (any type, JSON-LD included) would just be dropped by
+        # the browser. Microdata is plain HTML attributes: nothing to block.
+        if re.match(r"^questions/", slug.strip("/") + "/"):
+            body_html = (
+                '<div itemscope itemtype="https://schema.org/QAPage">'
+                '<div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">'
+                '<meta itemprop="name" content="%s">'
+                '<div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">'
+                '<div itemprop="text">' % html.escape(meta.get("title", ""))
+                + body_html + '</div></div></div></div>'
+            )
+
         canonical = SITE + "/" + (outrel[:-len("index.html")]).replace(os.sep, "/")
         crumb = ("" if outrel == "index.html"
                  else '<p class="crumb"><a href="%s">← Back to the start</a></p>' % pre)
