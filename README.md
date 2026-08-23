@@ -85,9 +85,10 @@ These aren't preferences. They're what the material is for.
 
 - **No JavaScript anywhere.** The Content-Security-Policy blocks all scripts,
   which is only possible because the site genuinely has none.
-- **No cookies, no analytics, no tracking, no forms, no accounts.** A site about
-  not letting people take your information should be structurally incapable of
-  taking yours.
+- **No cookies, no accounts, no forms, no personal data.** Cloudflare's
+  cookie-free Web Analytics counts anonymous pageviews only — no personal
+  data collected, nothing sold, nothing shared. A site about not letting
+  people take your information should still say plainly what little it keeps.
 - **20px minimum type on screen, 18pt in print.** Non-negotiable.
 - **Sixth-grade reading level** — not because readers are simple, but because
   frightened people read at a lower level than calm people.

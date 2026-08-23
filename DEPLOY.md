@@ -116,11 +116,14 @@ redirect setup needed for those.
 **Speed → Optimization** → leave Rocket Loader **off**. It injects JavaScript,
 which this site doesn't need and shouldn't have.
 
-**Analytics** — Cloudflare's server-side analytics counts requests without
-cookies or scripts, so it doesn't contradict the privacy promise. But the site
-says it collects nothing about you. If you enable anything at all, change that
-sentence to match. Never let the copy and the reality drift apart on this
-site of all sites.
+**Analytics** — decided: on, in Cloudflare's automatic mode (no JS beacon, no
+cookies, aggregate pageviews only). Enable at **Analytics & Logs → Web
+Analytics** for the domain. The copy in `README.md`, `content/en/about.md`,
+and `content/en/home.md` has already been updated to describe exactly this —
+an anonymous pageview count, nothing more — so the site's privacy claims stay
+accurate. If the analytics setup ever changes, update those three files to
+match. Never let the copy and the reality drift apart on this site of all
+sites.
 
 **Do not add** Google Analytics, Meta pixels, chat widgets, or embedded fonts.
 Any of those would make the privacy statement false.

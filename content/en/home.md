@@ -75,9 +75,11 @@ ahead and trust. Then check. The two were never in conflict.
 ## What this is
 
 A volunteer project. Free, and staying free. No products, no sponsors, no
-advertising, no mailing list, no donation button. We collect nothing about you —
-no analytics, no accounts, no cookies. A website about not getting your
-information taken should not be quietly taking your information.
+advertising, no mailing list, no donation button. No cookies, no accounts,
+nothing sold or shared. We keep one anonymous number — how many people
+visited each page — with no way to trace it back to you. A website about not
+getting your information taken should say plainly what little it keeps, and
+it does.
 
 Everything here can be printed, copied, translated, read aloud, or handed to a
 neighbor without asking us. That's the point.

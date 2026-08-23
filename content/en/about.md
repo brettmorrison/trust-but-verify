@@ -54,9 +54,11 @@ languages, on many refrigerators.
 
 - **Never a business.** No products, no premium tier, no affiliate links, no
   referral fees, no sponsors, and no "recommended service" that pays us.
-- **Never a data collector.** No analytics, no tracking, no cookies, no accounts,
-  no mailing list. We don't know who you are and we don't want to. A site about
-  protecting your information should not be an exception to its own advice.
+- **Not a data collector, and honest about the one exception.** No cookies, no
+  accounts, no mailing list, nothing sold, nothing shared. We keep an anonymous
+  count of how many people read each page — no name attached, no way to trace
+  it back to you. A site about protecting your information should say plainly
+  what little it keeps.
 - **Never fear-based.** Fear is the scammer's instrument. We won't borrow it.
 
 ## Use anything here
