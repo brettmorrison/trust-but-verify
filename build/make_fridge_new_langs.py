@@ -6,12 +6,41 @@ three numbered steps, three signs, a bordered never-list, two hotlines, a
 closing line. Text is the same translations already used on each language's
 landing page in content/<lang>/index.md.
 
+Font note: reportlab's built-in "Helvetica"/"Helvetica-Bold" are base-14
+PDF fonts with Latin-1-only glyph coverage. Every non-Latin script in this
+file (Greek, Gujarati, Hebrew, Georgian, Khmer, Punjabi) needs a real
+Unicode TTF registered instead, or it silently renders as solid tofu boxes
+-- reportlab does not error, it just draws empty glyph outlines. This bit
+this project once already (see BACKLOG.md); FONTS below is the fix, using
+the same macOS system fonts already verified glyph-by-glyph for the
+og:image cards in make_share_cards.py. Cyrillic (Serbian) is covered by
+plain Arial Bold, same as Russian -- no special-casing needed there.
+
     python3 build/make_fridge_new_langs.py
 """
 import os
 from reportlab.lib.colors import HexColor
 from reportlab.pdfgen import canvas
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase.pdfmetrics import stringWidth
+from bidi.algorithm import get_display
+
+# Hebrew is the one RTL language in this batch (Arabic/Urdu/Farsi/Pashto are
+# handled separately via WeasyPrint, which does full bidi+shaping through
+# its CSS text layout engine). reportlab's drawString has no bidi support at
+# all -- it draws each string's *logical* character order left-to-right,
+# which for Hebrew comes out visually scrambled, not just misaligned.
+# get_display() runs the Unicode Bidirectional Algorithm to convert logical
+# order to visual order before drawing. Line-*wrapping* still happens on
+# the untouched logical text first (word boundaries and widths are the same
+# either way); only the already-finished line gets reordered right before
+# it's drawn.
+RTL_LANGS = {"he"}
+
+
+def maybe_rtl(text, lang):
+    return get_display(text) if lang in RTL_LANGS else text
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "formats", "print")
@@ -20,6 +49,31 @@ INK = HexColor("#111111")
 MUTED = HexColor("#4a4a4a")
 PAPER = HexColor("#fffdf9")
 ACCENT = HexColor("#123f7a")
+
+# --- Unicode font registration ---------------------------------------------
+
+SYS = "/System/Library/Fonts/Supplemental"
+pdfmetrics.registerFont(TTFont("Arial", os.path.join(SYS, "Arial.ttf")))
+pdfmetrics.registerFont(TTFont("Arial-Bold", os.path.join(SYS, "Arial Bold.ttf")))
+pdfmetrics.registerFont(TTFont("ArialUnicode", os.path.join(SYS, "Arial Unicode.ttf")))
+pdfmetrics.registerFont(TTFont("KhmerSangam", os.path.join(SYS, "Khmer Sangam MN.ttf")))
+
+# lang -> (regular font name, bold font name). Arial/Arial-Bold cover
+# Latin-1 plus Greek and Cyrillic, so most languages need nothing special.
+# Arial Unicode has no separate bold weight file, so those languages reuse
+# the regular face for "bold" text -- less emphasis, but correctly legible
+# instead of a black box, which is the actual failure mode being fixed.
+FONTS = {
+    "gu": ("ArialUnicode", "ArialUnicode"),
+    "he": ("ArialUnicode", "ArialUnicode"),
+    "ka": ("ArialUnicode", "ArialUnicode"),
+    "pa": ("ArialUnicode", "ArialUnicode"),
+    "km": ("KhmerSangam", "KhmerSangam"),
+}
+
+
+def fonts_for(lang):
+    return FONTS.get(lang, ("Arial", "Arial-Bold"))
 
 W, H = 612, 792
 M = 40
@@ -512,7 +566,7 @@ L["sw"] = dict(brand="AMINI, LAKINI THIBITISHA",
   url="https://trustbutverifyproject.org/sw/")
 
 
-def wrap(c, text, x, y, font, size, max_w, leading, color=INK):
+def wrap(c, text, x, y, font, size, max_w, leading, color=INK, lang=None):
     c.setFont(font, size)
     c.setFillColor(color)
     words = text.split()
@@ -520,60 +574,61 @@ def wrap(c, text, x, y, font, size, max_w, leading, color=INK):
     for word in words:
         test = (line + " " + word).strip()
         if stringWidth(test, font, size) > max_w and line:
-            c.drawString(x, y, line)
+            c.drawString(x, y, maybe_rtl(line, lang))
             y -= leading
             line = word
         else:
             line = test
     if line:
-        c.drawString(x, y, line)
+        c.drawString(x, y, maybe_rtl(line, lang))
         y -= leading
     return y
 
 
 def draw(lang, d):
     import qrcode
+    FR, FB = fonts_for(lang)
     path = os.path.join(OUT, "fridge-sheet-%s.pdf" % lang)
     c = canvas.Canvas(path, pagesize=(W, H))
     c.setFillColor(PAPER)
     c.rect(0, 0, W, H, fill=1, stroke=0)
 
     y = H - M
-    c.setFont("Helvetica-Bold", 26)
+    c.setFont(FB, 26)
     c.setFillColor(INK)
-    y = wrap(c, d["brand"], M, y - 26, "Helvetica-Bold", 26, W - 2 * M, 30)
-    c.setFont("Helvetica", 11)
+    y = wrap(c, d["brand"], M, y - 26, FB, 26, W - 2 * M, 30, lang=lang)
+    c.setFont(FR, 11)
     c.setFillColor(MUTED)
-    y = wrap(c, d["tagline"], M, y, "Helvetica", 11, W - 2 * M, 15)
+    y = wrap(c, d["tagline"], M, y, FR, 11, W - 2 * M, 15, lang=lang)
     y -= 4
     c.setStrokeColor(INK); c.setLineWidth(2)
     c.line(M, y, W - M, y); y -= 20
 
-    c.setFont("Helvetica-Bold", 10)
+    c.setFont(FB, 10)
     c.setFillColor(INK)
-    c.drawString(M, y, d["steps_head"]); y -= 22
+    c.drawString(M, y, maybe_rtl(d["steps_head"], lang)); y -= 22
     for i, (head, sub) in enumerate(d["steps"], 1):
-        c.setFont("Helvetica-Bold", 22)
+        c.setFont(FB, 22)
         c.setFillColor(ACCENT)
         c.drawString(M, y - 16, str(i))
-        c.setFont("Helvetica-Bold", 13)
+        c.setFont(FB, 13)
         c.setFillColor(INK)
-        yy = wrap(c, head, M + 30, y - 8, "Helvetica-Bold", 13, W - 2 * M - 30, 16)
-        yy = wrap(c, sub, M + 30, yy, "Helvetica", 9.5, W - 2 * M - 30, 12, color=MUTED)
+        yy = wrap(c, head, M + 30, y - 8, FB, 13, W - 2 * M - 30, 16, lang=lang)
+        yy = wrap(c, sub, M + 30, yy, FR, 9.5, W - 2 * M - 30, 12, color=MUTED, lang=lang)
         y = yy - 6
     y -= 6
     c.line(M, y, W - M, y); y -= 18
 
-    c.setFont("Helvetica-Bold", 10)
+    c.setFont(FB, 10)
     c.setFillColor(INK)
-    c.drawString(M, y, d["signs_head"]); y -= 16
-    c.setFont("Helvetica", 10)
+    c.drawString(M, y, maybe_rtl(d["signs_head"], lang)); y -= 16
+    c.setFont(FR, 10)
     for s in d["signs"]:
-        y = wrap(c, "▪  " + s, M, y, "Helvetica", 10, W - 2 * M, 14)
+        y = wrap(c, "▪  " + s, M, y, FR, 10, W - 2 * M, 14, lang=lang)
     y -= 6
 
     box_top = y
-    c.setFont("Helvetica-Bold", 10)
+    c.setFont(FB, 10)
     box_y = y - 18
     lines_needed = sum(1 for _ in d["never"]) * 2 + 1
     box_h = 24 + lines_needed * 12
@@ -581,36 +636,36 @@ def draw(lang, d):
     c.rect(M, box_top - box_h, W - 2 * M, box_h, fill=0, stroke=1)
     ny = box_top - 16
     c.setFillColor(INK)
-    c.drawString(M + 10, ny, d["never_head"]); ny -= 16
-    c.setFont("Helvetica", 9.5)
+    c.drawString(M + 10, ny, maybe_rtl(d["never_head"], lang)); ny -= 16
+    c.setFont(FR, 9.5)
     for n in d["never"]:
-        ny = wrap(c, "×  " + n, M + 10, ny, "Helvetica", 9.5, W - 2 * M - 20, 12)
+        ny = wrap(c, "×  " + n, M + 10, ny, FR, 9.5, W - 2 * M - 20, 12, lang=lang)
     y = box_top - box_h - 16
 
     c.line(M, y, W - M, y); y -= 20
-    c.setFont("Helvetica-Bold", 10)
+    c.setFont(FB, 10)
     c.setFillColor(INK)
-    c.drawString(M, y, d["help_head"]); y -= 18
+    c.drawString(M, y, maybe_rtl(d["help_head"], lang)); y -= 18
     for phone, label in d["helps"]:
-        c.setFont("Helvetica-Bold", 15)
+        c.setFont(FB, 15)
         c.drawString(M, y, phone)
-        c.setFont("Helvetica", 8.5)
+        c.setFont(FR, 8.5)
         c.setFillColor(MUTED)
-        c.drawString(M + 105, y + 1, label)
+        c.drawString(M + 105, y + 1, maybe_rtl(label, lang))
         c.setFillColor(INK)
         y -= 16
-    c.setFont("Helvetica", 9)
+    c.setFont(FR, 9)
     c.setFillColor(MUTED)
-    y = wrap(c, d["report"], M, y, "Helvetica", 9, W - 2 * M, 12)
+    y = wrap(c, d["report"], M, y, FR, 9, W - 2 * M, 12, lang=lang)
     y -= 4
     c.line(M, y, W - M, y); y -= 16
 
-    c.setFont("Helvetica-Bold", 10)
+    c.setFont(FB, 10)
     c.setFillColor(INK)
-    y = wrap(c, d["footline"], M, y, "Helvetica-Bold", 10, W - 2 * M - 80, 13)
-    c.setFont("Helvetica", 8.5)
+    y = wrap(c, d["footline"], M, y, FB, 10, W - 2 * M - 80, 13, lang=lang)
+    c.setFont(FR, 8.5)
     c.setFillColor(MUTED)
-    c.drawString(M, y, d["foot"])
+    c.drawString(M, y, maybe_rtl(d["foot"], lang))
 
     qr = qrcode.QRCode(border=1, box_size=10)
     qr.add_data(d["url"]); qr.make(fit=True)
@@ -620,7 +675,7 @@ def draw(lang, d):
     qsize = 62
     c.drawImage(qr_path, W - M - qsize, M - 6, width=qsize, height=qsize,
                 preserveAspectRatio=True, mask="auto")
-    c.setFont("Helvetica", 6.5)
+    c.setFont(FR, 6.5)
     c.setFillColor(MUTED)
     c.drawRightString(W - M, M - 14, d["url"].replace("https://", ""))
 
