@@ -59,7 +59,7 @@ UI = {
    langpage="Help in your language", skip="Skip to the main content",
    navhome="Home", navscams="Scam types", navprint="Print materials",
    navabout="About", navtalk="Give this talk", navhelp="Help translate",
-   navprivacy="Privacy",
+   navprivacy="Privacy", navterms="Terms",
    railtitle="Find your way", s_romance="Someone I met online",
    s_tech="Fake tech support", s_bank="Bank / “phantom hacker”",
    s_gov="Government impersonation", s_grandparent="Grandchild in trouble",
@@ -374,6 +374,7 @@ PAGE = """<!DOCTYPE html>
     <a href="{pre}give-this-talk/">{navtalk}</a>
     <a href="{pre}help-translate/">{navhelp}</a>
     <a href="{pre}privacy/">{navprivacy}</a>
+    <a href="{pre}terms/">{navterms}</a>
   </nav>
   <p><strong>{helpline}</strong>
      National Elder Fraud Hotline
@@ -501,6 +502,7 @@ def build():
             navtalk=html.escape(ui(lang, "navtalk")),
             navhelp=html.escape(ui(lang, "navhelp")),
             navprivacy=html.escape(ui(lang, "navprivacy")),
+            navterms=html.escape(ui(lang, "navterms")),
             s_romance=html.escape(ui(lang, "s_romance")),
             s_tech=html.escape(ui(lang, "s_tech")),
             s_bank=html.escape(ui(lang, "s_bank")),
@@ -588,6 +590,7 @@ def build():
                     navscams=UI["en"]["navscams"], navprint=UI["en"]["navprint"],
                     navabout=UI["en"]["navabout"], navtalk=UI["en"]["navtalk"],
                     navhelp=UI["en"]["navhelp"], navprivacy=UI["en"]["navprivacy"],
+                    navterms=UI["en"]["navterms"],
                     s_romance=UI["en"]["s_romance"],
                     s_tech=UI["en"]["s_tech"], s_bank=UI["en"]["s_bank"],
                     s_gov=UI["en"]["s_gov"], s_grandparent=UI["en"]["s_grandparent"],
