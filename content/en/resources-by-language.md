@@ -36,7 +36,7 @@ so it can be read off the refrigerator during the call.
 
 ---
 
-## The two helplines
+## The helplines
 
 ### National Elder Fraud Hotline — 833-372-8311
 
@@ -65,6 +65,20 @@ language-specific help actually lives. Interpretation available.
 **This is the most useful number on this page for language access**, because
 local Area Agencies on Aging often have bilingual staff or contracts with
 community organizations that serve your language specifically.
+
+### NAPCA Multilingual Helpline — for Mandarin, Cantonese, Korean, and Vietnamese speakers
+
+The National Asian Pacific Center on Aging runs a helpline in Mandarin
+(800-683-7427), Cantonese (800-582-4218), Korean (800-582-4259), and
+Vietnamese (800-582-4336), plus English (800-336-2722). Staff walk you
+through Medicare, Social Security, and other benefits in your language —
+not a fraud hotline specifically, but exactly the kind of person who can
+tell you whether a call about your benefits was real.
+
+This is the one specific organization named on this page, as an exception
+to the rule below: it's national, not local, has run continuously since
+2004, and its number was verified directly on napca.org while writing
+this. If that ever changes, [tell us](/feedback).
 
 ---
 
@@ -181,7 +195,9 @@ The kinds of places worth asking, in roughly this order:
 5. **Ethnic media** — a community radio show or newspaper will often run this
    material for free
 
-**We deliberately don't list specific organizations here.** They change, they
+**We deliberately don't list specific *local* organizations here** — the
+NAPCA helpline above is the one exception, because it's national rather
+than tied to one city. Local orgs change, they
 move, and a dead phone number on a page about fraud does real harm to the trust
 this whole site depends on. Your Area Agency on Aging will know the current ones
 for your county.
