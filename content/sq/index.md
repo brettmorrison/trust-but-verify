@@ -1,0 +1,73 @@
+---
+title: BESO, POR VERIFIKO
+slug: /sq/
+description: Nuk keni pse dyshoni te të gjithë. Vetëm shtoni një hap.
+lang: sq
+status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
+validated_by: (none yet)
+---
+
+# BESO, POR VERIFIKO
+
+**Nuk keni pse dyshoni te të gjithë. Vetëm shtoni një hap.**
+
+> Kur t'ju përgjigjen, thoni në anglisht: "Albanian, please"
+
+## PARA SE TË LËVIZË ÇDO PARA
+
+**1. Gjejeni vetë numrin.**
+
+Jo numrin që ju dhanë ata. Atë në pjesën e pasme të kartës ose në pasqyrën tuaj.
+
+**2. Telefonojini vetë personit.**
+
+Mbyllni telefonin fillimisht. Nëse ishte e vërtetë, ata do të jenë ende aty.
+
+**3. Prisni një ditë.**
+
+Problemi i vërtetë e mbijeton një natë gjumë. Mashtrimi jo.
+
+## TRI SHENJA PËR TË NDALUAR
+
+- Erdhi tek ju — nuk e nisët ju.
+- Ju preku shpejt — frikë, shqetësim ose afat.
+- Kërkon një transferim — para, një kod, ose kompjuterin tuaj.
+
+## KURRË, ASNJË HERË TË VETME
+
+- **Askush i ligjshëm nuk paguhet me karta dhuratë.**
+- **Banka juaj nuk do t'ju kërkojë kurrë t'i nxirrni paratë nga banka.**
+- **Mos e lexoni kurrë me zë kodin që ju erdhi me mesazh.**
+- **Askush nuk vjen në shtëpinë tuaj për të marrë para, ar ose sende me vlerë.**
+
+## NDIHMË FALAS — PA GJYKIM
+
+**833-372-8311** — Linja Kombëtare · Hën–Pre 10–6 ET
+
+**877-908-3360** — AARP Fraud Watch · Hën–Pre 8–8 ET
+
+Kur t'ju përgjigjen, thoni në anglisht: "Albanian, please"
+
+Raportoni: ic3.gov  ·  reportfraud.ftc.gov
+
+---
+
+## Fletë një-faqesh për printim (PDF)
+
+Jo të gjitha faqet e kësaj faqeje interneti janë ende në shqip. Fleta një-faqesh më poshtë përmban gjithçka më të rëndësishme.
+
+**[Fletë një-faqesh për printim (PDF)](/print/fridge-sheet-sq.pdf)**
+
+[Faqet e plota në anglisht](/)
+
+---
+
+## A mund të na ndihmoni
+
+Ky përkthim është bërë nga AI dhe nuk është shqyrtuar ende nga një folës amtar. Mjaftojnë një ose dy orë. Na tregoni cila fjali tingëllon e panatyrshme dhe ku lexuesi trajtohet me epërsi.
+
+**translations@trustbutverifyproject.org**
+
+*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. Shqip speakers: we need one reader. It takes an hour.*
+
+**Nëse ka ndodhur tashmë: nuk është faji juaj dhe nuk është vonë.**

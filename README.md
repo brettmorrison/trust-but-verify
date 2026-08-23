@@ -1,41 +1,144 @@
-# The Trust But Verify Project — website
+# The Trust But Verify Project
 
-Static site. No build step, no framework, no JavaScript, no cookies, no trackers.
+Free, plain-language material to help older adults avoid scams — in 17 languages.
 
-## Deploying to Cloudflare Pages
+**Live site:** https://trustbutverifyproject.org
 
-1. Push this folder to a GitHub repo.
-2. Cloudflare dashboard → Workers & Pages → Create → Pages → Connect to Git.
-3. Build command: leave empty. Build output directory: `/`
-4. Add your custom domain under the Pages project's Custom domains tab.
+Everything here is free to print, copy, translate, adapt, rebrand, and hand out.
+You do not need permission and you do not need to credit us. If a sentence from
+this repository ends up on somebody's refrigerator without our name on it, that
+is the project working as intended.
 
-Or drag this folder straight into Cloudflare Pages' "Direct Upload" option — no repo needed.
+---
 
-## Editing
+## The whole idea
 
-`build.js` generates every page from one template so the header, footer, and
-navigation stay consistent. Edit the content in `build.js`, then run:
+You don't have to become a suspicious person. You add **one step** before money
+or access moves:
 
-    node build.js
+1. **Look up the number yourself.**
+2. **Call the person yourself.**
+3. **Wait a day.**
 
-Editing the `.html` files directly also works, but changes are overwritten the
-next time you run the build.
+Every page, sheet, card, and script here is that same method applied to a
+specific situation.
 
-`assets/style.css` holds the whole design system. Base font size is set to 125%
-deliberately — the primary audience needs it.
+---
 
-## Renaming the project
+## What's in here
 
-The name appears in `build.js` as the `SITE` constant plus the wordmark markup.
-Change those two places and rebuild.
+```
+content/          Markdown source — the site is generated from this
+  en/             English: 37 pages (scam types, question pages, action pages)
+  es/ vi/ zh/ ru/ Full translations
+  and 12 more     Landing pages in each language
+build/            Generators (Python + one Node script)
+formats/
+  print/          38 print-ready PDFs — fridge sheets and wallet cards
+  talk/           25-minute slide deck and full speaker script
+  spoken/         60-second, 5-minute, and volunteer Q&A scripts
+  outreach/       Ready-to-send texts and emails
+  docx/           Editable handout for facilities
+site/             Generated output (not committed — Cloudflare builds it)
+```
 
-## Files
+Start with **00-CONTENT-PLAN.md** for the editorial rules and page inventory,
+and **TRANSLATIONS.md** for what has and hasn't been validated.
 
-- `index.html` — home
-- `how-scams-work.html` — the three red flags, eight scam types, six habits, privacy
-- `it-just-happened.html` — first 24 hours, who to call
-- `give-this-talk.html` — the volunteer speaker pitch
-- `print.html` — printable materials
-- `about.html` — story, promises, what we're not
-- `blog/` — five worked examples
-- `downloads/` — the slides, script, handout, and desk card
+---
+
+## Building it
+
+```bash
+pip install -r requirements.txt
+python3 build/build_site.py          # markdown -> site/
+```
+
+That's the whole toolchain. No framework, no bundler, no JavaScript.
+
+Regenerating the printed material needs more (WeasyPrint, wkhtmltopdf, Noto
+fonts), so the PDFs are committed rather than built in CI:
+
+```bash
+python3 build/make_fridge.py         # 24 fridge sheets
+python3 build/make_cards.py          # wallet cards
+python3 build/make_lang_pages.py     # language landing pages from sheet data
+node    build/make_deck.js           # the talk
+```
+
+---
+
+## Deployment
+
+Cloudflare Pages, connected to this repository.
+
+- **Build command:** `pip install -r requirements.txt && python3 build/build_site.py`
+- **Output directory:** `site`
+
+Push to `main` and it publishes. See **DEPLOY.md**.
+
+---
+
+## Design constraints
+
+These aren't preferences. They're what the material is for.
+
+- **No JavaScript anywhere.** The Content-Security-Policy blocks all scripts,
+  which is only possible because the site genuinely has none.
+- **No cookies, no analytics, no tracking, no forms, no accounts.** A site about
+  not letting people take your information should be structurally incapable of
+  taking yours.
+- **20px minimum type on screen, 18pt in print.** Non-negotiable.
+- **Sixth-grade reading level** — not because readers are simple, but because
+  frightened people read at a lower level than calm people.
+- **No shame, anywhere.** Shame is why this crime goes unreported, which makes
+  shame a co-conspirator.
+- **Every page ends on the reader's capability**, never on the threat. A page
+  that ends on fear produces a frightened reader, and frightened people are
+  exactly what these operations are built to sell.
+- **Federal sources only** for statistics — FBI IC3 and FTC — with the year
+  named.
+
+---
+
+## Translations
+
+**Nothing non-English is treated as validated until a native speaker has read it
+and that's been confirmed.** Until then it carries a warning band, in its own
+language, saying so.
+
+We need readers. One or two hours per language, no professional qualification —
+the best qualification is being the person in your family who translated at the
+doctor's office growing up.
+
+**translations@trustbutverifyproject.org** · see `TRANSLATIONS.md`
+
+---
+
+## Maintenance
+
+**Every April**, when the FBI's Internet Crime Complaint Center publishes its
+annual report, update the statistics. Search `content/` for the year to find
+every instance.
+
+When an English page changes, its translations become stale — put the warning
+band back until someone re-reads them.
+
+---
+
+## Contributing
+
+Corrections are welcome, especially:
+
+- Anything factually wrong or out of date
+- Translation fixes (see above — this is the biggest need)
+- Accessibility problems, particularly with screen readers
+- Scams that reach your community and aren't covered here
+
+Statistics must cite FBI IC3 or FTC, with the year.
+
+---
+
+## License
+
+Public domain (CC0 1.0). Take it, change it, put your own name on it.

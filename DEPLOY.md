@@ -1,0 +1,204 @@
+# Publishing the site
+
+The site is plain static HTML generated from markdown. No framework, no
+JavaScript, no build server, no database. That's deliberate: fewer moving parts
+means less to maintain and nothing that can quietly start collecting data.
+
+**Host:** Cloudflare Pages, connected to a GitHub repository. Push a change,
+the site rebuilds and publishes itself.
+
+---
+
+## Cloudflare build settings
+
+| Setting | Value |
+|---|---|
+| **Framework preset** | None |
+| **Build command** | `pip install -r requirements.txt && python3 build/build_site.py` |
+| **Build output directory** | `site` |
+| **Root directory** | `/` (leave blank) |
+
+Add one environment variable so the build image uses the right interpreter:
+
+| Variable | Value |
+|---|---|
+| `PYTHON_VERSION` | `3.12` |
+
+---
+
+## What is and isn't committed
+
+**Committed:** all markdown in `content/`, the generators in `build/`, and every
+finished PDF, DOCX, and PPTX in `formats/`.
+
+**Not committed:** `site/` — Cloudflare generates it on every push. It's in
+`.gitignore`.
+
+The PDFs are committed rather than built in CI on purpose. Regenerating them
+needs WeasyPrint, wkhtmltopdf, and Noto fonts for sixteen scripts, none of which
+are in Cloudflare's build image. Regenerate locally when a translation changes,
+then commit the result.
+
+---
+## Fallback — drag and drop (if you ever need it)
+
+Only useful for a one-off emergency deploy. The git method above is the normal path; a drag-and-drop project cannot later be connected to git, so don't start here.
+
+1. Go to **dash.cloudflare.com** → **Workers & Pages** → **Create** →
+   **Pages** → **Upload assets**
+2. Project name: `trust-but-verify`
+3. Drag the whole **site** folder in
+4. **Deploy**
+
+You'll get a URL like trust-but-verify.pages.dev. Check it works.
+
+5. In the project: **Custom domains** → **Set up a custom domain** →
+   `trustbutverifyproject.org` → **Activate**
+6. Add `www.trustbutverifyproject.org` the same way
+
+Because the domain is already in your Cloudflare account, DNS is automatic.
+HTTPS certificates issue on their own, usually within a few minutes.
+
+To update later, upload a new version of the folder. Cloudflare keeps every
+previous deployment and you can roll back with one click.
+
+---
+
+## The git setup, step by step
+
+
+
+1. Put the whole project in a GitHub repo (public is fine — everything here is
+   meant to be copied)
+2. Cloudflare → **Workers & Pages** → **Create** → **Pages** →
+   **Connect to Git**
+3. Build settings:
+   - **Build command:** `pip install markdown && python3 build/build_site.py`
+   - **Build output directory:** `site`
+4. Add the custom domain as in Option A
+
+Now editing a markdown file and pushing rebuilds and publishes the site.
+
+Add `site/` to `.gitignore` if you use this option — no reason to commit
+generated files.
+
+---
+
+## The typo domains
+
+You own three misspellings. Point them at the real one rather than serving
+duplicate content, which search engines penalise.
+
+For each, in Cloudflare:
+
+**Rules** → **Redirect Rules** → **Create rule**
+
+- **If:** Hostname equals `trustbutverifiyproject.org`
+- **Then:** Dynamic redirect, **301 permanent**, to
+  `concat("https://trustbutverifyproject.org", http.request.uri.path)`
+
+Repeat for `trustbutverifiyproject.com` and
+`trustbutverificationproject.org`.
+
+The `concat` expression preserves the path, so a mistyped deep link still lands
+in the right place.
+
+**Also:** turn off auto-renew on the two you're not keeping long-term, and
+check `trustbutverifiyproject.com` specifically — auto-renew is still on there
+at $10.46.
+
+---
+
+## Settings to check once
+
+**SSL/TLS** → set encryption mode to **Full (strict)**.
+
+**SSL/TLS → Edge Certificates** → turn on **Always Use HTTPS** and
+**Automatic HTTPS Rewrites**.
+
+**Speed → Optimization** → leave Rocket Loader **off**. It injects JavaScript,
+which this site doesn't need and shouldn't have.
+
+**Analytics** — Cloudflare's server-side analytics counts requests without
+cookies or scripts, so it doesn't contradict the privacy promise. But the site
+says it collects nothing about you. If you enable anything at all, change that
+sentence to match. Never let the copy and the reality drift apart on this
+site of all sites.
+
+**Do not add** Google Analytics, Meta pixels, chat widgets, or embedded fonts.
+Any of those would make the privacy statement false.
+
+---
+
+## What's already handled
+
+The generator writes these into `site/` for you:
+
+- **`_headers`** — security headers Cloudflare Pages applies automatically:
+  a strict Content-Security-Policy that blocks all scripts, `X-Frame-Options`,
+  `nosniff`, `no-referrer`, HSTS, and a Permissions-Policy that switches off
+  geolocation, camera, microphone, and cohort tracking
+- **`robots.txt`** and **`sitemap.xml`** — regenerated on every build
+- **`404.html`** — written in the same voice as the rest of the site, and it
+  leads with "nothing is wrong and you haven't broken anything" rather than an
+  error code
+- **`/print/`** — every PDF, so the printables page can link to real files
+
+---
+
+## Before you announce it
+
+- [ ] Create **translations@trustbutverifyproject.org** — it's printed on the
+      fridge sheets and on the site. Cloudflare Email Routing does this free:
+      **Email** → **Email Routing**, forward it to your Gmail.
+- [ ] Click every link on the homepage
+- [ ] Open it on an actual phone, not a desktop browser window made narrow
+- [ ] Read one page at arm's length. If you squint, the type is too small.
+- [ ] Test with a screen reader if you can — VoiceOver on iPhone is two taps to
+      enable and is the fastest reality check available
+- [ ] Have one person over 70 use it in front of you without help, and watch
+      where they hesitate. This will tell you more than everything else on this
+      list combined.
+
+---
+
+## Known gaps
+
+**Check the four right-to-left pages on a real phone before announcing them.**
+Arabic, Urdu, Farsi, and Pashto. The printed PDFs are fixed and verified — they
+now render through WeasyPrint, which does proper HarfBuzz shaping.
+
+The *web* pages use standards-correct CSS (direction set on the content
+container, max-width, overflow-wrap), which every modern browser handles
+correctly. But the only renderer available in the build environment is a
+2012-era WebKit that doesn't wrap right-to-left text, so I could not verify them
+visually. They are almost certainly fine. "Almost certainly" is not a standard
+this project should accept on a page someone reads while frightened, so please
+open all four on an actual phone and confirm the text wraps rather than running
+off the edge.
+
+**Seven language folders are quarantined** in `_quarantine/` — Ukrainian,
+French, German, Portuguese, Polish, Romanian, Indonesian. Their origin is
+unconfirmed, so they're not built into the site. Delete them or verify them.
+
+**No translated page is validated.** Every non-English page carries a warning
+band saying so. That band stays until a native speaker signs off.
+
+---
+
+## Maintenance
+
+**Every April**, when the FBI's Internet Crime Complaint Center publishes its
+annual report, update the statistics. They appear in:
+
+- `content/en/i-think-i-was-scammed.md`
+- `content/en/scams/investment-and-crypto.md`
+- `content/en/scams/voice-cloning.md`
+- `content/en/about.md`
+- `content/en/glossary.md`
+- and the equivalent line in each translation
+
+Search the content folder for the year to find them all.
+
+**Whenever a page changes**, the corresponding translations become stale. Put
+the warning band back if it was ever removed.
