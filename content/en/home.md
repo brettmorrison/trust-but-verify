@@ -55,6 +55,10 @@ do next.
 <a class="card" href="/scams/voice-cloning">It sounded exactly like them<span>AI-cloned voices</span></a>
 <a class="card" href="/scams/home-repair">Someone at my door about repairs<span>Home repair and contractor scams</span></a>
 <a class="card" href="/scams/recovery-scam">Someone offering to get my money back<span>Recovery scams, for people already scammed once</span></a>
+<a class="card" href="/scams/charity-scams">Someone's collecting for a disaster<span>Fake charities after a hurricane, fire, or flood</span></a>
+<a class="card" href="/scams/medicare-scams">Someone's calling about my Medicare<span>Medicare card and open-enrollment scams</span></a>
+<a class="card" href="/scams/sim-swap">My phone suddenly has no signal<span>SIM swap — your number moved to their phone</span></a>
+<a class="card" href="/scams/lottery-sweepstakes">"You've won" a prize I never entered<span>Lottery, sweepstakes, and inheritance scams</span></a>
 </div>
 
 **[I already sent money. What do I do?](/i-think-i-was-scammed)**
