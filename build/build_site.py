@@ -40,6 +40,13 @@ LANGS = [
     ("ur", "ur",         "اردو"),
     ("fa", "fa",         "فارسی"),
     ("ps", "ps",         "پښتو"),
+    ("de", "de",         "Deutsch"),
+    ("fr", "fr",         "Français"),
+    ("pt", "pt",         "Português"),
+    ("pl", "pl",         "Polski"),
+    ("ro", "ro",         "Română"),
+    ("uk", "uk",         "Українська"),
+    ("id", "id",         "Bahasa Indonesia"),
 ]
 
 
@@ -169,10 +176,15 @@ def depth_prefix(outpath):
 
 # ---------------------------------------------------------------------- layout
 
+MARK = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+        'stroke-width="2" stroke-linecap="round" stroke-linejoin="round" '
+        'aria-hidden="true"><path d="M12 2.5 19.5 5.5V11C19.5 16 16 19.8 12 21.5 '
+        '8 19.8 4.5 16 4.5 11V5.5Z"/><path d="M8.2 11.6 10.8 14.2 15.8 9"/></svg>')
+
 CSS = """
 :root{
   --ink:#111;--paper:#fffdf9;--rule:#111;--muted:#4a4a4a;
-  --accent:#8a1414;--band:#f0ece4;
+  --accent:#123f7a;--band:#f0ece4;
   --measure:34rem;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -194,8 +206,10 @@ a:focus-visible,button:focus-visible{outline:4px solid #0b57d0;outline-offset:2p
 header.site{border-bottom:5px solid var(--rule);padding:1.1rem 0 .9rem;margin-bottom:1.6rem}
 header.site .top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.6rem}
 header.site a.brand{
+  display:inline-flex;align-items:center;gap:.5rem;
   font-weight:800;font-size:1.15rem;letter-spacing:.06em;
   text-transform:uppercase;color:var(--ink);text-decoration:none;line-height:1.2}
+header.site a.brand svg{flex:none;width:1.7rem;height:1.7rem;color:var(--accent)}
 header.site p.strap{font-size:.95rem;color:var(--muted);margin-top:.55rem}
 
 nav.sitenav{display:flex;flex-wrap:wrap;gap:1.1rem 1.4rem;margin-top:.85rem;
@@ -305,6 +319,7 @@ PAGE = """<!DOCTYPE html>
 <meta property="og:type" content="website">
 <meta property="og:url" content="{canonical}">
 <link rel="stylesheet" href="{pre}style.css">
+<link rel="icon" href="{pre}favicon.svg" type="image/svg+xml">
 </head>
 <body>
 <a class="skip" href="#main">{skip}</a>
@@ -326,7 +341,7 @@ PAGE = """<!DOCTYPE html>
 </aside>
 <header class="site">
   <div class="top">
-    <a class="brand" href="{pre}">Trust But Verify</a>
+    <a class="brand" href="{pre}">{mark}Trust But Verify</a>
     <details class="langswitch">
       <summary>{langbtn}</summary>
       <div class="panel">
@@ -455,6 +470,7 @@ def build():
 
         page = PAGE.format(
             lang=lang,
+            mark=MARK,
             dirattr=' dir="rtl"' if lang in RTL else "",
             title=html.escape(title),
             desc=html.escape(meta.get("description", "")),
@@ -491,6 +507,15 @@ def build():
     # stylesheet
     open(os.path.join(OUT, "style.css"), "w", encoding="utf-8").write(CSS)
 
+    # favicon: same mark, filled solid so it reads at 16px
+    favicon = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">'
+               '<path fill="#123f7a" d="M12 2.5 19.5 5.5V11C19.5 16 16 19.8 12 21.5 '
+               '8 19.8 4.5 16 4.5 11V5.5Z"/>'
+               '<path fill="none" stroke="#fffdf9" stroke-width="2.4" '
+               'stroke-linecap="round" stroke-linejoin="round" '
+               'd="M8.2 11.6 10.8 14.2 15.8 9"/></svg>')
+    open(os.path.join(OUT, "favicon.svg"), "w", encoding="utf-8").write(favicon)
+
     # printables
     dest = os.path.join(OUT, "print")
     os.makedirs(dest, exist_ok=True)
@@ -526,7 +551,7 @@ def build():
 
     # 404
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
-        PAGE.format(lang="en", dirattr="", title="Page not found — Trust But Verify",
+        PAGE.format(lang="en", dirattr="", mark=MARK, title="Page not found — Trust But Verify",
                     desc="That page isn't here.", canonical=SITE + "/404.html", pre="./",
                     crumb="",
                     body="<h1>That page isn't here.</h1>"

@@ -102,6 +102,19 @@ Delete it, or report it by forwarding to 7726 (SPAM) — free on all US carriers
 You are not in trouble. You typed something into a box. Millions of people do it
 every year, including people whose job is computer security.
 
+## The one change that makes this stop mattering
+
+Reusing the same password everywhere is why one stolen password becomes ten
+stolen accounts. A password manager fixes that permanently: it invents a
+different, harder password for every site and remembers all of them, so you
+only have to remember one.
+
+You likely already have one, free, built into a device you own — Apple
+("Passwords" on iPhone and Mac), Google ("Password Manager" in Chrome and
+Android), and Microsoft (in Windows and Edge) all include one. You don't have
+to buy or install anything. Ask someone you trust to help you turn it on and
+move your most important passwords — email and banking first — into it.
+
 ## The habit that ends this whole category
 
 Never use a link or number that came to you. Reach the company your own way,

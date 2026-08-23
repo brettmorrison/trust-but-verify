@@ -20,9 +20,12 @@ and the two helplines.
 **Made to be taped to a refrigerator**, not filed in a drawer. That's where
 someone will be standing when the phone rings.
 
-Available in **13 languages**: English, Spanish, Vietnamese, Chinese, Russian, Ukrainian, French, German, Portuguese, Polish, Romanian, Arabic, and Indonesian.
+Available in **24 languages**: English, Spanish, Vietnamese, Chinese, Russian,
+Korean, Tagalog, Hindi, Bengali, Armenian, Amharic, Albanian, Japanese, Arabic,
+Urdu, Farsi, Pashto, German, French, Portuguese, Polish, Romanian, Ukrainian,
+and Indonesian.
 
-**Only the English version is validated and ready to print.** The other twelve are
+**Only the English version is validated and ready to print.** The rest are
 AI translations that no native speaker has checked yet. They carry a warning
 band saying so, in their own language, and they should not be handed out until
 that band comes off. [Help us check one.](/help-translate)
@@ -32,25 +35,32 @@ that band comes off. [Help us check one.](/help-translate)
 
 | Language | | Language | |
 |---|---|---|---|
-| English | [PDF](/print/fridge-sheet-en.pdf) | 日本語 Japanese | [PDF](/print/fridge-sheet-ja.pdf) |
-| Español Spanish | [PDF](/print/fridge-sheet-es.pdf) | 한국어 Korean | [PDF](/print/fridge-sheet-ko.pdf) |
-| Tiếng Việt Vietnamese | [PDF](/print/fridge-sheet-vi.pdf) | Tagalog | [PDF](/print/fridge-sheet-tl.pdf) |
-| 中文 Chinese | [PDF](/print/fridge-sheet-zh.pdf) | हिन्दी Hindi | [PDF](/print/fridge-sheet-hi.pdf) |
-| Русский Russian | [PDF](/print/fridge-sheet-ru.pdf) | বাংলা Bengali | [PDF](/print/fridge-sheet-bn.pdf) |
-| العربية Arabic | [PDF](/print/fridge-sheet-ar.pdf) | Հայերեն Armenian | [PDF](/print/fridge-sheet-hy.pdf) |
-| اردو Urdu | [PDF](/print/fridge-sheet-ur.pdf) | አማርኛ Amharic | [PDF](/print/fridge-sheet-am.pdf) |
-| فارسی Farsi | [PDF](/print/fridge-sheet-fa.pdf) | Shqip Albanian | [PDF](/print/fridge-sheet-sq.pdf) |
-| پښتو Pashto | [PDF](/print/fridge-sheet-ps.pdf) | | |
+| English | [PDF](/print/fridge-sheet-en.pdf) | Deutsch German | [PDF](/print/fridge-sheet-de.pdf) |
+| Español Spanish | [PDF](/print/fridge-sheet-es.pdf) | Français French | [PDF](/print/fridge-sheet-fr.pdf) |
+| Tiếng Việt Vietnamese | [PDF](/print/fridge-sheet-vi.pdf) | Português Portuguese | [PDF](/print/fridge-sheet-pt.pdf) |
+| 中文 Chinese | [PDF](/print/fridge-sheet-zh.pdf) | Polski Polish | [PDF](/print/fridge-sheet-pl.pdf) |
+| Русский Russian | [PDF](/print/fridge-sheet-ru.pdf) | Română Romanian | [PDF](/print/fridge-sheet-ro.pdf) |
+| 日本語 Japanese | [PDF](/print/fridge-sheet-ja.pdf) | Українська Ukrainian | [PDF](/print/fridge-sheet-uk.pdf) |
+| 한국어 Korean | [PDF](/print/fridge-sheet-ko.pdf) | Bahasa Indonesia | [PDF](/print/fridge-sheet-id.pdf) |
+| Tagalog | [PDF](/print/fridge-sheet-tl.pdf) | العربية Arabic | [PDF](/print/fridge-sheet-ar.pdf) |
+| हिन्दी Hindi | [PDF](/print/fridge-sheet-hi.pdf) | اردو Urdu | [PDF](/print/fridge-sheet-ur.pdf) |
+| বাংলা Bengali | [PDF](/print/fridge-sheet-bn.pdf) | فارسی Farsi | [PDF](/print/fridge-sheet-fa.pdf) |
+| Հայերեն Armenian | [PDF](/print/fridge-sheet-hy.pdf) | پښتو Pashto | [PDF](/print/fridge-sheet-ps.pdf) |
+| አማርኛ Amharic | [PDF](/print/fridge-sheet-am.pdf) | Shqip Albanian | [PDF](/print/fridge-sheet-sq.pdf) |
 
 ### Download the wallet card
 
-Prints eight to a page.
+Prints eight to a page. Available in 13 languages so far — the rest are next.
 
 | Language | | Language | |
 |---|---|---|---|
-| English | [PDF](/print/wallet-card-en.pdf) | 中文 Chinese | [PDF](/print/wallet-card-zh.pdf) |
-| Español Spanish | [PDF](/print/wallet-card-es.pdf) | Русский Russian | [PDF](/print/wallet-card-ru.pdf) |
-| Tiếng Việt Vietnamese | [PDF](/print/wallet-card-vi.pdf) | | |
+| English | [PDF](/print/wallet-card-en.pdf) | Deutsch German | [PDF](/print/wallet-card-de.pdf) |
+| Español Spanish | [PDF](/print/wallet-card-es.pdf) | Français French | [PDF](/print/wallet-card-fr.pdf) |
+| Tiếng Việt Vietnamese | [PDF](/print/wallet-card-vi.pdf) | Português Portuguese | [PDF](/print/wallet-card-pt.pdf) |
+| 中文 Chinese | [PDF](/print/wallet-card-zh.pdf) | Polski Polish | [PDF](/print/wallet-card-pl.pdf) |
+| Русский Russian | [PDF](/print/wallet-card-ru.pdf) | Română Romanian | [PDF](/print/wallet-card-ro.pdf) |
+| العربية Arabic | [PDF](/print/wallet-card-ar.pdf) | Українська Ukrainian | [PDF](/print/wallet-card-uk.pdf) |
+| | | Bahasa Indonesia | [PDF](/print/wallet-card-id.pdf) |
 
 ### Download the editable handout
 
@@ -65,8 +75,8 @@ two helplines on the back.
 
 Prints eight to a page. Cut and hand out at the end of a talk.
 
-Available in all 13 languages — again, only the English card is validated.
-The others carry the same warning line.
+Available in 13 languages so far, with the rest on the way — again, only the
+English card is validated. The others carry the same warning line.
 
 ## The editable handout (Word)
 

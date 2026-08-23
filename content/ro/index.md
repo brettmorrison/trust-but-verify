@@ -1,0 +1,80 @@
+---
+title: Ai încredere, dar verifică
+slug: /ro/
+description: Nu trebuie să bănuiești pe toată lumea. Adaugă doar un pas.
+lang: ro
+status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
+validated_by: (none yet)
+---
+
+# Ai încredere, dar verifică
+
+**Nu trebuie să bănuiești pe toată lumea. Adaugă doar un pas.**
+
+> Spune în engleză când răspunde cineva: "Romanian, please"
+
+## Înainte să trimiți orice bani
+
+**1. Caută numărul singur.**
+
+Nu cel pe care ți l-au dat ei. Cel de pe cardul tău sau din extrasul de
+cont.
+
+**2. Sună persoana chiar tu.**
+
+Închide mai întâi. Apoi sună. Dacă era adevărat, persoana va fi tot
+acolo.
+
+**3. Așteaptă o zi.**
+
+O problemă reală supraviețuiește unei nopți de somn. O înșelătorie, nu.
+
+## Trei semne care trebuie să te oprească
+
+- Te-au sunat ei — nu ai început tu.
+- Ți-au mișcat emoțiile repede — frică, îngrijorare sau grabă.
+- Vor un transfer — bani, un cod, sau accesul la calculatorul tău.
+
+## Niciodată, nici măcar o dată
+
+- **Nicio instituție legitimă nu acceptă carduri cadou drept plată.**
+- **Banca ta nu îți va cere niciodată să scoți bani din cont.**
+- **Nu spune niciodată nimănui un cod primit prin SMS.**
+- **Nimeni nu vine acasă la tine să ridice bani cash sau aur.**
+
+## Ajutor gratuit — fără judecată
+
+**833-372-8311** — National Elder Fraud Hotline · lun–vin
+
+**877-908-3360** — AARP Fraud Watch · lun–vin
+
+Spune în engleză când răspunde cineva: "Romanian, please"
+
+Raportează la: ic3.gov · reportfraud.ftc.gov
+
+---
+
+## O fișă de tipărit (PDF)
+
+Nu toate paginile acestui site sunt încă în română. Pe această fișă e tot
+ce contează cel mai mult.
+
+**[Fișă de tipărit (PDF)](/print/fridge-sheet-ro.pdf)**
+
+[Toate paginile în engleză](/)
+
+---
+
+## Ne poți ajuta
+
+Această traducere a fost făcută de o inteligență artificială și nu a fost
+încă verificată de un vorbitor nativ. O oră e suficient. Spune-ne ce
+propoziție sună greșit.
+
+**translations@trustbutverifyproject.org**
+
+*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
+do not print or distribute this yet. Romanian speakers: we need one reader.
+It takes an hour.*
+
+**Dacă s-a întâmplat deja: nu e vina ta și încă nu e prea târziu.**

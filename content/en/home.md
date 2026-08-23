@@ -97,9 +97,9 @@ it does.
 Everything here can be printed, copied, translated, read aloud, or handed to a
 neighbor without asking us. That's the point.
 
-**Read this in:** [Español](/es/) · [Tiếng Việt](/vi/) · [中文](/zh/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/)
+**Read this in:** [Español](/es/) · [Tiếng Việt](/vi/) · [中文](/zh/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/)
 
-*All twelve are AI translations and no native speaker has checked them yet. Each
-one says so at the top, in its own language, and none of them should be printed
-until someone has. If you speak one of them,
+*All of these are AI translations and no native speaker has checked them yet.
+Each one says so at the top, in its own language, and none of them should be
+printed until someone has. If you speak one of them,
 [an hour of your time would fix that](/help-translate).*
