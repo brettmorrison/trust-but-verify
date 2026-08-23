@@ -1,7 +1,17 @@
 # The Trust But Verify Project — Content Plan
 
 **Version:** draft 1 — August 22, 2026
-**Domains (not yet registered):** trustbutverifyproject.org (primary)
+
+> **This is the original day-one planning document, kept for the reasoning
+> behind the site's structure and the editorial rules (still fully in
+> effect). The specifics below are a snapshot from before launch and are
+> now out of date in several places — the site has since grown from 5
+> languages to 45, and the domain is live. For current state, use
+> BACKLOG.md (what's done/open, including whether translations@ is set
+> up), TRANSLATIONS.md (per-language validation status), and DEPLOY.md
+> (how it's hosted).**
+
+**Domains:** trustbutverifyproject.org (live)
 
 ---
 
@@ -160,8 +170,8 @@ When the project maintainer confirms validation, both change and the banner
 comes off; if the page is later revised, the banner goes back on.
 
 Recruitment page: `/help-translate`. Contact:
-**translations@trustbutverifyproject.org** — *needs to be set up; the domain is
-registered but this mailbox does not exist yet.*
+**translations@trustbutverifyproject.org** — see BACKLOG.md for whether
+the mailbox itself (Cloudflare Email Routing) is confirmed set up yet.
 
 **Four validated languages beat fourteen unvalidated ones.**
 
