@@ -84,28 +84,25 @@ generated files.
 
 ---
 
-## The typo domains
+## Domains
 
-You own three misspellings. Point them at the real one rather than serving
-duplicate content, which search engines penalise.
-
-For each, in Cloudflare:
+The canonical domain is `trustbutverifyproject.org`. `trustbutverifyproject.com`
+(the same, correct spelling, just the `.com`) was registered separately and
+redirects to it:
 
 **Rules** → **Redirect Rules** → **Create rule**
 
-- **If:** Hostname equals `trustbutverifiyproject.org`
+- **If:** Hostname equals `trustbutverifyproject.com`
 - **Then:** Dynamic redirect, **301 permanent**, to
   `concat("https://trustbutverifyproject.org", http.request.uri.path)`
-
-Repeat for `trustbutverifiyproject.com` and
-`trustbutverificationproject.org`.
 
 The `concat` expression preserves the path, so a mistyped deep link still lands
 in the right place.
 
-**Also:** turn off auto-renew on the two you're not keeping long-term, and
-check `trustbutverifiyproject.com` specifically — auto-renew is still on there
-at $10.46.
+The misspelled domains that had been floated (`trustbutverifiyproject.org`,
+`trustbutverifiyproject.com`, `trustbutverificationproject.org`) are not being
+kept — auto-renew has been turned off on the one confirmed registered. No
+redirect setup needed for those.
 
 ---
 
