@@ -36,6 +36,19 @@ screen is the phone number.
 Neither does any real security program.** No operating system has ever asked you
 to call anybody. That single fact ends this scam permanently once you know it.
 
+## The same scam, the other way around
+
+Sometimes there's no popup at all. The phone just rings, and it's "Microsoft" or
+"your antivirus company," saying they've detected a problem on your computer and
+need remote access to fix it.
+
+**Microsoft will never call you about a problem with your computer unless you
+contacted them first. Neither will any antivirus company.** They don't monitor
+your machine, so they have no way of knowing anything is wrong — which means a
+call like this is the wrong itself, not a warning about one. Hang up. If you want
+to check, look up the company's number yourself and call them, the same as
+everything else on this site.
+
 ## What happens if you call
 
 A polite, professional person answers, often with a queue and hold music. They

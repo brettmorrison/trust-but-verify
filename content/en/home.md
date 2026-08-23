@@ -36,15 +36,28 @@ applied to a specific situation.
 
 ---
 
-## Something is happening right now
+## What kind of call did you get? {#scam-types}
 
-- [Is this text from my bank real?](/questions/is-this-text-from-my-bank-real)
-- [My computer says Microsoft found a virus](/questions/microsoft-virus-warning-on-screen)
-- [Someone called saying they're from the government](/scams/government-impersonation)
-- [My grandchild called and needs money](/questions/grandson-called-asking-for-bail-money)
-- [Someone I met online is asking for money](/scams/romance-scam)
-- [A recruiter wants me to pay for training or equipment](/scams/job-scams)
-- [**I already sent money. What do I do?**](/i-think-i-was-scammed)
+Pick the one closest to what's happening. Each page tells you exactly what to
+do next.
+
+<div class="cards">
+<a class="card" href="/scams/grandparent-scam">A grandchild in trouble<span>The bail money call</span></a>
+<a class="card" href="/scams/virtual-kidnapping">Someone says they've kidnapped my family<span>Screaming on the phone, a twenty-minute clock</span></a>
+<a class="card" href="/scams/romance-scam">Someone I met online<span>Asking for money, never met in person</span></a>
+<a class="card" href="/scams/tech-support-popup">A scary popup on my screen<span>Fake virus warning, a number to call</span></a>
+<a class="card" href="/scams/phantom-hacker">"Microsoft" or my bank called me<span>Unsolicited tech support or bank calls</span></a>
+<a class="card" href="/scams/government-impersonation">Someone from the government<span>IRS, Social Security, police impersonators</span></a>
+<a class="card" href="/scams/delivery-toll-recall-texts">A text about a package or toll<span>Delivery, toll, or recall texts</span></a>
+<a class="card" href="/scams/phishing">A suspicious email or text<span>Phishing — links, "verify your account"</span></a>
+<a class="card" href="/scams/job-scams">A job wants me to pay first<span>Fake recruiters, work-from-home offers</span></a>
+<a class="card" href="/scams/investment-and-crypto">An investment that sounds too good<span>Crypto and investment schemes</span></a>
+<a class="card" href="/scams/voice-cloning">It sounded exactly like them<span>AI-cloned voices</span></a>
+<a class="card" href="/scams/home-repair">Someone at my door about repairs<span>Home repair and contractor scams</span></a>
+<a class="card" href="/scams/recovery-scam">Someone offering to get my money back<span>Recovery scams, for people already scammed once</span></a>
+</div>
+
+**[I already sent money. What do I do?](/i-think-i-was-scammed)**
 
 ## Nothing is happening — I want to be ready
 
