@@ -585,7 +585,7 @@ def build():
             p = PHOTOS[slug.strip("/")]
             figure = (
                 '<figure class="hero-photo">'
-                '<img src="%sphotos/%s" alt="%s" loading="lazy">'
+                '<img src="%sphotos/%s" alt="%s" fetchpriority="high">'
                 '<figcaption>Photo: <a href="%s">%s</a> / Wikimedia Commons, %s</figcaption>'
                 '</figure>'
             ) % (pre, p["file"], html.escape(p["alt"]), p["url"],
