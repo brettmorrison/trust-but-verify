@@ -10,6 +10,11 @@ Roughly priority order. Update as items close.
 - Hero-photo loading bug fixed: `loading="lazy"` on an always-above-
   the-fold image caused a visible blank-then-paint flash — swapped to
   `fetchpriority="high"`.
+- Mobile table rendering fixed: every table on the site (printables.md,
+  resources-by-language.md) was forced to 100% width with no wrap
+  protection, so words broke mid-character at 375px ("PDF" stacked
+  into "P/D/F"). Tables now scroll horizontally in their own container
+  instead of being force-squeezed.
 - Site live end-to-end at `trustbutverifyproject.org`, plus `.com`,
   `tbvproject.com`, `tbvproject.org` all 301 → canonical. Misspelled typo
   domains dropped, auto-renew cancelled. Repo public:
