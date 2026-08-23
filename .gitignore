@@ -21,3 +21,9 @@ Thumbs.db
 
 # Local-only source zips, not part of the repo
 /_archive/
+
+# Full-resolution originals for hero photos (assets/photos/web/ is the
+# resized, web-ready set that's actually committed and deployed — the
+# source/ originals are 100+MB and only needed if a photo ever needs
+# re-cropping). See assets/photos/manifest.json for sourcing/license info.
+/assets/photos/source/

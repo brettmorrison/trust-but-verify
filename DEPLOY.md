@@ -47,6 +47,16 @@ in the first place. `build_site.py` just copies them into `site/og/` on
 every build. Regenerate locally whenever a page's title or description
 changes, then commit the PNGs.
 
+The hero photos on the home page and some scam-type pages
+(`assets/photos/web/*.jpg`) follow the same committed-asset pattern —
+`build_site.py` copies them into `site/photos/`. Every one is a real
+photo from Wikimedia Commons under a license that requires attribution
+(CC BY / CC BY-SA), sourced and recorded in `assets/photos/manifest.json`
+(topic, license, author, source URL) — the on-page caption under each
+photo *is* that attribution, so don't strip it. `assets/photos/source/`
+holds the full-resolution originals (100+ MB, gitignored, not needed for
+the site to build) in case a photo ever needs re-cropping.
+
 ---
 
 ## The feedback form (`/feedback`)

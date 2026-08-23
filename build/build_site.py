@@ -22,6 +22,74 @@ CONTACT = "translations@trustbutverifyproject.org"
 
 RTL = {"ar", "ur", "fa", "ps", "he"}
 
+# Hero photos, keyed by bare slug, English pages only. Sourced from Wikimedia
+# Commons under licenses that require attribution (CC BY / CC BY-SA) — the
+# figcaption below is that attribution, not decorative text; don't remove it.
+# See assets/photos/manifest.json for the full sourcing record, including
+# topics deliberately left without a photo rather than forcing a bad fit.
+PHOTOS = {
+    "": dict(file="home.jpg", alt="A hand holding a phone near a sunlit window",
+             author="Nenad Stojkovic",
+             url="https://commons.wikimedia.org/wiki/File:Close-up_of_a_woman_holding_a_mobile_phone._(51634339530).jpg",
+             license="CC BY 2.0"),
+    "about": dict(file="about.jpg", alt="A grandparent watching a child play with a toy car",
+                  author="Shixart1985",
+                  url="https://commons.wikimedia.org/wiki/File:Grandparent_enjoys_coffee_while_watching_child_play_with_toy_car_during_sunset_at_the_park.jpg",
+                  license="CC BY 2.0"),
+    "warning-signs": dict(file="warning-signs.jpg", alt="A woman talking on the phone while writing in a notebook",
+                           author="Shixart1985",
+                           url="https://commons.wikimedia.org/wiki/File:Woman_talks_on_the_phone_while_writing_in_a_notebook.jpg",
+                           license="CC BY 2.0"),
+    "scams/grandparent-scam": dict(file="grandparent-scam.jpg", alt="A woman smiling while talking on a landline phone at home",
+                                    author="Shixart1985",
+                                    url="https://commons.wikimedia.org/wiki/File:Senior_woman_engaged_in_a_cheerful_conversation_on_a_landline_phone_at_her_home.jpg",
+                                    license="CC BY 2.0"),
+    "scams/virtual-kidnapping": dict(file="virtual-kidnapping.jpg", alt="A woman looking at her phone in a relaxed home setting",
+                                      author="Shixart1985",
+                                      url="https://commons.wikimedia.org/wiki/File:Woman_looking_at_phone_in_a_casual_setting_while_smiling_and_enjoying_the_moment_with_a_relaxed_atmosphere.jpg",
+                                      license="CC BY 2.0"),
+    "scams/romance-scam": dict(file="romance-scam.jpg", alt="Hands typing on a laptop keyboard",
+                                author="Shixart1985",
+                                url="https://commons.wikimedia.org/wiki/File:Woman_with_long_nails_typing_on_a_laptop_keyboard.jpg",
+                                license="CC BY 2.0"),
+    "scams/tech-support-popup": dict(file="tech-support-popup.jpg", alt="A laptop on a desk in a home workspace",
+                                      author="Shixart1985",
+                                      url="https://commons.wikimedia.org/wiki/File:Laptop_and_small_plant_on_a_desk_in_a_modern_workspace_during_daylight_hours.jpg",
+                                      license="CC BY 2.0"),
+    "scams/delivery-toll-recall-texts": dict(file="delivery-toll-recall-texts.jpg", alt="A delivery driver knocking on a door with packages",
+                                              author="Meanwell Packaging",
+                                              url="https://commons.wikimedia.org/wiki/File:A_Delivery_Driver_Knocking_on_a_Door_to_Deliver_Packages.jpg",
+                                              license="CC BY 2.0"),
+    "scams/phishing": dict(file="phishing.jpg", alt="Hands typing on a laptop keyboard",
+                            author="Shixart1985",
+                            url="https://commons.wikimedia.org/wiki/File:Hands_are_seen_typing_on_a_laptop_keyboard.jpg",
+                            license="CC BY 2.0"),
+    "scams/job-scams": dict(file="job-scams.jpg", alt="A laptop, coffee cup, and plant on a desk",
+                             author="Shixart1985",
+                             url="https://commons.wikimedia.org/wiki/File:Working_at_a_desk_with_a_laptop_coffee_cup_and_a_plant_on_a_white_surface.jpg",
+                             license="CC BY 2.0"),
+    "scams/investment-and-crypto": dict(file="investment-and-crypto.jpg", alt="A hand writing on a receipt next to a calculator",
+                                         author="Dave Dugdale from Superior, USA",
+                                         url="https://commons.wikimedia.org/wiki/File:Analyzing_Financial_Data_(5099605109).jpg",
+                                         license="CC BY-SA 2.0"),
+    "scams/voice-cloning": dict(file="voice-cloning.jpg", alt="A woman talking on the phone",
+                                 author="Shixart1985",
+                                 url="https://commons.wikimedia.org/wiki/File:Woman_talking_on_phone_in_a_modern_indoor_space_closeup.jpg",
+                                 license="CC BY 2.0"),
+    "scams/home-repair": dict(file="home-repair.jpg", alt="A man working on a car in a garage",
+                               author="Shixart1985",
+                               url="https://commons.wikimedia.org/wiki/File:Elderly_man_stands_in_garage_near_car_with_tools_showing_signs_of_work_done.jpg",
+                               license="CC BY 2.0"),
+    "scams/medicare-scams": dict(file="medicare-scams.jpg", alt="A stethoscope held in a hand",
+                                  author="Shixart1985",
+                                  url="https://commons.wikimedia.org/wiki/File:Close-up_of_a_stethoscope_chest_piece_in_a_womans_hand_with_a_blurry_background.jpg",
+                                  license="CC BY 2.0"),
+    "scams/sim-swap": dict(file="sim-swap.jpg", alt="A SIM card and tray next to a ruler",
+                            author="BwDraco",
+                            url="https://commons.wikimedia.org/wiki/File:Nano_SIM_card_and_tray.jpg",
+                            license="CC BY-SA 3.0"),
+}
+
 LANGS = [
     ("en", "English",    "English"),
     ("es", "es",         "Español"),
@@ -302,6 +370,12 @@ a.card:hover,a.card:focus-visible{border-color:var(--accent);background:#fff}
 a.card span{display:block;font-weight:400;font-size:.88rem;color:var(--muted);
   margin-top:.3rem}
 
+figure.hero-photo{margin:1.1rem 0 1.6rem}
+figure.hero-photo img{width:100%;aspect-ratio:16/9;object-fit:cover;
+  border-radius:.4rem;display:block;background:var(--band)}
+figure.hero-photo figcaption{font-size:.78rem;color:var(--muted);margin-top:.4rem}
+figure.hero-photo figcaption a{color:var(--muted)}
+
 .feedback-form label{font-weight:700}
 .feedback-form textarea,.feedback-form input[type=email]{
   border:3px solid var(--rule);border-radius:.3rem;margin-top:.4rem;
@@ -503,6 +577,17 @@ def build():
         body_html = fix_links(body_html, pre)
         body_html = phone_wrap(body_html)
 
+        if lang == "en" and slug.strip("/") in PHOTOS:
+            p = PHOTOS[slug.strip("/")]
+            figure = (
+                '<figure class="hero-photo">'
+                '<img src="%sphotos/%s" alt="%s" loading="lazy">'
+                '<figcaption>Photo: <a href="%s">%s</a> / Wikimedia Commons, %s</figcaption>'
+                '</figure>'
+            ) % (pre, p["file"], html.escape(p["alt"]), p["url"],
+                 html.escape(p["author"]), p["license"])
+            body_html = re.sub(r'(</h1>)', r'\1' + figure, body_html, count=1)
+
         title = meta.get("title", "Trust But Verify")
         if slug.strip("/") not in ("", lang):
             title = "%s — Trust But Verify" % title
@@ -622,6 +707,16 @@ def build():
         for fn in sorted(os.listdir(og_src)):
             if fn.endswith(".png"):
                 shutil.copy(os.path.join(og_src, fn), os.path.join(og_dest, fn))
+
+    # hero photos (see PHOTOS above) -- committed under assets/photos/web/,
+    # not regenerated in CI, same reasoning as og/ and print/
+    photos_src = os.path.join(ROOT, "assets", "photos", "web")
+    if os.path.isdir(photos_src):
+        photos_dest = os.path.join(OUT, "photos")
+        os.makedirs(photos_dest, exist_ok=True)
+        for fn in sorted(os.listdir(photos_src)):
+            if fn.endswith(".jpg"):
+                shutil.copy(os.path.join(photos_src, fn), os.path.join(photos_dest, fn))
 
     # robots + sitemap
     open(os.path.join(OUT, "robots.txt"), "w").write(
