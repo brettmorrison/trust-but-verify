@@ -72,6 +72,9 @@ Roughly priority order. Update as items close.
   Farsi) that were wrongly marked "Limited" when they actually have
   real federal materials. Also fixed: the page had zero internal links
   pointing to it anywhere on the site; linked from home.md.
+- Added NAPCA's multilingual helpline (Mandarin/Cantonese/Korean/
+  Vietnamese) to resources-by-language.md — the one national org that
+  survived verification against several other candidates checked.
 - Fixed two real bugs and completed print materials for all 45
   languages: (1) reportlab's Latin-1-only base font produced solid
   black tofu boxes for Greek/Gujarati/Hebrew/Georgian/Khmer/Punjabi/
@@ -106,13 +109,9 @@ Roughly priority order. Update as items close.
    the other 40 are single landing pages. Decide whether to expand any.
 7. SEO metadata pass (meta titles/descriptions) per page/language — done
    for English; per-language pass not started.
-8. Verify whether any *stable, national* (not local/volatile) same-
-   language-community fraud-support orgs are worth adding alongside the
-   two hotlines in resources-by-language.md — needs real verification,
-   the file already deliberately avoids hardcoding volatile local orgs.
-9. The 4 new scam pages (charity/Medicare/SIM-swap/lottery) exist in
+8. The 4 new scam pages (charity/Medicare/SIM-swap/lottery) exist in
    English only — no translations yet, unlike the original 13.
-10. 6 pages still have no hero photo: charity-scams and government-
+9. 6 pages still have no hero photo: charity-scams and government-
     impersonation (candidates were sourced but rejected on review —
     museum artifact / no visible connection to the topic, see
     assets/photos/manifest.json), plus recovery-scam, lottery-
