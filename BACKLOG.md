@@ -3,6 +3,13 @@
 Roughly priority order. Update as items close.
 
 ## Resolved
+- The 4 RTL pages (Arabic, Urdu, Farsi, Pashto) — long-flagged as "never
+  visually verified, check on a real phone" — checked live at desktop
+  and mobile widths. 3 of 4 clean; fixed one real cosmetic wrap bug in
+  the "[Language], please" quote box (Urdu, plus fa/ps preemptively).
+- Hero-photo loading bug fixed: `loading="lazy"` on an always-above-
+  the-fold image caused a visible blank-then-paint flash — swapped to
+  `fetchpriority="high"`.
 - Site live end-to-end at `trustbutverifyproject.org`, plus `.com`,
   `tbvproject.com`, `tbvproject.org` all 301 → canonical. Misspelled typo
   domains dropped, auto-renew cancelled. Repo public:
