@@ -49,6 +49,15 @@ Roughly priority order. Update as items close.
   already fixed.
 - About page: cut the manifesto-style sections, fixed off-center logo
   checkmark (header, favicon, infographic).
+- hreflang alternate tags added for all 45 language landing pages (plus
+  x-default), so search engines treat them as translations of each other
+  instead of unrelated content. Deep English-only content is untagged.
+- Social share cards (og:image) built and shipped for all pages —
+  typographic, drawn from the site's own design system, no sourced-photo
+  problem. See `build/make_share_cards.py`.
+- Four new scam-type pages: charity-scams.md, medicare-scams.md,
+  sim-swap.md, lottery-sweepstakes.md — wired into the home grid and
+  cross-linked, each with a real FBI IC3/FTC/HHS-OIG citation.
 
 ## Open
 1. Confirm Cloudflare Web Analytics is toggled on (Analytics & Logs → Web
@@ -74,20 +83,16 @@ Roughly priority order. Update as items close.
    approach that broke this session.
 7. Deeper content only exists in 4 languages (es/vi/zh/ru) plus English —
    the other 40 are single landing pages. Decide whether to expand any.
-8. SEO metadata pass (meta titles/descriptions) per page/language.
-9. Share cards (Open Graph images) per page/language — needs sourced,
-   correctly-attributed Creative Commons photos, real research work, not
-   generation. Not started.
-10. One-page infographic — built (formats/print/infographic-en.pdf,
-    English only), not yet linked from anywhere on the site.
-11. Candidate new scam-type pages: charity scams, Medicare/health insurance
-    scams, SIM-swap, lottery/sweepstakes.
-12. Verify whether any *stable, national* (not local/volatile) same-
-    language-community fraud-support orgs are worth adding alongside the
-    two hotlines in resources-by-language.md — needs real verification,
-    the file already deliberately avoids hardcoding volatile local orgs.
-13. resources-by-language.md's language table (federal-materials
+8. SEO metadata pass (meta titles/descriptions) per page/language — done
+   for English; per-language pass not started.
+9. Verify whether any *stable, national* (not local/volatile) same-
+   language-community fraud-support orgs are worth adding alongside the
+   two hotlines in resources-by-language.md — needs real verification,
+   the file already deliberately avoids hardcoding volatile local orgs.
+10. resources-by-language.md's language table (federal-materials
     availability) only covers the original ~16 languages, not all 45.
+11. The 4 new scam pages (charity/Medicare/SIM-swap/lottery) exist in
+    English only — no translations yet, unlike the original 13.
 
 ## Unrelated flag
 Password reset email clusters in GoDaddy account from an earlier session —
