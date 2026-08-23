@@ -340,7 +340,7 @@ PAGE = """<!DOCTYPE html>
 <title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{canonical}">
-<meta name="robots" content="index,follow">
+{hreflang}<meta name="robots" content="index,follow">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:type" content="website">
@@ -517,8 +517,23 @@ def build():
         og_rel = slug.strip("/") or "index"
         ogimage = SITE + "/og/" + og_rel.replace("/", "_") + ".png"
 
+        # hreflang: only the 45 language landing pages are true translations
+        # of each other. Deep content (scams/, questions/, talk/) exists in
+        # English only, so pointing hreflang at it would misclaim a
+        # translation that doesn't exist.
+        hreflang = ""
+        slug_bare = slug.strip("/")
+        if slug_bare == "" or slug_bare == lang:
+            tags = []
+            for code, _short, _native in LANGS:
+                href = SITE + "/" if code == "en" else "%s/%s/" % (SITE, code)
+                tags.append('<link rel="alternate" hreflang="%s" href="%s">' % (code, href))
+            tags.append('<link rel="alternate" hreflang="x-default" href="%s/">' % SITE)
+            hreflang = "\n".join(tags) + "\n"
+
         page = PAGE.format(
             lang=lang,
+            hreflang=hreflang,
             mark=MARK,
             dirattr=' dir="rtl"' if lang in RTL else "",
             title=html.escape(title),
@@ -627,7 +642,7 @@ def build():
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
         PAGE.format(lang="en", dirattr="", mark=MARK, title="Page not found — Trust But Verify",
                     desc="That page isn't here.", canonical=SITE + "/404.html",
-                    ogimage=SITE + "/og/index.png", pre="/",
+                    ogimage=SITE + "/og/index.png", pre="/", hreflang="",
                     crumb="",
                     body="<h1>That page isn't here.</h1>"
                          "<p>Nothing is wrong and you haven't broken anything. "
