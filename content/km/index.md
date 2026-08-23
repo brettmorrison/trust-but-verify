@@ -52,14 +52,7 @@ validated_by: (none yet)
 
 ---
 
-## សន្លឹកមួយសម្រាប់បោះពុម្ព (PDF)
-
-ទំព័រទាំងអស់នៃវេបសាយនេះមិនទាន់មានជាភាសាខ្មែរនៅឡើយទេ។ សន្លឹកមួយនេះមានអ្វីដែលសំខាន់បំផុត។
-
-**[សន្លឹកសម្រាប់បោះពុម្ព (PDF)](/print/fridge-sheet-km.pdf)**
-
 [ទំព័រទាំងអស់ជាភាសាអង់គ្លេស](/)
-
 
 **Other languages:** [Español](/es/) · [Tiếng Việt](/vi/) · [中文](/zh/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ਪੰਜਾਬੀ](/pa/) · [ગુજરાતી](/gu/) · [Af-Soomaali](/so/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/)
 ---

@@ -52,14 +52,7 @@ validated_by: (none yet)
 
 ---
 
-## એક છાપવા યોગ્ય શીટ (PDF)
-
-આ સાઇટના બધા પાનાં હજુ ગુજરાતીમાં ઉપલબ્ધ નથી. આ એક શીટમાં સૌથી મહત્વની બાબત છે.
-
-**[છાપવા યોગ્ય શીટ (PDF)](/print/fridge-sheet-gu.pdf)**
-
 [બધા પાનાં અંગ્રેજીમાં](/)
-
 
 **Other languages:** [Español](/es/) · [Tiếng Việt](/vi/) · [中文](/zh/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ਪੰਜਾਬੀ](/pa/) · [Af-Soomaali](/so/) · [ខ្មែរ](/km/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/)
 ---

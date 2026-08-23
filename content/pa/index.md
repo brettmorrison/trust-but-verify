@@ -52,14 +52,7 @@ validated_by: (none yet)
 
 ---
 
-## ਇੱਕ ਪ੍ਰਿੰਟ ਕਰਨ ਯੋਗ ਸ਼ੀਟ (PDF)
-
-ਇਸ ਸਾਈਟ ਦੇ ਸਾਰੇ ਪੰਨੇ ਹਾਲੇ ਪੰਜਾਬੀ ਵਿੱਚ ਉਪਲਬਧ ਨਹੀਂ ਹਨ। ਇਸ ਇੱਕ ਸ਼ੀਟ ਵਿੱਚ ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ ਗੱਲ ਹੈ।
-
-**[ਪ੍ਰਿੰਟ ਕਰਨ ਯੋਗ ਸ਼ੀਟ (PDF)](/print/fridge-sheet-pa.pdf)**
-
 [ਸਾਰੇ ਪੰਨੇ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ](/)
-
 
 **Other languages:** [Español](/es/) · [Tiếng Việt](/vi/) · [中文](/zh/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ગુજરાતી](/gu/) · [Af-Soomaali](/so/) · [ខ្មែរ](/km/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/)
 ---
