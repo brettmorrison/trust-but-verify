@@ -102,7 +102,8 @@ Everything here can be printed, copied, translated, read aloud, or handed to a
 neighbor without asking us. That's the point.
 
 **Available in 45 languages** — use the language switcher at the top of
-this page.
+this page. Calling a hotline instead? See
+[which ones offer an interpreter, and the exact words to ask for one](/resources-by-language).
 
 *All of these are AI translations and no native speaker has checked them yet.
 Each one says so at the top, in its own language, and none of them should be
