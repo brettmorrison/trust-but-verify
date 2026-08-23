@@ -20,22 +20,52 @@ This file is the single source of truth for what has been checked.
 | Vietnamese | `vi` | full site | yes | yes | not yet | |
 | Chinese (Simplified) | `zh` | full site | yes | yes | not yet | |
 | Russian | `ru` | full site | yes | yes | not yet | |
-| Korean | `ko` | landing page | yes | no | not yet | |
-| Tagalog | `tl` | landing page | yes | no | not yet | |
-| Hindi | `hi` | landing page | yes | no | not yet | |
-| Bengali | `bn` | landing page | yes | no | not yet | |
-| Armenian | `hy` | landing page | yes | no | not yet | |
-| Amharic | `am` | landing page | yes | no | not yet | |
-| Albanian | `sq` | landing page | yes | no | not yet | |
-| Japanese | `ja` | landing page | yes | no | not yet | |
+| Korean | `ko` | landing page | yes | yes | not yet | |
+| Tagalog | `tl` | landing page | yes | yes | not yet | |
+| Hindi | `hi` | landing page | yes | yes | not yet | |
+| Bengali | `bn` | landing page | yes | yes | not yet | |
+| Armenian | `hy` | landing page | yes | yes | not yet | |
+| Amharic | `am` | landing page | yes | yes | not yet | |
+| Albanian | `sq` | landing page | yes | yes | not yet | |
+| Japanese | `ja` | landing page | yes | yes | not yet | |
 | Arabic | `ar` | landing page | yes | yes | not yet | |
-| Urdu | `ur` | landing page | yes | no | not yet | |
-| Farsi | `fa` | landing page | yes | no | not yet | |
-| Pashto | `ps` | landing page | yes | no | not yet | |
+| Urdu | `ur` | landing page | yes | yes | not yet | |
+| Farsi | `fa` | landing page | yes | yes | not yet | |
+| Pashto | `ps` | landing page | yes | yes | not yet | |
+| German | `de` | landing page | yes | yes | not yet | |
+| French | `fr` | landing page | yes | yes | not yet | |
+| Portuguese | `pt` | landing page | yes | yes | not yet | |
+| Polish | `pl` | landing page | yes | yes | not yet | |
+| Romanian | `ro` | landing page | yes | yes | not yet | |
+| Ukrainian | `uk` | landing page | yes | yes | not yet | |
+| Indonesian | `id` | landing page | yes | yes | not yet | |
+| Haitian Creole | `ht` | landing page | yes | yes | not yet | |
+| Punjabi | `pa` | landing page | yes | yes | not yet | |
+| Gujarati | `gu` | landing page | yes | yes | not yet | |
+| Somali | `so` | landing page | yes | yes | not yet | |
+| Khmer | `km` | landing page | yes | yes | not yet | |
+| Hmong | `hmn` | landing page | yes | yes | not yet | |
+| Georgian | `ka` | landing page | yes | yes | not yet | |
+| Lithuanian | `lt` | landing page | yes | yes | not yet | |
+| Latvian | `lv` | landing page | yes | yes | not yet | |
+| Estonian | `et` | landing page | yes | yes | not yet | |
+| Italian | `it` | landing page | yes | yes | not yet | |
+| Greek | `el` | landing page | yes | yes | not yet | |
+| Hebrew | `he` | landing page | yes | yes | not yet | |
+| Hungarian | `hu` | landing page | yes | yes | not yet | |
+| Croatian | `hr` | landing page | yes | yes | not yet | |
+| Serbian | `sr` | landing page | yes | yes | not yet | |
+| Malay | `ms` | landing page | yes | yes | not yet | |
+| Swedish | `sv` | landing page | yes | yes | not yet | |
+| Norwegian | `no` | landing page | yes | yes | not yet | |
+| Danish | `da` | landing page | yes | yes | not yet | |
+| Swahili | `sw` | landing page | yes | yes | not yet | |
 
-**Web** — "full site" means all ~37 pages are translated. "landing page" means one
-page carrying the three steps, the three signs, the payment red flags, the
-helplines, the interpreter phrase, and a link to the printed sheet.
+**Web** — "full site" means the deeper, multi-topic translated content (three
+steps, three signs, payment red flags, "I think I was scammed," for-family, all
+in one long page). "landing page" means the shorter version with the same core
+method plus a link to the printed sheet. Every language now has both a fridge
+sheet and a wallet card — that gap closed in August 2026 (see BACKLOG.md).
 
 ---
 

@@ -1,6 +1,6 @@
 # The Trust But Verify Project
 
-Free, plain-language material to help older adults avoid scams — in 17 languages.
+Free, plain-language material to help older adults avoid scams — in 45 languages.
 
 **Live site:** https://trustbutverifyproject.org
 
@@ -29,16 +29,22 @@ specific situation.
 
 ```
 content/          Markdown source — the site is generated from this
-  en/             English: 37 pages (scam types, question pages, action pages)
-  es/ vi/ zh/ ru/ Full translations
-  and 12 more     Landing pages in each language
+  en/             English: 51 pages (scam types, question pages, action pages)
+  es/ vi/ zh/ ru/ The 4 languages with full-length translated content
+  and 40 more     A landing page in each remaining language
+assets/
+  photos/web/     Licensed, attributed photos used on some pages (see manifest.json)
 build/            Generators (Python + one Node script)
+functions/        Cloudflare Pages Function backing the /feedback form
 formats/
-  print/          38 print-ready PDFs — fridge sheets and wallet cards
-  talk/           25-minute slide deck and full speaker script
+  print/          91 print-ready PDFs — fridge sheets and wallet cards, all 45 languages
+  og/             Social share-card PNGs, one per page
+  talk/           25-minute slide deck, family-talk deck, and speaker script
   spoken/         60-second, 5-minute, and volunteer Q&A scripts
   outreach/       Ready-to-send texts and emails
-  docx/           Editable handout for facilities
+  docx/           Source for the front-desk handout — emailed on request, not
+                  published as a download (an editable file with this project's
+                  name on it is easy to alter and pass off as official)
 site/             Generated output (not committed — Cloudflare builds it)
 ```
 
@@ -56,14 +62,20 @@ python3 build/build_site.py          # markdown -> site/
 
 That's the whole toolchain. No framework, no bundler, no JavaScript.
 
-Regenerating the printed material needs more (WeasyPrint, wkhtmltopdf, Noto
-fonts), so the PDFs are committed rather than built in CI:
+Regenerating the printed material and photos needs more (WeasyPrint or
+reportlab with real Unicode fonts, macOS system fonts, Node), so those
+outputs are committed rather than built in CI:
 
 ```bash
-python3 build/make_fridge.py         # 24 fridge sheets
-python3 build/make_cards.py          # wallet cards
-python3 build/make_lang_pages.py     # language landing pages from sheet data
-node    build/make_deck.js           # the talk
+python3 build/make_fridge.py             # fridge sheets, original language batch
+python3 build/make_fridge_new_langs.py   # fridge sheets, later languages
+python3 build/make_cards.py              # wallet cards, original language batch
+python3 build/make_cards_new_langs.py    # wallet cards, later languages
+python3 build/add_qr_codes.py            # stamps QR codes onto the fridge sheets
+python3 build/make_infographic.py        # the one-page stats infographic
+python3 build/make_share_cards.py        # og:image social cards, one per page
+node    build/make_deck.js               # the volunteer talk deck
+node    build/deck-family/make_deck.js   # the family-member talk deck
 ```
 
 ---
@@ -87,7 +99,7 @@ These aren't preferences. They're what the material is for.
   which is only possible because the site genuinely has none.
 - **No cookies, no accounts, no personal data collected or stored.**
   Cloudflare's cookie-free Web Analytics counts anonymous pageviews only, and
-  the feedback form (if/when built) forwards submissions by email without
+  the feedback form at `/feedback` forwards submissions by email without
   storing them anywhere — nothing sold, nothing shared, nothing kept beyond
   what's needed to answer you. A site about not letting people take your
   information should still say plainly what little it keeps.
