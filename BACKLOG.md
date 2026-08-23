@@ -40,6 +40,15 @@ Roughly priority order. Update as items close.
   the deployed site; printables.md's download tables were undercounting
   both fridge sheets and wallet cards even before this session's additions.
 - Zero broken internal links across all 89 pages, verified by script.
+- Family-member presentation built (12 slides + speaker notes,
+  formats/talk/trust-but-verify-for-family.pptx), drawn from for-family.md,
+  linked from there and cross-linked from give-this-talk.md. Validated and
+  visually QA'd — no defects. The existing volunteer deck was reviewed and
+  judged already complete (22 slides, full speaker script) — no rebuild
+  needed there, just needed to be discoverable, which give-this-talk.md
+  already fixed.
+- About page: cut the manifesto-style sections, fixed off-center logo
+  checkmark (header, favicon, infographic).
 
 ## Open
 1. Confirm Cloudflare Web Analytics is toggled on (Analytics & Logs → Web
@@ -71,16 +80,13 @@ Roughly priority order. Update as items close.
    generation. Not started.
 10. One-page infographic — built (formats/print/infographic-en.pdf,
     English only), not yet linked from anywhere on the site.
-11. Two new presentations requested, not started: one for volunteers
-    giving the talk (distinct from the existing deck — clarify how), one
-    for family members of seniors on how to help protect them.
-12. Candidate new scam-type pages: charity scams, Medicare/health insurance
+11. Candidate new scam-type pages: charity scams, Medicare/health insurance
     scams, SIM-swap, lottery/sweepstakes.
-13. Verify whether any *stable, national* (not local/volatile) same-
+12. Verify whether any *stable, national* (not local/volatile) same-
     language-community fraud-support orgs are worth adding alongside the
     two hotlines in resources-by-language.md — needs real verification,
     the file already deliberately avoids hardcoding volatile local orgs.
-14. resources-by-language.md's language table (federal-materials
+13. resources-by-language.md's language table (federal-materials
     availability) only covers the original ~16 languages, not all 45.
 
 ## Unrelated flag
