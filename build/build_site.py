@@ -351,9 +351,11 @@ blockquote{
 blockquote > :last-child{margin-bottom:0}
 blockquote h3{margin-top:0}
 
-table{border-collapse:collapse;width:100%;margin:1.3rem 0;font-size:.98rem}
+.table-scroll{overflow-x:auto;margin:1.3rem 0;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;min-width:26rem;margin:0;font-size:.98rem}
 th,td{border:1px solid #bbb;padding:.55rem .6rem;text-align:left;vertical-align:top}
 th{background:var(--band);font-weight:800}
+td a{white-space:nowrap}
 
 code{background:var(--band);padding:.05em .3em;font-size:.95em}
 
@@ -529,6 +531,16 @@ def phone_wrap(s):
                   lambda m: '<a class="tel" href="tel:+1%s">%s</a>' % (m.group(1).replace("-",""), m.group(1)), s)
 
 
+def wrap_tables(s):
+    # Wide tables (3+ real-content columns) don't fit 375px no matter how
+    # the column widths are tuned -- forcing it just breaks words mid-
+    # character ("reportfraud.ftc.gov" -> "reportf/raud.ft/c.gov"). A
+    # horizontal-scroll container is the standard fix: the table keeps its
+    # natural width and the page itself never scrolls sideways.
+    return re.sub(r"(<table>.*?</table>)",
+                  r'<div class="table-scroll">\1</div>', s, flags=re.S)
+
+
 def ui(lang, key):
     d = UI.get(lang) or {}
     if key in d:
@@ -582,6 +594,7 @@ def build():
         body_html = md.convert(body)
         body_html = fix_links(body_html, pre)
         body_html = phone_wrap(body_html)
+        body_html = wrap_tables(body_html)
 
         if lang == "en" and slug.strip("/") in PHOTOS:
             p = PHOTOS[slug.strip("/")]
