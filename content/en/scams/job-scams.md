@@ -9,7 +9,7 @@ lang: en
 
 Scammers are always hiring. They just don't want to employ anybody.
 
-This one has grown faster than almost anything else on this site. <cite index="63-1">Reports to the FTC about job scams tripled between 2020 and 2024, and reported losses went from $90 million to $501 million.</cite> <cite index="67-1">In the last quarter of 2025 alone there were 25,002 reports and $150.4 million in losses, with a median loss of $2,000 per person</cite> — far above the median for fraud generally.
+This one has grown faster than almost anything else on this site. Reports to the FTC about job scams tripled between 2020 and 2024, and reported losses went from $90 million to $501 million. In the last quarter of 2025 alone there were 25,002 reports and $150.4 million in losses, with a median loss of $2,000 per person — far above the median for fraud generally.
 
 And it doesn't only hit young job-seekers. It hits people re-entering the workforce after a layoff, people supplementing a fixed income, retirees looking for part-time work, and anybody who has ever thought *I could do something from home.*
 
@@ -42,9 +42,9 @@ A real offshore operator does not collect money from applicants. If certificatio
 
 ## The other shapes it takes
 
-**The unsolicited text or WhatsApp message.** <cite index="71-1">The FTC's guidance is blunt about this one: ignore generic, unexpected texts, WhatsApp, or Telegram messages about jobs, because real employers don't contact people that way.</cite>
+**The unsolicited text or WhatsApp message.** The FTC's guidance is blunt about this one: ignore generic, unexpected texts, WhatsApp, or Telegram messages about jobs, because real employers don't contact people that way.
 
-**The fake recruiter for a real company.** They use a big-name employer's identity, a personal email address rather than a corporate one, and a fast-moving process. <cite index="75-1">You may get an official-looking job offer and onboarding paperwork demanding your financial information before anyone has even interviewed you — and the recruiter will push for that information before answering your questions about the job.</cite>
+**The fake recruiter for a real company.** They use a big-name employer's identity, a personal email address rather than a corporate one, and a fast-moving process. You may get an official-looking job offer and onboarding paperwork demanding your financial information before anyone has even interviewed you — and the recruiter will push for that information before answering your questions about the job.
 
 **The equipment purchase.** You're hired, congratulations — now buy the laptop and the monitor through their preferred vendor, reimbursed later.
 
@@ -60,7 +60,7 @@ A real offshore operator does not collect money from applicants. If certificatio
 
 This is the mechanism that turns a hopeful new hire into someone who owes their bank thousands of dollars.
 
-<cite index="72-1">The "employer" sends what looks like a company check, with instructions to send some of the money on to someone else — often by wire, crypto, or gift cards. The new hire deposits it and fronts the forwarded money out of their own pocket, assuming the deposit will cover it. By the time the bank says the check is fake, the employer is gone.</cite>
+The "employer" sends what looks like a company check, with instructions to send some of the money on to someone else — often by wire, crypto, or gift cards. The new hire deposits it and fronts the forwarded money out of their own pocket, assuming the deposit will cover it. By the time the bank says the check is fake, the employer is gone.
 
 The trap is a rule most people don't know:
 
@@ -68,7 +68,7 @@ The trap is a rule most people don't know:
 
 "The check cleared" does not mean "the check is good." It means the bank fronted you the money and can take it back.
 
-<cite index="74-1">No honest employer will ever send you a check and then tell you to send part of the money onward or buy gift cards with it.</cite> Not once, not for any reason.
+No honest employer will ever send you a check and then tell you to send part of the money onward or buy gift cards with it. Not once, not for any reason.
 
 ---
 

@@ -7,8 +7,8 @@ lang: en
 
 # The contractor at the door
 
-Not every scam comes through a screen. This one knocks, and in Texas it follows
-the weather.
+Not every scam comes through a screen. This one knocks, and it follows the
+weather — a crew shows up right after a storm, hail, or flood.
 
 ## How it goes
 
@@ -57,9 +57,10 @@ else. A real contractor who wants your business will still want it tomorrow.
 
 **3. Verify the license and the insurance.** Ask for the license number and the
 insurance certificate, then call the insurer yourself to confirm it's active.
-Texas doesn't license general contractors or roofers statewide, so check with
-your city, the Better Business Bureau, and search the business name plus "reviews"
-and "complaints."
+Licensing rules vary a lot by state — some states don't license general
+contractors or roofers at all — so also check with your city or county, the
+Better Business Bureau, and search the business name plus "reviews" and
+"complaints."
 
 **4. Get two other quotes.** From companies you found, not ones that found you.
 
@@ -97,7 +98,8 @@ The same architecture, different costume:
 
 - Call your local police non-emergency line — this one is genuinely local, and
   they often already know the crew
-- Report to the Texas Attorney General's consumer protection line: **800-621-0508**
+- Report to your state attorney general's consumer protection office — search
+  "[your state] attorney general consumer protection"
 - Report at reportfraud.ftc.gov
 - Call your insurer if a claim was involved
 - Tell your neighbors. Door-to-door crews work a street, not a house.

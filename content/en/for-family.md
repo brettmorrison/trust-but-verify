@@ -136,8 +136,10 @@ That's a different problem, and it needs more than a website:
   complaints do.
 - **Eldercare Locator: 800-677-1116** — connects you to local aging services.
 - **Adult Protective Services** — if you believe someone is being financially
-  exploited, particularly by a caregiver, relative, or new acquaintance. In
-  Texas: **800-252-5400**, 24 hours.
+  exploited, particularly by a caregiver, relative, or new acquaintance. Every
+  state runs its own APS with its own number — the Eldercare Locator above
+  will connect you to yours, or search "[your state] Adult Protective
+  Services."
 - An elder law attorney, if powers of attorney need looking at.
 
 Doing this early, while everyone can participate in the decision, is far kinder

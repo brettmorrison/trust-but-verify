@@ -44,7 +44,7 @@ Run by the Department of Justice, Office for Victims of Crime. For anyone 60 or
 older who has been targeted by fraud. Case managers help you report it and
 connect you to other services.
 
-<cite index="51-1">Open Monday through Friday, 10 a.m. to 6 p.m. Eastern time, with services available for speakers of English, Spanish, and other languages.</cite>
+Open Monday through Friday, 10 a.m. to 6 p.m. Eastern time, with services available for speakers of English, Spanish, and other languages.
 
 Free. You can ask to remain anonymous.
 
@@ -127,7 +127,7 @@ All of these provide interpretation. Ask the same way.
 | Experian credit freeze | 888-397-3742 |
 | TransUnion credit freeze | 800-916-8800 |
 | Free credit reports | 877-322-8228 |
-| Adult Protective Services (Texas) | 800-252-5400 |
+| Eldercare Locator (connects you to your state's Adult Protective Services) | 800-677-1116 |
 
 ---
 
