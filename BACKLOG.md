@@ -15,6 +15,11 @@ Roughly priority order. Update as items close.
   protection, so words broke mid-character at 375px ("PDF" stacked
   into "P/D/F"). Tables now scroll horizontally in their own container
   instead of being force-squeezed.
+- Feedback form honeypot fixed: the site's strict CSP (style-src 'self',
+  no unsafe-inline) was silently blocking the inline style= that hid
+  the honeypot field, so "Leave this field blank" was fully visible on
+  the live page — a confused visitor filling it in would have their
+  real feedback silently dropped as spam. Moved to a proper CSS class.
 - Site live end-to-end at `trustbutverifyproject.org`, plus `.com`,
   `tbvproject.com`, `tbvproject.org` all 301 → canonical. Misspelled typo
   domains dropped, auto-renew cancelled. Repo public:
