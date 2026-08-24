@@ -23,9 +23,9 @@ it, hand it out. You don't need to ask us and you don't need to credit us.
 Not a stack at the desk. In the unit, on the refrigerator, where someone standing
 in their kitchen holding a phone can see it.
 
-[Print the fridge sheet](/printables) — large type, one page, five languages.
+[Print the fridge sheet](/printables) — large type, one page, 45 languages.
 
-**Print and distribute the English version freely.** The other four languages are
+**Print and distribute the English version freely.** The other 44 languages are
 AI translations awaiting a native speaker's review, and they carry a warning band
 saying so. Please don't put those in units yet. If you have a bilingual staff
 member or resident who'd read one, [that's exactly who we
