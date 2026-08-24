@@ -1,7 +1,7 @@
 ---
 title: اعتماد کن، اما راستی‌آزمایی کن
 slug: /fa/
-description: لازم نیست به همه شک کنید. فقط یک گام اضافه کنید.
+description: لازم نیست به همه شک کنید. فقط یک عادت اضافه کنید: یک مکث.
 lang: fa
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # اعتماد کن، اما راستی‌آزمایی کن
 
-**لازم نیست به همه شک کنید. فقط یک گام اضافه کنید.**
+**لازم نیست به همه شک کنید. فقط یک عادت اضافه کنید: یک مکث.**
 
 > وقتی پاسخ دادند، به انگلیسی بگویید: <span class="eng-phrase">"Farsi, please"</span>
 
 ## پیش از انتقال هر مبلغی
+
+این مکث سه بررسی سریع است.
 
 **1. شماره را خودتان پیدا کنید.**
 

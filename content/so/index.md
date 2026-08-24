@@ -1,7 +1,7 @@
 ---
 title: Iska kalsoonow, laakiin xaqiiji
 slug: /so/
-description: Uma baahnid inaad ka shakiso qof kasta. Kaliya ku dar hal tallaabo.
+description: Uma baahnid inaad ka shakiso qof kasta. Kaliya ku dar hal caado: inaad hakato.
 lang: so
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,14 @@ validated_by: (none yet)
 
 # Iska kalsoonow, laakiin xaqiiji
 
-**Uma baahnid inaad ka shakiso qof kasta. Kaliya ku dar hal tallaabo.**
+**Uma baahnid inaad ka shakiso qof kasta. Kaliya ku dar hal caado: inaad
+hakato.**
 
 > Ku dhawaaq Ingiriisi marka qof jawaabo: "Somali, please"
 
 ## Ka hor inta aan lacag la dirin
+
+Hakadkaas waa saddex hubin oo degdeg ah.
 
 **1. Nambarka naftaada raadi.**
 

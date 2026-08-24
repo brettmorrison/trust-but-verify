@@ -1,7 +1,7 @@
 ---
 title: باور وکړه، خو تصدیق یې کړه
 slug: /ps/
-description: پر ټولو شک کولو ته اړتیا نشته. یوازې یو ګام ورزیات کړئ.
+description: پر ټولو شک کولو ته اړتیا نشته. یوازې یوه عادت ورزیاته کړئ: یوه لنډه دمه.
 lang: ps
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # باور وکړه، خو تصدیق یې کړه
 
-**پر ټولو شک کولو ته اړتیا نشته. یوازې یو ګام ورزیات کړئ.**
+**پر ټولو شک کولو ته اړتیا نشته. یوازې یوه عادت ورزیاته کړئ: یوه لنډه دمه.**
 
 > کله چې ځواب درکړي، په انګلیسي کې ووایاست: <span class="eng-phrase">"Pashto, please"</span>
 
 ## د هرې پیسې لېږلو دمخه
+
+هغه دمه درې چټکې کتنې دي.
 
 **1. شمېره پخپله ولټوئ.**
 

@@ -1,7 +1,7 @@
 ---
 title: Uzticies, bet pārbaudi
 slug: /lv/
-description: Jums nav jāaizdomājas par visiem. Vienkārši pievienojiet vienu soli.
+description: Jums nav jāaizdomājas par visiem. Vienkārši pievienojiet vienu ieradumu: pauzi.
 lang: lv
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,14 @@ validated_by: (none yet)
 
 # Uzticies, bet pārbaudi
 
-**Jums nav jāaizdomājas par visiem. Vienkārši pievienojiet vienu soli.**
+**Jums nav jāaizdomājas par visiem. Vienkārši pievienojiet vienu ieradumu:
+pauzi.**
 
 > Kad kāds atbild, pasakiet angliski: "Latvian, please"
 
 ## Pirms jebkādas naudas nosūtīšanas
+
+Šī pauze ir trīs ātras pārbaudes.
 
 **1. Paši atrodiet numuru.**
 

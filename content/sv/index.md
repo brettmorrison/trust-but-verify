@@ -1,7 +1,7 @@
 ---
 title: Lita på, men kontrollera
 slug: /sv/
-description: Du behöver inte misstänka alla. Lägg bara till ett steg.
+description: Du behöver inte misstänka alla. Lägg bara till en vana: en paus.
 lang: sv
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # Lita på, men kontrollera
 
-**Du behöver inte misstänka alla. Lägg bara till ett steg.**
+**Du behöver inte misstänka alla. Lägg bara till en vana: en paus.**
 
 > Säg på engelska när någon svarar: "Swedish, please"
 
 ## Innan några pengar skickas
+
+Den pausen är tre snabba kontroller.
 
 **1. Slå upp numret själv.**
 

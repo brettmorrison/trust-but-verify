@@ -1,7 +1,7 @@
 ---
 title: እመኑ፣ ግን አረጋግጡ
 slug: /am/
-description: ሁሉንም ሰው መጠራጠር አያስፈልግም። አንድ እርምጃ ብቻ ጨምሩ።
+description: ሁሉንም ሰው መጠራጠር አያስፈልግም። አንድ ልማድ ብቻ ጨምሩ፦ ለአፍታ ማቆም።
 lang: am
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # እመኑ፣ ግን አረጋግጡ
 
-**ሁሉንም ሰው መጠራጠር አያስፈልግም። አንድ እርምጃ ብቻ ጨምሩ።**
+**ሁሉንም ሰው መጠራጠር አያስፈልግም። አንድ ልማድ ብቻ ጨምሩ፦ ለአፍታ ማቆም።**
 
 > ሲነሱልዎት በእንግሊዝኛ ይበሉ፦ "Amharic, please"
 
 ## ማንኛውም ገንዘብ ከመላኩ በፊት
+
+ይህ ለአፍታ ማቆም ሦስት ፈጣን ማረጋገጫ ነው።
 
 **1. ስልክ ቁጥሩን ራስዎ ይፈልጉ።**
 

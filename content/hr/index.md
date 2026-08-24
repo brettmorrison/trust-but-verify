@@ -1,7 +1,7 @@
 ---
 title: Vjeruj, ali provjeri
 slug: /hr/
-description: Ne morate sumnjati u svakoga. Samo dodajte jedan korak.
+description: Ne morate sumnjati u svakoga. Samo dodajte jednu naviku: stanku.
 lang: hr
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # Vjeruj, ali provjeri
 
-**Ne morate sumnjati u svakoga. Samo dodajte jedan korak.**
+**Ne morate sumnjati u svakoga. Samo dodajte jednu naviku: stanku.**
 
 > Recite na engleskom kad se netko javi: "Croatian, please"
 
 ## Prije nego što bilo koji novac ode
+
+Ta stanka su tri brze provjere.
 
 **1. Sami pronađite broj.**
 

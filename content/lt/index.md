@@ -1,7 +1,7 @@
 ---
 title: Pasitikėk, bet patikrink
 slug: /lt/
-description: Jums nereikia įtarinėti visų. Tiesiog pridėkite vieną žingsnį.
+description: Jums nereikia įtarinėti visų. Tiesiog pridėkite vieną įprotį: pauzę.
 lang: lt
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # Pasitikėk, bet patikrink
 
-**Jums nereikia įtarinėti visų. Tiesiog pridėkite vieną žingsnį.**
+**Jums nereikia įtarinėti visų. Tiesiog pridėkite vieną įprotį: pauzę.**
 
 > Kai kas nors atsiliepia, angliškai pasakykite: "Lithuanian, please"
 
 ## Prieš išsiunčiant bet kokius pinigus
+
+Ta pauzė – tai trys greiti patikrinimai.
 
 **1. Patys susiraskite numerį.**
 

@@ -1,7 +1,7 @@
 ---
 title: BESO, POR VERIFIKO
 slug: /sq/
-description: Nuk keni pse dyshoni te të gjithë. Vetëm shtoni një hap.
+description: Nuk keni pse dyshoni te të gjithë. Vetëm shtoni një zakon: një pauzë.
 lang: sq
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # BESO, POR VERIFIKO
 
-**Nuk keni pse dyshoni te të gjithë. Vetëm shtoni një hap.**
+**Nuk keni pse dyshoni te të gjithë. Vetëm shtoni një zakon: një pauzë.**
 
 > Kur t'ju përgjigjen, thoni në anglisht: "Albanian, please"
 
 ## PARA SE TË LËVIZË ÇDO PARA
+
+Ajo pauzë janë tri kontrolle të shpejta.
 
 **1. Gjejeni vetë numrin.**
 

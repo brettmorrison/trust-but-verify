@@ -1,7 +1,7 @@
 ---
 title: Confía, pero verifica
 slug: /es/
-description: No hace falta desconfiar de todo el mundo. Solo hay que añadir un paso antes de que se mueva el dinero.
+description: No hace falta desconfiar de todo el mundo. Solo hay que añadir una costumbre: una pausa antes de que se mueva el dinero.
 lang: es
 note: Borrador. Requiere revisión de un hablante nativo antes de imprimir.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
@@ -21,7 +21,7 @@ validated_by: (none yet)
 
 # No hace falta desconfiar de todo el mundo.
 
-Solo hay que añadir un paso.
+Solo hay que añadir una costumbre: una pausa.
 
 Los estafadores no ganan porque la gente sea tonta. Ganan porque son buenos en su
 trabajo, y porque llaman justo cuando usted está cansado, ocupado o preocupado por
@@ -34,8 +34,9 @@ que vaya más despacio que uno.
 
 ## Los tres pasos
 
-Antes de que se mueva cualquier dinero, antes de leer ningún código en voz alta,
-antes de que alguien toque su computadora:
+Esa pausa son tres comprobaciones rápidas. Antes de que se mueva cualquier
+dinero, antes de leer ningún código en voz alta, antes de que alguien toque su
+computadora:
 
 ### 1. Busque el número usted mismo
 

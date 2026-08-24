@@ -1,7 +1,7 @@
 ---
 title: Faites confiance, mais vérifiez
 slug: /fr/
-description: Vous n'avez pas à vous méfier de tout le monde. Ajoutez juste une étape.
+description: Vous n'avez pas à vous méfier de tout le monde. Ajoutez juste une habitude : une pause.
 lang: fr
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,14 @@ validated_by: (none yet)
 
 # Faites confiance, mais vérifiez
 
-**Vous n'avez pas à vous méfier de tout le monde. Ajoutez juste une étape.**
+**Vous n'avez pas à vous méfier de tout le monde. Ajoutez juste une habitude :
+une pause.**
 
 > Dites en anglais quand on décroche : "French, please"
 
 ## Avant qu'un centime ne soit envoyé
+
+Cette pause, ce sont trois vérifications rapides.
 
 **1. Cherchez le numéro vous-même.**
 

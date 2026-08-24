@@ -1,7 +1,7 @@
 ---
 title: Fidati, ma verifica
 slug: /it/
-description: Non serve sospettare di tutti. Basta aggiungere un passo.
+description: Non serve sospettare di tutti. Basta aggiungere un'abitudine: una pausa.
 lang: it
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # Fidati, ma verifica
 
-**Non serve sospettare di tutti. Basta aggiungere un passo.**
+**Non serve sospettare di tutti. Basta aggiungere un'abitudine: una pausa.**
 
 > Dica in inglese quando qualcuno risponde: "Italian, please"
 
 ## Prima di inviare qualsiasi somma di denaro
+
+Quella pausa sono tre rapide verifiche.
 
 **1. Cerchi il numero da solo.**
 

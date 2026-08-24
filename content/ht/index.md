@@ -1,7 +1,7 @@
 ---
 title: Fè konfyans, men verifye
 slug: /ht/
-description: Ou pa bezwen sispèk tout moun. Jis ajoute yon sèl etap.
+description: Ou pa bezwen sispèk tout moun. Jis ajoute yon sèl abitid: yon poz.
 lang: ht
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # Fè konfyans, men verifye
 
-**Ou pa bezwen sispèk tout moun. Jis ajoute yon sèl etap.**
+**Ou pa bezwen sispèk tout moun. Jis ajoute yon sèl abitid: yon poz.**
 
 > Di an Anglè lè yon moun reponn: "Haitian Creole, please"
 
 ## Anvan nenpòt lajan soti
+
+Poz sa a se twa ti verifikasyon rapid.
 
 **1. Chèche nimewo a ou menm.**
 

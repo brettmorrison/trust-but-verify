@@ -1,7 +1,7 @@
 ---
 title: Vertrauen, aber prüfen
 slug: /de/
-description: Sie müssen nicht jedem misstrauen. Fügen Sie nur einen Schritt hinzu.
+description: Sie müssen nicht jedem misstrauen. Fügen Sie nur eine Gewohnheit hinzu: eine Pause.
 lang: de
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,14 @@ validated_by: (none yet)
 
 # Vertrauen, aber prüfen
 
-**Sie müssen nicht jedem misstrauen. Fügen Sie nur einen Schritt hinzu.**
+**Sie müssen nicht jedem misstrauen. Fügen Sie nur eine Gewohnheit hinzu: eine
+Pause.**
 
 > Sagen Sie auf Englisch, wenn jemand abhebt: "German, please"
 
 ## Bevor Geld überwiesen wird
+
+Diese Pause besteht aus drei kurzen Prüfungen.
 
 **1. Suchen Sie die Nummer selbst heraus.**
 

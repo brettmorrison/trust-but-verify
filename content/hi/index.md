@@ -1,7 +1,7 @@
 ---
 title: भरोसा करें, पर जाँच लें
 slug: /hi/
-description: हर किसी पर शक करने की ज़रूरत नहीं। बस एक कदम और जोड़ें।
+description: हर किसी पर शक करने की ज़रूरत नहीं। बस एक आदत जोड़ें: एक ठहराव।
 lang: hi
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # भरोसा करें, पर जाँच लें
 
-**हर किसी पर शक करने की ज़रूरत नहीं। बस एक कदम और जोड़ें।**
+**हर किसी पर शक करने की ज़रूरत नहीं। बस एक आदत जोड़ें: एक ठहराव।**
 
 > फ़ोन उठने पर अंग्रेज़ी में कहें: "Hindi, please"
 
 ## कोई भी पैसा भेजने से पहले
+
+वह ठहराव तीन तेज़ जाँच है।
 
 **1. नंबर खुद ढूँढें।**
 

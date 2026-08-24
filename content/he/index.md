@@ -1,7 +1,7 @@
 ---
 title: תבטח, אבל תוודא
 slug: /he/
-description: אתה לא צריך לחשוד בכולם. פשוט תוסיף שלב אחד.
+description: אתה לא צריך לחשוד בכולם. פשוט תוסיף הרגל אחד: עצירה.
 lang: he
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # תבטח, אבל תוודא
 
-**אתה לא צריך לחשוד בכולם. פשוט תוסיף שלב אחד.**
+**אתה לא צריך לחשוד בכולם. פשוט תוסיף הרגל אחד: עצירה.**
 
 > תגיד באנגלית כשמישהו עונה: "Hebrew, please"
 
 ## לפני שכסף כלשהו יוצא
+
+העצירה הזאת היא שלוש בדיקות מהירות.
 
 **1. חפש את המספר בעצמך.**
 

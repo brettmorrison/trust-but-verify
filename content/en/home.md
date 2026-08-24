@@ -1,13 +1,13 @@
 ---
 title: The Trust But Verify Project
 slug: /
-description: You don't have to get suspicious of everybody. You add one step before any money moves.
+description: You don't have to get suspicious of everybody. You add one habit: a pause before any money moves.
 lang: en
 ---
 
 # You don't have to get suspicious of everybody.
 
-You add one step.
+You add one habit: a pause.
 
 Scammers are not beating people because people are foolish. They are beating
 people because they are good at their jobs, and because they arrive when you are
@@ -18,8 +18,8 @@ ask you to be slower than one.
 
 ## The three steps
 
-Before any money moves, before any code is read out loud, before anyone touches
-your computer:
+That pause is three quick checks. Before any money moves, before any code is
+read out loud, before anyone touches your computer:
 
 **1. Look up the number yourself.**
 Not the number they gave you. The one on your card, your statement, the back of

@@ -1,7 +1,7 @@
 ---
 title: Stol på, men kontroller
 slug: /da/
-description: Du behøver ikke mistænke alle. Tilføj bare ét trin.
+description: Du behøver ikke mistænke alle. Tilføj bare én vane: en pause.
 lang: da
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # Stol på, men kontroller
 
-**Du behøver ikke mistænke alle. Tilføj bare ét trin.**
+**Du behøver ikke mistænke alle. Tilføj bare én vane: en pause.**
 
 > Sig på engelsk, når nogen svarer: "Danish, please"
 
 ## Før nogen penge sendes
+
+Den pause er tre hurtige tjek.
 
 **1. Find selv nummeret.**
 

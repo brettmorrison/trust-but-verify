@@ -1,7 +1,7 @@
 ---
 title: 信頼せよ、されど確認せよ
 slug: /ja/
-description: すべての人を疑う必要はありません。ひと手間を加えるだけです。
+description: すべての人を疑う必要はありません。習慣をひとつ加えるだけです。ひと呼吸おくことです。
 lang: ja
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # 信頼せよ、されど確認せよ
 
-**すべての人を疑う必要はありません。ひと手間を加えるだけです。**
+**すべての人を疑う必要はありません。習慣をひとつ加えるだけです。ひと呼吸おくことです。**
 
 
 
 ## お金を動かす前に
+
+そのひと呼吸とは、三つの手早い確認のことです。
 
 **1. 電話番号は自分で調べる。**
 

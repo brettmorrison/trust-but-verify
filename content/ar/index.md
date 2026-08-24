@@ -1,7 +1,7 @@
 ---
 title: ثق ولكن تحقق
 slug: /ar/
-description: لست مضطرًا للشك في كل الناس. عليك فقط أن تضيف خطوة واحدة.
+description: لست مضطرًا للشك في كل الناس. عليك فقط أن تضيف عادة واحدة: وقفة.
 lang: ar
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # ثق ولكن تحقق
 
-**لست مضطرًا للشك في كل الناس. عليك فقط أن تضيف خطوة واحدة.**
+**لست مضطرًا للشك في كل الناس. عليك فقط أن تضيف عادة واحدة: وقفة.**
 
 
 
 ## قبل تحويل أي مبلغ
+
+هذه الوقفة هي ثلاث فحوصات سريعة.
 
 **1. ابحث عن الرقم بنفسك.**
 

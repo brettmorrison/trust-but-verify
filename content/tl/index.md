@@ -1,7 +1,7 @@
 ---
 title: MAGTIWALA, PERO TIYAKIN
 slug: /tl/
-description: Hindi mo kailangang maghinala sa lahat. Isang hakbang lang ang idagdag.
+description: Hindi mo kailangang maghinala sa lahat. Isang ugali lang ang idagdag: huminto muna.
 lang: tl
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,14 @@ validated_by: (none yet)
 
 # MAGTIWALA, PERO TIYAKIN
 
-**Hindi mo kailangang maghinala sa lahat. Isang hakbang lang ang idagdag.**
+**Hindi mo kailangang maghinala sa lahat. Isang ugali lang ang idagdag:
+huminto muna.**
 
 
 
 ## BAGO GUMALAW ANG KAHIT ANONG PERA
+
+Ang paghintong iyon ay tatlong mabilis na pagsusuri.
 
 **1. Hanapin mo mismo ang numero.**
 

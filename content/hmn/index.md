@@ -1,7 +1,7 @@
 ---
 title: Ntseeg, tab sis xyuas kom pom tseeb
 slug: /hmn/
-description: Koj tsis tas yuav xav txhaus txog txhua tus neeg. Tsuas ntxiv ib kauj ruam xwb.
+description: Koj tsis tas yuav xav txhaus txog txhua tus neeg. Tsuas ntxiv ib txoj kev coj xwb: nres ib pliag.
 lang: hmn
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,12 +9,14 @@ validated_by: (none yet)
 
 # Ntseeg, tab sis xyuas kom pom tseeb
 
-**Koj tsis tas yuav xav txhaus txog txhua tus neeg. Tsuas ntxiv ib kauj ruam
-xwb.**
+**Koj tsis tas yuav xav txhaus txog txhua tus neeg. Tsuas ntxiv ib txoj kev
+coj xwb: nres ib pliag.**
 
 > Hais lus Askiv thaum muaj tus neeg teb: "Hmong, please"
 
 ## Ua ntej yuav xa nyiaj twg
+
+Qhov nres ib pliag ntawd yog peb yam xyuas sai.
 
 **1. Nrhiav tus xov tooj koj tus kheej.**
 

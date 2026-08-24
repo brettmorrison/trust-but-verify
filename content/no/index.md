@@ -1,7 +1,7 @@
 ---
 title: Stol på, men kontroller
 slug: /no/
-description: Du trenger ikke mistenke alle. Bare legg til ett steg.
+description: Du trenger ikke mistenke alle. Bare legg til én vane: en pause.
 lang: no
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # Stol på, men kontroller
 
-**Du trenger ikke mistenke alle. Bare legg til ett steg.**
+**Du trenger ikke mistenke alle. Bare legg til én vane: en pause.**
 
 > Si på engelsk når noen svarer: "Norwegian, please"
 
 ## Før noen penger sendes
+
+Den pausen er tre raske sjekker.
 
 **1. Slå opp nummeret selv.**
 

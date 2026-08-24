@@ -1,7 +1,7 @@
 ---
 title: اعتبار کریں، مگر تصدیق کریں
 slug: /ur/
-description: ہر کسی پر شک کرنے کی ضرورت نہیں۔ صرف ایک قدم بڑھا دیں۔
+description: ہر کسی پر شک کرنے کی ضرورت نہیں۔ صرف ایک عادت اپنا لیں: ذرا رک جانا۔
 lang: ur
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # اعتبار کریں، مگر تصدیق کریں
 
-**ہر کسی پر شک کرنے کی ضرورت نہیں۔ صرف ایک قدم بڑھا دیں۔**
+**ہر کسی پر شک کرنے کی ضرورت نہیں۔ صرف ایک عادت اپنا لیں: ذرا رک جانا۔**
 
 > فون اٹھنے پر انگریزی میں کہیں: <span class="eng-phrase">"Urdu, please"</span>
 
 ## کوئی بھی رقم بھیجنے سے پہلے
+
+وہ رکنا تین تیز جانچیں ہیں۔
 
 **1. نمبر خود تلاش کریں۔**
 

@@ -1,7 +1,7 @@
 ---
 title: 信任，但要核实
 slug: /zh/
-description: 您不需要怀疑每一个人。您只需要在钱转出去之前，多加一个步骤。
+description: 您不需要怀疑每一个人。您只需要在钱转出去之前，多养成一个习惯：停一下。
 lang: zh
 note: 草稿。付印前需请母语者审阅。
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
@@ -26,7 +26,7 @@ validated_by: (none yet)
 
 # 您不需要怀疑每一个人。
 
-您只需要多加一个步骤。
+您只需要多养成一个习惯：停一下。
 
 骗子得手，不是因为受害者愚蠢。是因为这是他们的专职工作，而且他们总在您疲倦、忙碌，或
 者正为亲人担心的时候找上门。
@@ -37,7 +37,8 @@ validated_by: (none yet)
 
 ## 三个步骤
 
-在任何一笔钱转出去之前，在您念出任何一组验证码之前，在任何人碰您的电脑之前：
+这个停顿，就是三项快速的核实。在任何一笔钱转出去之前，在您念出任何一组验证
+码之前，在任何人碰您的电脑之前：
 
 ### 一、自己去查电话号码
 

@@ -1,7 +1,7 @@
 ---
 title: Tin tưởng, nhưng phải kiểm chứng
 slug: /vi/
-description: Quý vị không cần phải nghi ngờ tất cả mọi người. Chỉ cần thêm một bước trước khi tiền được chuyển đi.
+description: Quý vị không cần phải nghi ngờ tất cả mọi người. Chỉ cần thêm một thói quen: dừng lại một chút trước khi tiền được chuyển đi.
 lang: vi
 note: Bản nháp. Cần người bản ngữ duyệt lại trước khi in.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
@@ -28,7 +28,7 @@ validated_by: (none yet)
 
 # Quý vị không cần phải nghi ngờ tất cả mọi người.
 
-Chỉ cần thêm một bước.
+Chỉ cần thêm một thói quen: dừng lại một chút.
 
 Kẻ lừa đảo thắng không phải vì người ta dại. Chúng thắng vì chúng làm việc này
 chuyên nghiệp, và vì chúng gọi đến đúng lúc quý vị đang mệt, đang bận, hoặc đang
@@ -41,8 +41,9 @@ tôi chỉ xin quý vị **chậm hơn** chúng.
 
 ## Ba bước
 
-Trước khi chuyển bất kỳ khoản tiền nào, trước khi đọc bất kỳ mã số nào, trước khi
-để ai đó động vào máy tính của mình:
+Việc dừng lại đó gồm ba bước kiểm tra nhanh. Trước khi chuyển bất kỳ khoản tiền
+nào, trước khi đọc bất kỳ mã số nào, trước khi để ai đó động vào máy tính của
+mình:
 
 ### 1. Tự mình tra số điện thoại
 

@@ -1,7 +1,7 @@
 ---
 title: Ufaj, ale sprawdzaj
 slug: /pl/
-description: Nie musisz podejrzewać wszystkich. Wystarczy dodać jeden krok.
+description: Nie musisz podejrzewać wszystkich. Wystarczy dodać jeden nawyk: pauzę.
 lang: pl
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # Ufaj, ale sprawdzaj
 
-**Nie musisz podejrzewać wszystkich. Wystarczy dodać jeden krok.**
+**Nie musisz podejrzewać wszystkich. Wystarczy dodać jeden nawyk: pauzę.**
 
 > Powiedz po angielsku, gdy ktoś odbierze: "Polish, please"
 
 ## Zanim jakiekolwiek pieniądze zostaną wysłane
+
+Ta pauza to trzy szybkie sprawdzenia.
 
 **1. Sam znajdź numer.**
 

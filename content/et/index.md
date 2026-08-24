@@ -1,7 +1,7 @@
 ---
 title: Usalda, aga kontrolli
 slug: /et/
-description: Teil pole vaja kõiki kahtlustada. Lisage lihtsalt üks samm.
+description: Teil pole vaja kõiki kahtlustada. Lisage lihtsalt üks harjumus: paus.
 lang: et
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,11 +9,13 @@ validated_by: (none yet)
 
 # Usalda, aga kontrolli
 
-**Teil pole vaja kõiki kahtlustada. Lisage lihtsalt üks samm.**
+**Teil pole vaja kõiki kahtlustada. Lisage lihtsalt üks harjumus: paus.**
 
 > Kui keegi vastab, öelge inglise keeles: "Estonian, please"
 
 ## Enne raha saatmist
+
+See paus koosneb kolmest kiirest kontrollist.
 
 **1. Otsige number ise üles.**
 
