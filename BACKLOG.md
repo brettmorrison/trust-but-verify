@@ -20,6 +20,11 @@ Roughly priority order. Update as items close.
   the honeypot field, so "Leave this field blank" was fully visible on
   the live page — a confused visitor filling it in would have their
   real feedback silently dropped as spam. Moved to a proper CSS class.
+- /help-translate (the exact page Brett is about to circulate) claimed
+  only 12 languages were drafted and listed 13 more, including several
+  live for a while (Korean, Urdu, Hindi, Farsi, Amharic...), as "not
+  yet drafted." Rebuilt with all 44 actually-drafted languages. Only
+  Turkish and Traditional Chinese are genuinely not drafted yet.
 - Site live end-to-end at `trustbutverifyproject.org`, plus `.com`,
   `tbvproject.com`, `tbvproject.org` all 301 → canonical. Misspelled typo
   domains dropped, auto-renew cancelled. Repo public:
