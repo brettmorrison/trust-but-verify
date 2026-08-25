@@ -186,7 +186,12 @@ def draw():
         ("2", "Call the person yourself.", "Hang up first. If it was real, they'll still be there."),
         ("3", "Wait a day.", "Real problems survive a night's sleep. Scams don't."),
     ]
-    step_w = (W - 2 * M - 24) / 3
+    # Reserve the bottom-right corner for the QR code (drawn later, at
+    # roughly x=[508,570] y=[38,100]) -- step 3's column used to run the
+    # full page width and its wrapped sub-text landed directly under the
+    # QR, cutting off "night's sleep." mid-word.
+    qr_reserve = 90
+    step_w = (W - 2 * M - 24 - qr_reserve) / 3
     for i, (num, head, sub) in enumerate(steps):
         x = M + i * (step_w + 12)
         c.setFont("Helvetica-Bold", 26)
