@@ -1,7 +1,7 @@
 ---
 title: Confía, pero verifica
 slug: /es/
-description: No hace falta desconfiar de todo el mundo. Solo hay que añadir una costumbre: una pausa antes de que se mueva el dinero.
+description: Usted puede seguir confiando, solo añada una pausa — antes de enviar dinero, iniciar sesión, instalar algo, o dejar que alguien entre en su computadora.
 lang: es
 note: Borrador. Requiere revisión de un hablante nativo antes de imprimir.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
@@ -19,9 +19,10 @@ validated_by: (none yet)
 > *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
 > Please do not print or distribute this yet.)*
 
-# No hace falta desconfiar de todo el mundo.
+# Usted puede seguir confiando, pero añada una pausa.
 
-Solo hay que añadir una costumbre: una pausa.
+Antes de enviar dinero, iniciar sesión, instalar algo o dejar que alguien
+entre en su computadora.
 
 Los estafadores no ganan porque la gente sea tonta. Ganan porque son buenos en su
 trabajo, y porque llaman justo cuando usted está cansado, ocupado o preocupado por

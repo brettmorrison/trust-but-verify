@@ -1,7 +1,7 @@
 ---
 title: Percaya, tapi periksa
 slug: /id/
-description: Anda tidak perlu mencurigai semua orang. Cukup tambahkan satu kebiasaan: berhenti sejenak.
+description: Anda tetap bisa percaya, cukup tambahkan jeda — sebelum mengirim uang, masuk (login) ke akun, menginstal apa pun, atau membiarkan seseorang mengakses komputer Anda.
 lang: id
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,8 +9,7 @@ validated_by: (none yet)
 
 # Percaya, tapi periksa
 
-**Anda tidak perlu mencurigai semua orang. Cukup tambahkan satu kebiasaan:
-berhenti sejenak.**
+**Anda tetap bisa percaya, cukup tambahkan jeda — sebelum mengirim uang, masuk (login) ke akun, menginstal apa pun, atau membiarkan seseorang mengakses komputer Anda.**
 
 > Katakan dalam bahasa Inggris saat ada yang mengangkat telepon: "Indonesian,
 > please"

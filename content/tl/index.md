@@ -1,7 +1,7 @@
 ---
 title: MAGTIWALA, PERO TIYAKIN
 slug: /tl/
-description: Hindi mo kailangang maghinala sa lahat. Isang ugali lang ang idagdag: huminto muna.
+description: Puwede ka pa ring magtiwala, magdagdag ka lang ng paghinto — bago ka magpadala ng pera, mag-log in, mag-install ng anumang bagay, o pahintulutan ang sinuman na ma-access ang iyong computer.
 lang: tl
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,8 +9,7 @@ validated_by: (none yet)
 
 # MAGTIWALA, PERO TIYAKIN
 
-**Hindi mo kailangang maghinala sa lahat. Isang ugali lang ang idagdag:
-huminto muna.**
+**Puwede ka pa ring magtiwala, magdagdag ka lang ng paghinto — bago ka magpadala ng pera, mag-log in, mag-install ng anumang bagay, o pahintulutan ang sinuman na ma-access ang iyong computer.**
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Ai încredere, dar verifică
 slug: /ro/
-description: Nu trebuie să bănuiești pe toată lumea. Adaugă doar un obicei: o pauză.
+description: Poți continua să ai încredere, doar adaugă o pauză — înainte să trimiți bani, să te autentifici, să instalezi ceva, sau să lași pe cineva să acceseze calculatorul tău.
 lang: ro
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,7 +9,7 @@ validated_by: (none yet)
 
 # Ai încredere, dar verifică
 
-**Nu trebuie să bănuiești pe toată lumea. Adaugă doar un obicei: o pauză.**
+**Poți continua să ai încredere, doar adaugă o pauză — înainte să trimiți bani, să te autentifici, să instalezi ceva, sau să lași pe cineva să acceseze calculatorul tău.**
 
 > Spune în engleză când răspunde cineva: "Romanian, please"
 

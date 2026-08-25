@@ -1,7 +1,7 @@
 ---
 title: እመኑ፣ ግን አረጋግጡ
 slug: /am/
-description: ሁሉንም ሰው መጠራጠር አያስፈልግም። አንድ ልማድ ብቻ ጨምሩ፦ ለአፍታ ማቆም።
+description: እምነትዎን ይያዙ፣ ነገር ግን ለአፍታ ያቁሙ — ገንዘብ ከመላክዎ፣ ወደ ስርዓት ከመግባትዎ፣ ማንኛውንም ነገር ከመጫንዎ፣ ወይም ማንንም ወደ ኮምፒውተርዎ ከማስገባትዎ በፊት።
 lang: am
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,7 +9,7 @@ validated_by: (none yet)
 
 # እመኑ፣ ግን አረጋግጡ
 
-**ሁሉንም ሰው መጠራጠር አያስፈልግም። አንድ ልማድ ብቻ ጨምሩ፦ ለአፍታ ማቆም።**
+**እምነትዎን ይያዙ፣ ነገር ግን ለአፍታ ያቁሙ — ገንዘብ ከመላክዎ፣ ወደ ስርዓት ከመግባትዎ፣ ማንኛውንም ነገር ከመጫንዎ፣ ወይም ማንንም ወደ ኮምፒውተርዎ ከማስገባትዎ በፊት።**
 
 > ሲነሱልዎት በእንግሊዝኛ ይበሉ፦ "Amharic, please"
 

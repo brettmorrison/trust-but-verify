@@ -1,7 +1,7 @@
 ---
 title: 信頼せよ、されど確認せよ
 slug: /ja/
-description: すべての人を疑う必要はありません。習慣をひとつ加えるだけです。ひと呼吸おくことです。
+description: 信頼を続けてかまいません。ただ、ひと呼吸おいてください——お金を送る前、ログインする前、何かをインストールする前、誰かにパソコンへアクセスさせる前に。
 lang: ja
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,7 +9,7 @@ validated_by: (none yet)
 
 # 信頼せよ、されど確認せよ
 
-**すべての人を疑う必要はありません。習慣をひとつ加えるだけです。ひと呼吸おくことです。**
+**信頼を続けてかまいません。ただ、ひと呼吸おいてください——お金を送る前、ログインする前、何かをインストールする前、誰かにパソコンへアクセスさせる前に。**
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: 信任，但要核实
 slug: /zh/
-description: 您不需要怀疑每一个人。您只需要在钱转出去之前，多养成一个习惯：停一下。
+description: 您可以继续信任别人，只需多加一个停顿——在转账、登录账户、安装任何软件，或让别人接触您的电脑之前。
 lang: zh
 note: 草稿。付印前需请母语者审阅。
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
@@ -24,9 +24,9 @@ validated_by: (none yet)
 > *(NOTICE — UNVALIDATED AI TRANSLATION. Not reviewed by a native speaker. Do
 > not print or distribute. Chinese speakers: please help us check it.)*
 
-# 您不需要怀疑每一个人。
+# 您可以继续信任别人，但请加一个停顿。
 
-您只需要多养成一个习惯：停一下。
+在转账、登录账户、安装任何软件，或让别人接触您的电脑之前。
 
 骗子得手，不是因为受害者愚蠢。是因为这是他们的专职工作，而且他们总在您疲倦、忙碌，或
 者正为亲人担心的时候找上门。

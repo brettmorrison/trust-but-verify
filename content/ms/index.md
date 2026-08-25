@@ -1,7 +1,7 @@
 ---
 title: Percaya, tetapi sahkan
 slug: /ms/
-description: Anda tidak perlu mengesyaki semua orang. Cuma tambah satu tabiat: berhenti seketika.
+description: Anda masih boleh percaya, cuma tambah satu jeda — sebelum menghantar wang, log masuk, memasang apa-apa, atau membenarkan sesiapa mengakses komputer anda.
 lang: ms
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,8 +9,7 @@ validated_by: (none yet)
 
 # Percaya, tetapi sahkan
 
-**Anda tidak perlu mengesyaki semua orang. Cuma tambah satu tabiat: berhenti
-seketika.**
+**Anda masih boleh percaya, cuma tambah satu jeda — sebelum menghantar wang, log masuk, memasang apa-apa, atau membenarkan sesiapa mengakses komputer anda.**
 
 > Sebut dalam bahasa Inggeris apabila seseorang menjawab: "Malay, please"
 

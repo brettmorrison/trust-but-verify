@@ -1,7 +1,7 @@
 ---
 title: Uzticies, bet pārbaudi
 slug: /lv/
-description: Jums nav jāaizdomājas par visiem. Vienkārši pievienojiet vienu ieradumu: pauzi.
+description: Varat turpināt uzticēties, tikai pievienojiet pauzi — pirms naudas sūtīšanas, pirms pieslēgšanās kontam, pirms jebkā instalēšanas vai pirms ļaujat kādam piekļūt jūsu datoram.
 lang: lv
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,8 +9,7 @@ validated_by: (none yet)
 
 # Uzticies, bet pārbaudi
 
-**Jums nav jāaizdomājas par visiem. Vienkārši pievienojiet vienu ieradumu:
-pauzi.**
+**Varat turpināt uzticēties, tikai pievienojiet pauzi — pirms naudas sūtīšanas, pirms pieslēgšanās kontam, pirms jebkā instalēšanas vai pirms ļaujat kādam piekļūt jūsu datoram.**
 
 > Kad kāds atbild, pasakiet angliski: "Latvian, please"
 

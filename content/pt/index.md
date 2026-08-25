@@ -1,7 +1,7 @@
 ---
 title: Confie, mas verifique
 slug: /pt/
-description: Você não precisa desconfiar de todo mundo. Basta acrescentar um hábito: uma pausa.
+description: Você pode continuar confiando, só acrescente uma pausa — antes de enviar dinheiro, fazer login, instalar qualquer coisa, ou deixar alguém acessar o seu computador.
 lang: pt
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,8 +9,7 @@ validated_by: (none yet)
 
 # Confie, mas verifique
 
-**Você não precisa desconfiar de todo mundo. Basta acrescentar um hábito: uma
-pausa.**
+**Você pode continuar confiando, só acrescente uma pausa — antes de enviar dinheiro, fazer login, instalar qualquer coisa, ou deixar alguém acessar o seu computador.**
 
 > Diga em inglês quando atenderem: "Portuguese, please"
 

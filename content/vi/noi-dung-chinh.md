@@ -1,7 +1,7 @@
 ---
 title: Tin tưởng, nhưng phải kiểm chứng
 slug: /vi/
-description: Quý vị không cần phải nghi ngờ tất cả mọi người. Chỉ cần thêm một thói quen: dừng lại một chút trước khi tiền được chuyển đi.
+description: Quý vị vẫn có thể tin tưởng, chỉ cần thêm một khoảng dừng — trước khi gửi tiền, đăng nhập, cài đặt bất cứ thứ gì, hoặc để ai đó truy cập vào máy tính của quý vị.
 lang: vi
 note: Bản nháp. Cần người bản ngữ duyệt lại trước khi in.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
@@ -26,9 +26,10 @@ validated_by: (none yet)
 > *(NOTICE — UNVALIDATED AI TRANSLATION. Not reviewed by a native speaker. Do
 > not print or distribute. Vietnamese speakers: please help us check it.)*
 
-# Quý vị không cần phải nghi ngờ tất cả mọi người.
+# Quý vị vẫn có thể tin tưởng, nhưng hãy thêm một khoảng dừng.
 
-Chỉ cần thêm một thói quen: dừng lại một chút.
+Trước khi gửi tiền, đăng nhập, cài đặt bất cứ thứ gì, hoặc để ai đó truy cập
+vào máy tính của quý vị.
 
 Kẻ lừa đảo thắng không phải vì người ta dại. Chúng thắng vì chúng làm việc này
 chuyên nghiệp, và vì chúng gọi đến đúng lúc quý vị đang mệt, đang bận, hoặc đang

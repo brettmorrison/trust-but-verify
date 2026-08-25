@@ -1,7 +1,7 @@
 ---
 title: Amini, lakini thibitisha
 slug: /sw/
-description: Huhitaji kushuku kila mtu. Ongeza tu tabia moja: kusita kidogo.
+description: Unaweza kuendelea kuamini, ongeza tu kusita kidogo — kabla ya kutuma fedha, kuingia kwenye akaunti, kusakinisha chochote, au kumruhusu mtu kufikia kompyuta yako.
 lang: sw
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,7 +9,7 @@ validated_by: (none yet)
 
 # Amini, lakini thibitisha
 
-**Huhitaji kushuku kila mtu. Ongeza tu tabia moja: kusita kidogo.**
+**Unaweza kuendelea kuamini, ongeza tu kusita kidogo — kabla ya kutuma fedha, kuingia kwenye akaunti, kusakinisha chochote, au kumruhusu mtu kufikia kompyuta yako.**
 
 > Sema kwa Kiingereza wakati mtu anapojibu: "Swahili, please"
 

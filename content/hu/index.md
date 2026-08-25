@@ -1,7 +1,7 @@
 ---
 title: Bízz, de ellenőrizz
 slug: /hu/
-description: Nem kell mindenkit gyanúsítania. Csak adjon hozzá egy szokást: egy szünetet.
+description: Továbbra is bízhat másokban, csak adjon hozzá egy szünetet — mielőtt pénzt küld, bejelentkezik valahova, bármit telepít, vagy engedi, hogy valaki hozzáférjen a számítógépéhez.
 lang: hu
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,8 +9,7 @@ validated_by: (none yet)
 
 # Bízz, de ellenőrizz
 
-**Nem kell mindenkit gyanúsítania. Csak adjon hozzá egy szokást: egy
-szünetet.**
+**Továbbra is bízhat másokban, csak adjon hozzá egy szünetet — mielőtt pénzt küld, bejelentkezik valahova, bármit telepít, vagy engedi, hogy valaki hozzáférjen a számítógépéhez.**
 
 > Mondja angolul, amikor valaki felveszi: "Hungarian, please"
 

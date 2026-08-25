@@ -1,7 +1,7 @@
 ---
 title: 믿되, 확인하십시오
 slug: /ko/
-description: 모든 사람을 의심할 필요는 없습니다. 습관 하나만 더하면 됩니다. 잠시 멈추는 것입니다.
+description: 계속 믿으셔도 됩니다. 다만 잠시 멈추는 습관을 더하십시오 — 돈을 보내기 전에, 로그인하기 전에, 무언가를 설치하기 전에, 또는 누군가에게 컴퓨터 접근을 허락하기 전에.
 lang: ko
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,7 +9,7 @@ validated_by: (none yet)
 
 # 믿되, 확인하십시오
 
-**모든 사람을 의심할 필요는 없습니다. 습관 하나만 더하면 됩니다. 잠시 멈추는 것입니다.**
+**계속 믿으셔도 됩니다. 다만 잠시 멈추는 습관을 더하십시오 — 돈을 보내기 전에, 로그인하기 전에, 무언가를 설치하기 전에, 또는 누군가에게 컴퓨터 접근을 허락하기 전에.**
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Fè konfyans, men verifye
 slug: /ht/
-description: Ou pa bezwen sispèk tout moun. Jis ajoute yon sèl abitid: yon poz.
+description: Ou ka toujou fè konfyans, jis ajoute yon poz — anvan ou voye lajan, konekte sou yon kont, enstale nenpòt bagay, oswa kite yon moun antre nan òdinatè ou.
 lang: ht
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
@@ -9,7 +9,7 @@ validated_by: (none yet)
 
 # Fè konfyans, men verifye
 
-**Ou pa bezwen sispèk tout moun. Jis ajoute yon sèl abitid: yon poz.**
+**Ou ka toujou fè konfyans, jis ajoute yon poz — anvan ou voye lajan, konekte sou yon kont, enstale nenpòt bagay, oswa kite yon moun antre nan òdinatè ou.**
 
 > Di an Anglè lè yon moun reponn: "Haitian Creole, please"
 
