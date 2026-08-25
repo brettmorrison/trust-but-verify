@@ -70,7 +70,7 @@ validated_by: (none yet)
 
 यह अनुवाद AI ने किया है और किसी मातृभाषी ने इसे जाँचा नहीं है। एक-दो घंटे चाहिए। बस बताइए कि कौन-सी बात अटपटी लगती है और कहाँ पढ़ने वाले को कमतर समझा जा रहा है।
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. हिन्दी speakers: we need one reader. It takes an hour.*
 

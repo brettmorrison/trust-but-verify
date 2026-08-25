@@ -70,7 +70,7 @@ validated_by: (none yet)
 
 এই অনুবাদ AI করেছে, কোনো মাতৃভাষী দেখেননি। এক-দুই ঘণ্টা লাগবে। শুধু বলুন কোন বাক্য কানে লাগে আর কোথায় পাঠককে ছোট করা হচ্ছে বলে মনে হয়।
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. বাংলা speakers: we need one reader. It takes an hour.*
 

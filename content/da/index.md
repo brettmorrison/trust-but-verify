@@ -74,7 +74,7 @@ Denne oversættelse er lavet af AI og er endnu ikke tjekket af en, der har
 sproget som modersmål. En time er nok. Fortæl os, hvilken sætning der
 lyder forkert.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Danish speakers: we need one reader.

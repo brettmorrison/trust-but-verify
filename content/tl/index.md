@@ -68,7 +68,7 @@ Hindi pa naisasalin sa Tagalog ang lahat ng pahina ng site na ito. Nasa isang pa
 
 AI ang nagsalin nito at hindi pa ito nasusuri ng katutubong nagsasalita. Isa o dalawang oras lang. Sabihin mo lang kung alin ang hindi natural o parang minamaliit ang bumabasa.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. Tagalog speakers: we need one reader. It takes an hour.*
 

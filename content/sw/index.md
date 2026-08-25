@@ -73,7 +73,7 @@ karatasi hii moja kuna jambo muhimu zaidi.
 Tafsiri hii ilifanywa na AI na bado haijakaguliwa na mzungumzaji wa
 asili. Saa moja inatosha. Tuambie sentensi gani inasikika vibaya.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Swahili speakers: we need one reader.

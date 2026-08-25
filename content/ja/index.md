@@ -68,7 +68,7 @@ validated_by: (none yet)
 
 この翻訳はAIによるもので、母語話者の確認をまだ受けていません。1〜2時間で結構です。不自然な言い回しや、見下した響きのある箇所を教えてください。
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. 日本語 speakers: we need one reader. It takes an hour.*
 

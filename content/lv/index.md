@@ -74,7 +74,7 @@ lapā ir svarīgākais.
 šī valoda ir dzimtā. Pietiek ar vienu stundu. Pastāstiet mums, kurš teikums
 izklausās nepareizi.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Latvian speakers: we need one reader.

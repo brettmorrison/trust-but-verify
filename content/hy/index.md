@@ -70,7 +70,7 @@ validated_by: (none yet)
 
 Այս թարգմանությունը կատարել է արհեստական բանականությունը, և կրողը դեռ չի ստուգել։ Մեկ-երկու ժամ է պետք։ Ասեք, թե որ նախադասությունն է անբնական հնչում և որտեղ է ընթերցողին վերևից նայում։
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. Հայերեն speakers: we need one reader. It takes an hour.*
 

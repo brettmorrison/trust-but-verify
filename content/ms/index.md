@@ -77,7 +77,7 @@ helaian ini ada perkara yang paling penting.
 Terjemahan ini dibuat oleh AI dan belum lagi disemak oleh penutur asli.
 Satu jam sudah memadai. Beritahu kami ayat mana yang berbunyi salah.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Malay speakers: we need one reader. It

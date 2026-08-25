@@ -73,7 +73,7 @@ on kõige olulisem.
 Selle tõlke tegi AI ja emakeelena kõneleja pole seda veel kontrollinud.
 Üks tund piisab. Andke meile teada, milline lause kõlab valesti.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Estonian speakers: we need one reader.

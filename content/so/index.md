@@ -77,7 +77,7 @@ kaliya waxaa ku qoran waxa ugu muhiimsan.
 Turjumaaddan waxaa sameeyay AI, wax qof afkiisa hooyo ahna weli lama
 hubin. Hal saac ayaa ku filan. Noo sheeg jumlada u dhawaajisa qalad.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Somali speakers: we need one reader.

@@ -65,7 +65,7 @@ validated_by: (none yet)
 התרגום הזה נעשה על ידי בינה מלאכותית ועדיין לא נבדק על ידי דובר שפת אם. שעה
 אחת מספיקה. תגיד לנו איזה משפט נשמע לא נכון.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Hebrew speakers: we need one reader. It

@@ -8,7 +8,7 @@ status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not 
 validated_by: (none yet)
 ---
 
-> ### ⚠ AVISO — TRADUCCIÓN SIN VALIDAR
+> **⚠ AVISO — TRADUCCIÓN SIN VALIDAR**
 >
 > Traducido por IA, aún no revisado por un hablante nativo. No lo imprima ni
 > distribuya todavía.

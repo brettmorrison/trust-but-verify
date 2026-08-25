@@ -70,7 +70,7 @@ validated_by: (none yet)
 
 دا ژباړه د مصنوعي ځیرکتیا په واسطه شوې او لا یې کوم مورنۍ ژبې ویونکي نه ده کتلې. یو دوه ساعته بس دي. راته ووایاست کومه جمله ناسمه ښکاري او چیرته لوستونکی سپک ګڼل کیږي.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. پښتو speakers: we need one reader. It takes an hour.*
 

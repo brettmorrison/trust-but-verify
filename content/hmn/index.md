@@ -80,7 +80,7 @@ Qhov kev txhais lus no yog AI ua, thiab tseem tsis tau muaj ib tus neeg
 hais tus lus no txij thaum yug los xyuas. Ib teev twg twb txaus lawm. Qhia
 peb saib nqe lus twg mloog tsis raug.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Hmong speakers: we need one reader. It

@@ -68,7 +68,7 @@ validated_by: (none yet)
 
 이 번역은 AI가 한 것이며 원어민의 검토를 아직 받지 않았습니다. 한두 시간이면 됩니다. 어색한 표현이나 무시하는 듯한 어조가 있으면 알려주십시오.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. 한국어 speakers: we need one reader. It takes an hour.*
 

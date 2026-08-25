@@ -70,7 +70,7 @@ validated_by: (none yet)
 
 ይህ ትርጉም በAI የተሰራ ሲሆን በአፍ መፍቻ ተናጋሪ ገና አልተመረመረም። አንድ ወይም ሁለት ሰዓት ይበቃል። የትኛው ዓረፍተ ነገር እንደማይሰማ እና የት አንባቢውን እንደሚያሳንስ ይንገሩን።
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. አማርኛ speakers: we need one reader. It takes an hour.*
 

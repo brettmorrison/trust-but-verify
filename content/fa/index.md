@@ -70,7 +70,7 @@ validated_by: (none yet)
 
 این متن با هوش مصنوعی ترجمه شده و هنوز هیچ فارسی‌زبانی آن را بازبینی نکرده است. یکی دو ساعت کافی است. بگویید کدام جمله غیرطبیعی است و کجا لحن از بالا به پایین است.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. فارسی speakers: we need one reader. It takes an hour.*
 

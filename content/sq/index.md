@@ -70,7 +70,7 @@ Jo të gjitha faqet e kësaj faqeje interneti janë ende në shqip. Fleta një-f
 
 Ky përkthim është bërë nga AI dhe nuk është shqyrtuar ende nga një folës amtar. Mjaftojnë një ose dy orë. Na tregoni cila fjali tingëllon e panatyrshme dhe ku lexuesi trajtohet me epërsi.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. Shqip speakers: we need one reader. It takes an hour.*
 

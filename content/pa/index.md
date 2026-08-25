@@ -64,7 +64,7 @@ validated_by: (none yet)
 ਇਹ ਅਨੁਵਾਦ AI ਦੁਆਰਾ ਕੀਤਾ ਗਿਆ ਹੈ ਅਤੇ ਅਜੇ ਤੱਕ ਕਿਸੇ ਮੂਲ ਬੋਲਣ ਵਾਲੇ ਦੁਆਰਾ ਜਾਂਚਿਆ ਨਹੀਂ ਗਿਆ। ਇੱਕ
 ਘੰਟਾ ਕਾਫ਼ੀ ਹੈ। ਸਾਨੂੰ ਦੱਸੋ ਕਿਹੜਾ ਵਾਕ ਗ਼ਲਤ ਲੱਗਦਾ ਹੈ।
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Punjabi speakers: we need one reader.

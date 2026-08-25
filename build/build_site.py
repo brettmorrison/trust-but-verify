@@ -821,7 +821,7 @@ a.card:hover,a.card:focus-visible{border-color:var(--accent);background:#fff}
 a.card span{display:block;font-weight:400;font-size:.88rem;color:var(--muted);
   margin-top:.3rem}
 
-.steps{margin:1.5rem 0}
+.steps{margin:1.5rem 0;list-style:none;padding:0}
 .steps .step-item{display:flex;gap:1.2rem;padding:1.15rem 0;border-top:2px solid var(--rule)}
 .steps .step-item:first-child{border-top:none;padding-top:0}
 .steps .step-num{flex:none;width:2.7rem;font-size:2.6rem;font-weight:800;
@@ -913,7 +913,7 @@ PAGE = """<!DOCTYPE html>
 <body>
 <a class="skip" href="#main">{skip}</a>
 <div class="shell"{dirattr}>
-<aside class="rail">
+<aside class="rail" aria-label="{railtitle}">
   <div class="label">{railtitle}</div>
   <a href="{pre}">{navhome}</a>
   <a href="{pre}#scam-types">{navscams}</a>
@@ -939,7 +939,7 @@ PAGE = """<!DOCTYPE html>
     </details>
   </div>
   <p class="strap">{strap}</p>
-  <nav class="sitenav" aria-label="Site">
+  <nav class="sitenav" aria-label="Primary">
     <a href="{pre}">{navhome}</a>
     <a href="{pre}#scam-types">{navscams}</a>
     <a href="{pre}printables/">{navprint}</a>
@@ -951,7 +951,7 @@ PAGE = """<!DOCTYPE html>
 {body}
 </main>
 <footer class="site">
-  <nav class="sitenav" aria-label="Site">
+  <nav class="sitenav" aria-label="Footer">
     <a href="{pre}">{navhome}</a>
     <a href="{pre}about/">{navabout}</a>
     <a href="{pre}give-this-talk/">{navtalk}</a>
@@ -1024,19 +1024,23 @@ def numbered_steps(s):
     # on the site itself. Convert it to a numbered badge + heading +
     # description here, once, so every page using the pattern gets it --
     # not just home.md -- with no change needed to any content file.
+    # <ol> + a real heading per step: screen-reader users get "list, 3
+    # items" plus each step in the page's heading list, not just visual
+    # weight. The big numeral is aria-hidden since the <li>'s own list
+    # position already conveys the number -- otherwise it's announced twice.
     def item(m):
         num, head, desc = m.group(1), m.group(2).strip(), m.group(3).strip()
         desc_html = ('<p class="step-desc">%s</p>' % desc) if desc else ""
-        return ('<div class="step-item"><div class="step-num">%s</div>'
-                '<div class="step-body"><p class="step-head">%s</p>%s'
-                '</div></div>') % (num, head, desc_html)
+        return ('<li class="step-item"><div class="step-num" aria-hidden="true">%s</div>'
+                '<div class="step-body"><h3 class="step-head">%s</h3>%s'
+                '</div></li>') % (num, head, desc_html)
 
     s = _STEP_RE.sub(item, s)
     # Wrap runs of 2+ consecutive step-items (nothing but whitespace between
-    # them) in a shared container, so the border-top rules between items
-    # don't also draw around unrelated single "**1.**"-style bold text.
-    return re.sub(r'(?:<div class="step-item">.*?</div></div>\s*){2,}',
-                  lambda m: '<div class="steps">' + m.group(0) + '</div>',
+    # them) in a shared <ol>, so the border-top rules between items don't
+    # also draw around an unrelated single "**1.**"-style bold sentence.
+    return re.sub(r'(?:<li class="step-item">.*?</div></li>\s*){2,}',
+                  lambda m: '<ol class="steps">' + m.group(0) + '</ol>',
                   s, flags=re.S)
 
 

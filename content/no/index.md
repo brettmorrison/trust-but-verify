@@ -74,7 +74,7 @@ Denne oversettelsen er laget av KI og er ennå ikke sjekket av en som har
 språket som morsmål. En time er nok. Fortell oss hvilken setning som høres
 feil ut.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Norwegian speakers: we need one reader.

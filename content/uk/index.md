@@ -73,7 +73,7 @@ validated_by: (none yet)
 Цей переклад зроблено штучним інтелектом, і його ще не перевірив носій
 мови. Однієї години достатньо. Скажіть нам, яке речення звучить неправильно.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Ukrainian speakers: we need one reader.

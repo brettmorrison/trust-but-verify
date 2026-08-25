@@ -72,7 +72,7 @@ questo foglio c'è la cosa più importante.
 Questa traduzione è stata fatta dall'IA e non è ancora stata controllata da
 un madrelingua. Basta un'ora. Ci dica quale frase suona sbagliata.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Italian speakers: we need one reader.

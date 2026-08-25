@@ -68,7 +68,7 @@ validated_by: (none yet)
 
 تُرجم هذا النص بالذكاء الاصطناعي ولم يراجعه ناطق بالعربية بعد. ساعة أو ساعتان تكفيان. أخبرنا أي جملة تبدو غير طبيعية وأين يبدو النص متعاليًا على القارئ.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. العربية speakers: we need one reader. It takes an hour.*
 

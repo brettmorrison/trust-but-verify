@@ -75,7 +75,7 @@ Această traducere a fost făcută de o inteligență artificială și nu a fost
 încă verificată de un vorbitor nativ. O oră e suficient. Spune-ne ce
 propoziție sună greșit.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Romanian speakers: we need one reader.

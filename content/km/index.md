@@ -64,7 +64,7 @@ validated_by: (none yet)
 ការបកប្រែនេះធ្វើឡើងដោយ AI ហើយមិនទាន់ត្រូវបានពិនិត្យដោយអ្នកនិយាយភាសាកំណើតនៅឡើយទេ។ មួយម៉ោងគឺគ្រប់គ្រាន់។
 សូមប្រាប់យើងថាប្រយោគមួយណាស្តាប់មិនត្រឹមត្រូវ។
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Khmer speakers: we need one reader. It

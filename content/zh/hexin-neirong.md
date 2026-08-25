@@ -8,7 +8,7 @@ status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not 
 validated_by: (none yet)
 ---
 
-> ### ⚠ 注意 —— 未经核校的机器翻译
+> **⚠ 注意 —— 未经核校的机器翻译**
 >
 > **本文由人工智能翻译，尚未经母语者审阅。** 其中的事实、电话号码和建议都是准确的。
 > 但措辞可能读起来不自然，也可能存在错误。

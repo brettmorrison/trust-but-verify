@@ -74,7 +74,7 @@ Ezt a fordítást mesterséges intelligencia készítette, és még nem ellenőr
 anyanyelvi beszélő. Egy óra elég. Mondja el, melyik mondat hangzik
 helytelenül.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Hungarian speakers: we need one reader.

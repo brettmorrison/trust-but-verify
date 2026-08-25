@@ -74,7 +74,7 @@ Diese Übersetzung wurde von einer KI erstellt und noch nicht von einem
 Muttersprachler geprüft. Eine Stunde reicht. Sagen Sie uns, welcher Satz sich
 falsch anhört.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. German speakers: we need one reader. It

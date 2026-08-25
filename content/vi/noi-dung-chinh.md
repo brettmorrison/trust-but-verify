@@ -8,7 +8,7 @@ status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not 
 validated_by: (none yet)
 ---
 
-> ### ⚠ LƯU Ý — BẢN DỊCH CHƯA ĐƯỢC KIỂM CHỨNG
+> **⚠ LƯU Ý — BẢN DỊCH CHƯA ĐƯỢC KIỂM CHỨNG**
 >
 > **Văn bản này do trí tuệ nhân tạo dịch và chưa được người bản ngữ duyệt
 > lại.** Thông tin, số điện thoại và lời khuyên đều chính xác. Nhưng cách hành

@@ -74,7 +74,7 @@ Den här översättningen gjordes av AI och har ännu inte kontrollerats av en
 modersmålstalare. En timme räcker. Berätta för oss vilken mening som låter
 fel.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Swedish speakers: we need one reader.

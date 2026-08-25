@@ -64,7 +64,7 @@ validated_by: (none yet)
 આ અનુવાદ AI દ્વારા કરવામાં આવ્યો છે અને હજુ સુધી કોઈ મૂળ ભાષી દ્વારા તપાસવામાં આવ્યો નથી.
 એક કલાક પૂરતો છે. અમને જણાવો કે કયું વાક્ય ખોટું લાગે છે.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Gujarati speakers: we need one reader.

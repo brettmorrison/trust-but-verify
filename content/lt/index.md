@@ -74,7 +74,7 @@ lape yra svarbiausia informacija.
 Šis vertimas atliktas dirbtinio intelekto ir dar nebuvo patikrintas gimtakalbio. Užtenka
 vienos valandos. Praneškite mums, koks sakinys skamba netaisyklingai.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Lithuanian speakers: we need one reader.

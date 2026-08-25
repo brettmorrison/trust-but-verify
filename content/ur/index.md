@@ -70,7 +70,7 @@ validated_by: (none yet)
 
 یہ ترجمہ مصنوعی ذہانت نے کیا ہے اور کسی مادری بولنے والے نے اسے نہیں دیکھا۔ ایک دو گھنٹے کافی ہیں۔ بس بتائیں کون سا جملہ اجنبی لگتا ہے اور کہاں قاری کو کمتر سمجھا جا رہا ہے۔
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. اردو speakers: we need one reader. It takes an hour.*
 

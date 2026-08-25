@@ -73,7 +73,7 @@ Tradiksyon sa a te fèt pa yon Entèlijans Atifisyèl e li poko verifye pa yon
 moun ki pale lang lan natirèlman. Yon èdtan ase. Di nou ki fraz ki sonnen
 mal.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Haitian Creole speakers: we need one
