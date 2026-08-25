@@ -7,9 +7,9 @@ lang: en
 
 # The 25-minute talk — speaker script
 
-Paired with **trust-but-verify-talk.pptx** (22 slides). Every slide also carries
-these notes in PowerPoint's presenter view, so you can run it from the deck alone
-if you'd rather.
+Paired with **[trust-but-verify-talk.pptx](/print/trust-but-verify-talk.pptx)**
+(22 slides). Every slide also carries these notes in PowerPoint's presenter
+view, so you can run it from the deck alone if you'd rather.
 
 **Bracketed text is direction. Don't read it aloud.**
 
