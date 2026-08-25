@@ -3,6 +3,26 @@
 Roughly priority order. Update as items close.
 
 ## Resolved
+- Fridge sheet: added a labeled blank line for the family's code word,
+  across all 45 languages, plus fixed the same stale tagline issue on
+  every one of them (still had the pre-tagline-change wording). Also
+  fixed a real local-build bug: wkhtmltopdf isn't installed here and
+  never was, so the English fridge sheet could never actually be
+  regenerated locally before this — switched the whole generator to
+  weasyprint, which required a real layout-tightening pass since
+  weasyprint's rendering isn't a drop-in match for wkhtmltopdf's.
+- Feedback form: every failure path (not just the happy path) now lands
+  on a real page instead of either a bare unstyled 503 text dump or a
+  query-string error state the static site can't actually display.
+  Root cause of "clicking send does nothing" is still the pending
+  RESEND_API_KEY setup below — this fixes the failure experience, not
+  the underlying missing config.
+- The site's most-repeated content pattern ("**1. Do this.** Because
+  why.") now gets a real numbered-badge treatment on the website itself
+  — previously only the printed materials (fridge sheet, talk deck) had
+  any visual weight for it; the site rendered it as plain bold text.
+  Applies automatically everywhere the pattern is already used, not
+  just home.md.
 - Volunteer talk deck (formats/talk/trust-but-verify-talk.pptx): every
   slide now carries a QR code + trustbutverifyproject.org, not just the
   last one — two QR color variants (dark-on-transparent, paper-on-
@@ -161,13 +181,7 @@ Roughly priority order. Update as items close.
    for-family, and printables (nothing suitable found at all, tried
    twice independently). Try again, or leave them photo-less — the site
    reads fine either way. phantom-hacker got a replacement and is done.
-10. Fridge sheet printable: add blank space/lines for the family to write
-    in their own code word, so the sheet doubles as the place it lives
-    once a family sets one — see build/make_fridge_new_langs.py (and
-    whatever generates the validated English fridge sheet) for the
-    layout to modify. Needs doing across all 45 languages' fridge sheets
-    once implemented, not just English.
-11. Blog: a second post linking to YouTube "scam baiter" videos that show
+10. Blog: a second post linking to YouTube "scam baiter" videos that show
     real scam call centers operating at industrial scale (Brett's example:
     someone who "hacks back" into Indian call centers — account name not
     recalled; likely one of the well-known scam-baiting channels, e.g.
