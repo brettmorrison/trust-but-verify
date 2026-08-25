@@ -59,7 +59,7 @@ const p = deck();
     x: 0.9, y: 4.15, w: 10, h: 0.6,
     fontFace: "Calibri", fontSize: 17, color: "AEB9C4",
   });
-  s.addText("trustbutverifyproject.org  ·  Free, public domain, no sponsors", {
+  s.addText("trustbutverifyproject.org  ·  Free, CC BY, no sponsors", {
     x: 0.9, y: 6.7, w: 10, h: 0.4,
     fontFace: "Calibri", fontSize: 11, color: "6F7E8C",
   });

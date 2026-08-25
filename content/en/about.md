@@ -60,7 +60,9 @@ Everything on this site is free to print, copy, translate, adapt, rebrand, and
 distribute. Put your organization's name on it. Change the wording. Hand it out
 at a church, a library, a clinic, a union hall, a family dinner.
 
-You do not need our permission and you don't need to credit us.
+You do not need our permission. **Licensed CC BY** — keep a small credit line
+somewhere reasonable ("Adapted from the Trust But Verify Project,
+trustbutverifyproject.org"), and that's the whole ask.
 
 ## About the translations
 

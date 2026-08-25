@@ -5,9 +5,11 @@ Free, plain-language material to help older adults avoid scams — in 45 languag
 **Live site:** https://trustbutverifyproject.org
 
 Everything here is free to print, copy, translate, adapt, rebrand, and hand out.
-You do not need permission and you do not need to credit us. If a sentence from
-this repository ends up on somebody's refrigerator without our name on it, that
-is the project working as intended.
+You do not need permission. Licensed CC BY — the one condition is a credit
+line somewhere reasonable ("Adapted from the Trust But Verify Project,
+trustbutverifyproject.org"). A sentence from this repository ending up on
+somebody's refrigerator, with that one line of credit, is the project
+working as intended.
 
 ---
 
@@ -156,4 +158,5 @@ Statistics must cite FBI IC3 or FTC, with the year.
 
 ## License
 
-Public domain (CC0 1.0). Take it, change it, put your own name on it.
+Creative Commons Attribution 4.0 (CC BY). Take it, change it, put your own
+name on it — just keep a credit line back to the Trust But Verify Project.

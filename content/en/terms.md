@@ -35,11 +35,14 @@ law enforcement, or professional advice. If money's already moved, your
 bank and the hotlines listed throughout this site are the real help — not
 this paragraph.
 
-## Free to reuse — no exceptions
+## Free to reuse
 
-Everything here — every page, sheet, slide, translation — is public domain
-(CC0). **Copy it, print it, translate it, rebrand it, hand it out, for
-free, without asking.** No fee, no attribution required. See the
+Everything here — every page, sheet, slide, translation — is licensed
+**Creative Commons Attribution 4.0 (CC BY)**. **Copy it, print it,
+translate it, rebrand it, hand it out, for free, without asking.** No
+fee. The one condition: credit "Trust But Verify Project,
+trustbutverifyproject.org" somewhere reasonable — a footer line, a
+credits slide, a mention when you hand out a sheet. See the
 **[license](https://github.com/brettmorrison/trust-but-verify/blob/main/LICENSE)**.
 
 ## Feedback

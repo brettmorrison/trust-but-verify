@@ -165,17 +165,20 @@ warning notice.
 
 All of it is free to reuse, in any format, including commercially and including
 under your own name. Translate it. Rewrite it. Cut it down. Put your logo on it.
+**Licensed [CC BY](/terms)** — the one condition is a small credit line to the
+Trust But Verify Project somewhere reasonable.
 
-The only thing we'd ask — not a condition, just a request — is that if you change
-the advice itself, check it against the FBI and FTC guidance first, so nobody ends
-up with a refrigerator sheet that tells them something wrong.
+The only other thing we'd ask — not a condition, just a request — is that if
+you change the advice itself, check it against the FBI and FTC guidance
+first, so nobody ends up with a refrigerator sheet that tells them something
+wrong.
 
 ---
 
 ## Go ahead
 
-You don't need our permission, our name, or our approval. Print what's useful,
-change what isn't, and hand it to whoever needs it.
+You don't need our approval. Print what's useful, change what isn't, and hand
+it to whoever needs it.
 
 Every sheet that ends up on a refrigerator is one more household where somebody
 hangs up and calls back. That's the whole thing.

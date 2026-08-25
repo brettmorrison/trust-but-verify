@@ -12,7 +12,8 @@ positioned better than any website to prevent this. You see people daily. You
 notice when someone's rattled.
 
 Everything here is free. Print it, copy it, translate it, put your own logo on
-it, hand it out. You don't need to ask us and you don't need to credit us.
+it, hand it out. You don't need to ask us — just keep a small credit line to
+the Trust But Verify Project somewhere reasonable (it's [CC BY](/terms)).
 
 ---
 
