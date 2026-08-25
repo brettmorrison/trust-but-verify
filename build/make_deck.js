@@ -1,6 +1,10 @@
 // Trust But Verify — 25-minute talk deck
 // node build/make_deck.js
 const pptxgen = require("pptxgenjs");
+const path = require("path");
+
+const QR_BLUE = path.join(__dirname, "deck-assets", "qr-blue.png");
+const QR_PAPER = path.join(__dirname, "deck-assets", "qr-paper.png");
 
 const INK = "141414";
 const PAPER = "FFFFFF";
@@ -19,16 +23,25 @@ p.title = "Trust But Verify — protecting yourself from scams";
 
 // ---------- helpers ----------
 
+// every slide carries the URL + a scannable QR — the color flips so it reads on either background
+function footer(s, isDark) {
+  s.addText("trustbutverifyproject.org", {
+    x: M, y: 7.0, w: 6, h: 0.42, fontFace: F, fontSize: 12, color: isDark ? "9A958C" : GREY, margin: 0, valign: "middle",
+  });
+  s.addImage({ path: isDark ? QR_PAPER : QR_BLUE, x: W - M - 0.42, y: 6.98, w: 0.42, h: 0.42 });
+}
 function dark(notes) {
   const s = p.addSlide();
   s.background = { color: INK };
   if (notes) s.addNotes(notes);
+  footer(s, true);
   return s;
 }
 function light(notes) {
   const s = p.addSlide();
   s.background = { color: PAPER };
   if (notes) s.addNotes(notes);
+  footer(s, false);
   return s;
 }
 function title(s, text, opts) {
@@ -55,7 +68,7 @@ let s = dark(
 );
 s.addText("TRUST", { x: M, y: 1.5, w: W - M * 2, h: 1.3, fontFace: F, fontSize: 88, bold: true, color: PAPER, margin: 0 });
 s.addText("BUT VERIFY", { x: M, y: 2.7, w: W - M * 2, h: 1.3, fontFace: F, fontSize: 88, bold: true, color: PAPER, margin: 0 });
-s.addText("You don't have to get suspicious of everybody.\nYou add one step.", {
+s.addText("You can stay trusting,\nbut add a pause.", {
   x: M, y: 4.4, w: 9.5, h: 1.4, fontFace: F, fontSize: 24, color: "D8D4CC", margin: 0, lineSpacing: 34,
 });
 
@@ -355,15 +368,12 @@ s = dark(
   "education happens.\n\nIf someone tells you they've lost money — your first words are " +
   "'I'm glad you told me.'"
 );
-s.addText("You don't have to get\nsuspicious of everybody.", {
+s.addText("You can stay trusting,\nbut add a pause.", {
   x: M, y: 2.0, w: 11.8, h: 2.2, fontFace: F, fontSize: 52, bold: true, color: PAPER, margin: 0, lineSpacing: 68,
 });
-s.addText("You just add one step.", {
+s.addText("That's the whole thing.", {
   x: M, y: 4.35, w: 11.8, h: 0.9, fontFace: F, fontSize: 40, bold: true, color: "D8D4CC", margin: 0,
 });
-s.addText("trustbutverifyproject.org", {
-  x: M, y: 6.3, w: 11.8, h: 0.5, fontFace: F, fontSize: 18, color: "9A958C", margin: 0,
-});
 
-p.writeFile({ fileName: "/home/claude/tbv/formats/talk/trust-but-verify-talk.pptx" })
+p.writeFile({ fileName: path.join(__dirname, "..", "formats", "talk", "trust-but-verify-talk.pptx") })
   .then(f => console.log("wrote", f));

@@ -3,6 +3,26 @@
 Roughly priority order. Update as items close.
 
 ## Resolved
+- Volunteer talk deck (formats/talk/trust-but-verify-talk.pptx): every
+  slide now carries a QR code + trustbutverifyproject.org, not just the
+  last one — two QR color variants (dark-on-transparent, paper-on-
+  transparent) so it reads against both the dark and light slide
+  backgrounds. Also fixed the tagline on the title and closing slides,
+  still reading the old "You don't have to get suspicious of everybody"
+  line, to match the site's current tagline. Along the way, fixed the
+  build script's output path, hardcoded to a nonexistent cloud-sandbox
+  location — it silently wasn't writing into the repo.
+- Infographic translated into the top 10 languages (es/vi/zh/ru/ko/tl/
+  hi/bn/hy/am), 11 total with English. Also fixed a real pre-existing
+  bug found along the way: the footer (hotlines, report line) was
+  rendering below the page's bottom margin — never visible — for every
+  version including the original English one. Tightened spacing,
+  verified against both English and Armenian (longest text).
+- Cloudflare email obfuscation issue fixed without touching Cloudflare:
+  the visible "translations@..." address is now written as
+  "translations [at] trustbutverifyproject [dot] org" everywhere, which
+  never matches Cloudflare's rewrite pattern in the first place — no
+  loss of scraper resistance, no JS needed, no dashboard change required.
 - The 4 RTL pages (Arabic, Urdu, Farsi, Pashto) — long-flagged as "never
   visually verified, check on a real phone" — checked live at desktop
   and mobile widths. 3 of 4 clean; fixed one real cosmetic wrap bug in
