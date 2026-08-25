@@ -132,11 +132,6 @@ Roughly priority order. Update as items close.
    Analytics, automatic mode) — copy already assumes it is.
 2. Set up `translations@trustbutverifyproject.org` via Cloudflare Email
    Routing, if not already done.
-3. Turn off Cloudflare's Email Address Obfuscation (Scrape Shield) for
-   trustbutverifyproject.org — it rewrites the email address site-wide into
-   a broken placeholder that never decodes back, because the site's own
-   strict no-JS CSP blocks the decode script. One dashboard toggle fixes
-   every instance at once.
 4. Set up the feedback form: create a Resend account, verify
    trustbutverifyproject.org (add its DNS records in Cloudflare —
    merge into the existing SPF TXT record if Email Routing already
@@ -149,18 +144,29 @@ Roughly priority order. Update as items close.
    non-English is validated yet, across all 45 languages.
 6. Deeper content only exists in 4 languages (es/vi/zh/ru) plus English —
    the other 40 are single landing pages. Decide whether to expand any.
-7. SEO metadata pass (meta titles/descriptions) per page/language — done
-   for English; per-language pass not started.
+7. A few translated landing pages carry a narrower "before money is sent"
+   -style section header right under the tagline (e.g. German's `##
+   Bevor Geld überwiesen wird`) that's now slightly inconsistent with the
+   broadened tagline above it — cosmetic, low priority, native-speaker
+   validation will catch it anyway.
 8. The 4 new scam pages (charity/Medicare/SIM-swap/lottery) exist in
    English only — no translations yet, unlike the original 13.
-9. 6 pages still have no hero photo: charity-scams and government-
-    impersonation (candidates were sourced but rejected on review —
-    museum artifact / no visible connection to the topic, see
-    assets/photos/manifest.json), plus recovery-scam, lottery-
-    sweepstakes, for-family, and printables (nothing suitable found on
-    Wikimedia Commons at all, tried twice independently). Try again,
-    or leave them photo-less — the site reads fine either way.
-    phantom-hacker got a replacement photo and is done.
+9. 7 pages still have no hero photo: home (previous photo was disliked;
+   a dedicated Commons/Openverse search for a replacement came back with
+   nothing that cleanly fit license + landscape + tone + setting all at
+   once — see assets/photos/manifest.json for the specific candidates
+   considered), charity-scams and government-impersonation (candidates
+   were sourced but rejected on review — museum artifact / no visible
+   connection to the topic), plus recovery-scam, lottery-sweepstakes,
+   for-family, and printables (nothing suitable found at all, tried
+   twice independently). Try again, or leave them photo-less — the site
+   reads fine either way. phantom-hacker got a replacement and is done.
+10. Fridge sheet printable: add blank space/lines for the family to write
+    in their own code word, so the sheet doubles as the place it lives
+    once a family sets one — see build/make_fridge_new_langs.py (and
+    whatever generates the validated English fridge sheet) for the
+    layout to modify. Needs doing across all 45 languages' fridge sheets
+    once implemented, not just English.
 
 ## Unrelated flag
 Password reset email clusters in GoDaddy account from an earlier session —
