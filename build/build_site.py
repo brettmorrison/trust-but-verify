@@ -1166,11 +1166,14 @@ def build():
             audio_slug = (slug.strip("/") or "home").replace("/", "_")
             player = (
                 '<p class="audio-player"><strong>%s</strong> '
-                '<audio controls preload="none" src="%saudio/%s.mp3">'
+                '<audio controls preload="none" src="%saudio/%s.mp3" '
+                'aria-label="%s">'
                 'Your browser doesn\'t support audio playback. '
                 '<a href="%saudio/%s.mp3">Download the MP3</a> instead.'
                 '</audio></p>'
-            ) % (html.escape(ui(lang, "listen")), pre, audio_slug, pre, audio_slug)
+            ) % (html.escape(ui(lang, "listen")), pre, audio_slug,
+                 html.escape("Spoken version of: " + meta.get("title", "this page")),
+                 pre, audio_slug)
             body_html = re.sub(r'(</h1>(?:\s*<figure class="hero-photo">.*?</figure>)?)',
                                 r'\1' + player, body_html, count=1, flags=re.S)
 
@@ -1363,8 +1366,11 @@ def build():
         "  X-Content-Type-Options: nosniff\n"
         "  Referrer-Policy: no-referrer\n"
         "  Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()\n"
+        # media-src is required for the <audio> narration players. Without it
+        # media falls back to default-src 'none' and every player is blocked
+        # in every browser -- silently, apart from a console warning.
         "  Content-Security-Policy: default-src 'none'; style-src 'self'; img-src 'self'; "
-        "base-uri 'none'; form-action 'none'; frame-ancestors 'none'\n"
+        "media-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'\n"
         "  Strict-Transport-Security: max-age=31536000; includeSubDomains\n"
         "\n/print/*\n  Cache-Control: public, max-age=86400\n"
         # The one page on the site with a <form>: same policy as everywhere
@@ -1372,7 +1378,7 @@ def build():
         # can actually submit to /api/feedback.
         "\n/feedback/*\n"
         "  Content-Security-Policy: default-src 'none'; style-src 'self'; img-src 'self'; "
-        "base-uri 'none'; form-action 'self'; frame-ancestors 'none'\n")
+        "media-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'\n")
 
     # 404
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
