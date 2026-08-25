@@ -6,7 +6,8 @@ try:
 except Exception:
     _WeasyHTML = None
 
-OUT = "/home/claude/tbv/formats/print"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, "formats", "print")
 os.makedirs(OUT, exist_ok=True)
 
 # --- language data ---------------------------------------------------------
@@ -16,7 +17,7 @@ L = {}
 L["en"] = dict(
     font="DejaVu Sans",
     brand="TRUST BUT VERIFY",
-    tagline="You don't have to get suspicious of everybody. You add one step.",
+    tagline="You can stay trusting, but add a pause.",
     steps_head="BEFORE ANY MONEY MOVES",
     steps=[("Look up the number yourself.",
             "Not the number they gave you. The one on your card or statement."),
@@ -37,6 +38,7 @@ L["en"] = dict(
     helps=[("833-372-8311", "National Elder Fraud Hotline  ·  Mon–Fri 10–6 ET"),
            ("877-908-3360", "AARP Fraud Watch  ·  Mon–Fri 8–8 ET")],
     report="Report at ic3.gov  ·  reportfraud.ftc.gov",
+    code_head="Our family's code word:",
     footline="If it already happened: it is not your fault, and it is not too late.",
     foot="Free to copy, print, and share.",
 )
@@ -44,7 +46,7 @@ L["en"] = dict(
 L["es"] = dict(
     font="DejaVu Sans",
     brand="CONFÍA, PERO VERIFICA",
-    tagline="No hace falta desconfiar de todo el mundo. Solo hay que añadir un paso.",
+    tagline="Puede seguir confiando, solo añada una pausa.",
     steps_head="ANTES DE MOVER CUALQUIER DINERO",
     steps=[("Busque el número usted mismo.",
             "No el que le dieron. El de su tarjeta o su estado de cuenta."),
@@ -65,6 +67,7 @@ L["es"] = dict(
     helps=[("833-372-8311", "Línea Nacional de Fraude · Lun–Vie 10–6 ET"),
            ("877-908-3360", "AARP Fraud Watch · Lun–Vie 8–8 ET · en español")],
     report="Reporte en ic3.gov  ·  reportfraud.ftc.gov",
+    code_head="La palabra clave de nuestra familia:",
     footline="Si ya ocurrió: no es culpa suya, y no es demasiado tarde.",
     foot="Libre de copiar, imprimir y compartir.",
 )
@@ -72,7 +75,7 @@ L["es"] = dict(
 L["vi"] = dict(
     font="DejaVu Sans",
     brand="TIN TƯỞNG, NHƯNG PHẢI KIỂM CHỨNG",
-    tagline="Quý vị không cần nghi ngờ mọi người. Chỉ cần thêm một bước.",
+    tagline="Quý vị vẫn có thể tin tưởng, chỉ cần thêm một khoảng dừng.",
     steps_head="TRƯỚC KHI CHUYỂN BẤT KỲ KHOẢN TIỀN NÀO",
     steps=[("Tự mình tra số điện thoại.",
             "Không dùng số họ đưa. Dùng số trên thẻ hoặc sao kê của quý vị."),
@@ -93,6 +96,7 @@ L["vi"] = dict(
     helps=[("833-372-8311", "Đường dây Quốc gia · T2–T6, 10–6 ET"),
            ("877-908-3360", "AARP Fraud Watch · T2–T6, 8–8 ET")],
     report="Báo cáo tại ic3.gov  ·  reportfraud.ftc.gov  ·  có thông dịch",
+    code_head="Từ khóa bí mật của gia đình chúng ta:",
     footline="Nếu đã xảy ra rồi: đó không phải lỗi của quý vị, và chưa quá muộn.",
     foot="Tự do sao chép, in ấn và chia sẻ.",
 )
@@ -100,7 +104,7 @@ L["vi"] = dict(
 L["ru"] = dict(
     font="DejaVu Sans",
     brand="ДОВЕРЯЙ, НО ПРОВЕРЯЙ",
-    tagline="Не нужно подозревать всех подряд. Нужно добавить один шаг.",
+    tagline="Можно продолжать доверять — просто добавьте паузу.",
     steps_head="ПРЕЖДЕ ЧЕМ УЙДУТ ЛЮБЫЕ ДЕНЬГИ",
     steps=[("Найдите номер сами.",
             "Не тот, что дали они. Тот, что на вашей карте или в выписке."),
@@ -121,6 +125,7 @@ L["ru"] = dict(
     helps=[("833-372-8311", "Национальная линия · Пн–Пт 10–18 (вост. время)"),
            ("877-908-3360", "AARP Fraud Watch · Пн–Пт 8–20 (вост. время)")],
     report="Сообщить: ic3.gov  ·  reportfraud.ftc.gov  ·  есть переводчик",
+    code_head="Кодовое слово нашей семьи:",
     footline="Если уже случилось: это не ваша вина, и ещё не поздно.",
     foot="Свободно копировать, печатать и распространять.",
 )
@@ -128,7 +133,7 @@ L["ru"] = dict(
 L["zh"] = dict(
     font="Noto Sans CJK SC",
     brand="信任，但要核实",
-    tagline="您不需要怀疑每一个人。您只需要多加一个步骤。",
+    tagline="您依然可以信任别人，只需多加一个停顿。",
     steps_head="在任何一笔钱转出去之前",
     steps=[("自己去查电话号码。",
             "不要用他们给的号码。用您卡片背面或账单上的号码。"),
@@ -149,6 +154,7 @@ L["zh"] = dict(
     helps=[("833-372-8311", "全国老年人诈骗热线 · 周一至周五 美东 10–6"),
            ("877-908-3360", "AARP 反诈热线 · 周一至周五 美东 8–8")],
     report="报案：ic3.gov  ·  reportfraud.ftc.gov  ·  提供翻译服务",
+    code_head="我们家的暗号：",
     footline="如果已经发生了：这不是您的错，也还不算晚。",
     foot="欢迎自由复制、打印和分享。",
 )
@@ -223,7 +229,7 @@ NOTICE = {
 
 
 L["uk"] = dict(font="DejaVu Sans", brand="ДОВІРЯЙ, АЛЕ ПЕРЕВІРЯЙ",
-  tagline="Не треба підозрювати всіх. Треба додати один крок.",
+  tagline="Можна й далі довіряти — просто додайте паузу.",
   steps_head="ПЕРШ НІЖ ПІДУТЬ БУДЬ-ЯКІ ГРОШІ",
   steps=[("Знайдіть номер самі.","Не той, що дали вони. Той, що на вашій картці або у виписці."),
          ("Зателефонуйте людині самі.","Спершу покладіть слухавку. Якщо все справжнє — вони на місці."),
@@ -241,11 +247,12 @@ L["uk"] = dict(font="DejaVu Sans", brand="ДОВІРЯЙ, АЛЕ ПЕРЕВІР�
   helps=[("833-372-8311","Національна лінія · Пн–Пт 10–18 ET"),
          ("877-908-3360","AARP Fraud Watch · Пн–Пт 8–20 ET")],
   report="Повідомити: ic3.gov · reportfraud.ftc.gov · є перекладач",
+  code_head="Кодове слово нашої родини:",
   footline="Якщо вже сталося: це не ваша провина, і ще не пізно.",
   foot="Вільно копіювати, друкувати й поширювати.")
 
 L["fr"] = dict(font="DejaVu Sans", brand="FAITES CONFIANCE, MAIS VÉRIFIEZ",
-  tagline="Pas besoin de se méfier de tout le monde. Vous ajoutez une étape.",
+  tagline="Vous pouvez rester confiant, ajoutez juste une pause.",
   steps_head="AVANT QUE LE MOINDRE ARGENT NE PARTE",
   steps=[("Cherchez le numéro vous-même.","Pas celui qu'ils ont donné. Celui de votre carte ou de votre relevé."),
          ("Appelez la personne vous-même.","Raccrochez d'abord. Si c'était vrai, ils seront toujours là."),
@@ -263,11 +270,12 @@ L["fr"] = dict(font="DejaVu Sans", brand="FAITES CONFIANCE, MAIS VÉRIFIEZ",
   helps=[("833-372-8311","Ligne nationale · Lun–Ven 10h–18h ET"),
          ("877-908-3360","AARP Fraud Watch · Lun–Ven 8h–20h ET")],
   report="Signalez : ic3.gov · reportfraud.ftc.gov · interprète disponible",
+  code_head="Le mot de code de notre famille :",
   footline="Si c'est déjà arrivé : ce n'est pas votre faute, et il n'est pas trop tard.",
   foot="Libre de copier, imprimer et partager.")
 
 L["de"] = dict(font="DejaVu Sans", brand="VERTRAUEN, ABER NACHPRÜFEN",
-  tagline="Sie müssen nicht jedem misstrauen. Sie fügen einen Schritt hinzu.",
+  tagline="Sie können weiterhin vertrauen, fügen Sie nur eine Pause hinzu.",
   steps_head="BEVOR GELD FLIESST",
   steps=[("Suchen Sie die Nummer selbst.","Nicht die, die man Ihnen gab. Die auf Ihrer Karte oder Ihrem Auszug."),
          ("Rufen Sie die Person selbst an.","Erst auflegen. War es echt, sind sie noch da."),
@@ -285,11 +293,12 @@ L["de"] = dict(font="DejaVu Sans", brand="VERTRAUEN, ABER NACHPRÜFEN",
   helps=[("833-372-8311","Nationale Hotline · Mo–Fr 10–18 Uhr ET"),
          ("877-908-3360","AARP Fraud Watch · Mo–Fr 8–20 Uhr ET")],
   report="Melden: ic3.gov · reportfraud.ftc.gov · Dolmetscher verfügbar",
+  code_head="Das Codewort unserer Familie:",
   footline="Wenn es schon passiert ist: Es ist nicht Ihre Schuld, und es ist nicht zu spät.",
   foot="Frei zu kopieren, drucken und weiterzugeben.")
 
 L["pt"] = dict(font="DejaVu Sans", brand="CONFIE, MAS VERIFIQUE",
-  tagline="Você não precisa desconfiar de todo mundo. Você acrescenta um passo.",
+  tagline="Você pode continuar confiando, só acrescente uma pausa.",
   steps_head="ANTES QUE QUALQUER DINHEIRO SAIA",
   steps=[("Procure o número você mesmo.","Não o que lhe deram. O do seu cartão ou do seu extrato."),
          ("Ligue você mesmo para a pessoa.","Desligue primeiro. Se era verdade, eles continuarão lá."),
@@ -307,11 +316,12 @@ L["pt"] = dict(font="DejaVu Sans", brand="CONFIE, MAS VERIFIQUE",
   helps=[("833-372-8311","Linha Nacional · Seg–Sex 10h–18h ET"),
          ("877-908-3360","AARP Fraud Watch · Seg–Sex 8h–20h ET")],
   report="Denuncie: ic3.gov · reportfraud.ftc.gov · há intérprete",
+  code_head="A palavra-código da nossa família:",
   footline="Se já aconteceu: a culpa não é sua, e não é tarde demais.",
   foot="Livre para copiar, imprimir e compartilhar.")
 
 L["pl"] = dict(font="DejaVu Sans", brand="UFAJ, ALE SPRAWDZAJ",
-  tagline="Nie musisz podejrzewać wszystkich. Dodajesz jeden krok.",
+  tagline="Możesz nadal ufać, wystarczy dodać przerwę.",
   steps_head="ZANIM WYJDĄ JAKIEKOLWIEK PIENIĄDZE",
   steps=[("Sam znajdź numer.","Nie ten, który podali. Ten z Twojej karty lub wyciągu."),
          ("Sam zadzwoń do tej osoby.","Najpierw odłóż słuchawkę. Jeśli to prawda, nadal tam będą."),
@@ -329,11 +339,12 @@ L["pl"] = dict(font="DejaVu Sans", brand="UFAJ, ALE SPRAWDZAJ",
   helps=[("833-372-8311","Infolinia krajowa · Pon–Pt 10–18 ET"),
          ("877-908-3360","AARP Fraud Watch · Pon–Pt 8–20 ET")],
   report="Zgłoś: ic3.gov · reportfraud.ftc.gov · jest tłumacz",
+  code_head="Hasło naszej rodziny:",
   footline="Jeśli już się stało: to nie Twoja wina i nie jest za późno.",
   foot="Można swobodnie kopiować, drukować i rozpowszechniać.")
 
 L["ro"] = dict(font="DejaVu Sans", brand="AI ÎNCREDERE, DAR VERIFICĂ",
-  tagline="Nu trebuie să suspectezi pe toată lumea. Adaugi un singur pas.",
+  tagline="Puteți avea în continuare încredere, doar adăugați o pauză.",
   steps_head="ÎNAINTE SĂ PLECE ORICE BAN",
   steps=[("Căutați singur numărul.","Nu cel dat de ei. Cel de pe cardul sau extrasul dumneavoastră."),
          ("Sunați dumneavoastră persoana.","Închideți mai întâi. Dacă era real, tot acolo vor fi."),
@@ -351,11 +362,12 @@ L["ro"] = dict(font="DejaVu Sans", brand="AI ÎNCREDERE, DAR VERIFICĂ",
   helps=[("833-372-8311","Linia Națională · Lun–Vin 10–18 ET"),
          ("877-908-3360","AARP Fraud Watch · Lun–Vin 8–20 ET")],
   report="Raportați: ic3.gov · reportfraud.ftc.gov · există interpret",
+  code_head="Cuvântul de cod al familiei noastre:",
   footline="Dacă s-a întâmplat deja: nu e vina dumneavoastră și nu e prea târziu.",
   foot="Liber de copiat, tipărit și distribuit.")
 
 L["id"] = dict(font="DejaVu Sans", brand="PERCAYA, TAPI PERIKSA",
-  tagline="Anda tidak perlu mencurigai semua orang. Cukup tambah satu langkah.",
+  tagline="Anda tetap bisa percaya, cukup tambahkan jeda.",
   steps_head="SEBELUM UANG BERPINDAH",
   steps=[("Cari sendiri nomor teleponnya.","Bukan nomor yang mereka beri. Nomor di kartu atau rekening koran Anda."),
          ("Telepon sendiri orangnya.","Tutup dulu teleponnya. Kalau benar, mereka masih di sana."),
@@ -373,6 +385,7 @@ L["id"] = dict(font="DejaVu Sans", brand="PERCAYA, TAPI PERIKSA",
   helps=[("833-372-8311","Saluran Nasional · Sen–Jum 10–18 ET"),
          ("877-908-3360","AARP Fraud Watch · Sen–Jum 8–20 ET")],
   report="Laporkan: ic3.gov · reportfraud.ftc.gov · tersedia juru bahasa",
+  code_head="Kata kode keluarga kita:",
   footline="Kalau sudah terjadi: ini bukan salah Anda, dan belum terlambat.",
   foot="Bebas disalin, dicetak, dan dibagikan.")
 
@@ -420,7 +433,7 @@ NOTICE.update({
 L["ja"] = dict(
     font="Noto Sans CJK JP",
     brand="信頼せよ、されど確認せよ",
-    tagline="すべての人を疑う必要はありません。ひと手間を加えるだけです。",
+    tagline="信頼したままで大丈夫です。ひと呼吸置くだけです。",
     steps_head="お金を動かす前に",
     steps=[("電話番号は自分で調べる。",
             "相手が教えた番号は使わない。カードの裏面か明細書の番号を使う。"),
@@ -441,6 +454,7 @@ L["ja"] = dict(
     helps=[("833-372-8311", "高齢者詐欺ホットライン · 月〜金 東部時間10〜18時"),
            ("877-908-3360", "AARP詐欺相談 · 月〜金 東部時間8〜20時")],
     report="通報先： ic3.gov  ·  reportfraud.ftc.gov  ·  通訳あり",
+    code_head="私たち家族の合言葉：",
     footline="すでに起きてしまった場合：あなたのせいではありません。まだ間に合います。",
     foot="自由に複製・印刷・共有してください。",
 )
@@ -448,7 +462,7 @@ L["ja"] = dict(
 L["ko"] = dict(
     font="Noto Sans CJK KR",
     brand="믿되, 확인하십시오",
-    tagline="모든 사람을 의심할 필요는 없습니다. 한 단계만 더하면 됩니다.",
+    tagline="계속 믿으셔도 됩니다. 잠깐 멈추는 것만 더하면 됩니다.",
     steps_head="돈이 움직이기 전에",
     steps=[("전화번호를 직접 찾으십시오.",
             "그들이 준 번호 말고, 카드 뒷면이나 명세서에 있는 번호로."),
@@ -469,6 +483,7 @@ L["ko"] = dict(
     helps=[("833-372-8311", "전국 노인 사기 상담전화 · 월–금 동부시간 10–18시"),
            ("877-908-3360", "AARP 사기 상담 · 월–금 동부시간 8–20시")],
     report="신고: ic3.gov  ·  reportfraud.ftc.gov  ·  통역 제공",
+    code_head="우리 가족의 암호:",
     footline="이미 당하셨다면: 당신 잘못이 아니며, 아직 늦지 않았습니다.",
     foot="자유롭게 복사·인쇄·공유하십시오.",
 )
@@ -476,7 +491,7 @@ L["ko"] = dict(
 L["tl"] = dict(
     font="DejaVu Sans",
     brand="MAGTIWALA, PERO TIYAKIN",
-    tagline="Hindi mo kailangang maghinala sa lahat. Isang hakbang lang ang idagdag.",
+    tagline="Puwede kang magtiwala pa rin, magdagdag ka lang ng paghinto.",
     steps_head="BAGO GUMALAW ANG KAHIT ANONG PERA",
     steps=[("Hanapin mo mismo ang numero.",
             "Hindi ang numerong ibinigay nila. Ang nasa likod ng card o sa statement mo."),
@@ -491,12 +506,13 @@ L["tl"] = dict(
     never_head="KAILANMAN, KAHIT MINSAN",
     never=["Walang lehitimong tao o kompanya ang binabayaran sa gift card.",
            "Hindi kailanman hihilingin ng bangko na ilabas mo ang pera sa bangko.",
-           "Huwag kailanman basahin nang malakas ang code na natanggap mo sa text.",
-           "Walang ahensiyang pumupunta sa bahay mo para kumuha ng pera o alahas."],
+           "Huwag basahin nang malakas ang code na natanggap sa text.",
+           "Walang pumupunta sa bahay mo para kumuha ng pera o alahas."],
     help_head="LIBRENG TULONG — WALANG HUSGA",
     helps=[("833-372-8311", "National Elder Fraud Hotline · Lun–Biy 10–6 ET"),
            ("877-908-3360", "AARP Fraud Watch · Lun–Biy 8–8 ET")],
     report="Mag-report sa ic3.gov  ·  reportfraud.ftc.gov  ·  may interpreter",
+    code_head="Ang code word ng aming pamilya:",
     footline="Kung nangyari na: hindi mo ito kasalanan, at hindi pa huli ang lahat.",
     foot="Malayang kopyahin, i-print, at ibahagi.",
 )
@@ -505,7 +521,7 @@ L["ar"] = dict(
     font="DejaVu Sans",
     rtl=True,
     brand="ثق ولكن تحقق",
-    tagline="لست مضطرًا للشك في كل الناس. عليك فقط أن تضيف خطوة واحدة.",
+    tagline="يمكنك أن تبقى واثقًا، فقط أضف وقفة.",
     steps_head="قبل تحويل أي مبلغ",
     steps=[("ابحث عن الرقم بنفسك.",
             "ليس الرقم الذي أعطوك إياه. بل الرقم على ظهر بطاقتك أو في كشف حسابك."),
@@ -526,6 +542,7 @@ L["ar"] = dict(
     helps=[("833-372-8311", "الخط الوطني لاحتيال كبار السن · الاثنين–الجمعة"),
            ("877-908-3360", "AARP Fraud Watch · الاثنين–الجمعة")],
     report="للإبلاغ: ic3.gov  ·  reportfraud.ftc.gov  ·  تتوفر ترجمة",
+    code_head="كلمة السر الخاصة بعائلتنا:",
     footline="إن كان قد حدث بالفعل: ليس ذنبك، ولم يفت الأوان.",
     foot="يمكنك النسخ والطباعة والمشاركة بحرية.",
 )
@@ -534,7 +551,7 @@ L["ar"] = dict(
 
 L["ur"] = dict(font="Noto Naskh Arabic", rtl=True,
   brand="اعتبار کریں، مگر تصدیق کریں",
-  tagline="ہر کسی پر شک کرنے کی ضرورت نہیں۔ صرف ایک قدم بڑھا دیں۔",
+  tagline="آپ اعتبار جاری رکھ سکتے ہیں، بس ایک توقف شامل کریں۔",
   steps_head="کوئی بھی رقم بھیجنے سے پہلے",
   steps=[("نمبر خود تلاش کریں۔","وہ نمبر نہیں جو انہوں نے دیا۔ اپنے کارڈ کی پشت یا اپنے اسٹیٹمنٹ کا نمبر۔"),
          ("خود اُس شخص کو فون کریں۔","پہلے فون بند کریں۔ اگر بات سچی ہے تو وہ وہیں ہوں گے۔"),
@@ -553,12 +570,13 @@ L["ur"] = dict(font="Noto Naskh Arabic", rtl=True,
          ("877-908-3360","AARP فراڈ واچ · پیر تا جمعہ")],
   interp='فون اٹھنے پر انگریزی میں کہیں: "Urdu, please"',
   report="اطلاع دیں: ic3.gov  ·  reportfraud.ftc.gov",
+  code_head="ہمارے خاندان کا کوڈ ورڈ:",
   footline="اگر یہ ہو چکا ہے: یہ آپ کی غلطی نہیں، اور ابھی دیر نہیں ہوئی۔",
   foot="آزادانہ نقل، پرنٹ اور تقسیم کریں۔")
 
 L["hi"] = dict(font="Noto Sans Devanagari",
   brand="भरोसा करें, पर जाँच लें",
-  tagline="हर किसी पर शक करने की ज़रूरत नहीं। बस एक कदम और जोड़ें।",
+  tagline="आप भरोसा करना जारी रख सकते हैं, बस एक ठहराव जोड़ें।",
   steps_head="कोई भी पैसा भेजने से पहले",
   steps=[("नंबर खुद ढूँढें।","वह नंबर नहीं जो उन्होंने दिया। अपने कार्ड के पीछे या स्टेटमेंट का नंबर।"),
          ("उस व्यक्ति को खुद फ़ोन करें।","पहले फ़ोन काटें। अगर बात सच है तो वे वहीं मिलेंगे।"),
@@ -577,12 +595,13 @@ L["hi"] = dict(font="Noto Sans Devanagari",
          ("877-908-3360","AARP फ़्रॉड वॉच · सोम–शुक्र")],
   interp='फ़ोन उठने पर अंग्रेज़ी में कहें: "Hindi, please"',
   report="शिकायत करें: ic3.gov  ·  reportfraud.ftc.gov",
+  code_head="हमारे परिवार का कोड शब्द:",
   footline="अगर हो चुका है: यह आपकी गलती नहीं, और अभी देर नहीं हुई।",
   foot="स्वतंत्र रूप से कॉपी, प्रिंट और साझा करें।")
 
 L["fa"] = dict(font="Noto Naskh Arabic", rtl=True,
   brand="اعتماد کن، اما راستی‌آزمایی کن",
-  tagline="لازم نیست به همه شک کنید. فقط یک گام اضافه کنید.",
+  tagline="می‌توانید همچنان اعتماد کنید، فقط یک مکث اضافه کنید.",
   steps_head="پیش از انتقال هر مبلغی",
   steps=[("شماره را خودتان پیدا کنید.","نه شماره‌ای که آن‌ها داده‌اند. شماره پشت کارت یا روی صورت‌حساب شما."),
          ("خودتان با آن شخص تماس بگیرید.","اول قطع کنید. اگر واقعی باشد، همان‌جا هستند."),
@@ -601,12 +620,13 @@ L["fa"] = dict(font="Noto Naskh Arabic", rtl=True,
          ("877-908-3360","AARP Fraud Watch · دوشنبه تا جمعه")],
   interp='وقتی پاسخ دادند، به انگلیسی بگویید: "Farsi, please"',
   report="گزارش: ic3.gov  ·  reportfraud.ftc.gov",
+  code_head="رمز خانوادگی ما:",
   footline="اگر رخ داده: تقصیر شما نیست و هنوز دیر نشده است.",
   foot="آزادانه کپی، چاپ و منتشر کنید.")
 
 L["bn"] = dict(font="Noto Sans Bengali",
   brand="বিশ্বাস করুন, তবে যাচাই করুন",
-  tagline="সবাইকে সন্দেহ করার দরকার নেই। শুধু একটি ধাপ যোগ করুন।",
+  tagline="আপনি বিশ্বাস করা চালিয়ে যেতে পারেন, শুধু একটু বিরতি যোগ করুন।",
   steps_head="কোনো টাকা পাঠানোর আগে",
   steps=[("নম্বরটি নিজে খুঁজে নিন।","তারা যে নম্বর দিয়েছে সেটি নয়। আপনার কার্ডের পিছনের বা স্টেটমেন্টের নম্বর।"),
          ("নিজে সেই ব্যক্তিকে ফোন করুন।","আগে ফোন রাখুন। সত্যি হলে তাঁরা সেখানেই থাকবেন।"),
@@ -625,12 +645,13 @@ L["bn"] = dict(font="Noto Sans Bengali",
          ("877-908-3360","AARP Fraud Watch · সোম–শুক্র")],
   interp='ফোন ধরলে ইংরেজিতে বলুন: "Bengali, please"',
   report="রিপোর্ট: ic3.gov  ·  reportfraud.ftc.gov",
+  code_head="আমাদের পরিবারের কোড শব্দ:",
   footline="যদি ঘটেই থাকে: এটি আপনার দোষ নয়, এবং এখনও দেরি হয়নি।",
   foot="স্বাধীনভাবে কপি, প্রিন্ট ও শেয়ার করুন।")
 
 L["hy"] = dict(font="Noto Sans Armenian",
   brand="ՎՍՏԱՀԻՐ, ԲԱՅՑ ՍՏՈՒԳԻՐ",
-  tagline="Պետք չէ կասկածել բոլորին։ Պարզապես ավելացրե՛ք մեկ քայլ։",
+  tagline="Կարող եք շարունակել վստահել, պարզապես ավելացրե՛ք դադար։",
   steps_head="ՆԱԽՔԱՆ ՈՐԵՎԷ ԳՈՒՄԱՐ ՓՈԽԱՆՑԵԼԸ",
   steps=[("Համարը ինքնե՛րդ գտեք։","Ոչ թե նրանց տված համարը։ Ձեր քարտի հետևի կամ քաղվածքի համարը։"),
          ("Ինքնե՛րդ զանգահարեք այդ մարդուն։","Նախ անջատե՛ք։ Եթե իսկական է, նրանք տեղում կլինեն։"),
@@ -649,12 +670,13 @@ L["hy"] = dict(font="Noto Sans Armenian",
          ("877-908-3360","AARP Fraud Watch · Երկ–Ուրբ")],
   interp='Երբ պատասխանեն, անգլերեն ասեք՝ "Armenian, please"',
   report="Հաղորդել՝ ic3.gov  ·  reportfraud.ftc.gov",
+  code_head="Մեր ընտանիքի գաղտնի բառը՝",
   footline="Եթե արդեն պատահել է՝ ձեր մեղքը չէ, և դեռ ուշ չէ։",
   foot="Ազատորեն պատճենեք, տպեք և տարածեք։")
 
 L["am"] = dict(font="Noto Sans Ethiopic",
   brand="እመኑ፣ ግን አረጋግጡ",
-  tagline="ሁሉንም ሰው መጠራጠር አያስፈልግም። አንድ እርምጃ ብቻ ጨምሩ።",
+  tagline="እምነትዎን መቀጠል ይችላሉ፣ አንድ ማቆሚያ ብቻ ይጨምሩ።",
   steps_head="ማንኛውም ገንዘብ ከመላኩ በፊት",
   steps=[("ስልክ ቁጥሩን ራስዎ ይፈልጉ።","እነሱ የሰጡትን ቁጥር አይደለም። በካርድዎ ጀርባ ወይም በመግለጫዎ ላይ ያለውን።"),
          ("ራስዎ ወደ ሰውዬው ይደውሉ።","መጀመሪያ ስልኩን ይዝጉ። እውነት ከሆነ እዚያው ይኖራሉ።"),
@@ -673,12 +695,13 @@ L["am"] = dict(font="Noto Sans Ethiopic",
          ("877-908-3360","AARP Fraud Watch · ሰኞ–ዓርብ")],
   interp='ሲነሱልዎት በእንግሊዝኛ ይበሉ፦ "Amharic, please"',
   report="ሪፖርት ያድርጉ፦ ic3.gov  ·  reportfraud.ftc.gov",
+  code_head="የቤተሰባችን ሚስጥር ቃል፦",
   footline="አስቀድሞ ከተከሰተ፦ የእርስዎ ጥፋት አይደለም፣ እና ገና አልረፈደም።",
   foot="በነጻነት ይቅዱ፣ ያትሙ እና ያካፍሉ።")
 
 L["sq"] = dict(font="DejaVu Sans",
   brand="BESO, POR VERIFIKO",
-  tagline="Nuk keni pse dyshoni te të gjithë. Vetëm shtoni një hap.",
+  tagline="Mund të vazhdoni të besoni, thjesht shtoni një pauzë.",
   steps_head="PARA SE TË LËVIZË ÇDO PARA",
   steps=[("Gjejeni vetë numrin.","Jo numrin që ju dhanë ata. Atë në pjesën e pasme të kartës ose në pasqyrën tuaj."),
          ("Telefonojini vetë personit.","Mbyllni telefonin fillimisht. Nëse ishte e vërtetë, ata do të jenë ende aty."),
@@ -697,12 +720,13 @@ L["sq"] = dict(font="DejaVu Sans",
          ("877-908-3360","AARP Fraud Watch · Hën–Pre 8–8 ET")],
   interp='Kur t\'ju përgjigjen, thoni në anglisht: "Albanian, please"',
   report="Raportoni: ic3.gov  ·  reportfraud.ftc.gov",
+  code_head="Fjalëkalimi i familjes sonë:",
   footline="Nëse ka ndodhur tashmë: nuk është faji juaj dhe nuk është vonë.",
   foot="I lirë për ta kopjuar, printuar dhe shpërndarë.")
 
 L["ps"] = dict(font="Noto Naskh Arabic", rtl=True,
   brand="باور وکړه، خو تصدیق یې کړه",
-  tagline="پر ټولو شک کولو ته اړتیا نشته. یوازې یو ګام ورزیات کړئ.",
+  tagline="تاسو کولی شئ لا هم باور وکړئ، یوازې یو درنګ ورزیات کړئ.",
   steps_head="د هرې پیسې لېږلو دمخه",
   steps=[("شمېره پخپله ولټوئ.","هغه شمېره نه چې هغوی درکړې. د خپل کارت شا یا د خپل حساب پاڼې شمېره."),
          ("پخپله هغه کس ته زنګ ووهئ.","لومړی ټیلیفون بند کړئ. که ریښتیا وي، هغوی به هلته وي."),
@@ -721,6 +745,7 @@ L["ps"] = dict(font="Noto Naskh Arabic", rtl=True,
          ("877-908-3360","AARP Fraud Watch · دوشنبه تر جمعې")],
   interp='کله چې ځواب درکړي، په انګلیسي کې ووایاست: "Pashto, please"',
   report="راپور: ic3.gov  ·  reportfraud.ftc.gov",
+  code_head="زموږ د کورنۍ کوډ ټکی:",
   footline="که مخکې پېښ شوی وي: ستاسو ګناه نه ده، او لا ناوخته نه دي.",
   foot="په آزادۍ سره یې کاپي، چاپ او شریک کړئ.")
 
@@ -743,48 +768,53 @@ TPL = """<!DOCTYPE html>
 
   /* masthead */
   .brand {{ font-size: {brandsize}pt; font-weight: 700; letter-spacing: {track}; line-height: 1.02; }}
-  .tagline {{ font-size: 17pt; margin-top: 5pt; line-height: 1.25; }}
-  .rule {{ border-top: 5pt solid #000; margin: 11pt 0 0 0; }}
+  .tagline {{ font-size: 17pt; margin-top: 1pt; line-height: 1.15; }}
+  .rule {{ border-top: 5pt solid #000; margin: 4pt 0 0 0; }}
   .hair {{ border-top: 1.5pt solid #000; margin: {hair}pt 0; }}
 
   /* zone labels sit on the rule, like a form */
   .zone {{ font-size: 13pt; font-weight: 700; letter-spacing: 2.2px;
-           padding-top: 8pt; padding-bottom: 9pt; }}
+           padding-top: 3pt; padding-bottom: 4pt; }}
 
   /* THE SIGNATURE: three steps, huge, readable across a kitchen */
-  .step {{ display: flex; align-items: baseline; gap: 19pt; padding: {steppad}pt 0; }}
+  .step {{ display: flex; align-items: flex-start; gap: 19pt; padding: {steppad}pt 0; }}
   .num  {{ font-size: {numsz}pt; font-weight: 700; line-height: 0.85;
            width: 57pt; flex: none; }}
-  .imp  {{ font-size: {impsize}pt; font-weight: 700; line-height: 1.06; }}
-  .sub  {{ font-size: 15pt; line-height: 1.28; margin-top: 4pt; }}
+  .imp  {{ font-size: {impsize}pt; font-weight: 700; line-height: 1.04; }}
+  .sub  {{ font-size: 15pt; line-height: 1.18; margin-top: 2pt; }}
 
   ul {{ list-style: none; }}
-  li {{ font-size: {li}pt; line-height: 1.28; padding: {lipad}pt 0 {lipad}pt 26pt;
+  li {{ font-size: {li}pt; line-height: 1.18; padding: {lipad}pt 0 {lipad}pt 26pt;
         position: relative; }}
-  li:before {{ content: "\\25A0"; position: absolute; left: 0; font-size: 12pt; top: 8pt; }}
+  li:before {{ content: "\\25A0"; position: absolute; left: 0; font-size: 12pt; top: 5pt; }}
 
-  .never {{ border: 5pt solid #000; padding: 12pt 16pt 13pt; margin-top: 2pt; }}
-  .never .zone {{ padding-top: 0; padding-bottom: 8pt; }}
+  .never {{ border: 4pt solid #000; padding: 6pt 14pt 7pt; margin-top: 1pt; }}
+  .never .zone {{ padding-top: 0; padding-bottom: 5pt; }}
   .never li {{ font-weight: 700; font-size: {nli}pt; }}
-  .never li:before {{ content: "\\2715"; font-size: 14pt; top: 6pt; }}
+  .never li:before {{ content: "\\2715"; font-size: 14pt; top: 3pt; }}
 
-  .helpgrid {{ display: flex; gap: 28pt; padding-top: 5pt; }}
+  .helpgrid {{ display: flex; gap: 28pt; padding-top: 1pt; }}
   .help {{ flex: 1; }}
-  .tel {{ font-size: 33pt; font-weight: 700; letter-spacing: -0.5px; line-height: 1.05; }}
-  .who {{ font-size: 14pt; line-height: 1.25; margin-top: 4pt; }}
-  .report {{ font-size: 14pt; margin-top: 7pt; }}
-  .interp {{ font-size: 13.5pt; font-weight: 700; margin-top: 7pt;
-             border-top: 1.5pt solid #000; padding-top: 6pt; }}
+  .tel {{ font-size: 33pt; font-weight: 700; letter-spacing: -0.5px; line-height: 1.0; }}
+  .who {{ font-size: 13pt; line-height: 1.1; margin-top: 1pt; }}
+  .report {{ font-size: 12.5pt; margin-top: 1pt; }}
+  .interp {{ font-size: 13.5pt; font-weight: 700; margin-top: 4pt;
+             border-top: 1.5pt solid #000; padding-top: 4pt; }}
 
-  .spacer {{ height: {spacer}pt; }}
-  .footline {{ font-size: 16pt; font-weight: 700; line-height: 1.3;
-               border-top: 5pt solid #000; padding-top: 9pt; }}
-  .foot {{ font-size: 12pt; margin-top: 7pt; }}
-  .notice {{ border: 3pt solid #000; padding: 6pt 10pt 7pt; margin-top: 7pt;
+  .spacer {{ height: 0; }}
+  .codeline {{ display: flex; align-items: baseline; gap: 8pt;
+               padding-top: 0; white-space: nowrap; }}
+  .code-label {{ font-size: 10pt; font-weight: 700; }}
+  .code-blank {{ flex: 1 1 auto; min-width: 40pt;
+                 border-bottom: 1.3pt solid #000; height: 1pt; margin-bottom: -1pt; }}
+  .footline {{ font-size: 14pt; font-weight: 700; line-height: 1.05;
+               border-top: 3pt solid #000; padding-top: 2pt; }}
+  .foot {{ font-size: 12pt; margin-top: 1pt; }}
+  .notice {{ border: 2.5pt solid #000; padding: 3.5pt 9pt 4.5pt; margin-top: 2.5pt;
              background: #f0f0f0; }}
-  .notice .nt {{ font-size: 12pt; font-weight: 700; line-height: 1.25; }}
-  .notice .nb {{ font-size: 10.5pt; line-height: 1.25; margin-top: 3pt; }}
-  .notice .ne {{ font-size: 8pt; line-height: 1.18; margin-top: 3pt; }}
+  .notice .nt {{ font-size: 11pt; font-weight: 700; line-height: 1.2; }}
+  .notice .nb {{ font-size: 9.5pt; line-height: 1.2; margin-top: 2pt; }}
+  .notice .ne {{ font-size: 7.3pt; line-height: 1.12; margin-top: 2pt; }}
 {nastaliq_css}
 </style></head><body><div class="wrap">
 
@@ -810,6 +840,8 @@ TPL = """<!DOCTYPE html>
   <div class="helpgrid">{help_html}</div>
   {interp_html}
   <div class="report">{report}</div>
+
+  <div class="codeline"><span class="code-label">{code_head}</span><span class="code-blank"></span></div>
 
   <div class="spacer"></div>
   <div class="footline">{footline}</div>
@@ -850,12 +882,12 @@ def build(code, d):
 
     nastaliq = d.get("font","").startswith("Noto Nastaliq")
     tight = code in NOTICE
-    spacer  = 2 if tight else 4
-    steppad = 3.5 if tight else 6.5
-    hair    = 7 if tight else 10
-    li      = 14.5 if tight else 17
-    lipad   = 2.5 if tight else 3.5
-    nli     = 13.5 if tight else 16
+    spacer  = 1 if tight else 2
+    steppad = 0.35 if tight else 2
+    hair    = 2.3 if tight else 5
+    li      = 13.0 if tight else 17
+    lipad   = 0.6 if tight else 2
+    nli     = 11.6 if tight else 15
     numsz   = 50 if tight else 60
     if nastaliq:
         impsize = 15
@@ -908,7 +940,7 @@ def build(code, d):
         track = "0"
         nq = nq + (
           "\n  .brand, .tagline, .zone, .imp, .sub, li, .who, .interp,"
-          "\n  .report, .footline, .foot, .notice .nt, .notice .nb {"
+          "\n  .report, .footline, .foot, .notice .nt, .notice .nb, .code-label {"
           "\n    direction: rtl; text-align: right; letter-spacing: 0 !important; }"
           "\n  li { padding-left: 0 !important; padding-right: 26pt !important; }"
           "\n  li:before { left: auto !important; right: 0 !important; }"
@@ -917,6 +949,7 @@ def build(code, d):
           "\n  .num { text-align: left; margin-left: 16pt; }"
           "\n  .helpgrid { flex-direction: row-reverse; }"
           "\n  .tel { text-align: right; direction: ltr; }"
+          "\n  .codeline { flex-direction: row-reverse; }"
         )
 
     out = TPL.format(lang=code, nastaliq_css=nq, brandsize=brandsize, spacer=spacer,
@@ -929,14 +962,14 @@ def build(code, d):
                      brand=e(d["brand"]), tagline=e(d["tagline"]),
                      steps_head=e(d["steps_head"]), signs_head=e(d["signs_head"]),
                      never_head=e(d["never_head"]), help_head=e(d["help_head"]),
-                     report=e(d["report"]), footline=e(d["footline"]),
+                     report=e(d["report"]), code_head=e(d["code_head"]), footline=e(d["footline"]),
                      foot=e(d["foot"]), font=d["font"], notice_html=notice_html)
 
     hpath = f"{OUT}/fridge-sheet-{code}.html"
     with open(hpath, "w", encoding="utf-8") as f:
         f.write(out)
     ppath = f"{OUT}/fridge-sheet-{code}.pdf"
-    if rtl and _WeasyHTML is not None:
+    if _WeasyHTML is not None:
         _WeasyHTML(filename=hpath).write_pdf(ppath)
         print("built", code, "(weasyprint)")
         return

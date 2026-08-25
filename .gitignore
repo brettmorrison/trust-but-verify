@@ -3,6 +3,9 @@ site/
 
 # Generated PDFs are committed (see formats/print) because Cloudflare's build
 # image has no wkhtmltopdf or WeasyPrint fonts. Regenerate locally, then commit.
+# The intermediate .html weasyprint renders from is a pure build byproduct,
+# never referenced by the site — only the .pdf next to it matters.
+/formats/print/*.html
 
 # Python
 __pycache__/
