@@ -15,8 +15,13 @@ Prefer email? **translations [at] trustbutverifyproject [dot] org** reaches the 
 place.
 
 <form class="feedback-form" method="POST" action="/api/feedback">
-<p class="hp" aria-hidden="true">
-<label for="website">Leave this field blank</label>
+<!-- No aria-hidden here on purpose: Chrome ignores aria-hidden on any
+     element with a focusable descendant (this input's tabindex="-1"
+     still counts), so it does nothing but might look "missing" to a
+     future editor. The label itself is the real accessibility fix --
+     unambiguous if a screen reader's virtual cursor lands here anyway. -->
+<p class="hp">
+<label for="website">Leave this field blank — it's a spam trap, not part of the form</label>
 <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
 </p>
 
