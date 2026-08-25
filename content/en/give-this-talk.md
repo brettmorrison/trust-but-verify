@@ -63,7 +63,7 @@ whole point of a script is that you don't have to improvise.
 
 If you'd like a second set of eyes, or you're planning to give this in a
 language other than English, email
-**translations@trustbutverifyproject.org** — we'll help however we can.
+**translations [at] trustbutverifyproject [dot] org** — we'll help however we can.
 
 **Talking to a room of adult children instead of seniors?**
 [There's a separate deck for that.](/for-family)

@@ -119,7 +119,7 @@ call a national hotline.
 We don't publish that file for open download. An editable copy still carrying
 this project's name is exactly the kind of thing someone could quietly alter
 and pass off as official — a real risk on a fraud-prevention site of all
-places. Email **translations@trustbutverifyproject.org** and we'll send it to
+places. Email **translations [at] trustbutverifyproject [dot] org** and we'll send it to
 you directly.
 
 ---

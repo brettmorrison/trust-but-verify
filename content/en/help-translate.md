@@ -169,7 +169,7 @@ growing up, you are exactly who we're looking for.
 
 ## How to reach us
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 Tell us the language, and roughly how you use it — spoken at home, professionally,
 grew up with it. That's all the screening there is.

@@ -11,7 +11,7 @@ Found something wrong, out of date, confusing, or missing? Tell us. This goes
 straight to the maintainer's inbox — nothing is stored, and nothing is added
 to any list.
 
-Prefer email? **translations@trustbutverifyproject.org** reaches the same
+Prefer email? **translations [at] trustbutverifyproject [dot] org** reaches the same
 place.
 
 <form class="feedback-form" method="POST" action="/api/feedback">

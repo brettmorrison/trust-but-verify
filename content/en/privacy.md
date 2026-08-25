@@ -23,7 +23,7 @@ get read. It can't connect a visit to a person or a return visit.
 
 **If you use the [feedback form](/feedback)**, what you type is emailed to
 the maintainer to read and reply to — not stored in a database or added to
-any list. Prefer email? **translations@trustbutverifyproject.org** works
+any list. Prefer email? **translations [at] trustbutverifyproject [dot] org** works
 the same way.
 
 **Standard server logs** — Cloudflare briefly logs technical request data
@@ -39,7 +39,7 @@ need, rather than collect it and promise to be careful.
 ## Questions
 
 If this doesn't match what the site actually does, that's a bug — tell us.
-**translations@trustbutverifyproject.org**, or open an issue on
+**translations [at] trustbutverifyproject [dot] org**, or open an issue on
 **[GitHub](https://github.com/brettmorrison/trust-but-verify)**.
 
 *Last reviewed: August 2026.*

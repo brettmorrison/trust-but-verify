@@ -16,7 +16,7 @@ Most writing here — English pages, translations, print materials — is
 AI-assisted, directed and reviewed by the maintainer. It isn't reviewed by a
 lawyer, financial advisor, or law enforcement, and isn't legal, financial,
 or investigative advice. Found a mistake?
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 ## Translations aren't validated until we say so
 
@@ -47,6 +47,6 @@ free, without asking.** No fee, no attribution required. See the
 Open an issue or pull request on
 **[GitHub](https://github.com/brettmorrison/trust-but-verify)** — the whole
 project is public there — or email
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 *Last reviewed: August 2026.*

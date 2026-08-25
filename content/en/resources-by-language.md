@@ -214,7 +214,7 @@ Likewise, if you called one of these numbers and asked for an interpreter and it
 did **not** work, we want to know that even more. A promise that fails at the
 moment someone needs it is worse than no promise.
 
-**translations@trustbutverifyproject.org**
+**translations [at] trustbutverifyproject [dot] org**
 
 ---
 
