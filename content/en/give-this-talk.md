@@ -75,9 +75,11 @@ You don't need to memorize anything. Read through the version you picked
 once, out loud, on your own. That's the only rehearsal this requires — the
 whole point of a script is that you don't have to improvise.
 
-If you'd like a second set of eyes, or you're planning to give this in a
-language other than English, email
-**translations [at] trustbutverifyproject [dot] org** — we'll help however we can.
+These translations are done by AI and haven't been checked by a native
+speaker yet. If you speak one of the languages and can improve one, we'd be
+grateful — email **translations [at] trustbutverifyproject [dot] org**. We
+can't promise to help everyone one to one, but every correction you send
+makes the page better for the next person who needs it.
 
 ---
 

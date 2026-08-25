@@ -68,9 +68,13 @@ validated_by: (none yet)
 
 ## ሊረዱን ይችላሉ
 
-ይህ ትርጉም በAI የተሰራ ሲሆን በአፍ መፍቻ ተናጋሪ ገና አልተመረመረም። አንድ ወይም ሁለት ሰዓት ይበቃል። የትኛው ዓረፍተ ነገር እንደማይሰማ እና የት አንባቢውን እንደሚያሳንስ ይንገሩን።
+እነዚህ ትርጉሞች በሰው ሠራሽ አስተውሎት የተሠሩ ሲሆን በአፍ መፍቻ ቋንቋ ተናጋሪ ገና አልተመረመሩም። ከእነዚህ ቋንቋዎች
+አንዱን የሚናገሩ ከሆነና አንዱን ማሻሻል ከቻሉ በጣም እናመሰግናለን። ይጻፉልን፦
 
 **translations [at] trustbutverifyproject [dot] org**
+
+ለሁሉም ሰው በተናጠል መርዳት እንደምንችል ቃል መግባት አንችልም፣ ነገር ግን የሚልኩት እያንዳንዱ እርማት ገጹን ለሚቀጥለው
+ሰው የተሻለ ያደርገዋል።
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. አማርኛ speakers: we need one reader. It takes an hour.*
 

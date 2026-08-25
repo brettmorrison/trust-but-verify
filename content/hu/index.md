@@ -70,11 +70,14 @@ van a legfontosabb.
 
 ## Segíthet nekünk
 
-Ezt a fordítást mesterséges intelligencia készítette, és még nem ellenőrizte
-anyanyelvi beszélő. Egy óra elég. Mondja el, melyik mondat hangzik
-helytelenül.
+Ezeket a fordításokat mesterséges intelligencia készítette, és anyanyelvi
+beszélő még nem nézte át őket. Ha beszéli valamelyik nyelvet, és tud javítani
+az egyiken, hálásak leszünk. Írjon nekünk:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Nem ígérhetjük, hogy mindenkinek egyenként segítünk, de minden javítás, amit
+elküld, jobbá teszi az oldalt a következőnek, akinek szüksége lesz rá.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Hungarian speakers: we need one reader.

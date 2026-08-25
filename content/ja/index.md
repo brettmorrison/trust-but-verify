@@ -66,9 +66,11 @@ validated_by: (none yet)
 
 ## お手伝いいただけませんか
 
-この翻訳はAIによるもので、母語話者の確認をまだ受けていません。1〜2時間で結構です。不自然な言い回しや、見下した響きのある箇所を教えてください。
+これらの翻訳は人工知能によるもので、母語話者の確認はまだ受けていません。いずれかの言語を話され、どれかを良くしていただけるなら、ありがたく存じます。ご連絡ください。
 
 **translations [at] trustbutverifyproject [dot] org**
+
+お一人おひとりに個別に対応することはお約束できませんが、お送りいただいた訂正はどれも、次にこの頁を必要とする方のために内容を良くしてくれます。
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. 日本語 speakers: we need one reader. It takes an hour.*
 

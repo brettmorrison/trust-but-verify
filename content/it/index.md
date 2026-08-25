@@ -69,10 +69,15 @@ questo foglio c'è la cosa più importante.
 
 ## Può aiutarci
 
-Questa traduzione è stata fatta dall'IA e non è ancora stata controllata da
-un madrelingua. Basta un'ora. Ci dica quale frase suona sbagliata.
+Queste traduzioni sono state fatte da un'intelligenza artificiale e non sono
+ancora state riviste da un madrelingua. Se parla una di queste lingue e può
+migliorarne una, gliene saremmo grati. Ci scriva:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Non possiamo promettere di aiutare tutti uno per uno, ma ogni correzione che
+ci manda rende la pagina migliore per la persona successiva che ne avrà
+bisogno.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Italian speakers: we need one reader.

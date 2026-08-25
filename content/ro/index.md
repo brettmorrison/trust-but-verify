@@ -71,11 +71,15 @@ ce contează cel mai mult.
 
 ## Ne poți ajuta
 
-Această traducere a fost făcută de o inteligență artificială și nu a fost
-încă verificată de un vorbitor nativ. O oră e suficient. Spune-ne ce
-propoziție sună greșit.
+Aceste traduceri au fost făcute de inteligență artificială și încă nu au fost
+verificate de un vorbitor nativ. Dacă vorbiți una dintre limbi și puteți
+îmbunătăți vreuna, v-am fi recunoscători. Scrieți-ne:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Nu putem promite că îi ajutăm pe toți unul câte unul, dar fiecare corectură pe
+care o trimiteți face pagina mai bună pentru următorul care va avea nevoie de
+ea.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Romanian speakers: we need one reader.

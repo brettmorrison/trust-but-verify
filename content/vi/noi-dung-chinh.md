@@ -304,8 +304,9 @@ mình.
 
 ## Quý vị giúp chúng tôi kiểm lại bản dịch này được không?
 
-Bản dịch này chưa được người bản ngữ duyệt. Cho đến khi được duyệt, xin đừng in
-hoặc phát ra ngoài.
+Các bản dịch này do trí tuệ nhân tạo thực hiện và chưa được người bản ngữ duyệt
+lại. Nếu quý vị nói một trong những ngôn ngữ này và có thể giúp cải thiện một
+bản, chúng tôi rất biết ơn.
 
 Chúng tôi không cần dịch giả chuyên nghiệp. Chúng tôi cần một người nói tiếng
 Việt hằng ngày, sẵn lòng đọc các trang này và cho biết:
@@ -319,5 +320,8 @@ Hoàn toàn tự nguyện, chỉ mất một hai giờ, và quý vị tự quy�
 tên mình hay không.
 
 **Xin liên lạc: translations [at] trustbutverifyproject [dot] org**
+
+Chúng tôi không thể hứa giúp từng người một, nhưng mỗi chỗ sửa quý vị gửi đến
+đều làm trang này tốt hơn cho người tiếp theo cần đến nó.
 
 **Other languages:** [Español](/es/) · [中文](/zh/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ਪੰਜਾਬੀ](/pa/) · [ગુજરાતી](/gu/) · [Af-Soomaali](/so/) · [ខ្មែរ](/km/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/) · [English](/)

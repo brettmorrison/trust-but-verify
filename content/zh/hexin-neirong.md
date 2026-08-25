@@ -260,7 +260,8 @@ validated_by: (none yet)
 
 ## 能请您帮忙校对这份翻译吗？
 
-本文尚未经母语者审阅。在通过审阅之前，请勿打印或对外分发。
+这些译文由人工智能翻译，尚未经母语者审阅。如果您会其中一种语言，并且能帮忙改进其中
+一份，我们将非常感激。
 
 我们要找的不是专业译者。我们要找的是一位日常说中文、愿意读一遍这些内容并告诉我们以下几点
 的人：
@@ -273,5 +274,8 @@ validated_by: (none yet)
 完全自愿，一两个小时就能完成，是否署名由您自己决定。
 
 **请联系：translations [at] trustbutverifyproject [dot] org**
+
+我们无法承诺逐一回复每一位来信的人，但您寄来的每一处更正，都会让这个页面对下一位需
+要它的人更有帮助。
 
 **Other languages:** [Español](/es/) · [Tiếng Việt](/vi/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ਪੰਜਾਬੀ](/pa/) · [ગુજરાતી](/gu/) · [Af-Soomaali](/so/) · [ខ្មែរ](/km/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/) · [English](/)

@@ -68,9 +68,14 @@ Jo të gjitha faqet e kësaj faqeje interneti janë ende në shqip. Fleta një-f
 
 ## A mund të na ndihmoni
 
-Ky përkthim është bërë nga AI dhe nuk është shqyrtuar ende nga një folës amtar. Mjaftojnë një ose dy orë. Na tregoni cila fjali tingëllon e panatyrshme dhe ku lexuesi trajtohet me epërsi.
+Këto përkthime i ka bërë inteligjenca artificiale dhe nuk i ka shqyrtuar ende
+asnjë folës amtar. Nëse flisni një nga këto gjuhë dhe mund të përmirësoni
+ndonjërën, do t'ju ishim mirënjohës. Na shkruani:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Nuk mund të premtojmë se do të ndihmojmë secilin veç e veç, por çdo korrigjim
+që dërgoni e bën faqen më të mirë për personin tjetër që do ta ketë nevojë.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. Shqip speakers: we need one reader. It takes an hour.*
 

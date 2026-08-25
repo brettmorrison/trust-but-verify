@@ -70,11 +70,14 @@ einen Blatt steht das Wichtigste.
 
 ## Sie können uns helfen
 
-Diese Übersetzung wurde von einer KI erstellt und noch nicht von einem
-Muttersprachler geprüft. Eine Stunde reicht. Sagen Sie uns, welcher Satz sich
-falsch anhört.
+Diese Übersetzungen wurden von künstlicher Intelligenz erstellt und noch nicht
+von Muttersprachlern geprüft. Wenn Sie eine der Sprachen sprechen und eine
+davon verbessern können, sind wir dankbar. Schreiben Sie uns:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Wir können nicht versprechen, allen einzeln zu helfen, aber jede Korrektur,
+die Sie schicken, macht die Seite besser für den Nächsten, der sie braucht.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. German speakers: we need one reader. It

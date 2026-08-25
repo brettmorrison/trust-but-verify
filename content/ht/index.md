@@ -69,11 +69,14 @@ enpòtan yo.
 
 ## Ou ka ede nou
 
-Tradiksyon sa a te fèt pa yon Entèlijans Atifisyèl e li poko verifye pa yon
-moun ki pale lang lan natirèlman. Yon èdtan ase. Di nou ki fraz ki sonnen
-mal.
+Se entèlijans atifisyèl ki fè tradiksyon sa yo epi okenn moun ki pale lang lan
+poko tcheke yo. Si ou pale youn nan lang sa yo epi ou ka amelyore youn, n ap
+rekonesan. Ekri nou:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Nou pa ka pwomèt pou nou ede tout moun youn pa youn, men chak koreksyon ou
+voye fè paj la vin pi bon pou pwochen moun ki bezwen l.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Haitian Creole speakers: we need one

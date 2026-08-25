@@ -70,11 +70,14 @@ lapā ir svarīgākais.
 
 ## Jūs varat mums palīdzēt
 
-Šo tulkojumu ir veidojis AI, un to vēl nav pārbaudījis cilvēks, kuram
-šī valoda ir dzimtā. Pietiek ar vienu stundu. Pastāstiet mums, kurš teikums
-izklausās nepareizi.
+Šos tulkojumus veidoja mākslīgais intelekts, un dzimtās valodas runātāji tos
+vēl nav pārbaudījuši. Ja runājat kādā no šīm valodām un varat kādu no tiem
+uzlabot, būsim pateicīgi. Rakstiet mums:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Nevaram apsolīt palīdzēt katram atsevišķi, bet katrs labojums, ko atsūtāt,
+padara lapu labāku nākamajam, kuram tā būs vajadzīga.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Latvian speakers: we need one reader.

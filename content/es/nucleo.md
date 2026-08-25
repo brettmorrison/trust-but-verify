@@ -297,8 +297,9 @@ eligieron.
 
 ## ¿Nos ayuda a revisar esta traducción?
 
-Este texto todavía no ha sido validado por un hablante nativo, y hasta que lo
-sea, no debe imprimirse ni repartirse.
+Estas traducciones las ha hecho una inteligencia artificial y todavía no las ha
+revisado ningún hablante nativo. Si usted habla uno de estos idiomas y puede
+mejorar alguno, se lo agradeceríamos.
 
 Lo que buscamos no es un traductor profesional. Buscamos a alguien que hable
 español a diario y que esté dispuesto a leer estas páginas y decirnos:
@@ -312,5 +313,8 @@ Es voluntario, se hace en una o dos horas, y usted decide si quiere que
 aparezca su nombre o no.
 
 **Escriba a translations [at] trustbutverifyproject [dot] org**
+
+No podemos prometer atender a todo el mundo uno por uno, pero cada corrección
+que nos envía mejora la página para la siguiente persona que la necesite.
 
 **Other languages:** [Tiếng Việt](/vi/) · [中文](/zh/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ਪੰਜਾਬੀ](/pa/) · [ગુજરાતી](/gu/) · [Af-Soomaali](/so/) · [ខ្មែរ](/km/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/) · [English](/)

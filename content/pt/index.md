@@ -70,10 +70,14 @@ mais importante.
 
 ## Você pode nos ajudar
 
-Esta tradução foi feita por IA e ainda não foi revisada por um falante
-nativo. Uma hora é suficiente. Diga-nos qual frase soa errada.
+Estas traduções foram feitas por inteligência artificial e ainda não foram
+revisadas por um falante nativo. Se você fala uma dessas línguas e pode
+melhorar alguma, ficaremos gratos. Escreva para nós:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Não podemos prometer atender todo mundo um a um, mas cada correção que você
+envia deixa a página melhor para a próxima pessoa que precisar dela.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Portuguese speakers: we need one reader.

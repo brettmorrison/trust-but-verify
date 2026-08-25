@@ -66,9 +66,11 @@ validated_by: (none yet)
 
 ## 도와주시겠습니까
 
-이 번역은 AI가 한 것이며 원어민의 검토를 아직 받지 않았습니다. 한두 시간이면 됩니다. 어색한 표현이나 무시하는 듯한 어조가 있으면 알려주십시오.
+이 번역들은 인공지능이 한 것이며 아직 원어민이 확인하지 않았습니다. 이 언어들 가운데 하나를 하시고 그중 하나를 더 낫게 만들어 주실 수 있다면 감사하겠습니다. 연락 주십시오:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+한 분 한 분께 개별로 도와드리겠다고 약속드릴 수는 없지만, 보내 주시는 수정 하나하나가 다음에 이 쪽이 필요한 분을 위해 내용을 더 낫게 만듭니다.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. 한국어 speakers: we need one reader. It takes an hour.*
 

@@ -71,11 +71,16 @@ contient l'essentiel.
 
 ## Vous pouvez nous aider
 
-Cette traduction a été faite par une IA et n'a pas encore été vérifiée par
-une personne de langue maternelle française. Une heure suffit. Dites-nous
-quelle phrase sonne mal.
+Ces traductions ont été faites par une intelligence artificielle et n'ont pas
+encore été relues par un locuteur natif. Si vous parlez l'une de ces langues
+et pouvez en améliorer une, nous vous en serions reconnaissants. Écrivez-nous
+:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Nous ne pouvons pas promettre d'aider tout le monde individuellement, mais
+chaque correction que vous envoyez rend la page meilleure pour la personne
+suivante qui en aura besoin.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. French speakers: we need one reader. It

@@ -70,11 +70,14 @@ ena bladet finns det viktigaste.
 
 ## Du kan hjälpa oss
 
-Den här översättningen gjordes av AI och har ännu inte kontrollerats av en
-modersmålstalare. En timme räcker. Berätta för oss vilken mening som låter
-fel.
+De här översättningarna är gjorda av artificiell intelligens och har ännu inte
+granskats av någon som har språket som modersmål. Om du talar något av språken
+och kan förbättra någon av dem är vi tacksamma. Skriv till oss:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Vi kan inte lova att hjälpa alla en och en, men varje rättelse du skickar gör
+sidan bättre för nästa person som behöver den.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Swedish speakers: we need one reader.

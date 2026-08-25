@@ -74,10 +74,15 @@ berisi hal yang paling penting.
 
 ## Anda bisa membantu kami
 
-Terjemahan ini dibuat oleh AI dan belum diperiksa oleh penutur asli. Satu
-jam saja cukup. Beri tahu kami kalimat mana yang terdengar salah.
+Terjemahan ini dibuat oleh kecerdasan buatan dan belum diperiksa oleh penutur
+asli. Kalau Anda berbicara salah satu bahasanya dan bisa memperbaiki salah
+satunya, kami akan berterima kasih. Tulis kepada kami:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Kami tidak bisa menjanjikan bantuan satu per satu kepada semua orang, tetapi
+setiap koreksi yang Anda kirim membuat halaman ini lebih baik bagi orang
+berikutnya yang membutuhkannya.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Indonesian speakers: we need one

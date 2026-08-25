@@ -70,11 +70,14 @@ arket står det viktigste.
 
 ## Du kan hjelpe oss
 
-Denne oversettelsen er laget av KI og er ennå ikke sjekket av en som har
-språket som morsmål. En time er nok. Fortell oss hvilken setning som høres
-feil ut.
+Disse oversettelsene er laget av kunstig intelligens og er ennå ikke sjekket
+av noen som har språket som morsmål. Hvis du snakker ett av språkene og kan
+forbedre en av dem, er vi takknemlige. Skriv til oss:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Vi kan ikke love å hjelpe alle én for én, men hver rettelse du sender, gjør
+siden bedre for den neste som trenger den.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Norwegian speakers: we need one reader.

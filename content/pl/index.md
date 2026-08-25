@@ -70,11 +70,14 @@ jest to, co najważniejsze.
 
 ## Możesz nam pomóc
 
-To tłumaczenie zostało wykonane przez AI i nie zostało jeszcze sprawdzone
-przez rodzimego użytkownika języka. Godzina wystarczy. Powiedz nam, które
-zdanie brzmi źle.
+Te tłumaczenia wykonała sztuczna inteligencja i nie sprawdził ich jeszcze
+nikt, dla kogo dany język jest ojczysty. Jeśli mówi Pan jednym z tych języków
+i potrafi poprawić któreś z nich, będziemy wdzięczni. Proszę do nas napisać:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Nie możemy obiecać, że pomożemy każdemu z osobna, ale każda przysłana poprawka
+sprawia, że strona jest lepsza dla następnej osoby, która jej potrzebuje.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Polish speakers: we need one reader. It

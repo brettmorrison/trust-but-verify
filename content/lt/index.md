@@ -71,10 +71,14 @@ lape yra svarbiausia informacija.
 
 ## Galite mums padėti
 
-Šis vertimas atliktas dirbtinio intelekto ir dar nebuvo patikrintas gimtakalbio. Užtenka
-vienos valandos. Praneškite mums, koks sakinys skamba netaisyklingai.
+Šiuos vertimus atliko dirbtinis intelektas ir gimtakalbiai jų dar
+neperžiūrėjo. Jei kalbate viena iš šių kalbų ir galite kurį nors pagerinti,
+būsime dėkingi. Rašykite mums:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Negalime pažadėti padėti kiekvienam asmeniškai, bet kiekvienas jūsų atsiųstas
+pataisymas padaro puslapį geresnį kitam, kuriam jo prireiks.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Lithuanian speakers: we need one reader.

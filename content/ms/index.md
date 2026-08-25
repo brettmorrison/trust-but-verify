@@ -74,10 +74,15 @@ helaian ini ada perkara yang paling penting.
 
 ## Anda boleh membantu kami
 
-Terjemahan ini dibuat oleh AI dan belum lagi disemak oleh penutur asli.
-Satu jam sudah memadai. Beritahu kami ayat mana yang berbunyi salah.
+Terjemahan ini dibuat oleh kecerdasan buatan dan belum disemak oleh penutur
+asli. Jika anda bertutur salah satu bahasanya dan boleh memperbaiki salah satu
+daripadanya, kami amat berterima kasih. Tulis kepada kami:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Kami tidak dapat menjanjikan bantuan seorang demi seorang kepada semua, tetapi
+setiap pembetulan yang anda hantar menjadikan halaman ini lebih baik untuk
+orang seterusnya yang memerlukannya.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Malay speakers: we need one reader. It

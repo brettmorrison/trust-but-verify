@@ -61,10 +61,14 @@ validated_by: (none yet)
 
 ## તમે અમને મદદ કરી શકો છો
 
-આ અનુવાદ AI દ્વારા કરવામાં આવ્યો છે અને હજુ સુધી કોઈ મૂળ ભાષી દ્વારા તપાસવામાં આવ્યો નથી.
-એક કલાક પૂરતો છે. અમને જણાવો કે કયું વાક્ય ખોટું લાગે છે.
+આ અનુવાદો કૃત્રિમ બુદ્ધિએ કર્યા છે અને કોઈ માતૃભાષીએ હજી સુધી એમને તપાસ્યા
+નથી. જો તમે આમાંની કોઈ ભાષા બોલતા હો અને એકને સુધારી શકતા હો, તો અમે આભારી
+રહીશું. અમને લખો:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+અમે દરેકને એક-એક કરીને મદદ કરવાનું વચન આપી શકતા નથી, પણ તમે મોકલો છો તે દરેક
+સુધારો પછીના જેને જરૂર હોય તેના માટે પાનું વધુ સારું બનાવે છે.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Gujarati speakers: we need one reader.

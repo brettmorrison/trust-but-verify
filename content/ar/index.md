@@ -66,9 +66,13 @@ validated_by: (none yet)
 
 ## هل يمكنك مساعدتنا
 
-تُرجم هذا النص بالذكاء الاصطناعي ولم يراجعه ناطق بالعربية بعد. ساعة أو ساعتان تكفيان. أخبرنا أي جملة تبدو غير طبيعية وأين يبدو النص متعاليًا على القارئ.
+هذه الترجمات أنجزها الذكاء الاصطناعي ولم يراجعها ناطق أصلي بعد. إن كنت تتحدث
+إحدى هذه اللغات وبإمكانك تحسين واحدة منها، فسنكون ممتنين. اكتب إلينا:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+لا يمكننا أن نعد بمساعدة كل شخص على حدة، لكن كل تصحيح ترسله يجعل الصفحة أفضل
+لمن يحتاجها بعدك.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. العربية speakers: we need one reader. It takes an hour.*
 

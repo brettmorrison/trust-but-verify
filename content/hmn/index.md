@@ -76,11 +76,15 @@ Hmoob. Daim ntawv no muaj tej yam tseem ceeb tshaj plaws.
 
 ## Koj pab tau peb
 
-Qhov kev txhais lus no yog AI ua, thiab tseem tsis tau muaj ib tus neeg
-hais tus lus no txij thaum yug los xyuas. Ib teev twg twb txaus lawm. Qhia
-peb saib nqe lus twg mloog tsis raug.
+Cov lus txhais no yog computer txawj ntse txhais thiab tseem tsis tau muaj
+neeg hais lus tiag xyuas. Yog koj hais ib hom lus hauv cov no thiab kho tau ib
+qho kom zoo dua, peb ua koj tsaug ntau. Sau tuaj rau peb:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Peb tsis tuaj yeem cog lus tias yuav pab txhua tus ib leeg zuj zus, tab sis
+txhua qhov kev kho koj xa tuaj ua rau nplooj ntawv zoo dua rau tus tom ntej
+uas xav tau nws.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Hmong speakers: we need one reader. It

@@ -62,10 +62,13 @@ validated_by: (none yet)
 
 ## אתה יכול לעזור לנו
 
-התרגום הזה נעשה על ידי בינה מלאכותית ועדיין לא נבדק על ידי דובר שפת אם. שעה
-אחת מספיקה. תגיד לנו איזה משפט נשמע לא נכון.
+התרגומים האלה נעשו על ידי בינה מלאכותית ועדיין לא נבדקו על ידי דוברי שפת אם.
+אם אתם דוברים אחת מהשפות ויכולים לשפר אחד מהם, נודה לכם. כתבו אלינו:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+איננו יכולים להבטיח לעזור לכל אחד באופן אישי, אבל כל תיקון שתשלחו הופך את
+העמוד לטוב יותר עבור האדם הבא שיזדקק לו.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Hebrew speakers: we need one reader. It

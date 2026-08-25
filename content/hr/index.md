@@ -70,11 +70,14 @@ jednom listu nalazi se ono najvažnije.
 
 ## Možete nam pomoći
 
-Ovaj prijevod napravila je umjetna inteligencija i još ga nije provjerio
-izvorni govornik. Sat vremena je dovoljno. Recite nam koja rečenica zvuči
-pogrešno.
+Ove prijevode izradila je umjetna inteligencija i još ih nije pregledao
+izvorni govornik. Ako govorite jedan od tih jezika i možete poboljšati neki od
+njih, bili bismo zahvalni. Pišite nam:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Ne možemo obećati da ćemo pomoći svakome pojedinačno, ali svaki ispravak koji
+pošaljete čini stranicu boljom za sljedećega kome zatreba.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Croatian speakers: we need one reader.

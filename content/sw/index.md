@@ -70,10 +70,14 @@ karatasi hii moja kuna jambo muhimu zaidi.
 
 ## Unaweza kutusaidia
 
-Tafsiri hii ilifanywa na AI na bado haijakaguliwa na mzungumzaji wa
-asili. Saa moja inatosha. Tuambie sentensi gani inasikika vibaya.
+Tafsiri hizi zimefanywa na akili bandia na bado hazijakaguliwa na mzungumzaji
+asilia. Ikiwa unazungumza mojawapo ya lugha hizi na unaweza kuiboresha
+mojawapo, tutashukuru sana. Tuandikie:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Hatuwezi kuahidi kumsaidia kila mtu mmoja mmoja, lakini kila sahihisho
+unalotuma hufanya ukurasa huu kuwa bora kwa mtu anayefuata anayeuhitaji.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Swahili speakers: we need one reader.

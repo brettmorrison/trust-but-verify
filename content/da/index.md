@@ -70,11 +70,14 @@ står det vigtigste.
 
 ## Du kan hjælpe os
 
-Denne oversættelse er lavet af AI og er endnu ikke tjekket af en, der har
-sproget som modersmål. En time er nok. Fortæl os, hvilken sætning der
-lyder forkert.
+Disse oversættelser er lavet af kunstig intelligens og er endnu ikke tjekket
+af en, der har sproget som modersmål. Hvis du taler et af sprogene og kan
+forbedre en af dem, er vi taknemmelige. Skriv til os:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Vi kan ikke love at hjælpe alle en for en, men hver rettelse, du sender, gør
+siden bedre for den næste, der har brug for den.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Danish speakers: we need one reader.

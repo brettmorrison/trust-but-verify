@@ -74,10 +74,14 @@ kaliya waxaa ku qoran waxa ugu muhiimsan.
 
 ## Waad na caawin kartaa
 
-Turjumaaddan waxaa sameeyay AI, wax qof afkiisa hooyo ahna weli lama
-hubin. Hal saac ayaa ku filan. Noo sheeg jumlada u dhawaajisa qalad.
+Turjumaadahan waxaa sameeyay garaad macmal ah, weli lamana eegin qof afka u
+dhashay. Haddii aad ku hadasho mid ka mid ah luqadahan oo aad mid ka wanaajin
+karto, aad baan kuugu mahadsanaan lahayn. Noo qor:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Ma ballan qaadi karno inaan qof kastaa gaar ahaan u caawinno, laakiin sixitaan
+kasta oo aad soo dirto wuxuu bogga uga wanaajiyaa qofka xiga ee u baahan.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Somali speakers: we need one reader.

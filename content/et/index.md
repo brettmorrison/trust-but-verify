@@ -70,10 +70,14 @@ on kõige olulisem.
 
 ## Saate meid aidata
 
-Selle tõlke tegi AI ja emakeelena kõneleja pole seda veel kontrollinud.
-Üks tund piisab. Andke meile teada, milline lause kõlab valesti.
+Need tõlked on teinud tehisintellekt ja emakeelena kõnelejad ei ole neid veel
+üle vaadanud. Kui räägite mõnda neist keeltest ja oskate mõnda parandada,
+oleme tänulikud. Kirjutage meile:
 
 **translations [at] trustbutverifyproject [dot] org**
+
+Me ei saa lubada, et aitame igaüht eraldi, kuid iga parandus, mille saadate,
+muudab lehe paremaks järgmisele, kes seda vajab.
 
 *NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
 do not print or distribute this yet. Estonian speakers: we need one reader.
