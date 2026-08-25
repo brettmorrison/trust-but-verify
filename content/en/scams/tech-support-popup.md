@@ -42,11 +42,12 @@ Sometimes there's no popup at all. The phone just rings, and it's "Microsoft" or
 "your antivirus company," saying they've detected a problem on your computer and
 need remote access to fix it.
 
-**Microsoft will never call you about a problem with your computer unless you
-contacted them first. Neither will any antivirus company.** They don't monitor
-your machine, so they have no way of knowing anything is wrong — which means a
-call like this is the wrong itself, not a warning about one. Hang up. If you want
-to check, look up the company's number yourself and call them, the same as
+> **Tech support will never call you first.**
+
+Not Microsoft. Not Apple. Not any antivirus company. None of them monitor your
+machine, so none of them can know something is wrong — which means a call like
+this is the wrong itself, not a warning about one. Hang up. If you want to
+check, look up the company's number yourself and call them, the same as
 everything else on this site.
 
 ## What happens if you call
