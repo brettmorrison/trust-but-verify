@@ -6,6 +6,10 @@ const path = require("path");
 const QR_BLUE = path.join(__dirname, "deck-assets", "qr-blue.png");
 const QR_PAPER = path.join(__dirname, "deck-assets", "qr-paper.png");
 
+// printer-friendly variant: every slide gets a white/light background so an
+// inkjet printer isn't laying full-bleed navy-black on half the pages
+const PRINTER_FRIENDLY = process.env.PRINTER_FRIENDLY === "1";
+
 const INK = "141414";
 const PAPER = "FFFFFF";
 const RED = "9E1B1B";
@@ -30,11 +34,21 @@ function footer(s, isDark) {
   });
   s.addImage({ path: isDark ? QR_PAPER : QR_BLUE, x: W - M - 0.42, y: 6.98, w: 0.42, h: 0.42 });
 }
+// a "dark" slide's authored content (color: PAPER / "D8D4CC") assumes an ink
+// background — in printer-friendly mode the background flips to white, so
+// any such color must flip too, or the text becomes invisible
+function onDark(color) {
+  if (!PRINTER_FRIENDLY) return color;
+  if (color === PAPER) return INK;
+  if (color === "D8D4CC") return GREY;
+  return color;
+}
 function dark(notes) {
   const s = p.addSlide();
-  s.background = { color: INK };
+  const isDark = !PRINTER_FRIENDLY;
+  s.background = { color: isDark ? INK : PAPER };
   if (notes) s.addNotes(notes);
-  footer(s, true);
+  footer(s, isDark);
   return s;
 }
 function light(notes) {
@@ -66,10 +80,10 @@ let s = dark(
   "Say your name, and say you're a volunteer, not a salesperson. Say plainly: " +
   "I am not selling anything and I will not ask for anything.\n\nThen pause."
 );
-s.addText("TRUST", { x: M, y: 1.5, w: W - M * 2, h: 1.3, fontFace: F, fontSize: 88, bold: true, color: PAPER, margin: 0 });
-s.addText("BUT VERIFY", { x: M, y: 2.7, w: W - M * 2, h: 1.3, fontFace: F, fontSize: 88, bold: true, color: PAPER, margin: 0 });
+s.addText("TRUST", { x: M, y: 1.5, w: W - M * 2, h: 1.3, fontFace: F, fontSize: 88, bold: true, color: onDark(PAPER), margin: 0 });
+s.addText("BUT VERIFY", { x: M, y: 2.7, w: W - M * 2, h: 1.3, fontFace: F, fontSize: 88, bold: true, color: onDark(PAPER), margin: 0 });
 s.addText("You can stay trusting,\nbut add a pause.", {
-  x: M, y: 4.4, w: 9.5, h: 1.4, fontFace: F, fontSize: 24, color: "D8D4CC", margin: 0, lineSpacing: 34,
+  x: M, y: 4.4, w: 9.5, h: 1.4, fontFace: F, fontSize: 24, color: onDark("D8D4CC"), margin: 0, lineSpacing: 34,
 });
 
 // ---------- 2. the story ----------
@@ -79,10 +93,10 @@ s = dark(
   "Pause after 'he never knew'. Let it land before you go on."
 );
 s.addText("\u201CGrandma? I'm in trouble.\nPlease don't tell Mom.\u201D", {
-  x: M, y: 1.7, w: W - M * 2, h: 2.4, fontFace: F, fontSize: 46, bold: true, color: PAPER, margin: 0, lineSpacing: 62,
+  x: M, y: 1.7, w: W - M * 2, h: 2.4, fontFace: F, fontSize: 46, bold: true, color: onDark(PAPER), margin: 0, lineSpacing: 62,
 });
 s.addText("She had $1,100 in a courier's hands within the hour.\nHer grandson was at work the whole time.", {
-  x: M, y: 4.6, w: 10.5, h: 1.4, fontFace: F, fontSize: 22, color: "D8D4CC", margin: 0, lineSpacing: 32,
+  x: M, y: 4.6, w: 10.5, h: 1.4, fontFace: F, fontSize: 22, color: onDark("D8D4CC"), margin: 0, lineSpacing: 32,
 });
 
 // ---------- 3. not foolish ----------
@@ -136,8 +150,8 @@ s = dark(
   "going to ask you to. I'm going to ask you to be slower than one.'\n\n" +
   "Then: 'Here is the whole thing. Three steps.'"
 );
-s.addText("The three steps", { x: M, y: 2.4, w: 11, h: 1.4, fontFace: F, fontSize: 66, bold: true, color: PAPER, margin: 0 });
-s.addText("Before any money moves.", { x: M, y: 3.9, w: 11, h: 0.8, fontFace: F, fontSize: 28, color: "D8D4CC", margin: 0 });
+s.addText("The three steps", { x: M, y: 2.4, w: 11, h: 1.4, fontFace: F, fontSize: 66, bold: true, color: onDark(PAPER), margin: 0 });
+s.addText("Before any money moves.", { x: M, y: 3.9, w: 11, h: 0.8, fontFace: F, fontSize: 28, color: onDark("D8D4CC"), margin: 0 });
 
 // ---------- 6-8. the steps ----------
 const STEPS = [
@@ -197,7 +211,7 @@ s.addText("Never post it. Never text it. Say it out loud, at a meal, with the gr
 
 // ---------- 11. section: three signs ----------
 s = dark("Transition: 'How do you know when to use those three steps? Three signs.'");
-s.addText("Three signs\nto stop", { x: M, y: 2.1, w: 11, h: 2.4, fontFace: F, fontSize: 66, bold: true, color: PAPER, margin: 0, lineSpacing: 78 });
+s.addText("Three signs\nto stop", { x: M, y: 2.1, w: 11, h: 2.4, fontFace: F, fontSize: 66, bold: true, color: onDark(PAPER), margin: 0, lineSpacing: 78 });
 
 // ---------- 12. the three signs ----------
 s = light(
@@ -221,7 +235,7 @@ s.addText("Three yeses is a scam until proven otherwise — and it can only be p
 
 // ---------- 13. section: two absolutes ----------
 s = dark("Transition: 'Two things I want you to remember for the rest of your life.'");
-s.addText("Two things that\nare always true", { x: M, y: 2.1, w: 11.5, h: 2.4, fontFace: F, fontSize: 60, bold: true, color: PAPER, margin: 0, lineSpacing: 74 });
+s.addText("Two things that\nare always true", { x: M, y: 2.1, w: 11.5, h: 2.4, fontFace: F, fontSize: 60, bold: true, color: onDark(PAPER), margin: 0, lineSpacing: 74 });
 
 // ---------- 14. gift cards ----------
 s = light(
@@ -284,7 +298,7 @@ s = dark(
   "Do NOT ask who in the room has been scammed. Not even for a show of hands. " +
   "Not even anonymously."
 );
-s.addText("If it already\nhappened", { x: M, y: 2.1, w: 11, h: 2.4, fontFace: F, fontSize: 60, bold: true, color: PAPER, margin: 0, lineSpacing: 74 });
+s.addText("If it already\nhappened", { x: M, y: 2.1, w: 11, h: 2.4, fontFace: F, fontSize: 60, bold: true, color: onDark(PAPER), margin: 0, lineSpacing: 74 });
 
 // ---------- 18. not your fault ----------
 s = light(
@@ -369,11 +383,12 @@ s = dark(
   "'I'm glad you told me.'"
 );
 s.addText("You can stay trusting,\nbut add a pause.", {
-  x: M, y: 2.0, w: 11.8, h: 2.2, fontFace: F, fontSize: 52, bold: true, color: PAPER, margin: 0, lineSpacing: 68,
+  x: M, y: 2.0, w: 11.8, h: 2.2, fontFace: F, fontSize: 52, bold: true, color: onDark(PAPER), margin: 0, lineSpacing: 68,
 });
 s.addText("That's the whole thing.", {
-  x: M, y: 4.35, w: 11.8, h: 0.9, fontFace: F, fontSize: 40, bold: true, color: "D8D4CC", margin: 0,
+  x: M, y: 4.35, w: 11.8, h: 0.9, fontFace: F, fontSize: 40, bold: true, color: onDark("D8D4CC"), margin: 0,
 });
 
-p.writeFile({ fileName: path.join(__dirname, "..", "formats", "talk", "trust-but-verify-talk.pptx") })
+const OUT_NAME = PRINTER_FRIENDLY ? "trust-but-verify-talk-printer-friendly.pptx" : "trust-but-verify-talk.pptx";
+p.writeFile({ fileName: path.join(__dirname, "..", "formats", "talk", OUT_NAME) })
   .then(f => console.log("wrote", f));

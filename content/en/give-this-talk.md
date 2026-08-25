@@ -34,6 +34,9 @@ Pick the version that fits what you've got.
 **[Download the slide deck (PPTX)](/print/trust-but-verify-talk.pptx)** — 22
 slides, built to pair with the full speaker script. Presenter notes are on
 every slide too, so the deck works on its own if that's easier.
+[Printer-friendly version](/print/trust-but-verify-talk-printer-friendly.pptx)
+— same 22 slides, light backgrounds throughout so printing it at home doesn't
+burn through your ink.
 
 ---
 

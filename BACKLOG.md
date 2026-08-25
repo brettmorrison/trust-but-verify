@@ -167,6 +167,13 @@ Roughly priority order. Update as items close.
     whatever generates the validated English fridge sheet) for the
     layout to modify. Needs doing across all 45 languages' fridge sheets
     once implemented, not just English.
+11. Blog: a second post linking to YouTube "scam baiter" videos that show
+    real scam call centers operating at industrial scale (Brett's example:
+    someone who "hacks back" into Indian call centers — account name not
+    recalled; likely one of the well-known scam-baiting channels, e.g.
+    Trilogy Media, Scammer Payback, or Kitboga — verify identity and
+    channel legitimacy before linking, same bar as the trailer link on
+    the first post). Plain links only, per this site's no-embed rule.
 
 ## Unrelated flag
 Password reset email clusters in GoDaddy account from an earlier session —

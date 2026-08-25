@@ -16,6 +16,9 @@ different version for that.](/give-this-talk/#group)*
 **[Download this as a slide deck (PPTX)](/print/trust-but-verify-for-family.pptx)**
 — 12 slides with speaker notes, for giving this to a wider family group or a
 support group instead of reading it alone.
+[Printer-friendly version](/print/trust-but-verify-for-family-printer-friendly.pptx)
+— same 12 slides, light backgrounds throughout so printing it at home doesn't
+burn through your ink.
 
 Because the conversation you want to have — *"be careful, you're vulnerable"* —
 is the one that guarantees they will never tell you when something happens. And
