@@ -30,11 +30,11 @@ export async function onRequestPost({ request, env }) {
   const email = String(form.get("email") || "").trim();
 
   if (!message || message.length > 5000 || email.length > 200) {
-    return Response.redirect(SITE + "/feedback/?error=1", 303);
+    return Response.redirect(SITE + "/feedback/error/", 303);
   }
 
   if (!env.RESEND_API_KEY) {
-    return new Response("Feedback form is not configured yet.", { status: 503 });
+    return Response.redirect(SITE + "/feedback/error/", 303);
   }
 
   const body = {
@@ -55,7 +55,7 @@ export async function onRequestPost({ request, env }) {
   });
 
   if (!resp.ok) {
-    return Response.redirect(SITE + "/feedback/?error=1", 303);
+    return Response.redirect(SITE + "/feedback/error/", 303);
   }
 
   return Response.redirect(SITE + "/feedback/thanks/", 303);
