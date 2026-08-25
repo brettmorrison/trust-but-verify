@@ -184,6 +184,21 @@ def make_card(title, desc, lang, rtl, out_path):
     img.save(out_path, "PNG", optimize=True)
 
 
+def _unquote(v):
+    """YAML-ish scalar: strip one layer of matching quotes and unescape \" inside.
+
+    The front matter is parsed by hand rather than with a YAML library, so a
+    title written as "\"There's a problem\"" arrived with its wrapping quotes
+    still attached and rendered them into <title>. Titles that deliberately
+    contain quotation marks need the wrapper; this removes it.
+    """
+    if len(v) >= 2 and v[0] == v[-1] and v[0] in ('"', "'"):
+        v = v[1:-1]
+        if v and '\\' in v:
+            v = v.replace('\\"', '"').replace("\\'", "'")
+    return v
+
+
 def split_front_matter(text):
     meta = {}
     if text.startswith("---"):
@@ -192,7 +207,7 @@ def split_front_matter(text):
             for line in text[3:end].strip().split("\n"):
                 if ":" in line:
                     k, v = line.split(":", 1)
-                    meta[k.strip()] = v.strip()
+                    meta[k.strip()] = _unquote(v.strip())
     return meta
 
 
