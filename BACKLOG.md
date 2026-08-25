@@ -159,12 +159,17 @@ Roughly priority order. Update as items close.
   printables.md's tables rebuilt from disk.
 
 ## Open
-1. Accessibility, phase 2: expand the 4-page audio pilot to the rest of
-   the English scam-type pages (build/make_audio.py — just add slugs
-   to PAGES and rerun); a real screen-reader pass (VoiceOver, free,
-   built into macOS) rather than just automated/structural checks;
-   decide whether audio narration is worth doing per-language once
-   translations are validated, or English-only indefinitely.
+1. Accessibility, phase 3: 26 English pages now have audio (20 via
+   ElevenLabs — the highest-value pages, ~84k characters, one-time
+   batch on a 30-day IP-restricted, TTS-only-scoped key; 6 more via
+   the free macOS voice). Still open: a real screen-reader pass
+   (VoiceOver, free, built into macOS) rather than just automated/
+   structural checks; decide whether to extend audio to more pages
+   (macOS voice, free) or other languages once translations are
+   validated; the ElevenLabs key expires in 30 days from 2026-08-25 —
+   nothing depends on it after this batch, but note it if any of these
+   20 pages' content changes enough to need re-narration with that
+   voice later (a new key would be needed).
 2. Confirm Cloudflare Web Analytics is toggled on (Analytics & Logs → Web
    Analytics, automatic mode) — copy already assumes it is.
 3. Set up `translations@trustbutverifyproject.org` via Cloudflare Email

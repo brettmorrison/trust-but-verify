@@ -25,7 +25,16 @@ RTL = {"ar", "ur", "fa", "ps", "he"}
 # Pilot audio narration, English only -- see build/make_audio.py. Bare
 # slugs; "" (home) is handled as "home" in the player src, matching the
 # audio filename make_audio.py actually writes.
-AUDIO_PAGES = {"", "the-three-steps", "warning-signs", "about"}
+AUDIO_PAGES = {
+    "", "the-three-steps", "warning-signs", "about", "i-think-i-was-scammed",
+    "scams/phantom-hacker", "scams/tech-support-popup", "scams/grandparent-scam",
+    "scams/government-impersonation", "scams/romance-scam", "scams/job-scams",
+    "scams/investment-and-crypto", "scams/medicare-scams", "scams/voice-cloning",
+    "scams/delivery-toll-recall-texts", "scams/virtual-kidnapping", "scams/recovery-scam",
+    "how-they-ask-to-be-paid", "for-family", "scams/sim-swap",
+    "scams/charity-scams", "scams/lottery-sweepstakes", "scams/home-repair",
+    "scams/phishing", "how-they-got-your-information", "for-facilities",
+}
 
 # Hero photos, keyed by bare slug, English pages only. Sourced from Wikimedia
 # Commons under licenses that require attribution (CC BY / CC BY-SA) — the
@@ -1139,7 +1148,7 @@ def build():
             body_html = re.sub(r'(</h1>)', r'\1' + figure, body_html, count=1)
 
         if lang == "en" and slug.strip("/") in AUDIO_PAGES:
-            audio_slug = slug.strip("/") or "home"
+            audio_slug = (slug.strip("/") or "home").replace("/", "_")
             player = (
                 '<p class="audio-player"><strong>%s</strong> '
                 '<audio controls preload="none" src="%saudio/%s.mp3">'
