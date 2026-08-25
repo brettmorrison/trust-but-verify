@@ -1,13 +1,11 @@
 ---
 title: The Trust But Verify Project
 slug: /
-description: You don't have to get suspicious of everybody. You add one habit: a pause before any money moves.
+description: You can stay trusting, but add a pause before any money moves.
 lang: en
 ---
 
-# You don't have to get suspicious of everybody.
-
-You add one habit: a pause.
+# You can stay trusting, but add a pause.
 
 Scammers are not beating people because people are foolish. They are beating
 people because they are good at their jobs, and because they arrive when you are
