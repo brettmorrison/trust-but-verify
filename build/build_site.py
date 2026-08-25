@@ -821,6 +821,19 @@ a.card:hover,a.card:focus-visible{border-color:var(--accent);background:#fff}
 a.card span{display:block;font-weight:400;font-size:.88rem;color:var(--muted);
   margin-top:.3rem}
 
+.steps{margin:1.5rem 0}
+.steps .step-item{display:flex;gap:1.2rem;padding:1.15rem 0;border-top:2px solid var(--rule)}
+.steps .step-item:first-child{border-top:none;padding-top:0}
+.steps .step-num{flex:none;width:2.7rem;font-size:2.6rem;font-weight:800;
+  line-height:.9;color:var(--accent);font-variant-numeric:tabular-nums}
+.steps .step-body{flex:1 1 auto;min-width:0}
+.steps .step-head{font-weight:800;font-size:1.14rem;line-height:1.35;margin:0}
+.steps .step-desc{margin:.3rem 0 0;color:var(--muted)}
+@media (max-width:26rem){
+  .steps .step-item{gap:.8rem}
+  .steps .step-num{width:2.1rem;font-size:2rem}
+}
+
 figure.hero-photo{margin:1.1rem 0 1.6rem}
 figure.hero-photo img{width:100%;aspect-ratio:16/9;object-fit:cover;
   border-radius:.4rem;display:block;background:var(--band)}
@@ -999,6 +1012,34 @@ def wrap_tables(s):
                   r'<div class="table-scroll">\1</div>', s, flags=re.S)
 
 
+_STEP_RE = re.compile(r'<p><strong>(\d{1,2})\.\s*(.*?)</strong>\s*(.*?)</p>', re.S)
+
+
+def numbered_steps(s):
+    # The site's most-repeated content pattern -- "**1. Do this.** Because
+    # why." -- is authored as plain markdown everywhere (the three steps,
+    # warning-sign lists, every scam page's numbered advice). It's already
+    # given real visual weight in the printed materials (giant numerals on
+    # the fridge sheet and talk deck) but rendered as a bare bold sentence
+    # on the site itself. Convert it to a numbered badge + heading +
+    # description here, once, so every page using the pattern gets it --
+    # not just home.md -- with no change needed to any content file.
+    def item(m):
+        num, head, desc = m.group(1), m.group(2).strip(), m.group(3).strip()
+        desc_html = ('<p class="step-desc">%s</p>' % desc) if desc else ""
+        return ('<div class="step-item"><div class="step-num">%s</div>'
+                '<div class="step-body"><p class="step-head">%s</p>%s'
+                '</div></div>') % (num, head, desc_html)
+
+    s = _STEP_RE.sub(item, s)
+    # Wrap runs of 2+ consecutive step-items (nothing but whitespace between
+    # them) in a shared container, so the border-top rules between items
+    # don't also draw around unrelated single "**1.**"-style bold text.
+    return re.sub(r'(?:<div class="step-item">.*?</div></div>\s*){2,}',
+                  lambda m: '<div class="steps">' + m.group(0) + '</div>',
+                  s, flags=re.S)
+
+
 def ui(lang, key):
     d = UI.get(lang) or {}
     if key in d:
@@ -1069,6 +1110,7 @@ def build():
         body_html = fix_links(body_html, pre)
         body_html = phone_wrap(body_html)
         body_html = wrap_tables(body_html)
+        body_html = numbered_steps(body_html)
 
         if lang == "en" and slug.strip("/") in PHOTOS:
             p = PHOTOS[slug.strip("/")]
