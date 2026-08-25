@@ -330,7 +330,7 @@ s.addText("Everything in this deck, plus the full site — fridge sheets, scam-b
 s.addText("trustbutverifyproject.org/for-family", {
   x: M, y: 5.7, w: 8.5, h: 0.55, fontFace: F, fontSize: 24, bold: true, color: onDark(PAPER), margin: 0,
 });
-s.addText("Free. Licensed CC BY. No sponsors, no data collected. Take it, change it — just keep a credit line back to us.", {
+s.addText("Free, CC BY-NC — fine for nursing homes and senior centers. Credit us; don't resell it.", {
   x: M, y: 6.4, w: 10.5, h: 0.45, fontFace: F, fontSize: 13, italic: true, color: onDark("9A958C"), margin: 0,
 });
 

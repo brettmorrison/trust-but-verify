@@ -1230,7 +1230,7 @@ def build():
 
     # blog post images -- not sourced from Wikimedia Commons like the hero
     # photos above (a movie poster, used for editorial identification, not
-    # covered by this site's CC BY license), kept in a separate directory
+    # covered by this site's CC BY-NC license), kept in a separate directory
     # so that distinction is obvious rather than mixed into photos/manifest.json
     blog_assets_src = os.path.join(ROOT, "assets", "blog")
     if os.path.isdir(blog_assets_src):

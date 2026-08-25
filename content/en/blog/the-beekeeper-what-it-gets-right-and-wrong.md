@@ -110,7 +110,7 @@ page](/privacy))*
 
 *The Beekeeper* poster © Amazon MGM Studios / Miramax / Metro-Goldwyn-Mayer.
 Used here to identify the film under discussion — unlike the rest of this
-site, it is not covered by our [CC BY license](/terms), because it isn't
+site, it is not covered by our [CC BY-NC license](/terms), because it isn't
 ours to license.
 
 **Sources:** FBI Internet Crime Complaint Center, 2025 Annual Report,

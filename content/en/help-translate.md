@@ -75,9 +75,9 @@ it. There's no budget, and there won't be one.
 
 **The material, to use however you like.** Translate it further, put your
 organization's name on it, rebrand it entirely, hand it out at your church,
-mosque, temple, clinic, or community center. You don't need our permission —
-it's [CC BY](/terms), so just keep a small credit line to the Trust But
-Verify Project somewhere reasonable.
+mosque, temple, clinic, community center, or senior living facility. You
+don't need our permission — it's [CC BY-NC](/terms), so just keep a small
+credit line to the Trust But Verify Project somewhere reasonable.
 
 ---
 

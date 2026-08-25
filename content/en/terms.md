@@ -38,11 +38,18 @@ this paragraph.
 ## Free to reuse
 
 Everything here — every page, sheet, slide, translation — is licensed
-**Creative Commons Attribution 4.0 (CC BY)**. **Copy it, print it,
-translate it, rebrand it, hand it out, for free, without asking.** No
-fee. The one condition: credit "Trust But Verify Project,
+**Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC)**. **Copy it,
+print it, translate it, rebrand it, hand it out, for free, without
+asking.** No fee. The one condition: credit "Trust But Verify Project,
 trustbutverifyproject.org" somewhere reasonable — a footer line, a
-credits slide, a mention when you hand out a sheet. See the
+credits slide, a mention when you hand out a sheet.
+
+**Nursing homes, assisted living communities, senior centers, hospitals,
+and libraries can use this freely too** — printing it, handing it out,
+giving the talk to residents — even though those are commercial
+businesses. That's exactly the use this project is for. What's not
+allowed is selling the material itself or using it to promote a
+commercial product or service. See the
 **[license](https://github.com/brettmorrison/trust-but-verify/blob/main/LICENSE)**.
 
 ## Feedback

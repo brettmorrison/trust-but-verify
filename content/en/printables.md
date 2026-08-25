@@ -163,10 +163,13 @@ warning notice.
 
 ## Copying and changing it
 
-All of it is free to reuse, in any format, including commercially and including
-under your own name. Translate it. Rewrite it. Cut it down. Put your logo on it.
-**Licensed [CC BY](/terms)** — the one condition is a small credit line to the
-Trust But Verify Project somewhere reasonable.
+All of it is free to reuse, in any format, including under your own name.
+Translate it. Rewrite it. Cut it down. Put your logo on it. **Licensed [CC
+BY-NC](/terms)** — the one condition is a small credit line to the Trust
+But Verify Project somewhere reasonable. Printing and handing it out at a
+nursing home, assisted living community, or senior center is explicitly
+fine, even though those are businesses — that's exactly the use this is
+for.
 
 The only other thing we'd ask — not a condition, just a request — is that if
 you change the advice itself, check it against the FBI and FTC guidance

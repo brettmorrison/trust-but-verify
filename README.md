@@ -5,11 +5,13 @@ Free, plain-language material to help older adults avoid scams — in 45 languag
 **Live site:** https://trustbutverifyproject.org
 
 Everything here is free to print, copy, translate, adapt, rebrand, and hand out.
-You do not need permission. Licensed CC BY — the one condition is a credit
+You do not need permission. Licensed CC BY-NC — the one condition is a credit
 line somewhere reasonable ("Adapted from the Trust But Verify Project,
 trustbutverifyproject.org"). A sentence from this repository ending up on
 somebody's refrigerator, with that one line of credit, is the project
-working as intended.
+working as intended. Use by nursing homes, assisted living communities, and
+senior centers is explicitly fine even though those are businesses — see
+LICENSE.
 
 ---
 
@@ -158,5 +160,8 @@ Statistics must cite FBI IC3 or FTC, with the year.
 
 ## License
 
-Creative Commons Attribution 4.0 (CC BY). Take it, change it, put your own
-name on it — just keep a credit line back to the Trust But Verify Project.
+Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC). Take it, change
+it, put your own name on it — just keep a credit line back to the Trust But
+Verify Project. Explicit exception in LICENSE: use by nursing homes,
+assisted living communities, and senior centers is fine even though those
+are businesses.

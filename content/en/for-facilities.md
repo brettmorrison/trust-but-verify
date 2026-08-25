@@ -13,7 +13,11 @@ notice when someone's rattled.
 
 Everything here is free. Print it, copy it, translate it, put your own logo on
 it, hand it out. You don't need to ask us — just keep a small credit line to
-the Trust But Verify Project somewhere reasonable (it's [CC BY](/terms)).
+the Trust But Verify Project somewhere reasonable (it's [CC BY-NC](/terms)).
+That license is non-commercial, but using it at your facility is explicitly
+fine even though you're a business — the license stops someone from selling
+this material itself, not from a nursing home or senior center handing it to
+residents for free, which is exactly what it's for.
 
 ---
 

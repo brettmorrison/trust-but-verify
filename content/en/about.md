@@ -58,11 +58,15 @@ pageview counts) and exactly what that means.
 
 Everything on this site is free to print, copy, translate, adapt, rebrand, and
 distribute. Put your organization's name on it. Change the wording. Hand it out
-at a church, a library, a clinic, a union hall, a family dinner.
+at a church, a library, a clinic, a union hall, a family dinner, a senior
+center, or a nursing home.
 
-You do not need our permission. **Licensed CC BY** — keep a small credit line
-somewhere reasonable ("Adapted from the Trust But Verify Project,
-trustbutverifyproject.org"), and that's the whole ask.
+You do not need our permission. **Licensed CC BY-NC** — keep a small credit
+line somewhere reasonable ("Adapted from the Trust But Verify Project,
+trustbutverifyproject.org"), and that's the whole ask. Using it, printing it,
+or handing it out at a facility that happens to be a business — a nursing
+home, an assisted living community — is fine; the license only stops someone
+from selling this material itself.
 
 ## About the translations
 

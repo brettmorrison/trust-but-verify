@@ -176,10 +176,10 @@ def make_card(title, desc, lang, rtl, out_path):
     tag_font = get_font(F_LATIN_REG, 18)
     if rtl:
         d.text((W - m, H - 68), "trustbutverifyproject.org", font=url_font, fill=ACCENT, anchor="ra")
-        d.text((m, H - 66), "Free · CC BY · no ads", font=tag_font, fill=MUTED)
+        d.text((m, H - 66), "Free · CC BY-NC · no ads", font=tag_font, fill=MUTED)
     else:
         d.text((m, H - 68), "trustbutverifyproject.org", font=url_font, fill=ACCENT)
-        d.text((W - m, H - 66), "Free · CC BY · no ads", font=tag_font, fill=MUTED, anchor="ra")
+        d.text((W - m, H - 66), "Free · CC BY-NC · no ads", font=tag_font, fill=MUTED, anchor="ra")
 
     img.save(out_path, "PNG", optimize=True)
 
