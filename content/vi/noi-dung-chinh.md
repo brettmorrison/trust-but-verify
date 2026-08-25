@@ -21,7 +21,7 @@ validated_by: (none yet)
 > thường người đọc, và quý vị sẽ nói thế nào. Một giờ của quý vị giúp tài liệu
 > này dùng được cho hàng ngàn người.
 >
-> Xin liên lạc: **translations@trustbutverifyproject.org**
+> Xin liên lạc: **translations [at] trustbutverifyproject [dot] org**
 >
 > *(NOTICE — UNVALIDATED AI TRANSLATION. Not reviewed by a native speaker. Do
 > not print or distribute. Vietnamese speakers: please help us check it.)*
@@ -317,6 +317,6 @@ Việt hằng ngày, sẵn lòng đọc các trang này và cho biết:
 Hoàn toàn tự nguyện, chỉ mất một hai giờ, và quý vị tự quyết định có muốn ghi
 tên mình hay không.
 
-**Xin liên lạc: translations@trustbutverifyproject.org**
+**Xin liên lạc: translations [at] trustbutverifyproject [dot] org**
 
 **Other languages:** [Español](/es/) · [中文](/zh/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ਪੰਜਾਬੀ](/pa/) · [ગુજરાતી](/gu/) · [Af-Soomaali](/so/) · [ខ្មែរ](/km/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/) · [English](/)

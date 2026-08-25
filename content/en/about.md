@@ -9,15 +9,18 @@ lang: en
 
 ## Where this came from
 
-This started as a 25-minute talk I gave in the activity room of the assisted
-living community where my parents live.
+This started as a 25-minute talk I'm putting together to give in the
+activity room of the assisted living community where my parents live.
 
-I work in data protection and privacy, which mattered less than I expected.
-Nobody in that room needed encryption. They needed a rule short enough to
-remember while a stranger was shouting at them on the phone.
+I work in data protection and privacy — encryption, passwords, account
+security, the works. All of that still matters for people of any age,
+my parents included. But none of it stops a phone call. What stops a
+phone call is a rule short enough to remember while a stranger is
+shouting at you.
 
-The talk went well. People asked for something to hand a neighbor. Then it
-became this. [More about me on LinkedIn.](https://www.linkedin.com/in/brettmorrison/)
+Building that talk turned into this: a full site, plus the slide deck,
+script, and printables for anyone who wants to give the same talk
+themselves. [More about me on LinkedIn.](https://www.linkedin.com/in/brettmorrison/)
 
 ## This happens to families like yours
 

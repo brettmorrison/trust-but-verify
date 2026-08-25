@@ -14,7 +14,7 @@ validated_by: (none yet)
 > distribuya todavía.
 >
 > **¿Habla español?** Una hora de su tiempo basta para revisarlo. Escriba a
-> **translations@trustbutverifyproject.org**
+> **translations [at] trustbutverifyproject [dot] org**
 >
 > *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
 > Please do not print or distribute this yet.)*
@@ -310,6 +310,6 @@ español a diario y que esté dispuesto a leer estas páginas y decirnos:
 Es voluntario, se hace en una o dos horas, y usted decide si quiere que
 aparezca su nombre o no.
 
-**Escriba a translations@trustbutverifyproject.org**
+**Escriba a translations [at] trustbutverifyproject [dot] org**
 
 **Other languages:** [Tiếng Việt](/vi/) · [中文](/zh/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ਪੰਜਾਬੀ](/pa/) · [ગુજરાતી](/gu/) · [Af-Soomaali](/so/) · [ខ្មែរ](/km/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/) · [English](/)

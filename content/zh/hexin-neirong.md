@@ -19,7 +19,7 @@ validated_by: (none yet)
 > 哪里显得居高临下，以及换成您会怎么说。您一个小时的时间，能让这份材料真正帮到成千上万
 > 的人。
 >
-> 请联系：**translations@trustbutverifyproject.org**
+> 请联系：**translations [at] trustbutverifyproject [dot] org**
 >
 > *(NOTICE — UNVALIDATED AI TRANSLATION. Not reviewed by a native speaker. Do
 > not print or distribute. Chinese speakers: please help us check it.)*
@@ -272,6 +272,6 @@ validated_by: (none yet)
 
 完全自愿，一两个小时就能完成，是否署名由您自己决定。
 
-**请联系：translations@trustbutverifyproject.org**
+**请联系：translations [at] trustbutverifyproject [dot] org**
 
 **Other languages:** [Español](/es/) · [Tiếng Việt](/vi/) · [Русский](/ru/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ਪੰਜਾਬੀ](/pa/) · [ગુજરાતી](/gu/) · [Af-Soomaali](/so/) · [ខ្មែរ](/km/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/) · [English](/)

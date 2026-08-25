@@ -22,7 +22,7 @@ validated_by: (none yet)
 > как сказали бы вы. Один час вашего времени сделает этот материал пригодным для
 > тысяч людей.
 >
-> Пишите: **translations@trustbutverifyproject.org**
+> Пишите: **translations [at] trustbutverifyproject [dot] org**
 >
 > *(NOTICE — UNVALIDATED AI TRANSLATION. Not reviewed by a native speaker. Do
 > not print or distribute. Russian speakers: please help us check it.)*
@@ -313,6 +313,6 @@ validated_by: (none yet)
 
 Это добровольно, занимает час-два, и вы сами решаете, указывать ли ваше имя.
 
-**Пишите: translations@trustbutverifyproject.org**
+**Пишите: translations [at] trustbutverifyproject [dot] org**
 
 **Other languages:** [Español](/es/) · [Tiếng Việt](/vi/) · [中文](/zh/) · [한국어](/ko/) · [Tagalog](/tl/) · [हिन्दी](/hi/) · [বাংলা](/bn/) · [Հայերեն](/hy/) · [አማርኛ](/am/) · [Shqip](/sq/) · [日本語](/ja/) · [العربية](/ar/) · [اردو](/ur/) · [فارسی](/fa/) · [پښتو](/ps/) · [Deutsch](/de/) · [Français](/fr/) · [Português](/pt/) · [Polski](/pl/) · [Română](/ro/) · [Українська](/uk/) · [Bahasa Indonesia](/id/) · [Kreyòl Ayisyen](/ht/) · [ਪੰਜਾਬੀ](/pa/) · [ગુજરાતી](/gu/) · [Af-Soomaali](/so/) · [ខ្មែរ](/km/) · [Hmoob](/hmn/) · [ქართული](/ka/) · [Lietuvių](/lt/) · [Latviešu](/lv/) · [Eesti](/et/) · [English](/)
