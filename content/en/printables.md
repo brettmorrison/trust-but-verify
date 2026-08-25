@@ -105,9 +105,21 @@ actually goes, what's growing fastest — alongside the same three-step
 method. Good for a bulletin board or a table display next to the fridge
 sheet, not instead of it.
 
-**[Download the infographic (PDF)](/print/infographic-en.pdf)**
+Available in English plus the 10 languages with the most speakers among
+this site's readers.
 
-English only for now.
+| Language | | Language | |
+|---|---|---|---|
+| English | [PDF](/print/infographic-en.pdf) | Español Spanish | [PDF](/print/infographic-es.pdf) |
+| Tiếng Việt Vietnamese | [PDF](/print/infographic-vi.pdf) | 中文 Chinese | [PDF](/print/infographic-zh.pdf) |
+| Русский Russian | [PDF](/print/infographic-ru.pdf) | 한국어 Korean | [PDF](/print/infographic-ko.pdf) |
+| Tagalog | [PDF](/print/infographic-tl.pdf) | हिन्दी Hindi | [PDF](/print/infographic-hi.pdf) |
+| বাংলা Bengali | [PDF](/print/infographic-bn.pdf) | Հայերեն Armenian | [PDF](/print/infographic-hy.pdf) |
+| አማርኛ Amharic | [PDF](/print/infographic-am.pdf) | |
+
+Only the English version is validated. The rest are unvalidated AI
+translations, same as everything else on this site — [help us check
+one](/help-translate).
 
 ## Adding your own front desk number
 
