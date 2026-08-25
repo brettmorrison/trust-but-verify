@@ -354,7 +354,7 @@ blockquote h3{margin-top:0}
 .table-scroll{overflow-x:auto;margin:1.3rem 0;-webkit-overflow-scrolling:touch}
 table{border-collapse:collapse;width:100%;min-width:26rem;margin:0;font-size:.98rem}
 th,td{border:1px solid #bbb;padding:.55rem .6rem;text-align:left;vertical-align:top}
-th{background:var(--band);font-weight:800}
+th{background:var(--band);font-weight:800;white-space:nowrap}
 td a{white-space:nowrap}
 
 code{background:var(--band);padding:.05em .3em;font-size:.95em}

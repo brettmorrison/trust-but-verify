@@ -107,50 +107,50 @@ publish as of 2026 — not guessed:
 
 | Language | Federal materials | How to get help |
 |---|---|---|
-| **Spanish** | Full — ftc.gov/es, consumidor.ftc.gov | Direct Spanish-speaking staff on both helplines |
-| **Arabic** | Some — FTC and SSA | Interpreter: *"Arabic, please"* |
-| **Armenian** | Some — SSA | Interpreter: *"Armenian, please"* |
-| **Amharic** | Some — FTC | Interpreter: *"Amharic, please"* |
-| **Chinese** | Some — FTC and SSA (Traditional and Simplified) | Interpreter: *"Chinese, please"* or *"Mandarin, please"* / *"Cantonese, please"* |
-| **Farsi** | Some — SSA | Interpreter: *"Farsi, please"* |
-| **French** | Some — FTC and SSA | Interpreter: *"French, please"* |
-| **Greek** | Some — SSA | Interpreter: *"Greek, please"* |
-| **Haitian Creole** | Some — SSA | Interpreter: *"Haitian Creole, please"* |
-| **Hmong** | Some — FTC | Interpreter: *"Hmong, please"* |
-| **Italian** | Some — SSA | Interpreter: *"Italian, please"* |
-| **Korean** | Some — FTC and SSA | Interpreter: *"Korean, please"* |
-| **Polish** | Some — SSA | Interpreter: *"Polish, please"* |
-| **Portuguese** | Some — SSA | Interpreter: *"Portuguese, please"* |
-| **Russian** | Some — FTC and SSA | Interpreter: *"Russian, please"* |
-| **Somali** | Some — FTC and SSA | Interpreter: *"Somali, please"* |
-| **Tagalog** | Some — FTC and SSA | Interpreter: *"Tagalog, please"* |
-| **Ukrainian** | Some — FTC and SSA | Interpreter: *"Ukrainian, please"* |
-| **Vietnamese** | Some — FTC and SSA | Interpreter: *"Vietnamese, please"* |
-| **Albanian** | Limited | Interpreter: *"Albanian, please"* |
-| **Bengali** | Limited | Interpreter: *"Bengali, please"* |
-| **Croatian** | Limited | Interpreter: *"Croatian, please"* |
-| **Danish** | Limited | Interpreter: *"Danish, please"* |
-| **Estonian** | Limited | Interpreter: *"Estonian, please"* |
-| **Georgian** | Limited | Interpreter: *"Georgian, please"* |
-| **German** | Limited | Interpreter: *"German, please"* |
-| **Gujarati** | Limited | Interpreter: *"Gujarati, please"* |
-| **Hebrew** | Limited | Interpreter: *"Hebrew, please"* |
-| **Hindi** | Limited | Interpreter: *"Hindi, please"* |
-| **Hungarian** | Limited | Interpreter: *"Hungarian, please"* |
-| **Indonesian** | Limited | Interpreter: *"Indonesian, please"* |
-| **Japanese** | Limited | Interpreter: *"Japanese, please"* |
-| **Khmer** | Limited | Interpreter: *"Khmer, please"* |
-| **Latvian** | Limited | Interpreter: *"Latvian, please"* |
-| **Lithuanian** | Limited | Interpreter: *"Lithuanian, please"* |
-| **Malay** | Limited | Interpreter: *"Malay, please"* |
-| **Norwegian** | Limited | Interpreter: *"Norwegian, please"* |
-| **Pashto** | Limited | Interpreter: *"Pashto, please"* |
-| **Punjabi** | Limited | Interpreter: *"Punjabi, please"* |
-| **Romanian** | Limited | Interpreter: *"Romanian, please"* |
-| **Serbian** | Limited | Interpreter: *"Serbian, please"* |
-| **Swahili** | Limited | Interpreter: *"Swahili, please"* |
-| **Swedish** | Limited | Interpreter: *"Swedish, please"* |
-| **Urdu** | Limited | Interpreter: *"Urdu, please"* |
+| **[Spanish](/es/)** | Full — ftc.gov/es, consumidor.ftc.gov | Direct Spanish-speaking staff on both helplines |
+| **[Arabic](/ar/)** | Some — FTC and SSA | Interpreter: *"Arabic, please"* |
+| **[Armenian](/hy/)** | Some — SSA | Interpreter: *"Armenian, please"* |
+| **[Amharic](/am/)** | Some — FTC | Interpreter: *"Amharic, please"* |
+| **[Chinese](/zh/)** | Some — FTC and SSA (Traditional and Simplified) | Interpreter: *"Chinese, please"* or *"Mandarin, please"* / *"Cantonese, please"* |
+| **[Farsi](/fa/)** | Some — SSA | Interpreter: *"Farsi, please"* |
+| **[French](/fr/)** | Some — FTC and SSA | Interpreter: *"French, please"* |
+| **[Greek](/el/)** | Some — SSA | Interpreter: *"Greek, please"* |
+| **[Haitian Creole](/ht/)** | Some — SSA | Interpreter: *"Haitian Creole, please"* |
+| **[Hmong](/hmn/)** | Some — FTC | Interpreter: *"Hmong, please"* |
+| **[Italian](/it/)** | Some — SSA | Interpreter: *"Italian, please"* |
+| **[Korean](/ko/)** | Some — FTC and SSA | Interpreter: *"Korean, please"* |
+| **[Polish](/pl/)** | Some — SSA | Interpreter: *"Polish, please"* |
+| **[Portuguese](/pt/)** | Some — SSA | Interpreter: *"Portuguese, please"* |
+| **[Russian](/ru/)** | Some — FTC and SSA | Interpreter: *"Russian, please"* |
+| **[Somali](/so/)** | Some — FTC and SSA | Interpreter: *"Somali, please"* |
+| **[Tagalog](/tl/)** | Some — FTC and SSA | Interpreter: *"Tagalog, please"* |
+| **[Ukrainian](/uk/)** | Some — FTC and SSA | Interpreter: *"Ukrainian, please"* |
+| **[Vietnamese](/vi/)** | Some — FTC and SSA | Interpreter: *"Vietnamese, please"* |
+| **[Albanian](/sq/)** | Limited | Interpreter: *"Albanian, please"* |
+| **[Bengali](/bn/)** | Limited | Interpreter: *"Bengali, please"* |
+| **[Croatian](/hr/)** | Limited | Interpreter: *"Croatian, please"* |
+| **[Danish](/da/)** | Limited | Interpreter: *"Danish, please"* |
+| **[Estonian](/et/)** | Limited | Interpreter: *"Estonian, please"* |
+| **[Georgian](/ka/)** | Limited | Interpreter: *"Georgian, please"* |
+| **[German](/de/)** | Limited | Interpreter: *"German, please"* |
+| **[Gujarati](/gu/)** | Limited | Interpreter: *"Gujarati, please"* |
+| **[Hebrew](/he/)** | Limited | Interpreter: *"Hebrew, please"* |
+| **[Hindi](/hi/)** | Limited | Interpreter: *"Hindi, please"* |
+| **[Hungarian](/hu/)** | Limited | Interpreter: *"Hungarian, please"* |
+| **[Indonesian](/id/)** | Limited | Interpreter: *"Indonesian, please"* |
+| **[Japanese](/ja/)** | Limited | Interpreter: *"Japanese, please"* |
+| **[Khmer](/km/)** | Limited | Interpreter: *"Khmer, please"* |
+| **[Latvian](/lv/)** | Limited | Interpreter: *"Latvian, please"* |
+| **[Lithuanian](/lt/)** | Limited | Interpreter: *"Lithuanian, please"* |
+| **[Malay](/ms/)** | Limited | Interpreter: *"Malay, please"* |
+| **[Norwegian](/no/)** | Limited | Interpreter: *"Norwegian, please"* |
+| **[Pashto](/ps/)** | Limited | Interpreter: *"Pashto, please"* |
+| **[Punjabi](/pa/)** | Limited | Interpreter: *"Punjabi, please"* |
+| **[Romanian](/ro/)** | Limited | Interpreter: *"Romanian, please"* |
+| **[Serbian](/sr/)** | Limited | Interpreter: *"Serbian, please"* |
+| **[Swahili](/sw/)** | Limited | Interpreter: *"Swahili, please"* |
+| **[Swedish](/sv/)** | Limited | Interpreter: *"Swedish, please"* |
+| **[Urdu](/ur/)** | Limited | Interpreter: *"Urdu, please"* |
 
 "Limited" means: no dedicated FTC or SSA materials found in that language
 as of this check — assume nothing is published, ask for an interpreter,
