@@ -7,6 +7,17 @@ lang: en
 
 # Give this talk
 
+Two different situations. Pick the one that matches yours.
+
+<div class="cards">
+<a class="card" href="#group">Presenting to a group<span>A room of older adults — a senior center, a lobby, a community meeting. This page: scripts, slides, timing.</span></a>
+<a class="card" href="/for-family/">Talking to your own family member<span>One-on-one, usually a parent. A separate page: how to raise it without the conversation backfiring.</span></a>
+</div>
+
+---
+
+## Presenting to a group {#group}
+
 This entire project started as one volunteer, twenty-five minutes, and a room
 full of people at an assisted living community. You don't need to be an expert
 to do the same thing. You need three steps and about the same amount of time.
@@ -65,5 +76,7 @@ If you'd like a second set of eyes, or you're planning to give this in a
 language other than English, email
 **translations [at] trustbutverifyproject [dot] org** — we'll help however we can.
 
-**Talking to a room of adult children instead of seniors?**
-[There's a separate deck for that.](/for-family)
+---
+
+**Talking to one person, not a room?** [Go to the family
+version.](/for-family/)

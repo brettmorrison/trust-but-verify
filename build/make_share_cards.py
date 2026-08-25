@@ -111,8 +111,31 @@ def draw_mark(draw, x, y, r, color, width=7):
     draw.line([(hx1, hy1), (hx2, hy2)], fill=color, width=width + 2)
 
 
+def draw_watermark(img, rtl):
+    # A big, quiet version of the site mark, bottom corner — fills the dead
+    # space the card used to leave empty, without adding a sourced photo.
+    overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    od = ImageDraw.Draw(overlay)
+    r = 210
+    cx = m_watermark_x(rtl)
+    cy = H - 60
+    tint = ACCENT + (26,)
+    od.ellipse([cx - r, cy - r, cx + r, cy + r], outline=tint, width=26)
+    od.line([(cx - r * 0.36, cy), (cx - r * 0.11, cy + r * 0.28), (cx + r * 0.42, cy - r * 0.35)],
+            fill=tint, width=26, joint="curve")
+    hx1, hy1 = cx + r * 0.72, cy + r * 0.72
+    hx2, hy2 = cx + r * 1.55, cy + r * 1.55
+    od.line([(hx1, hy1), (hx2, hy2)], fill=tint, width=30)
+    img.paste(Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB"), (0, 0))
+
+
+def m_watermark_x(rtl):
+    return 260 if rtl else W - 260
+
+
 def make_card(title, desc, lang, rtl, out_path):
     img = Image.new("RGB", (W, H), PAPER)
+    draw_watermark(img, rtl)
     d = ImageDraw.Draw(img)
 
     m = 70

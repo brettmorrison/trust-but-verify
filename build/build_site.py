@@ -28,10 +28,6 @@ RTL = {"ar", "ur", "fa", "ps", "he"}
 # See assets/photos/manifest.json for the full sourcing record, including
 # topics deliberately left without a photo rather than forcing a bad fit.
 PHOTOS = {
-    "": dict(file="home.jpg", alt="A hand holding a phone near a sunlit window",
-             author="Nenad Stojkovic",
-             url="https://commons.wikimedia.org/wiki/File:Close-up_of_a_woman_holding_a_mobile_phone._(51634339530).jpg",
-             license="CC BY 2.0"),
     "about": dict(file="about.jpg", alt="A grandparent watching a child play with a toy car",
                   author="Shixart1985",
                   url="https://commons.wikimedia.org/wiki/File:Grandparent_enjoys_coffee_while_watching_child_play_with_toy_car_during_sunset_at_the_park.jpg",

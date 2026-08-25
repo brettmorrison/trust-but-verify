@@ -10,6 +10,9 @@ lang: en
 If you're here because you're worried about a parent, the hard part isn't the
 information. It's the conversation.
 
+*Presenting to a group instead of talking to one person? [There's a
+different version for that.](/give-this-talk/#group)*
+
 **[Download this as a slide deck (PPTX)](/print/trust-but-verify-for-family.pptx)**
 — 12 slides with speaker notes, for giving this to a wider family group or a
 support group instead of reading it alone.

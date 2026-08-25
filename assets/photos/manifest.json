@@ -1,12 +1,12 @@
 [
   {
     "topic": "home",
-    "file": "assets/photos/source/home.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_woman_holding_a_mobile_phone._(51634339530).jpg",
-    "license": "CC BY 2.0",
-    "author": "Nenad Stojkovic",
-    "title": "Close-up of a woman holding a mobile phone. (51634339530).jpg",
-    "skipped_reason": null
+    "file": null,
+    "commons_url": null,
+    "license": null,
+    "author": null,
+    "title": null,
+    "skipped_reason": "Removed 2026-08-24 — Brett flagged the previous photo (hand holding phone by window) as not good. Searched Wikimedia Commons + Openverse for a replacement matching the new tagline's 'pause, not panic' mood; nothing found cleanly satisfied license + landscape orientation + tone + US-plausible setting all at once (closest candidates: a culturally distant but well-matched Commons photo, or a portrait-orientation photo that echoes the very photo being replaced). Left photo-less rather than force a bad fit, same as charity-scams/government-impersonation/recovery-scam/lottery-sweepstakes/for-family/printables."
   },
   {
     "topic": "about",
