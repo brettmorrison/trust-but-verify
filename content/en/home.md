@@ -1,7 +1,7 @@
 ---
 title: The Trust But Verify Project
 slug: /
-description: You can stay trusting, but add a pause before any money moves.
+description: You can stay trusting, but add a pause before you send money, log in, install anything, or let someone onto your computer.
 lang: en
 ---
 
@@ -16,8 +16,8 @@ ask you to be slower than one.
 
 ## The three steps
 
-That pause is three quick checks. Before any money moves, before any code is
-read out loud, before anyone touches your computer:
+That pause is three quick checks. Before you send money, log into a site,
+install anything, read a code out loud, or let anyone onto your computer:
 
 **1. Look up the number yourself.**
 Not the number they gave you. The one on your card, your statement, the back of
