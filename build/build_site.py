@@ -148,7 +148,7 @@ UI = {
    langpage="Help in your language", skip="Skip to the main content",
    navhome="Home", navscams="Scam types", navprint="Print materials",
    navabout="About", navtalk="Give this talk", navhelp="Help translate",
-   navprivacy="Privacy", navterms="Terms",
+   navprivacy="Privacy", navterms="Terms", navblog="Blog",
    railtitle="Find your way", s_romance="Someone I met online",
    s_tech="Fake tech support", s_bank="Bank / “phantom hacker”",
    s_gov="Government impersonation", s_grandparent="Grandchild in trouble",
@@ -157,22 +157,50 @@ UI = {
    back="\u2190 Volver al inicio", read="Leer esto en:", help="Ayuda gratuita, sin juicios.",
    nocookie="Este sitio no usa cookies ni recopila datos personales \u2014 Cloudflare solo cuenta visitas an\u00f3nimas a la p\u00e1gina.",
    free="Libre de imprimir, copiar, traducir y compartir. No hace falta permiso.",
-   langpage="Ayuda en su idioma", skip="Ir al contenido principal"),
+   langpage="Ayuda en su idioma", skip="Ir al contenido principal",
+   navhome="Inicio", navscams="Tipos de estafas", navprint="Materiales para imprimir",
+   navabout="Acerca de", navtalk="D\u00e9 esta charla", navhelp="Ayude a traducir",
+   navprivacy="Privacidad", navterms="T\u00e9rminos", navblog="Blog",
+   railtitle="Encuentre su camino", s_romance="Alguien que conoc\u00ed en l\u00ednea",
+   s_tech="Soporte t\u00e9cnico falso", s_bank="Banco / \u201chacker fantasma\u201d",
+   s_gov="Suplantaci\u00f3n del gobierno", s_grandparent="Nieto en problemas",
+   s_kidnap="Secuestro virtual", s_signs="Tres se\u00f1ales de alerta"),
  "vi": dict(strap="C\u00fap m\u00e1y. T\u1ef1 m\u00ecnh tra s\u1ed1. Ch\u1edd m\u1ed9t ng\u00e0y.",
    back="\u2190 V\u1ec1 trang \u0111\u1ea7u", read="\u0110\u1ecdc b\u1eb1ng:", help="Tr\u1ee3 gi\u00fap mi\u1ec5n ph\u00ed, kh\u00f4ng ph\u00e1n x\u00e9t.",
    nocookie="Trang n\u00e0y kh\u00f4ng d\u00f9ng cookie v\u00e0 kh\u00f4ng thu th\u1eadp d\u1eef li\u1ec7u c\u00e1 nh\u00e2n \u2014 Cloudflare ch\u1ec9 \u0111\u1ebfm l\u01b0\u1ee3t xem trang \u1ea9n danh.",
    free="T\u1ef1 do in, sao ch\u00e9p, d\u1ecbch v\u00e0 chia s\u1ebb. Kh\u00f4ng c\u1ea7n xin ph\u00e9p.",
-   langpage="Tr\u1ee3 gi\u00fap b\u1eb1ng ng\u00f4n ng\u1eef c\u1ee7a qu\u00fd v\u1ecb", skip="\u0110\u1ebfn n\u1ed9i dung ch\u00ednh"),
+   langpage="Tr\u1ee3 gi\u00fap b\u1eb1ng ng\u00f4n ng\u1eef c\u1ee7a qu\u00fd v\u1ecb", skip="\u0110\u1ebfn n\u1ed9i dung ch\u00ednh",
+   navhome="Trang ch\u1ee7", navscams="C\u00e1c lo\u1ea1i l\u1eeba \u0111\u1ea3o", navprint="T\u00e0i li\u1ec7u in",
+   navabout="Gi\u1edbi thi\u1ec7u", navtalk="Tr\u00ecnh b\u00e0y bu\u1ed5i n\u00f3i chuy\u1ec7n n\u00e0y", navhelp="Gi\u00fap d\u1ecbch thu\u1eadt",
+   navprivacy="Quy\u1ec1n ri\u00eang t\u01b0", navterms="\u0110i\u1ec1u kho\u1ea3n", navblog="Blog",
+   railtitle="T\u00ecm h\u01b0\u1edbng \u0111i c\u1ee7a b\u1ea1n", s_romance="Ng\u01b0\u1eddi t\u00f4i quen qua m\u1ea1ng",
+   s_tech="H\u1ed7 tr\u1ee3 k\u1ef9 thu\u1eadt gi\u1ea3 m\u1ea1o", s_bank="Ng\u00e2n h\u00e0ng / \u201ctin t\u1eb7c ma\u201d",
+   s_gov="Gi\u1ea3 m\u1ea1o c\u01a1 quan ch\u00ednh ph\u1ee7", s_grandparent="Ch\u00e1u g\u1eb7p r\u1eafc r\u1ed1i",
+   s_kidnap="B\u1eaft c\u00f3c gi\u1ea3", s_signs="Ba d\u1ea5u hi\u1ec7u c\u1ea3nh b\u00e1o"),
  "zh": dict(strap="\u6302\u65ad\u3002\u81ea\u5df1\u67e5\u53f7\u7801\u3002\u7b49\u4e00\u5929\u3002",
    back="\u2190 \u56de\u5230\u9996\u9875", read="\u5176\u4ed6\u8bed\u8a00\uff1a", help="\u514d\u8d39\u6c42\u52a9\uff0c\u4e0d\u4f1a\u6709\u4eba\u8bc4\u5224\u60a8\u3002",
    nocookie="\u672c\u7ad9\u4e0d\u4f7f\u7528 Cookie\uff0c\u4e5f\u4e0d\u6536\u96c6\u60a8\u7684\u4e2a\u4eba\u4fe1\u606f\u2014\u2014Cloudflare \u53ea\u7edf\u8ba1\u533f\u540d\u7684\u9875\u9762\u8bbf\u95ee\u91cf\u3002",
    free="\u6b22\u8fce\u81ea\u7531\u6253\u5370\u3001\u590d\u5236\u3001\u7ffb\u8bd1\u548c\u5206\u4eab\u3002\u65e0\u9700\u6388\u6743\u3002",
-   langpage="\u7528\u60a8\u7684\u8bed\u8a00\u6c42\u52a9", skip="\u8df3\u5230\u4e3b\u8981\u5185\u5bb9"),
+   langpage="\u7528\u60a8\u7684\u8bed\u8a00\u6c42\u52a9", skip="\u8df3\u5230\u4e3b\u8981\u5185\u5bb9",
+   navhome="\u9996\u9875", navscams="\u8bc8\u9a97\u7c7b\u578b", navprint="\u5370\u5237\u6750\u6599",
+   navabout="\u5173\u4e8e\u6211\u4eec", navtalk="\u505a\u8fd9\u4e2a\u8bb2\u5ea7", navhelp="\u5e2e\u52a9\u7ffb\u8bd1",
+   navprivacy="\u9690\u79c1", navterms="\u6761\u6b3e", navblog="\u535a\u5ba2",
+   railtitle="\u5feb\u901f\u5bfc\u822a", s_romance="\u7f51\u604b\u5bf9\u8c61",
+   s_tech="\u865a\u5047\u6280\u672f\u652f\u6301", s_bank="\u94f6\u884c\uff0f\u201c\u5e7d\u7075\u9ed1\u5ba2\u201d",
+   s_gov="\u5192\u5145\u653f\u5e9c\u673a\u6784", s_grandparent="\u5b59\u8f88\u9047\u5230\u9ebb\u70e6",
+   s_kidnap="\u865a\u62df\u7ed1\u67b6", s_signs="\u4e09\u4e2a\u8b66\u793a\u4fe1\u53f7"),
  "ru": dict(strap="\u041f\u043e\u043b\u043e\u0436\u0438\u0442\u0435 \u0442\u0440\u0443\u0431\u043a\u0443. \u041d\u0430\u0439\u0434\u0438\u0442\u0435 \u043d\u043e\u043c\u0435\u0440 \u0441\u0430\u043c\u0438. \u041f\u043e\u0434\u043e\u0436\u0434\u0438\u0442\u0435 \u0441\u0443\u0442\u043a\u0438.",
    back="\u2190 \u041d\u0430 \u0433\u043b\u0430\u0432\u043d\u0443\u044e", read="\u0427\u0438\u0442\u0430\u0442\u044c \u043d\u0430:", help="\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u0430\u044f \u043f\u043e\u043c\u043e\u0449\u044c, \u0431\u0435\u0437 \u043e\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u044f.",
    nocookie="\u042d\u0442\u043e\u0442 \u0441\u0430\u0439\u0442 \u043d\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 cookie \u0438 \u043d\u0435 \u0441\u043e\u0431\u0438\u0440\u0430\u0435\u0442 \u043b\u0438\u0447\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u2014 Cloudflare \u043f\u043e\u0434\u0441\u0447\u0438\u0442\u044b\u0432\u0430\u0435\u0442 \u0442\u043e\u043b\u044c\u043a\u043e \u0430\u043d\u043e\u043d\u0438\u043c\u043d\u044b\u0435 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u044b \u0441\u0442\u0440\u0430\u043d\u0438\u0446.",
    free="\u041c\u043e\u0436\u043d\u043e \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c, \u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0438 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0442\u044c. \u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u043d\u0435 \u043d\u0443\u0436\u043d\u043e.",
-   langpage="\u041f\u043e\u043c\u043e\u0449\u044c \u043d\u0430 \u0432\u0430\u0448\u0435\u043c \u044f\u0437\u044b\u043a\u0435", skip="\u041a \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c\u0443 \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044e"),
+   langpage="\u041f\u043e\u043c\u043e\u0449\u044c \u043d\u0430 \u0432\u0430\u0448\u0435\u043c \u044f\u0437\u044b\u043a\u0435", skip="\u041a \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c\u0443 \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044e",
+   navhome="\u0413\u043b\u0430\u0432\u043d\u0430\u044f", navscams="\u0412\u0438\u0434\u044b \u043c\u043e\u0448\u0435\u043d\u043d\u0438\u0447\u0435\u0441\u0442\u0432\u0430", navprint="\u041f\u0435\u0447\u0430\u0442\u043d\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b",
+   navabout="\u041e \u0441\u0430\u0439\u0442\u0435", navtalk="\u041f\u0440\u043e\u0432\u0435\u0441\u0442\u0438 \u044d\u0442\u0443 \u0431\u0435\u0441\u0435\u0434\u0443", navhelp="\u041f\u043e\u043c\u043e\u0447\u044c \u0441 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u043e\u043c",
+   navprivacy="\u041a\u043e\u043d\u0444\u0438\u0434\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u044c", navterms="\u0423\u0441\u043b\u043e\u0432\u0438\u044f", navblog="\u0411\u043b\u043e\u0433",
+   railtitle="\u0411\u044b\u0441\u0442\u0440\u044b\u0439 \u043f\u0435\u0440\u0435\u0445\u043e\u0434", s_romance="\u0427\u0435\u043b\u043e\u0432\u0435\u043a, \u0432\u0441\u0442\u0440\u0435\u0447\u0435\u043d\u043d\u044b\u0439 \u043e\u043d\u043b\u0430\u0439\u043d",
+   s_tech="\u041f\u043e\u0434\u0434\u0435\u043b\u044c\u043d\u0430\u044f \u0442\u0435\u0445\u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430", s_bank="\u0411\u0430\u043d\u043a / \u00ab\u0444\u0430\u043d\u0442\u043e\u043c\u043d\u044b\u0439 \u0445\u0430\u043a\u0435\u0440\u00bb",
+   s_gov="\u041c\u043e\u0448\u0435\u043d\u043d\u0438\u043a\u0438 \u043e\u0442 \u0438\u043c\u0435\u043d\u0438 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0430", s_grandparent="\u0412\u043d\u0443\u043a \u0432 \u0431\u0435\u0434\u0435",
+   s_kidnap="\u0412\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u043e\u0445\u0438\u0449\u0435\u043d\u0438\u0435", s_signs="\u0422\u0440\u0438 \u0442\u0440\u0435\u0432\u043e\u0436\u043d\u044b\u0445 \u043f\u0440\u0438\u0437\u043d\u0430\u043a\u0430"),
 }
 
 
@@ -180,62 +208,483 @@ UI["ko"] = dict(strap="전화를 끊으십시오. 번호를 직접 찾으십시�
   back="← 처음으로", read="다른 언어로 읽기:", help="무료 도움, 나무라지 않습니다.",
   nocookie="이 사이트는 쿠키를 쓰지 않고 개인정보를 수집하지 않습니다 — Cloudflare는 익명 페이지뷰만 집계합니다.",
   free="자유롭게 인쇄, 복사, 번역, 공유하십시오. 허락은 필요 없습니다.",
-  langpage="당신의 언어로 도움받기", skip="본문으로 건너뛰기")
+  langpage="당신의 언어로 도움받기", skip="본문으로 건너뛰기",
+  navhome="홈", navscams="사기 유형", navprint="인쇄 자료",
+  navabout="소개", navtalk="이 강연 진행하기", navhelp="번역 돕기",
+  navprivacy="개인정보 보호", navterms="이용 약관", navblog="블로그",
+  railtitle="빠른 이동", s_romance="온라인에서 만난 사람",
+  s_tech="가짜 기술 지원", s_bank="은행 / “유령 해커”",
+  s_gov="정부 사칭", s_grandparent="손주가 곤경에 처했다는 전화",
+  s_kidnap="가상 납치", s_signs="세 가지 경고 신호")
 UI["ja"] = dict(strap="電話を切る。番号は自分で調べる。一日待つ。",
   back="← 最初に戻る", read="他の言語で読む：", help="無料の相談。責めません。",
   nocookie="このサイトはクッキーを使わず、個人情報も収集しません。Cloudflareは匿名のページビューのみを集計します。",
   free="自由に印刷・複製・翻訳・共有してください。許可は不要です。",
-  langpage="あなたの言語での相談先", skip="本文へ移動")
+  langpage="あなたの言語での相談先", skip="本文へ移動",
+  navhome="ホーム", navscams="詐欺の種類", navprint="印刷用資料",
+  navabout="このサイトについて", navtalk="この講演を行う", navhelp="翻訳に協力する",
+  navprivacy="プライバシー", navterms="利用規約", navblog="ブログ",
+  railtitle="サイト内ナビ", s_romance="ネットで知り合った相手",
+  s_tech="偽のテクニカルサポート", s_bank="銀行／「幽霊ハッカー」",
+  s_gov="政府機関のなりすまし", s_grandparent="孫がトラブルに",
+  s_kidnap="バーチャル誘拐", s_signs="3つの警告サイン")
 UI["hi"] = dict(strap="फ़ोन काटें। नंबर खुद ढूँढें। एक दिन रुकें।",
   back="← शुरुआत पर वापस", read="इन भाषाओं में पढ़ें:", help="मुफ़्त मदद, कोई ताना नहीं।",
   nocookie="यह साइट कुकी नहीं रखती और कोई व्यक्तिगत जानकारी नहीं जुटाती — Cloudflare केवल गुमनाम पेजव्यू गिनता है।",
   free="बेझिझक छापें, कॉपी करें, अनुवाद करें और बाँटें। अनुमति की ज़रूरत नहीं।",
-  langpage="अपनी भाषा में मदद", skip="मुख्य सामग्री पर जाएँ")
+  langpage="अपनी भाषा में मदद", skip="मुख्य सामग्री पर जाएँ",
+  navhome="होम", navscams="धोखाधड़ी के प्रकार", navprint="प्रिंट सामग्री",
+  navabout="हमारे बारे में", navtalk="यह वार्ता दें", navhelp="अनुवाद में मदद करें",
+  navprivacy="गोपनीयता", navterms="शर्तें", navblog="ब्लॉग",
+  railtitle="जल्दी पहुँचें", s_romance="ऑनलाइन मिला कोई व्यक्ति",
+  s_tech="नकली तकनीकी सहायता", s_bank="बैंक / “भूत हैकर”",
+  s_gov="सरकार का रूप धरना", s_grandparent="पोता-पोती मुसीबत में",
+  s_kidnap="वर्चुअल अपहरण", s_signs="तीन चेतावनी संकेत")
 UI["bn"] = dict(strap="ফোন রাখুন। নম্বর নিজে খুঁজুন। একদিন অপেক্ষা করুন।",
   back="← শুরুতে ফিরুন", read="অন্য ভাষায় পড়ুন:", help="বিনামূল্যে সহায়তা, কোনো দোষারোপ নেই।",
   nocookie="এই সাইট কুকি রাখে না এবং কোনো ব্যক্তিগত তথ্য সংগ্রহ করে না — Cloudflare শুধু বেনামী পেজভিউ গণনা করে।",
   free="স্বাধীনভাবে ছাপুন, কপি করুন, অনুবাদ করুন ও ভাগ করুন। অনুমতি লাগবে না।",
-  langpage="আপনার ভাষায় সহায়তা", skip="মূল অংশে যান")
+  langpage="আপনার ভাষায় সহায়তা", skip="মূল অংশে যান",
+  navhome="হোম", navscams="প্রতারণার ধরন", navprint="প্রিন্ট সামগ্রী",
+  navabout="আমাদের সম্পর্কে", navtalk="এই আলোচনা দিন", navhelp="অনুবাদে সাহায্য করুন",
+  navprivacy="গোপনীয়তা", navterms="শর্তাবলী", navblog="ব্লগ",
+  railtitle="দ্রুত যান", s_romance="অনলাইনে পরিচিত কেউ",
+  s_tech="ভুয়া প্রযুক্তি সহায়তা", s_bank="ব্যাংক / “ভুতুড়ে হ্যাকার”",
+  s_gov="সরকারি ছদ্মবেশ", s_grandparent="নাতি-নাতনি বিপদে",
+  s_kidnap="ভার্চুয়াল অপহরণ", s_signs="তিনটি সতর্কতা চিহ্ন")
 UI["tl"] = dict(strap="Ibaba ang telepono. Hanapin mo mismo ang numero. Maghintay ng isang araw.",
   back="← Balik sa simula", read="Basahin ito sa:", help="Libreng tulong, walang husga.",
   nocookie="Walang cookies ang site na ito at walang kinokolektang personal na impormasyon — binibilang lang ng Cloudflare ang anonymous na pageviews.",
   free="Malayang i-print, kopyahin, isalin, at ipamahagi. Hindi kailangan ng pahintulot.",
-  langpage="Tulong sa iyong wika", skip="Tumalon sa pangunahing nilalaman")
+  langpage="Tulong sa iyong wika", skip="Tumalon sa pangunahing nilalaman",
+  navhome="Home", navscams="Uri ng scam", navprint="Mga materyal na maipi-print",
+  navabout="Tungkol sa amin", navtalk="Magbigay ng talk na ito", navhelp="Tumulong magsalin",
+  navprivacy="Privacy", navterms="Mga Tuntunin", navblog="Blog",
+  railtitle="Mabilisang sanggunian", s_romance="Taong nakilala online",
+  s_tech="Peke na tech support", s_bank="Bangko / “multong hacker”",
+  s_gov="Pagpapanggap bilang gobyerno", s_grandparent="Apo raw nasa gulo",
+  s_kidnap="Virtual na pagdukot", s_signs="Tatlong babala")
 UI["hy"] = dict(strap="Անջատեք։ Համարը ինքներդ գտեք։ Սպասեք մեկ օր։",
   back="← Վերադառնալ սկիզբ", read="Կարդալ նաև՝", help="Անվճար օգնություն, առանց դատելու։",
   nocookie="Այս կայքը cookie չի օգտագործում և ձեր անձնական տվյալները չի հավաքում։ Cloudflare-ը հաշվում է միայն անանուն դիտումների քանակը։",
   free="Ազատորեն տպեք, պատճենեք, թարգմանեք և տարածեք։ Թույլտվություն պետք չէ։",
-  langpage="Օգնություն ձեր լեզվով", skip="Անցնել հիմնական բովանդակությանը")
+  langpage="Օգնություն ձեր լեզվով", skip="Անցնել հիմնական բովանդակությանը",
+  navhome="Գլխավոր", navscams="Խարդախության տեսակներ", navprint="Տպագիր նյութեր",
+  navabout="Մեր մասին", navtalk="Կայացրեք այս զրույցը", navhelp="Օգնեք թարգմանել",
+  navprivacy="Գաղտնիություն", navterms="Պայմաններ", navblog="Բլոգ",
+  railtitle="Արագ նավարկություն", s_romance="Ինտերնետով ծանոթացած մեկը",
+  s_tech="Կեղծ տեխնիկական աջակցություն", s_bank="Բանկ / «ուրվական հաքեր»",
+  s_gov="Կառավարության քողարկում", s_grandparent="Թոռը՝ դժվարության մեջ",
+  s_kidnap="Վիրտուալ առևանգում", s_signs="Երեք նախազգուշական նշան")
 UI["am"] = dict(strap="ስልኩን ይዝጉ። ቁጥሩን ራስዎ ይፈልጉ። አንድ ቀን ይጠብቁ።",
   back="← ወደ መጀመሪያው ተመለስ", read="በሌላ ቋንቋ ያንብቡ፦", help="ነጻ እርዳታ፣ ማንም አይወቅስዎትም።",
   nocookie="ይህ ድረ-ገጽ ኩኪ አይጠቀምም እና የግል መረጃዎን አይሰበስብም — Cloudflare ስም-አልባ የገጽ ጉብኝት ብዛት ብቻ ይቆጥራል።",
   free="በነጻነት ያትሙ፣ ይቅዱ፣ ይተርጉሙ እና ያካፍሉ። ፈቃድ አያስፈልግም።",
-  langpage="በቋንቋዎ እርዳታ", skip="ወደ ዋናው ይዘት ዝለል")
+  langpage="በቋንቋዎ እርዳታ", skip="ወደ ዋናው ይዘት ዝለል",
+  navhome="መነሻ", navscams="የማጭበርበሪያ ዓይነቶች", navprint="የህትመት ቁሳቁሶች",
+  navabout="ስለ እኛ", navtalk="ይህን ንግግር ስጡ", navhelp="ትርጉም ያግዙ",
+  navprivacy="ግላዊነት", navterms="ውሎች", navblog="ብሎግ",
+  railtitle="ፈጣን አሰሳ", s_romance="በኢንተርኔት ያገኙት ሰው",
+  s_tech="ሐሰተኛ ቴክኒካል ድጋፍ", s_bank="ባንክ / «መንፈስ ጠላፊ»",
+  s_gov="የመንግስት ማስመሰል", s_grandparent="የልጅ ልጅ ችግር ላይ ነው",
+  s_kidnap="ምናባዊ አፈና", s_signs="ሦስት ማስጠንቀቂያ ምልክቶች")
 UI["sq"] = dict(strap="Mbylleni telefonin. Gjejeni vetë numrin. Prisni një ditë.",
   back="← Kthehu në fillim", read="Lexoni këtë në:", help="Ndihmë falas, pa gjykim.",
   nocookie="Kjo faqe nuk përdor cookies dhe nuk mbledh të dhëna personale — Cloudflare numëron vetëm shikime anonime të faqes.",
   free="I lirë për ta printuar, kopjuar, përkthyer dhe shpërndarë. Pa leje.",
-  langpage="Ndihmë në gjuhën tuaj", skip="Kalo te përmbajtja kryesore")
+  langpage="Ndihmë në gjuhën tuaj", skip="Kalo te përmbajtja kryesore",
+  navhome="Kreu", navscams="Llojet e mashtrimeve", navprint="Materiale për printim",
+  navabout="Rreth nesh", navtalk="Mbani këtë bisedë", navhelp="Ndihmoni të përkthejmë",
+  navprivacy="Privatësia", navterms="Kushtet", navblog="Blog",
+  railtitle="Gjeni rrugën", s_romance="Dikush që takova online",
+  s_tech="Mbështetje teknike e rreme", s_bank="Banka / “haker fantazmë”",
+  s_gov="Imitim i qeverisë", s_grandparent="Nipi/mbesa në telashe",
+  s_kidnap="Rrëmbim virtual", s_signs="Tre shenja paralajmëruese")
 UI["ar"] = dict(strap="أغلق الخط. ابحث عن الرقم بنفسك. انتظر يومًا.",
   back="← العودة إلى البداية", read="اقرأ هذا بلغة أخرى:", help="مساعدة مجانية، بلا أحكام.",
   nocookie="هذا الموقع لا يستخدم ملفات تعريف الارتباط ولا يجمع أي بيانات شخصية — تحسب Cloudflare فقط عدد الزيارات المجهولة للصفحة.",
   free="يمكنك الطباعة والنسخ والترجمة والمشاركة بحرية. لا حاجة لإذن.",
-  langpage="مساعدة بلغتك", skip="انتقل إلى المحتوى الرئيسي")
+  langpage="مساعدة بلغتك", skip="انتقل إلى المحتوى الرئيسي",
+  navhome="الرئيسية", navscams="أنواع الاحتيال", navprint="مواد للطباعة",
+  navabout="نبذة عنا", navtalk="قدّم هذه المحاضرة", navhelp="ساعد في الترجمة",
+  navprivacy="الخصوصية", navterms="الشروط", navblog="المدونة",
+  railtitle="تصفح سريع", s_romance="شخص تعرفت عليه عبر الإنترنت",
+  s_tech="دعم فني وهمي", s_bank="البنك / «القرصان الشبح»",
+  s_gov="انتحال صفة جهة حكومية", s_grandparent="حفيد في ورطة",
+  s_kidnap="اختطاف وهمي", s_signs="ثلاث علامات تحذيرية")
 UI["ur"] = dict(strap="فون بند کریں۔ نمبر خود تلاش کریں۔ ایک دن انتظار کریں۔",
   back="← شروع پر واپس", read="اسے اس زبان میں پڑھیں:", help="مفت مدد، کوئی ملامت نہیں۔",
   nocookie="یہ سائٹ کوکیز استعمال نہیں کرتی اور کوئی ذاتی معلومات جمع نہیں کرتی — Cloudflare صرف گمنام پیج ویوز شمار کرتا ہے۔",
   free="آزادانہ چھاپیں، نقل کریں، ترجمہ کریں اور تقسیم کریں۔ اجازت کی ضرورت نہیں۔",
-  langpage="اپنی زبان میں مدد", skip="مرکزی مواد پر جائیں")
+  langpage="اپنی زبان میں مدد", skip="مرکزی مواد پر جائیں",
+  navhome="ہوم", navscams="فراڈ کی اقسام", navprint="پرنٹ میٹریل",
+  navabout="ہمارے بارے میں", navtalk="یہ گفتگو پیش کریں", navhelp="ترجمے میں مدد کریں",
+  navprivacy="رازداری", navterms="شرائط", navblog="بلاگ",
+  railtitle="فوری رسائی", s_romance="آن لائن ملنے والا کوئی شخص",
+  s_tech="جعلی تکنیکی مدد", s_bank="بینک / “غائب ہیکر”",
+  s_gov="حکومت کا جعلی روپ", s_grandparent="پوتا/پوتی مصیبت میں",
+  s_kidnap="ورچوئل اغوا", s_signs="تین وارننگ نشانیاں")
 UI["fa"] = dict(strap="تلفن را قطع کنید. شماره را خودتان پیدا کنید. یک روز صبر کنید.",
   back="← بازگشت به آغاز", read="این را به زبان دیگر بخوانید:", help="کمک رایگان، بدون سرزنش.",
   nocookie="این سایت از کوکی استفاده نمی‌کند و هیچ اطلاعات شخصی جمع نمی‌کند — Cloudflare فقط بازدیدهای ناشناس صفحه را می‌شمارد.",
   free="آزادانه چاپ، کپی، ترجمه و منتشر کنید. نیازی به اجازه نیست.",
-  langpage="کمک به زبان شما", skip="رفتن به محتوای اصلی")
+  langpage="کمک به زبان شما", skip="رفتن به محتوای اصلی",
+  navhome="خانه", navscams="انواع کلاهبرداری", navprint="مطالب چاپی",
+  navabout="درباره ما", navtalk="این سخنرانی را ارائه دهید", navhelp="در ترجمه کمک کنید",
+  navprivacy="حریم خصوصی", navterms="شرایط", navblog="وبلاگ",
+  railtitle="دسترسی سریع", s_romance="فردی که آنلاین آشنا شدید",
+  s_tech="پشتیبانی فنی جعلی", s_bank="بانک / «هکر شبح»",
+  s_gov="جعل هویت دولتی", s_grandparent="نوه در دردسر",
+  s_kidnap="آدم‌ربایی مجازی", s_signs="سه نشانه هشدار")
 UI["ps"] = dict(strap="ټیلیفون بند کړئ. شمېره پخپله ولټوئ. یوه ورځ صبر وکړئ.",
   back="← بېرته پیل ته", read="دا په بله ژبه ولولئ:", help="وړیا مرسته، هېڅ ملامتیا نشته.",
   nocookie="دا ویب پاڼه کوکیز نه کاروي او ستاسو شخصي معلومات نه راټولوي — Cloudflare یوازې ناپیژندل شوي د پاڼې لیدنې شمېري.",
   free="په آزادۍ سره یې چاپ، کاپي، ژباړه او شریکول کولی شئ. اجازې ته اړتیا نشته.",
-  langpage="ستاسو په ژبه مرسته", skip="اصلي منځپانګې ته ورشئ")
+  langpage="ستاسو په ژبه مرسته", skip="اصلي منځپانګې ته ورشئ",
+  navhome="کور", navscams="د درغلۍ ډولونه", navprint="د چاپ توکي",
+  navabout="زموږ په اړه", navtalk="دا خبرې اترې وړاندې کړئ", navhelp="په ژباړه کې مرسته وکړئ",
+  navprivacy="محرمیت", navterms="شرایط", navblog="بلاگ",
+  railtitle="ګړندی لاره موندنه", s_romance="هغه کس چې آنلاین سره پیژندل شوی",
+  s_tech="جعلي تخنیکي مرسته", s_bank="بانک / «روح هکر»",
+  s_gov="د حکومت جعل", s_grandparent="لمسی/لمسۍ په ستونزه کې",
+  s_kidnap="مجازی زورول", s_signs="درې خبرداری نښې")
+
+UI["de"] = dict(strap="Auflegen. Die Nummer selbst nachschlagen. Einen Tag warten.",
+  back="← Zurück zum Anfang", read="Auf anderen Sprachen lesen:", help="Kostenlose Hilfe, ohne Urteil.",
+  nocookie="Diese Website setzt keine Cookies und sammelt keine persönlichen Daten – Cloudflare zählt nur anonyme Seitenaufrufe.",
+  free="Frei zum Drucken, Kopieren, Übersetzen und Weitergeben. Keine Erlaubnis nötig.",
+  langpage="Hilfe in Ihrer Sprache", skip="Zum Hauptinhalt springen",
+  navhome="Startseite", navscams="Betrugsarten", navprint="Druckmaterialien",
+  navabout="Über uns", navtalk="Diesen Vortrag halten", navhelp="Beim Übersetzen helfen",
+  navprivacy="Datenschutz", navterms="Nutzungsbedingungen", navblog="Blog",
+  railtitle="Schnellzugriff", s_romance="Jemand, den ich online kennengelernt habe",
+  s_tech="Falscher technischer Support", s_bank="Bank / „Phantom-Hacker“",
+  s_gov="Vorgetäuschte Behörde", s_grandparent="Enkelkind in Schwierigkeiten",
+  s_kidnap="Virtuelle Entführung", s_signs="Drei Warnzeichen")
+UI["fr"] = dict(strap="Raccrochez. Cherchez le numéro vous-même. Attendez un jour.",
+  back="← Retour au début", read="Lire dans une autre langue :", help="Aide gratuite, sans jugement.",
+  nocookie="Ce site ne dépose aucun cookie et ne collecte aucune donnée personnelle — Cloudflare compte uniquement des visites anonymes.",
+  free="Libre à imprimer, copier, traduire et partager. Aucune autorisation nécessaire.",
+  langpage="Aide dans votre langue", skip="Aller au contenu principal",
+  navhome="Accueil", navscams="Types d'arnaques", navprint="Documents à imprimer",
+  navabout="À propos", navtalk="Donner cette présentation", navhelp="Aider à traduire",
+  navprivacy="Confidentialité", navterms="Conditions", navblog="Blog",
+  railtitle="Accès rapide", s_romance="Une personne rencontrée en ligne",
+  s_tech="Faux support technique", s_bank="Banque / « pirate fantôme »",
+  s_gov="Usurpation d'un organisme gouvernemental", s_grandparent="Petit-enfant en difficulté",
+  s_kidnap="Enlèvement virtuel", s_signs="Trois signes d'alerte")
+UI["pt"] = dict(strap="Desligue. Procure o número você mesmo. Espere um dia.",
+  back="← Voltar ao início", read="Ler em outro idioma:", help="Ajuda gratuita, sem julgamento.",
+  nocookie="Este site não usa cookies nem coleta dados pessoais — o Cloudflare conta apenas visualizações anônimas de página.",
+  free="Livre para imprimir, copiar, traduzir e compartilhar. Não é preciso permissão.",
+  langpage="Ajuda no seu idioma", skip="Ir para o conteúdo principal",
+  navhome="Início", navscams="Tipos de golpe", navprint="Materiais para impressão",
+  navabout="Sobre", navtalk="Dê esta palestra", navhelp="Ajude a traduzir",
+  navprivacy="Privacidade", navterms="Termos", navblog="Blog",
+  railtitle="Acesso rápido", s_romance="Alguém que conheci on-line",
+  s_tech="Suporte técnico falso", s_bank="Banco / “hacker fantasma”",
+  s_gov="Falsa autoridade governamental", s_grandparent="Neto em apuros",
+  s_kidnap="Sequestro virtual", s_signs="Três sinais de alerta")
+UI["pl"] = dict(strap="Rozłącz się. Sam sprawdź numer. Poczekaj dzień.",
+  back="← Powrót do początku", read="Czytaj w innym języku:", help="Bezpłatna pomoc, bez oceniania.",
+  nocookie="Ta strona nie używa plików cookie i nie zbiera danych osobowych — Cloudflare liczy tylko anonimowe wyświetlenia stron.",
+  free="Można swobodnie drukować, kopiować, tłumaczyć i udostępniać. Zgoda nie jest potrzebna.",
+  langpage="Pomoc w Twoim języku", skip="Przejdź do głównej treści",
+  navhome="Strona główna", navscams="Rodzaje oszustw", navprint="Materiały do druku",
+  navabout="O nas", navtalk="Wygłoś tę prelekcję", navhelp="Pomóż w tłumaczeniu",
+  navprivacy="Prywatność", navterms="Warunki", navblog="Blog",
+  railtitle="Szybka nawigacja", s_romance="Osoba poznana w internecie",
+  s_tech="Fałszywe wsparcie techniczne", s_bank="Bank / „hacker widmo”",
+  s_gov="Podszywanie się pod urząd", s_grandparent="Wnuk w tarapatach",
+  s_kidnap="Wirtualne porwanie", s_signs="Trzy sygnały ostrzegawcze")
+UI["ro"] = dict(strap="Închideți. Căutați numărul singur. Așteptați o zi.",
+  back="← Înapoi la început", read="Citiți în altă limbă:", help="Ajutor gratuit, fără judecată.",
+  nocookie="Acest site nu folosește cookie-uri și nu colectează date personale — Cloudflare numără doar vizualizări anonime de pagină.",
+  free="Liber de tipărit, copiat, tradus și distribuit. Nu e nevoie de permisiune.",
+  langpage="Ajutor în limba dumneavoastră", skip="Sari la conținutul principal",
+  navhome="Acasă", navscams="Tipuri de escrocherii", navprint="Materiale de tipărit",
+  navabout="Despre noi", navtalk="Susțineți această prezentare", navhelp="Ajutați la traducere",
+  navprivacy="Confidențialitate", navterms="Termeni", navblog="Blog",
+  railtitle="Navigare rapidă", s_romance="Cineva cunoscut online",
+  s_tech="Suport tehnic fals", s_bank="Bancă / „hacker fantomă”",
+  s_gov="Impersonarea unei instituții publice", s_grandparent="Nepot aflat în necaz",
+  s_kidnap="Răpire virtuală", s_signs="Trei semne de avertizare")
+UI["uk"] = dict(strap="Покладіть слухавку. Знайдіть номер самостійно. Зачекайте день.",
+  back="← Повернутися на початок", read="Читати іншою мовою:", help="Безкоштовна допомога, без осуду.",
+  nocookie="Цей сайт не використовує файли cookie і не збирає особисті дані — Cloudflare рахує лише анонімні перегляди сторінок.",
+  free="Можна вільно друкувати, копіювати, перекладати та передавати іншим. Дозвіл не потрібен.",
+  langpage="Допомога вашою мовою", skip="Перейти до основного вмісту",
+  navhome="Головна", navscams="Види шахрайства", navprint="Друковані матеріали",
+  navabout="Про нас", navtalk="Провести цю бесіду", navhelp="Допомогти з перекладом",
+  navprivacy="Конфіденційність", navterms="Умови", navblog="Блог",
+  railtitle="Швидка навігація", s_romance="Людина, зустрінута онлайн",
+  s_tech="Фальшива технічна підтримка", s_bank="Банк / «хакер-привид»",
+  s_gov="Видавання себе за державну установу", s_grandparent="Онук у біді",
+  s_kidnap="Віртуальне викрадення", s_signs="Три тривожні ознаки")
+UI["id"] = dict(strap="Tutup telepon. Cari sendiri nomornya. Tunggu satu hari.",
+  back="← Kembali ke awal", read="Baca dalam bahasa lain:", help="Bantuan gratis, tanpa menghakimi.",
+  nocookie="Situs ini tidak memasang cookie dan tidak mengumpulkan data pribadi — Cloudflare hanya menghitung kunjungan halaman anonim.",
+  free="Bebas dicetak, disalin, diterjemahkan, dan dibagikan. Tidak perlu izin.",
+  langpage="Bantuan dalam bahasa Anda", skip="Langsung ke konten utama",
+  navhome="Beranda", navscams="Jenis penipuan", navprint="Materi cetak",
+  navabout="Tentang kami", navtalk="Bawakan ceramah ini", navhelp="Bantu menerjemahkan",
+  navprivacy="Privasi", navterms="Ketentuan", navblog="Blog",
+  railtitle="Navigasi cepat", s_romance="Orang yang ditemui secara online",
+  s_tech="Dukungan teknis palsu", s_bank="Bank / “peretas hantu”",
+  s_gov="Penyamaran sebagai pemerintah", s_grandparent="Cucu dalam masalah",
+  s_kidnap="Penculikan virtual", s_signs="Tiga tanda peringatan")
+UI["ht"] = dict(strap="Rakwoche. Chèche nimewo a ou menm. Tann yon jou.",
+  back="← Retounen nan kòmansman", read="Li sa nan yon lòt lang:", help="Èd gratis, san jijman.",
+  nocookie="Sit sa a pa mete okenn cookie e li pa kolekte okenn done pèsonèl — Cloudflare sèlman konte vizit paj anonim.",
+  free="Ou lib pou enprime, kopye, tradui, epi pataje. Pa bezwen pèmisyon.",
+  langpage="Èd nan lang ou", skip="Ale dirèkteman nan kontni prensipal la",
+  navhome="Akèy", navscams="Kalite eskrokri", navprint="Materyèl pou enprime",
+  navabout="Konsènan nou", navtalk="Bay prezantasyon sa a", navhelp="Ede tradui",
+  navprivacy="Konfidansyalite", navterms="Kondisyon", navblog="Blòg",
+  railtitle="Navigasyon rapid", s_romance="Yon moun mwen rankontre sou entènèt",
+  s_tech="Fo sipò teknik", s_bank="Bank / “ajan pirat fantom”",
+  s_gov="Moun k ap fè tankou gouvènman", s_grandparent="Pitit pitit nan tras",
+  s_kidnap="Kidnapin vityèl", s_signs="Twa siy avètisman")
+UI["pa"] = dict(strap="ਫ਼ੋਨ ਰੱਖੋ। ਨੰਬਰ ਖੁਦ ਲੱਭੋ। ਇੱਕ ਦਿਨ ਉਡੀਕ ਕਰੋ।",
+  back="← ਸ਼ੁਰੂਆਤ ਵੱਲ ਵਾਪਸ", read="ਇਸ ਨੂੰ ਹੋਰ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ:", help="ਮੁਫ਼ਤ ਮਦਦ, ਬਿਨਾਂ ਕਿਸੇ ਨਿਰਣੇ ਦੇ।",
+  nocookie="ਇਹ ਸਾਈਟ ਕੋਈ ਕੂਕੀ ਨਹੀਂ ਰੱਖਦੀ ਅਤੇ ਕੋਈ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਇਕੱਠੀ ਨਹੀਂ ਕਰਦੀ — Cloudflare ਸਿਰਫ਼ ਗੁਮਨਾਮ ਪੇਜ ਵਿਊ ਗਿਣਦਾ ਹੈ।",
+  free="ਖੁੱਲ੍ਹ ਕੇ ਛਾਪੋ, ਕਾਪੀ ਕਰੋ, ਅਨੁਵਾਦ ਕਰੋ ਅਤੇ ਸਾਂਝਾ ਕਰੋ। ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਨਹੀਂ।",
+  langpage="ਤੁਹਾਡੀ ਭਾਸ਼ਾ ਵਿੱਚ ਮਦਦ", skip="ਮੁੱਖ ਸਮੱਗਰੀ 'ਤੇ ਜਾਓ",
+  navhome="ਹੋਮ", navscams="ਧੋਖਾਧੜੀ ਦੀਆਂ ਕਿਸਮਾਂ", navprint="ਛਪਾਈ ਸਮੱਗਰੀ",
+  navabout="ਸਾਡੇ ਬਾਰੇ", navtalk="ਇਹ ਗੱਲਬਾਤ ਦਿਓ", navhelp="ਅਨੁਵਾਦ ਵਿੱਚ ਮਦਦ ਕਰੋ",
+  navprivacy="ਪਰਦੇਦਾਰੀ", navterms="ਸ਼ਰਤਾਂ", navblog="ਬਲੌਗ",
+  railtitle="ਤੁਰੰਤ ਨੇਵੀਗੇਸ਼ਨ", s_romance="ਆਨਲਾਈਨ ਮਿਲਿਆ ਕੋਈ ਵਿਅਕਤੀ",
+  s_tech="ਨਕਲੀ ਤਕਨੀਕੀ ਸਹਾਇਤਾ", s_bank="ਬੈਂਕ / “ਭੂਤ ਹੈਕਰ”",
+  s_gov="ਸਰਕਾਰ ਦਾ ਢੌਂਗ", s_grandparent="ਪੋਤਾ-ਪੋਤੀ ਮੁਸੀਬਤ ਵਿੱਚ",
+  s_kidnap="ਵਰਚੁਅਲ ਅਗਵਾ", s_signs="ਤਿੰਨ ਚੇਤਾਵਨੀ ਸੰਕੇਤ")
+UI["gu"] = dict(strap="ફોન મૂકી દો. નંબર જાતે શોધો. એક દિવસ રાહ જુઓ.",
+  back="← શરૂઆતમાં પાછા", read="આ બીજી ભાષામાં વાંચો:", help="મફત મદદ, કોઈ ટીકા નહીં.",
+  nocookie="આ સાઇટ કોઈ કૂકી સેટ કરતી નથી અને કોઈ અંગત માહિતી એકત્ર કરતી નથી — Cloudflare ફક્ત અનામી પેજવ્યુ ગણે છે.",
+  free="મુક્તપણે છાપો, નકલ કરો, અનુવાદ કરો અને શેર કરો. પરવાનગીની જરૂર નથી.",
+  langpage="તમારી ભાષામાં મદદ", skip="મુખ્ય સામગ્રી પર જાઓ",
+  navhome="હોમ", navscams="છેતરપિંડીના પ્રકારો", navprint="પ્રિન્ટ સામગ્રી",
+  navabout="અમારા વિશે", navtalk="આ વાત આપો", navhelp="અનુવાદમાં મદદ કરો",
+  navprivacy="ગોપનીયતા", navterms="શરતો", navblog="બ્લોગ",
+  railtitle="ઝડપી માર્ગદર્શન", s_romance="ઓનલાઇન મળેલ કોઈ વ્યક્તિ",
+  s_tech="નકલી ટેક સપોર્ટ", s_bank="બેંક / “ભૂત હેકર”",
+  s_gov="સરકારનો ઢોંગ", s_grandparent="પૌત્ર-પૌત્રી મુશ્કેલીમાં",
+  s_kidnap="વર્ચ્યુઅલ અપહરણ", s_signs="ત્રણ ચેતવણી ચિહ્નો")
+UI["so"] = dict(strap="Xidh taleefanka. Naambarka adigu raadi. Maalin sug.",
+  back="← Ku laabo bilowga", read="Ku akhri luqad kale:", help="Caawimaad bilaash ah, aan xukun lahayn.",
+  nocookie="Boggan ma dejiyo cookies-na, mana ururiyo xog shakhsi ah — Cloudflare wuxuu tirinayaa oo keliya booqasho aan la aqoonsan.",
+  free="Xor u ah in la daabaco, la koobiyeeyo, la tarjumo, oo la wadaago. Ma loo baahna ogolaansho.",
+  langpage="Caawimaad luqaddaada", skip="U gudub qaybta ugu muhiimsan",
+  navhome="Bogga hore", navscams="Noocyada khiyaanada", navprint="Waraaqaha daabacan",
+  navabout="Nagu saabsan", navtalk="Bixi hadalkan", navhelp="Ka caawi tarjumaadda",
+  navprivacy="Asturnaanta", navterms="Shuruudaha", navblog="Blog-ga",
+  railtitle="Wax degdeg ah u gaar", s_romance="Qof aan online kula kulmay",
+  s_tech="Taageero farsamo oo been ah", s_bank="Bank / “hacker-ka ekaanta”",
+  s_gov="Iska dhigid dowlad", s_grandparent="Awoowe/Ayeeyo dhibaato ku jira",
+  s_kidnap="Afduub aan dhab ahayn", s_signs="Saddex calaamadood oo digniin ah")
+UI["km"] = dict(strap="ដាក់ទូរស័ព្ទចុះ។ ស្វែងរកលេខដោយខ្លួនឯង។ រង់ចាំមួយថ្ងៃ។",
+  back="← ត្រឡប់ទៅដើម", read="អានជាភាសាផ្សេង៖", help="ជំនួយឥតគិតថ្លៃ គ្មានការវិនិច្ឆ័យ។",
+  nocookie="គេហទំព័រនេះមិនប្រើខូគី ហើយមិនប្រមូលទិន្នន័យផ្ទាល់ខ្លួនឡើយ — Cloudflare រាប់តែចំនួនអ្នកចូលមើលអនាមិកប៉ុណ្ណោះ។",
+  free="សេរីក្នុងការបោះពុម្ព ថតចម្លង បកប្រែ និងចែករំលែក។ មិនចាំបាច់សុំការអនុញ្ញាតទេ។",
+  langpage="ជំនួយជាភាសារបស់អ្នក", skip="រំលងទៅមាតិកាចម្បង",
+  navhome="ទំព័រដើម", navscams="ប្រភេទឧបាយកល", navprint="ឯកសារបោះពុម្ព",
+  navabout="អំពីយើង", navtalk="ធ្វើការនិយាយនេះ", navhelp="ជួយបកប្រែ",
+  navprivacy="ឯកជនភាព", navterms="លក្ខខណ្ឌ", navblog="ប្លុក",
+  railtitle="រុករកលឿន", s_romance="អ្នកដែលបានស្គាល់តាមអនឡាញ",
+  s_tech="ជំនួយបច្ចេកទេសក្លែងក្លាយ", s_bank="ធនាគារ / “ហេគឃ័រខ្មោច”",
+  s_gov="ក្លែងបន្លំជាអាជ្ញាធររដ្ឋ", s_grandparent="ចៅជួបបញ្ហា",
+  s_kidnap="ការចាប់ជំរិតតាមប្រព័ន្ធអនឡាញ", s_signs="សញ្ញាព្រមានបី")
+UI["hmn"] = dict(strap="Tso tais xov tooj. Tus kheej mus tshawb tus najnpawb. Tos ib hnub.",
+  back="← Rov qab mus rau qhov pib", read="Nyeem qhov no ua lwm hom lus:", help="Pab dawb, tsis txiav txim.",
+  nocookie="Lub vev xaib no tsis siv cookies thiab tsis sau tej ntaub ntawv ntiag tug — Cloudflare tsuas suav tus naj npawb neeg saib nkaus xwb, tsis paub yog leej twg.",
+  free="Muaj cai luam tawm, luam theej duab, txhais lus, thiab qhia rau lwm tus. Tsis tas yuav tau kev tso cai.",
+  langpage="Kev pab hauv koj hom lus", skip="Hla mus rau cov ntsiab lus tseem ceeb",
+  navhome="Tsev", navscams="Hom kev dag ntxias", navprint="Cov ntaub ntawv luam tawm",
+  navabout="Txog peb", navtalk="Muab zaj lus qhia no", navhelp="Pab txhais lus",
+  navprivacy="Kev ceev ntiag tug", navterms="Cov cai", navblog="Blog",
+  railtitle="Nrhiav sai", s_romance="Ib tug neeg uas ntsib hauv online",
+  s_tech="Kev pab txuas ntxiv cuav", s_bank="Tuam txhab nyiaj / “dab hacker”",
+  s_gov="Ua txuj yog tsoomfwv", s_grandparent="Xeeb ntxwv raug teeb meem",
+  s_kidnap="Kev txeeb neeg cuav", s_signs="Peb lub cim ceeb toom")
+UI["ka"] = dict(strap="დადეთ ყურმილი. თავად მოძებნეთ ნომერი. დაელოდეთ ერთ დღეს.",
+  back="← დაბრუნება დასაწყისში", read="წაიკითხეთ სხვა ენაზე:", help="უფასო დახმარება, განსჯის გარეშე.",
+  nocookie="ეს საიტი არ იყენებს cookie-ებს და არ აგროვებს პირად მონაცემებს — Cloudflare მხოლოდ ანონიმურ ნახვებს ითვლის.",
+  free="თავისუფლად დაბეჭდეთ, დააკოპირეთ, თარგმნეთ და გაუზიარეთ. ნებართვა არ არის საჭირო.",
+  langpage="დახმარება თქვენს ენაზე", skip="გადადით მთავარ კონტენტზე",
+  navhome="მთავარი", navscams="თაღლითობის სახეები", navprint="საბეჭდი მასალები",
+  navabout="ჩვენ შესახებ", navtalk="ჩაატარეთ ეს საუბარი", navhelp="დაეხმარეთ თარგმანს",
+  navprivacy="კონფიდენციალურობა", navterms="პირობები", navblog="ბლოგი",
+  railtitle="სწრაფი ნავიგაცია", s_romance="ინტერნეტში გაცნობილი ადამიანი",
+  s_tech="ყალბი ტექნიკური მხარდაჭერა", s_bank="ბანკი / „მოჩვენება ჰაკერი“",
+  s_gov="სახელმწიფო უწყების იმიტაცია", s_grandparent="შვილიშვილი გასაჭირშია",
+  s_kidnap="ვირტუალური გატაცება", s_signs="სამი გამაფრთხილებელი ნიშანი")
+UI["lt"] = dict(strap="Padėkite ragelį. Numerį susiraskite patys. Palaukite dieną.",
+  back="← Atgal į pradžią", read="Skaityti kita kalba:", help="Nemokama pagalba, be jokio vertinimo.",
+  nocookie="Ši svetainė nenaudoja slapukų ir nerenka jokių asmens duomenų — „Cloudflare“ skaičiuoja tik anoniminius apsilankymus.",
+  free="Galima laisvai spausdinti, kopijuoti, versti ir dalintis. Leidimo nereikia.",
+  langpage="Pagalba jūsų kalba", skip="Pereiti prie pagrindinio turinio",
+  navhome="Pradžia", navscams="Sukčiavimo rūšys", navprint="Spausdinami leidiniai",
+  navabout="Apie mus", navtalk="Praveskite šį pokalbį", navhelp="Padėkite versti",
+  navprivacy="Privatumas", navterms="Sąlygos", navblog="Tinklaraštis",
+  railtitle="Greita naršymas", s_romance="Internete sutiktas žmogus",
+  s_tech="Netikra techninė pagalba", s_bank="Bankas / „vaiduoklis įsilaužėlis“",
+  s_gov="Apsimetimas valstybine įstaiga", s_grandparent="Anūkas bėdoje",
+  s_kidnap="Virtualus pagrobimas", s_signs="Trys įspėjamieji ženklai")
+UI["lv"] = dict(strap="Nolieciet klausuli. Pats atrodiet numuru. Pagaidiet dienu.",
+  back="← Atpakaļ uz sākumu", read="Lasīt citā valodā:", help="Bezmaksas palīdzība, bez nosodījuma.",
+  nocookie="Šī vietne neizmanto sīkfailus un nevāc personas datus — Cloudflare skaita tikai anonīmus lapas apmeklējumus.",
+  free="Brīvi drukājiet, kopējiet, tulkojiet un dalieties. Atļauja nav vajadzīga.",
+  langpage="Palīdzība jūsu valodā", skip="Pāriet uz galveno saturu",
+  navhome="Sākums", navscams="Krāpšanas veidi", navprint="Drukājamie materiāli",
+  navabout="Par mums", navtalk="Novadiet šo lekciju", navhelp="Palīdziet tulkot",
+  navprivacy="Privātums", navterms="Noteikumi", navblog="Emuārs",
+  railtitle="Ātrā navigācija", s_romance="Kāds, ko iepazinu tiešsaistē",
+  s_tech="Viltus tehniskais atbalsts", s_bank="Banka / „spoku hakeris”",
+  s_gov="Izlikšanās par valsts iestādi", s_grandparent="Mazbērns nepatikšanās",
+  s_kidnap="Virtuāla nolaupīšana", s_signs="Trīs brīdinājuma pazīmes")
+UI["et"] = dict(strap="Pange toru hargile. Otsige number ise üles. Oodake üks päev.",
+  back="← Tagasi algusesse", read="Loe teises keeles:", help="Tasuta abi, ilma hukka mõistmata.",
+  nocookie="See sait ei kasuta küpsiseid ega kogu isikuandmeid — Cloudflare loeb ainult anonüümseid lehevaatamisi.",
+  free="Vabalt trükitav, kopeeritav, tõlgitav ja teistega jagatav. Luba pole vaja.",
+  langpage="Abi teie keeles", skip="Liigu põhisisu juurde",
+  navhome="Avaleht", navscams="Pettuste liigid", navprint="Trükimaterjalid",
+  navabout="Meist", navtalk="Pidage seda vestlust", navhelp="Aidake tõlkida",
+  navprivacy="Privaatsus", navterms="Tingimused", navblog="Blogi",
+  railtitle="Kiirvalik", s_romance="Keegi, kellega tutvusin internetis",
+  s_tech="Võlts tehniline tugi", s_bank="Pank / „fantoomhäkker”",
+  s_gov="Riigiasutuse teesklemine", s_grandparent="Lapselaps hädas",
+  s_kidnap="Virtuaalne inimrööv", s_signs="Kolm hoiatusmärki")
+UI["it"] = dict(strap="Riagganciate. Cercate voi stessi il numero. Aspettate un giorno.",
+  back="← Torna all'inizio", read="Leggi in un'altra lingua:", help="Aiuto gratuito, senza giudizio.",
+  nocookie="Questo sito non utilizza cookie e non raccoglie dati personali — Cloudflare conta solo visualizzazioni di pagina anonime.",
+  free="Libero da stampare, copiare, tradurre e condividere. Non serve alcun permesso.",
+  langpage="Aiuto nella tua lingua", skip="Vai al contenuto principale",
+  navhome="Home", navscams="Tipi di truffa", navprint="Materiali stampabili",
+  navabout="Chi siamo", navtalk="Tieni questa presentazione", navhelp="Aiuta a tradurre",
+  navprivacy="Privacy", navterms="Termini", navblog="Blog",
+  railtitle="Accesso rapido", s_romance="Qualcuno conosciuto online",
+  s_tech="Falso supporto tecnico", s_bank="Banca / “hacker fantasma”",
+  s_gov="Finto ente governativo", s_grandparent="Nipote nei guai",
+  s_kidnap="Sequestro virtuale", s_signs="Tre segnali d'allarme")
+UI["el"] = dict(strap="Κλείστε το τηλέφωνο. Βρείτε μόνοι σας τον αριθμό. Περιμένετε μία μέρα.",
+  back="← Επιστροφή στην αρχή", read="Διαβάστε σε άλλη γλώσσα:", help="Δωρεάν βοήθεια, χωρίς κριτική.",
+  nocookie="Αυτός ο ιστότοπος δεν χρησιμοποιεί cookies και δεν συλλέγει προσωπικά δεδομένα — το Cloudflare μετρά μόνο ανώνυμες προβολές σελίδας.",
+  free="Ελεύθερο για εκτύπωση, αντιγραφή, μετάφραση και διάδοση. Δεν χρειάζεται άδεια.",
+  langpage="Βοήθεια στη γλώσσα σας", skip="Μετάβαση στο κύριο περιεχόμενο",
+  navhome="Αρχική", navscams="Τύποι απάτης", navprint="Έντυπο υλικό",
+  navabout="Σχετικά", navtalk="Παρουσιάστε αυτή την ομιλία", navhelp="Βοηθήστε στη μετάφραση",
+  navprivacy="Απόρρητο", navterms="Όροι", navblog="Ιστολόγιο",
+  railtitle="Γρήγορη πλοήγηση", s_romance="Κάποιος που γνώρισα online",
+  s_tech="Ψεύτικη τεχνική υποστήριξη", s_bank="Τράπεζα / «φάντασμα χάκερ»",
+  s_gov="Υποδυόμενος κρατική υπηρεσία", s_grandparent="Εγγόνι σε μπελά",
+  s_kidnap="Εικονική απαγωγή", s_signs="Τρία προειδοποιητικά σημάδια")
+UI["he"] = dict(strap="נתקו את השיחה. חפשו את המספר בעצמכם. חכו יום אחד.",
+  back="← חזרה להתחלה", read="קראו בשפה אחרת:", help="עזרה חינמית, בלי שיפוטיות.",
+  nocookie="האתר הזה לא משתמש בעוגיות ולא אוסף מידע אישי — Cloudflare סופרת רק צפיות אנונימיות בדפים.",
+  free="מותר להדפיס, להעתיק, לתרגם ולהעביר הלאה בחופשיות. אין צורך באישור.",
+  langpage="עזרה בשפה שלכם", skip="דלגו לתוכן הראשי",
+  navhome="בית", navscams="סוגי הונאות", navprint="חומרים להדפסה",
+  navabout="אודות", navtalk="תנו את ההרצאה הזו", navhelp="עזרו בתרגום",
+  navprivacy="פרטיות", navterms="תנאים", navblog="בלוג",
+  railtitle="ניווט מהיר", s_romance="מישהו שהכרתי באינטרנט",
+  s_tech="תמיכה טכנית מזויפת", s_bank="בנק / “האקר רוח רפאים”",
+  s_gov="התחזות לרשות ממשלתית", s_grandparent="נכד בצרה",
+  s_kidnap="חטיפה וירטואלית", s_signs="שלושה סימני אזהרה")
+UI["hu"] = dict(strap="Tegye le a telefont. Nézze meg saját maga a számot. Várjon egy napot.",
+  back="← Vissza a kezdéshez", read="Olvassa más nyelven:", help="Ingyenes segítség, ítélkezés nélkül.",
+  nocookie="Ez az oldal nem használ sütiket és nem gyűjt személyes adatokat — a Cloudflare csak névtelen oldalmegtekintéseket számol.",
+  free="Szabadon nyomtatható, másolható, fordítható és megosztható. Nincs szükség engedélyre.",
+  langpage="Segítség az Ön nyelvén", skip="Ugrás a fő tartalomra",
+  navhome="Kezdőlap", navscams="Csalástípusok", navprint="Nyomtatható anyagok",
+  navabout="Rólunk", navtalk="Tartsa meg ezt az előadást", navhelp="Segítsen a fordításban",
+  navprivacy="Adatvédelem", navterms="Feltételek", navblog="Blog",
+  railtitle="Gyors navigáció", s_romance="Valaki, akit online ismertem meg",
+  s_tech="Hamis műszaki támogatás", s_bank="Bank / „szellemhacker”",
+  s_gov="Kormányzati szerv megszemélyesítése", s_grandparent="Unoka bajban",
+  s_kidnap="Virtuális emberrablás", s_signs="Három figyelmeztető jel")
+UI["hr"] = dict(strap="Spustite slušalicu. Sami provjerite broj. Pričekajte jedan dan.",
+  back="← Natrag na početak", read="Pročitajte na drugom jeziku:", help="Besplatna pomoć, bez osuđivanja.",
+  nocookie="Ova stranica ne postavlja kolačiće i ne prikuplja osobne podatke — Cloudflare broji samo anonimne posjete stranici.",
+  free="Slobodno ispišite, kopirajte, prevedite i podijelite. Dopuštenje nije potrebno.",
+  langpage="Pomoć na vašem jeziku", skip="Idi na glavni sadržaj",
+  navhome="Početna", navscams="Vrste prijevara", navprint="Materijali za ispis",
+  navabout="O nama", navtalk="Održite ovo predavanje", navhelp="Pomozite s prijevodom",
+  navprivacy="Privatnost", navterms="Uvjeti", navblog="Blog",
+  railtitle="Brza navigacija", s_romance="Netko koga sam upoznao/la online",
+  s_tech="Lažna tehnička podrška", s_bank="Banka / „hakerska sablast”",
+  s_gov="Lažno predstavljanje državne institucije", s_grandparent="Unuk u nevolji",
+  s_kidnap="Virtualna otmica", s_signs="Tri znaka upozorenja")
+UI["sr"] = dict(strap="Спустите слушалицу. Сами проверите број. Сачекајте један дан.",
+  back="← Назад на почетак", read="Прочитајте на другом језику:", help="Бесплатна помоћ, без осуђивања.",
+  nocookie="Овај сајт не поставља колачиће и не прикупља личне податке — Cloudflare броји само анонимне посете страници.",
+  free="Слободно штампајте, копирајте, преводите и делите. Дозвола није потребна.",
+  langpage="Помоћ на вашем језику", skip="Иди на главни садржај",
+  navhome="Почетна", navscams="Врсте превара", navprint="Материјали за штампу",
+  navabout="О нама", navtalk="Одржите ово предавање", navhelp="Помозите у превођењу",
+  navprivacy="Приватност", navterms="Услови", navblog="Блог",
+  railtitle="Брза навигација", s_romance="Неко ко упознат онлајн",
+  s_tech="Лажна техничка подршка", s_bank="Банка / „хакер-дух”",
+  s_gov="Лажно представљање државне институције", s_grandparent="Унук у невољи",
+  s_kidnap="Виртуелна отмица", s_signs="Три знака упозорења")
+UI["ms"] = dict(strap="Letak telefon. Cari sendiri nombor itu. Tunggu sehari.",
+  back="← Kembali ke permulaan", read="Baca dalam bahasa lain:", help="Bantuan percuma, tanpa menghakimi.",
+  nocookie="Laman ini tidak menetapkan kuki dan tidak mengumpul data peribadi — Cloudflare hanya mengira paparan halaman tanpa nama.",
+  free="Bebas untuk dicetak, disalin, diterjemah, dan dikongsi. Tiada keizinan diperlukan.",
+  langpage="Bantuan dalam bahasa anda", skip="Langkau ke kandungan utama",
+  navhome="Laman utama", navscams="Jenis penipuan", navprint="Bahan cetak",
+  navabout="Tentang kami", navtalk="Sampaikan ceramah ini", navhelp="Bantu terjemah",
+  navprivacy="Privasi", navterms="Terma", navblog="Blog",
+  railtitle="Navigasi pantas", s_romance="Seseorang yang ditemui secara dalam talian",
+  s_tech="Sokongan teknikal palsu", s_bank="Bank / “penggodam hantu”",
+  s_gov="Penyamaran kerajaan", s_grandparent="Cucu dalam masalah",
+  s_kidnap="Penculikan maya", s_signs="Tiga tanda amaran")
+UI["sv"] = dict(strap="Lägg på. Slå upp numret själv. Vänta en dag.",
+  back="← Tillbaka till start", read="Läs på ett annat språk:", help="Gratis hjälp, utan att döma.",
+  nocookie="Den här webbplatsen sätter inga kakor och samlar inte in några personuppgifter — Cloudflare räknar bara anonyma sidvisningar.",
+  free="Fritt att skriva ut, kopiera, översätta och dela vidare. Inget tillstånd behövs.",
+  langpage="Hjälp på ditt språk", skip="Hoppa till huvudinnehållet",
+  navhome="Hem", navscams="Bedrägerityper", navprint="Utskriftsmaterial",
+  navabout="Om oss", navtalk="Håll den här presentationen", navhelp="Hjälp till att översätta",
+  navprivacy="Integritet", navterms="Villkor", navblog="Blogg",
+  railtitle="Snabbnavigering", s_romance="Någon jag träffade online",
+  s_tech="Falsk teknisk support", s_bank="Bank / ”spökhackare”",
+  s_gov="Utger sig för att vara en myndighet", s_grandparent="Barnbarn i knipa",
+  s_kidnap="Virtuell kidnappning", s_signs="Tre varningstecken")
+UI["no"] = dict(strap="Legg på. Slå opp nummeret selv. Vent en dag.",
+  back="← Tilbake til start", read="Les på et annet språk:", help="Gratis hjelp, uten å dømme.",
+  nocookie="Dette nettstedet setter ingen informasjonskapsler og samler ikke inn personopplysninger — Cloudflare teller kun anonyme sidevisninger.",
+  free="Fritt å skrive ut, kopiere, oversette og dele videre. Ingen tillatelse nødvendig.",
+  langpage="Hjelp på ditt språk", skip="Hopp til hovedinnholdet",
+  navhome="Hjem", navscams="Typer svindel", navprint="Utskriftsmateriell",
+  navabout="Om oss", navtalk="Hold dette foredraget", navhelp="Hjelp til å oversette",
+  navprivacy="Personvern", navterms="Vilkår", navblog="Blogg",
+  railtitle="Hurtignavigasjon", s_romance="Noen jeg møtte på nettet",
+  s_tech="Falsk teknisk støtte", s_bank="Bank / «spøkelseshacker»",
+  s_gov="Utgir seg for å være myndighet", s_grandparent="Barnebarn i trøbbel",
+  s_kidnap="Virtuell kidnapping", s_signs="Tre varselstegn")
+UI["da"] = dict(strap="Læg på. Slå selv nummeret op. Vent en dag.",
+  back="← Tilbage til start", read="Læs på et andet sprog:", help="Gratis hjælp, uden at dømme.",
+  nocookie="Denne hjemmeside sætter ingen cookies og indsamler ingen personoplysninger — Cloudflare tæller kun anonyme sidevisninger.",
+  free="Frit at printe, kopiere, oversætte og dele videre. Ingen tilladelse nødvendig.",
+  langpage="Hjælp på dit sprog", skip="Spring til hovedindholdet",
+  navhome="Hjem", navscams="Typer af svindel", navprint="Udskriftsmaterialer",
+  navabout="Om os", navtalk="Hold dette oplæg", navhelp="Hjælp med at oversætte",
+  navprivacy="Privatliv", navterms="Vilkår", navblog="Blog",
+  railtitle="Hurtig navigation", s_romance="Nogen jeg mødte online",
+  s_tech="Falsk teknisk support", s_bank="Bank / “spøgelseshacker”",
+  s_gov="Udgiver sig for at være en myndighed", s_grandparent="Barnebarn i knibe",
+  s_kidnap="Virtuel kidnapning", s_signs="Tre advarselstegn")
+UI["sw"] = dict(strap="Kata simu. Tafuta nambari mwenyewe. Subiri siku moja.",
+  back="← Rudi mwanzo", read="Soma kwa lugha nyingine:", help="Msaada wa bure, bila kuhukumu.",
+  nocookie="Tovuti hii haiweki vidakuzi na haikusanyi taarifa binafsi — Cloudflare inahesabu tu watazamaji wa ukurasa wasiojulikana.",
+  free="Huru kuchapisha, kunakili, kutafsiri, na kushiriki. Hakuna ruhusa inayohitajika.",
+  langpage="Msaada kwa lugha yako", skip="Ruka hadi maudhui makuu",
+  navhome="Nyumbani", navscams="Aina za ulaghai", navprint="Nyenzo za kuchapisha",
+  navabout="Kutuhusu", navtalk="Toa mhadhara huu", navhelp="Saidia kutafsiri",
+  navprivacy="Faragha", navterms="Masharti", navblog="Blogu",
+  railtitle="Urambazaji wa haraka", s_romance="Mtu niliyekutana naye mtandaoni",
+  s_tech="Msaada bandia wa kiufundi", s_bank="Benki / “hacker mzuka”",
+  s_gov="Kujifanya ni serikali", s_grandparent="Mjukuu kwenye matatizo",
+  s_kidnap="Utekaji wa kimtandao", s_signs="Ishara tatu za onyo")
 
 # ---------------------------------------------------------------- front matter
 
@@ -378,6 +827,12 @@ figure.hero-photo img{width:100%;aspect-ratio:16/9;object-fit:cover;
 figure.hero-photo figcaption{font-size:.78rem;color:var(--muted);margin-top:.4rem}
 figure.hero-photo figcaption a{color:var(--muted)}
 
+.post-poster{max-width:280px;width:100%;float:right;margin:0 0 1rem 1.5rem;
+  border:1px solid var(--rule)}
+@media (max-width:520px){
+  .post-poster{float:none;max-width:320px;margin:0 auto 1.2rem;display:block}
+}
+
 .eng-phrase{unicode-bidi:isolate;white-space:nowrap}
 
 .feedback-form label{font-weight:700}
@@ -487,6 +942,7 @@ PAGE = """<!DOCTYPE html>
     <a href="{pre}">{navhome}</a>
     <a href="{pre}about/">{navabout}</a>
     <a href="{pre}give-this-talk/">{navtalk}</a>
+    <a href="{pre}blog/">{navblog}</a>
     <a href="{pre}help-translate/">{navhelp}</a>
     <a href="{pre}privacy/">{navprivacy}</a>
     <a href="{pre}terms/">{navterms}</a>
@@ -521,7 +977,11 @@ def fix_links(body_html, pre):
         if "." in os.path.basename(href):
             return 'href="%s%s"' % (pre, href.lstrip("/"))
         return 'href="%s%s/"' % (pre, href.strip("/"))
-    return re.sub(r'href="(/(?!/)[^"#]*)"', repl, body_html)
+    body_html = re.sub(r'href="(/(?!/)[^"#]*)"', repl, body_html)
+
+    def repl_src(m):
+        return 'src="%s%s"' % (pre, m.group(1).lstrip("/"))
+    return re.sub(r'src="(/(?!/)[^"]*)"', repl_src, body_html)
 
 
 def phone_wrap(s):
@@ -581,6 +1041,22 @@ def build():
             slug = meta.get("slug") or "/" + os.path.relpath(src, CONTENT)[:-3]
             pages.append((src, meta, body, lang, slug))
 
+    # blog index: any content/en/blog/*.md other than blog.md itself.
+    # Sorted newest first by the `date:` frontmatter field (ISO, so a
+    # plain string sort works). Individual posts render like any other
+    # page via the main loop below — nothing special-cased for those.
+    def _blog_date_label(iso):
+        try:
+            return datetime.date.fromisoformat(iso).strftime("%B %-d, %Y")
+        except ValueError:
+            return iso
+
+    blog_posts = sorted(
+        (m for _src, m, _b, l, s in pages
+         if l == "en" and s.strip("/").startswith("blog/")),
+        key=lambda m: m.get("date", ""), reverse=True,
+    )
+
     written = 0
     for src, meta, body, lang, slug in pages:
         outrel = slug_to_path(slug)
@@ -604,6 +1080,22 @@ def build():
             ) % (pre, p["file"], html.escape(p["alt"]), p["url"],
                  html.escape(p["author"]), p["license"])
             body_html = re.sub(r'(</h1>)', r'\1' + figure, body_html, count=1)
+
+        if lang == "en" and slug.strip("/") == "blog":
+            if blog_posts:
+                cards = "".join(
+                    '<a class="card" href="%s%s/">%s<span>%s — %s</span></a>' % (
+                        pre, m.get("slug", "").strip("/"),
+                        html.escape(m.get("title", "")),
+                        _blog_date_label(m.get("date", "")),
+                        html.escape(m.get("description", "")),
+                    )
+                    for m in blog_posts
+                )
+                listing = '<div class="cards">' + cards + '</div>'
+            else:
+                listing = '<p><em>No posts yet — check back soon.</em></p>'
+            body_html = re.sub(r'(</h1>)', r'\1' + listing, body_html, count=1)
 
         title = meta.get("title", "Trust But Verify")
         if slug.strip("/") not in ("", lang):
@@ -673,6 +1165,7 @@ def build():
             navhelp=html.escape(ui(lang, "navhelp")),
             navprivacy=html.escape(ui(lang, "navprivacy")),
             navterms=html.escape(ui(lang, "navterms")),
+            navblog=html.escape(ui(lang, "navblog")),
             s_romance=html.escape(ui(lang, "s_romance")),
             s_tech=html.escape(ui(lang, "s_tech")),
             s_bank=html.escape(ui(lang, "s_bank")),
@@ -735,6 +1228,18 @@ def build():
             if fn.endswith(".jpg"):
                 shutil.copy(os.path.join(photos_src, fn), os.path.join(photos_dest, fn))
 
+    # blog post images -- not sourced from Wikimedia Commons like the hero
+    # photos above (a movie poster, used for editorial identification, not
+    # covered by this site's CC BY license), kept in a separate directory
+    # so that distinction is obvious rather than mixed into photos/manifest.json
+    blog_assets_src = os.path.join(ROOT, "assets", "blog")
+    if os.path.isdir(blog_assets_src):
+        blog_assets_dest = os.path.join(OUT, "blog-assets")
+        os.makedirs(blog_assets_dest, exist_ok=True)
+        for fn in sorted(os.listdir(blog_assets_src)):
+            if fn.endswith(".jpg"):
+                shutil.copy(os.path.join(blog_assets_src, fn), os.path.join(blog_assets_dest, fn))
+
     # robots + sitemap
     open(os.path.join(OUT, "robots.txt"), "w").write(
         "User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n" % SITE)
@@ -787,7 +1292,7 @@ def build():
                     navscams=UI["en"]["navscams"], navprint=UI["en"]["navprint"],
                     navabout=UI["en"]["navabout"], navtalk=UI["en"]["navtalk"],
                     navhelp=UI["en"]["navhelp"], navprivacy=UI["en"]["navprivacy"],
-                    navterms=UI["en"]["navterms"],
+                    navterms=UI["en"]["navterms"], navblog=UI["en"]["navblog"],
                     s_romance=UI["en"]["s_romance"],
                     s_tech=UI["en"]["s_tech"], s_bank=UI["en"]["s_bank"],
                     s_gov=UI["en"]["s_gov"], s_grandparent=UI["en"]["s_grandparent"],
