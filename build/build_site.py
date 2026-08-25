@@ -22,6 +22,11 @@ CONTACT = "translations@trustbutverifyproject.org"
 
 RTL = {"ar", "ur", "fa", "ps", "he"}
 
+# Pilot audio narration, English only -- see build/make_audio.py. Bare
+# slugs; "" (home) is handled as "home" in the player src, matching the
+# audio filename make_audio.py actually writes.
+AUDIO_PAGES = {"", "the-three-steps", "warning-signs", "about"}
+
 # Hero photos, keyed by bare slug, English pages only. Sourced from Wikimedia
 # Commons under licenses that require attribution (CC BY / CC BY-SA) — the
 # figcaption below is that attribution, not decorative text; don't remove it.
@@ -149,6 +154,7 @@ UI = {
    navhome="Home", navscams="Scam types", navprint="Print materials",
    navabout="About", navtalk="Give this talk", navhelp="Help translate",
    navprivacy="Privacy", navterms="Terms", navblog="Blog",
+   listen="Listen to this page:",
    railtitle="Find your way", s_romance="Someone I met online",
    s_tech="Fake tech support", s_bank="Bank / “phantom hacker”",
    s_gov="Government impersonation", s_grandparent="Grandchild in trouble",
@@ -834,6 +840,11 @@ a.card span{display:block;font-weight:400;font-size:.88rem;color:var(--muted);
   .steps .step-num{width:2.1rem;font-size:2rem}
 }
 
+.audio-player{margin:1.1rem 0 1.6rem;padding:.9rem 1rem;border:2px solid var(--rule);
+  border-radius:.4rem;background:var(--band)}
+.audio-player strong{display:block;margin-bottom:.5rem}
+.audio-player audio{width:100%;display:block}
+
 figure.hero-photo{margin:1.1rem 0 1.6rem}
 figure.hero-photo img{width:100%;aspect-ratio:16/9;object-fit:cover;
   border-radius:.4rem;display:block;background:var(--band)}
@@ -1127,6 +1138,18 @@ def build():
                  html.escape(p["author"]), p["license"])
             body_html = re.sub(r'(</h1>)', r'\1' + figure, body_html, count=1)
 
+        if lang == "en" and slug.strip("/") in AUDIO_PAGES:
+            audio_slug = slug.strip("/") or "home"
+            player = (
+                '<p class="audio-player"><strong>%s</strong> '
+                '<audio controls preload="none" src="%saudio/%s.mp3">'
+                'Your browser doesn\'t support audio playback. '
+                '<a href="%saudio/%s.mp3">Download the MP3</a> instead.'
+                '</audio></p>'
+            ) % (html.escape(ui(lang, "listen")), pre, audio_slug, pre, audio_slug)
+            body_html = re.sub(r'(</h1>(?:\s*<figure class="hero-photo">.*?</figure>)?)',
+                                r'\1' + player, body_html, count=1, flags=re.S)
+
         if lang == "en" and slug.strip("/") == "blog":
             if blog_posts:
                 cards = "".join(
@@ -1285,6 +1308,15 @@ def build():
         for fn in sorted(os.listdir(blog_assets_src)):
             if fn.endswith(".jpg"):
                 shutil.copy(os.path.join(blog_assets_src, fn), os.path.join(blog_assets_dest, fn))
+
+    # pilot audio narration -- see build/make_audio.py and AUDIO_PAGES above
+    audio_src = os.path.join(ROOT, "assets", "audio")
+    if os.path.isdir(audio_src):
+        audio_dest = os.path.join(OUT, "audio")
+        os.makedirs(audio_dest, exist_ok=True)
+        for fn in sorted(os.listdir(audio_src)):
+            if fn.endswith(".mp3"):
+                shutil.copy(os.path.join(audio_src, fn), os.path.join(audio_dest, fn))
 
     # robots + sitemap
     open(os.path.join(OUT, "robots.txt"), "w").write(

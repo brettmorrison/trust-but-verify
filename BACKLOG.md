@@ -3,6 +3,17 @@
 Roughly priority order. Update as items close.
 
 ## Resolved
+- Accessibility, phase 1 (English, screen-reader + audio): started on
+  Brett's request to support visually impaired and blind visitors.
+  Real landmarks (distinct header/footer nav labels, a named sidebar),
+  the numbered-step badges are now a real `<ol>`/`<h3>` list instead of
+  styled `<div>`s, fixed 3 heading-hierarchy violations, and audio
+  narration (build/make_audio.py — macOS `say` + ffmpeg, $0 cost, no
+  API key, no network call) for a 4-page pilot (home, the-three-steps,
+  warning-signs, about) with a plain `<audio controls>` player, zero
+  JS. See "Open" below for the natural next steps — more pages, other
+  languages, and an actual screen-reader (not just automated-tool)
+  pass.
 - Fridge sheet: added a labeled blank line for the family's code word,
   across all 45 languages, plus fixed the same stale tagline issue on
   every one of them (still had the pre-tagline-change wording). Also
@@ -148,9 +159,15 @@ Roughly priority order. Update as items close.
   printables.md's tables rebuilt from disk.
 
 ## Open
-1. Confirm Cloudflare Web Analytics is toggled on (Analytics & Logs → Web
+1. Accessibility, phase 2: expand the 4-page audio pilot to the rest of
+   the English scam-type pages (build/make_audio.py — just add slugs
+   to PAGES and rerun); a real screen-reader pass (VoiceOver, free,
+   built into macOS) rather than just automated/structural checks;
+   decide whether audio narration is worth doing per-language once
+   translations are validated, or English-only indefinitely.
+2. Confirm Cloudflare Web Analytics is toggled on (Analytics & Logs → Web
    Analytics, automatic mode) — copy already assumes it is.
-2. Set up `translations@trustbutverifyproject.org` via Cloudflare Email
+3. Set up `translations@trustbutverifyproject.org` via Cloudflare Email
    Routing, if not already done.
 4. Set up the feedback form: create a Resend account, verify
    trustbutverifyproject.org (add its DNS records in Cloudflare —
