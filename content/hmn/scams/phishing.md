@@ -333,10 +333,10 @@ tsev txhab nyiaj ua ntej, mus rau hauv nws.
 Tsis txhob siv ib txoj kab txuas los sis ib tus lej uas tuaj rau koj li. Cuag lub
 tuam txhab raws koj tus kheej txoj kev, txhua zaus, tsis muaj kev zam.
 
-Qhov no tsis yog kev ceev faj thiab nws tsis thov kom koj tshuaj xyuas dab tsi. Nws
-yog ib txoj kev coj, thiab thaum koj muaj nws lawm, tag nrho hom kev dag no cia li
-tsis siv tau rau koj lawm: hom niaj hnub no thiab txhua hom uas lawv yuav tsim tom
-qab.
+Qhov no tsis yog kev ceev faj thiab nws tsis thov kom koj tshuaj xyuas dab tsi.
+Nws yog ib txoj kev siv niaj hnub, thiab thaum koj muaj nws lawm, tag nrho hom
+kev dag no cia li tsis siv tau rau koj lawm: hom niaj hnub no thiab txhua hom
+uas lawv yuav tsim tom qab.
 
 ---
 
