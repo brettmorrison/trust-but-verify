@@ -3,6 +3,20 @@
 Roughly priority order. Update as items close.
 
 ## Resolved
+- Full security audit at Brett's request, given how much surface area
+  got added this session. One real code fix: build_site.py wrote a
+  page's output path straight from frontmatter `slug:` with no
+  validation — a crafted slug with `../` segments could make the build
+  write outside `site/` entirely (confirmed with a real repro, then
+  confirmed the fix blocks it). Requires a malicious commit landing in
+  content/ first, not remotely triggerable by a visitor, but worth
+  closing on a public repo. Also added a basic email-shape check to
+  the feedback function, and documented DMARC + Cloudflare rate
+  limiting in DEPLOY.md (both still need the actual DNS
+  record/dashboard rule from Brett — see Open). Everything else came
+  back clean: no secrets anywhere in git history, CSP/headers as tight
+  as intended, no command-injection surface in build scripts, no
+  third-party scripts/trackers anywhere in content.
 - `translations@trustbutverifyproject.org` is live via Cloudflare Email
   Routing, forwarding to Brett's inbox — confirmed working 2026-08-25
   (on the correct domain, after the typo-domain false start noted
@@ -210,16 +224,24 @@ Roughly priority order. Update as items close.
    just the account/key setup, a user action.
 4. Circulate the translation validator recruitment page — nothing
    non-English is validated yet, across all 45 languages.
-6. Deeper content only exists in 4 languages (es/vi/zh/ru) plus English —
+5. Add a DMARC TXT record once SPF and DKIM are both live — steps in
+   DEPLOY.md. Low urgency but genuinely missing (found in the security
+   audit); without it there's no enforced policy for spoofed
+   `@trustbutverifyproject.org` email.
+6. Only if `/api/feedback` ever actually gets abused/spammed: add a
+   Cloudflare Rate Limiting Rule for `POST /api/feedback` — steps in
+   DEPLOY.md. Not worth doing preemptively for this site's traffic
+   level; noted so it's a known, ready fix if it ever comes up.
+7. Deeper content only exists in 4 languages (es/vi/zh/ru) plus English —
    the other 40 are single landing pages. Decide whether to expand any.
-7. A few translated landing pages carry a narrower "before money is sent"
+8. A few translated landing pages carry a narrower "before money is sent"
    -style section header right under the tagline (e.g. German's `##
    Bevor Geld überwiesen wird`) that's now slightly inconsistent with the
    broadened tagline above it — cosmetic, low priority, native-speaker
    validation will catch it anyway.
-8. The 4 new scam pages (charity/Medicare/SIM-swap/lottery) exist in
+9. The 4 new scam pages (charity/Medicare/SIM-swap/lottery) exist in
    English only — no translations yet, unlike the original 13.
-9. 7 pages still have no hero photo: home (previous photo was disliked;
+10. 7 pages still have no hero photo: home (previous photo was disliked;
    a dedicated Commons/Openverse search for a replacement came back with
    nothing that cleanly fit license + landscape + tone + setting all at
    once — see assets/photos/manifest.json for the specific candidates
