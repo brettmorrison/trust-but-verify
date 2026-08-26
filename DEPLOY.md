@@ -89,8 +89,40 @@ and stores nothing. It needs one-time setup:
    (Cloudflare → Deployments → **Retry deployment** on the latest one, or
    just push any commit) so the Function picks up the new variable.
 
-Until step 6 is done, the form returns "Feedback form is not configured
-yet." instead of erroring silently.
+Until step 6 is done, the form redirects to `/feedback/error/` — a real,
+styled page, not a silent failure or a bare error string.
+
+### DMARC (do this once SPF and DKIM are both live)
+
+SPF (via Email Routing / Resend) and DKIM (via Resend) stop mail servers
+from silently accepting spoofed `@trustbutverifyproject.org` email, but
+without DMARC there's no enforced policy for what a receiving server
+*does* when a spoofed message fails those checks. Add one DNS record in
+Cloudflare → DNS → Records:
+
+```
+Type: TXT
+Name: _dmarc
+Content: v=DMARC1; p=quarantine; rua=mailto:translations@trustbutverifyproject.org
+```
+
+`p=quarantine` (not `p=reject`) is the safer starting policy — it asks
+receiving servers to send failing mail to spam rather than bounce it
+outright, which matters while this domain's own mail flow (Email Routing
++ Resend) is still new and might have edge cases. Reassess after a few
+weeks of clean `rua` reports.
+
+### Rate limiting on `/api/feedback` (optional, dashboard-only)
+
+The feedback form's only anti-abuse control is a honeypot field, which a
+scripted request can trivially skip. Real-world risk is low for this
+site (no PII stored, nothing to steal) — worst case is inbox noise or
+briefly exhausting Resend's free-tier quota (100/day) so the form stops
+working for real visitors until the quota resets. If that ever actually
+happens: Cloudflare → **Security** → **WAF** → **Rate limiting rules** →
+create a rule matching `POST` requests to `/api/feedback`, limit to a
+handful of requests per IP per minute. Entirely edge-side — no code or
+CSP changes needed.
 
 ---
 ## Fallback — drag and drop (if you ever need it)

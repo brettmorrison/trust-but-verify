@@ -29,7 +29,8 @@ export async function onRequestPost({ request, env }) {
   const message = String(form.get("message") || "").trim();
   const email = String(form.get("email") || "").trim();
 
-  if (!message || message.length > 5000 || email.length > 200) {
+  const emailLooksValid = !email || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  if (!message || message.length > 5000 || email.length > 200 || !emailLooksValid) {
     return Response.redirect(SITE + "/feedback/error/", 303);
   }
 

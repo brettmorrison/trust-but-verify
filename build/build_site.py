@@ -1119,6 +1119,13 @@ def build():
             meta, body = split_front_matter(raw)
             lang = meta.get("lang", "en")
             slug = meta.get("slug") or "/" + os.path.relpath(src, CONTENT)[:-3]
+            # slug_to_path() below only strips leading/trailing "/" -- a
+            # "../" segment in frontmatter would otherwise let a build
+            # write outside OUT entirely. Every real slug in this repo is
+            # already lowercase letters/digits/-/_//,  so this is a strict
+            # allowlist, not a guess at what to block.
+            if not re.match(r'^/?[a-z0-9/_-]*$', slug):
+                raise ValueError("Unsafe slug %r in %s" % (slug, src))
             pages.append((src, meta, body, lang, slug))
 
     # blog index: any content/en/blog/*.md other than blog.md itself.
