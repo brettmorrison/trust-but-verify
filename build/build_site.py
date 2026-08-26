@@ -36,6 +36,20 @@ AUDIO_PAGES = {
     "scams/phishing", "how-they-got-your-information", "for-facilities",
 }
 
+# Non-English audio, free macOS voice only -- see build/make_audio.py
+# LANG_PAGES (must match exactly; content-relative slugs, no lang prefix).
+# Filled in one language at a time as translations land.
+LANG_AUDIO_PAGES = {
+    "es": {
+        "nucleo", "scams/phantom-hacker", "scams/tech-support-popup",
+        "scams/grandparent-scam", "scams/government-impersonation",
+        "scams/romance-scam",
+    },
+}
+# Each language's landing-page content file isn't named "home.md" like
+# English's -- es's is nucleo.md. Maps lang -> its home page's content slug.
+LANG_HOME_SLUG = {"es": "nucleo"}
+
 # Hero photos, keyed by bare slug, English pages only. Sourced from Wikimedia
 # Commons under licenses that require attribution (CC BY / CC BY-SA) — the
 # figcaption below is that attribution, not decorative text; don't remove it.
@@ -176,6 +190,7 @@ UI = {
    navhome="Inicio", navscams="Tipos de estafas", navprint="Materiales para imprimir",
    navabout="Acerca de", navtalk="D\u00e9 esta charla", navhelp="Ayude a traducir",
    navprivacy="Privacidad", navterms="T\u00e9rminos", navblog="Blog",
+   listen="Escuche esta p\u00e1gina:",
    railtitle="Encuentre su camino", s_romance="Alguien que conoc\u00ed en l\u00ednea",
    s_tech="Soporte t\u00e9cnico falso", s_bank="Banco / \u201chacker fantasma\u201d",
    s_gov="Suplantaci\u00f3n del gobierno", s_grandparent="Nieto en problemas",
@@ -1169,8 +1184,18 @@ def build():
                  html.escape(p["author"]), p["license"])
             body_html = re.sub(r'(</h1>)', r'\1' + figure, body_html, count=1)
 
+        audio_filename = None
         if lang == "en" and slug.strip("/") in AUDIO_PAGES:
-            audio_slug = (slug.strip("/") or "home").replace("/", "_")
+            audio_filename = (slug.strip("/") or "home").replace("/", "_")
+        elif lang in LANG_AUDIO_PAGES:
+            rel = slug.strip("/")
+            prefix = lang + "/"
+            rel = rel[len(prefix):] if rel.startswith(prefix) else ""
+            content_slug = rel or LANG_HOME_SLUG.get(lang)
+            if content_slug in LANG_AUDIO_PAGES[lang]:
+                audio_filename = lang + "_" + content_slug.replace("/", "_")
+
+        if audio_filename:
             player = (
                 '<p class="audio-player"><strong>%s</strong> '
                 '<audio controls preload="none" src="%saudio/%s.mp3" '
@@ -1178,9 +1203,9 @@ def build():
                 'Your browser doesn\'t support audio playback. '
                 '<a href="%saudio/%s.mp3">Download the MP3</a> instead.'
                 '</audio></p>'
-            ) % (html.escape(ui(lang, "listen")), pre, audio_slug,
+            ) % (html.escape(ui(lang, "listen")), pre, audio_filename,
                  html.escape("Spoken version of: " + meta.get("title", "this page")),
-                 pre, audio_slug)
+                 pre, audio_filename)
             body_html = re.sub(r'(</h1>(?:\s*<figure class="hero-photo">.*?</figure>)?)',
                                 r'\1' + player, body_html, count=1, flags=re.S)
 
