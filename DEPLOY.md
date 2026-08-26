@@ -267,6 +267,22 @@ band saying so. That band stays until a native speaker signs off.
 
 ---
 
+## Running local scripts that need an API key (e.g. ElevenLabs)
+
+`build/make_audio.py`'s ElevenLabs path reads `ELEVENLABS_API_KEY` from the
+environment — never hardcode it in the script, this repo is public. To run
+it locally without ever typing the key into a chat session or a shell
+command (which would land in `~/.zsh_history`):
+
+1. `nano .env.local` in the repo root, type one line —
+   `ELEVENLABS_API_KEY=sk_...` — then `Ctrl+O`, Enter, `Ctrl+X` to save
+   and exit. `.env.local` is gitignored; it never gets committed.
+2. Load it and run the script in the same command, so the key only ever
+   lives in that one process's environment:
+   `set -a; source .env.local; set +a; python3 build/make_audio.py`
+
+Same pattern works for any other local script that needs a secret.
+
 ## Maintenance
 
 **Every April**, when the FBI's Internet Crime Complaint Center publishes its

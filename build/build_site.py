@@ -758,6 +758,17 @@ def depth_prefix(outpath):
     d = outpath.count(os.sep)
     return "../" * d if d else "./"
 
+
+def scam_href(lang, slug, pre):
+    # The sidebar rail's scam-type links used to always point at the
+    # English page regardless of the current language -- harmless when a
+    # language had only its single combined landing page, actively wrong
+    # now that individual translated scam articles exist. Route to the
+    # translated page when one exists, else fall back to English.
+    if lang != "en" and os.path.exists(os.path.join(CONTENT, lang, "scams", slug + ".md")):
+        return "%s%s/scams/%s/" % (pre, lang, slug)
+    return "%sscams/%s/" % (pre, slug)
+
 # ---------------------------------------------------------------------- layout
 
 # A magnifying glass with a checkmark inside — not a shield-and-checkmark,
@@ -965,22 +976,22 @@ PAGE = """<!DOCTYPE html>
 <div class="shell"{dirattr}>
 <aside class="rail" aria-label="{railtitle}">
   <div class="label">{railtitle}</div>
-  <a href="{pre}">{navhome}</a>
+  <a href="{home}">{navhome}</a>
   <a href="{pre}#scam-types">{navscams}</a>
   <a href="{pre}printables/">{navprint}</a>
   <a href="{pre}about/">{navabout}</a>
   <hr>
-  <a href="{pre}scams/romance-scam/">{s_romance}</a>
-  <a href="{pre}scams/tech-support-popup/">{s_tech}</a>
-  <a href="{pre}scams/phantom-hacker/">{s_bank}</a>
-  <a href="{pre}scams/government-impersonation/">{s_gov}</a>
-  <a href="{pre}scams/grandparent-scam/">{s_grandparent}</a>
+  <a href="{s_romance_href}">{s_romance}</a>
+  <a href="{s_tech_href}">{s_tech}</a>
+  <a href="{s_bank_href}">{s_bank}</a>
+  <a href="{s_gov_href}">{s_gov}</a>
+  <a href="{s_grandparent_href}">{s_grandparent}</a>
   <a href="{pre}scams/virtual-kidnapping/">{s_kidnap}</a>
   <a href="{pre}warning-signs/">{s_signs}</a>
 </aside>
 <header class="site">
   <div class="top">
-    <a class="brand" href="{pre}">{mark}Trust But Verify</a>
+    <a class="brand" href="{home}">{mark}Trust But Verify</a>
     <details class="langswitch">
       <summary>{langbtn}</summary>
       <div class="panel">
@@ -1165,6 +1176,7 @@ def build():
         outabs = os.path.join(OUT, outrel)
         os.makedirs(os.path.dirname(outabs), exist_ok=True)
         pre = depth_prefix(outrel)
+        home = pre if lang == "en" else "%s%s/" % (pre, lang)
 
         md.reset()
         body_html = md.convert(body)
@@ -1274,6 +1286,7 @@ def build():
             canonical=canonical,
             ogimage=ogimage,
             pre=pre,
+            home=home,
             crumb=crumb,
             body=body_html,
             langs=lang_nav(pre, lang),
@@ -1295,10 +1308,15 @@ def build():
             navterms=html.escape(ui(lang, "navterms")),
             navblog=html.escape(ui(lang, "navblog")),
             s_romance=html.escape(ui(lang, "s_romance")),
+            s_romance_href=scam_href(lang, "romance-scam", pre),
             s_tech=html.escape(ui(lang, "s_tech")),
+            s_tech_href=scam_href(lang, "tech-support-popup", pre),
             s_bank=html.escape(ui(lang, "s_bank")),
+            s_bank_href=scam_href(lang, "phantom-hacker", pre),
             s_gov=html.escape(ui(lang, "s_gov")),
+            s_gov_href=scam_href(lang, "government-impersonation", pre),
             s_grandparent=html.escape(ui(lang, "s_grandparent")),
+            s_grandparent_href=scam_href(lang, "grandparent-scam", pre),
             s_kidnap=html.escape(ui(lang, "s_kidnap")),
             s_signs=html.escape(ui(lang, "s_signs")),
         )
@@ -1416,7 +1434,7 @@ def build():
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
         PAGE.format(lang="en", dirattr="", mark=MARK, title="Page not found — Trust But Verify",
                     desc="That page isn't here.", canonical=SITE + "/404.html",
-                    ogimage=SITE + "/og/index.png", pre="/", hreflang="",
+                    ogimage=SITE + "/og/index.png", pre="/", home="/", hreflang="",
                     crumb="",
                     body="<h1>That page isn't here.</h1>"
                          "<p>Nothing is wrong and you haven't broken anything. "
@@ -1433,9 +1451,11 @@ def build():
                     navabout=UI["en"]["navabout"], navtalk=UI["en"]["navtalk"],
                     navhelp=UI["en"]["navhelp"], navprivacy=UI["en"]["navprivacy"],
                     navterms=UI["en"]["navterms"], navblog=UI["en"]["navblog"],
-                    s_romance=UI["en"]["s_romance"],
-                    s_tech=UI["en"]["s_tech"], s_bank=UI["en"]["s_bank"],
-                    s_gov=UI["en"]["s_gov"], s_grandparent=UI["en"]["s_grandparent"],
+                    s_romance=UI["en"]["s_romance"], s_romance_href="/scams/romance-scam/",
+                    s_tech=UI["en"]["s_tech"], s_tech_href="/scams/tech-support-popup/",
+                    s_bank=UI["en"]["s_bank"], s_bank_href="/scams/phantom-hacker/",
+                    s_gov=UI["en"]["s_gov"], s_gov_href="/scams/government-impersonation/",
+                    s_grandparent=UI["en"]["s_grandparent"], s_grandparent_href="/scams/grandparent-scam/",
                     s_kidnap=UI["en"]["s_kidnap"], s_signs=UI["en"]["s_signs"]))
 
     print("pages: %d" % written)

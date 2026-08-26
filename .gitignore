@@ -25,6 +25,10 @@ Thumbs.db
 # Local-only source zips, not part of the repo
 /_archive/
 
+# Local secrets (e.g. ELEVENLABS_API_KEY) for running build scripts by
+# hand. Never committed. See DEPLOY.md for how this is loaded.
+.env.local
+
 # Full-resolution originals for hero photos (assets/photos/web/ is the
 # resized, web-ready set that's actually committed and deployed — the
 # source/ originals are 100+MB and only needed if a photo ever needs

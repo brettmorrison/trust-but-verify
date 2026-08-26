@@ -11,12 +11,16 @@ Two voice engines:
   pages -- converted AIFF -> MP3 via ffmpeg, both local tools. Every
   language this project translates into has a native macOS voice
   (checked: es, vi, zh, ru, ko all have one -- see MAC_VOICES below).
-- ElevenLabs, for the ~20 highest-value ENGLISH pages only (TOP20 below),
-  where the more natural voice is worth the cost. Requires the
-  ELEVENLABS_API_KEY environment variable -- NEVER hardcode a key here,
-  this repo is public. Non-English audio is intentionally macOS-only --
-  this is a zero-budget volunteer project and ElevenLabs spend is scoped
-  to English, so expanding to more languages never adds cost.
+- ElevenLabs, for the ~20 highest-value ENGLISH pages (TOP20 below), plus
+  -- as of 2026-08-25, Brett's call after hearing the quality gap -- the
+  top scam-type articles in the 5 priority non-English languages, one
+  language and tier at a time as translations land and quota allows (see
+  LANG_EL_PAGES below). Requires the ELEVENLABS_API_KEY environment
+  variable -- NEVER hardcode a key here, this repo is public. Check
+  remaining quota (elevenlabs.io/app/subscription) before adding a new
+  language or tier to LANG_EL_PAGES -- a full scam-type article runs
+  ~5,000 characters, so 5 languages x 5 articles is ~125k characters, more
+  than one Creator-plan billing cycle by itself. Pace it.
 
     ELEVENLABS_API_KEY=... python3 build/make_audio.py          # everything
     python3 build/make_audio.py                                  # macOS-only pages, skips English TOP20 if no key set
@@ -31,6 +35,10 @@ CONTENT_ROOT = os.path.join(ROOT, "content")
 OUT = os.path.join(ROOT, "assets", "audio")
 EL_VOICE_ID = "21m00Tcm4TlvDq8ikWAM"  # "Rachel", a stock ElevenLabs voice
 EL_MODEL = "eleven_multilingual_v2"
+# eleven_multilingual_v2 doesn't support Vietnamese at all (confirmed
+# against ElevenLabs' own docs) -- Turbo v2.5 does. Default model above
+# covers es/zh/ru/ko; override per-language here only where needed.
+EL_MODEL_OVERRIDE = {"vi": "eleven_turbo_v2_5"}
 
 # One native macOS voice per language this project translates into.
 # Confirmed available via `say -v '?'` on the machine that runs this script.
@@ -78,6 +86,18 @@ ALL_PAGES = TOP20 + REST
 LANG_PAGES = {
     "es": [
         "nucleo",  # the combined home/three-steps/warning-signs landing page
+        # the 5 scam articles moved to LANG_EL_PAGES (ElevenLabs) below
+    ],
+}
+
+# Non-English pages worth the ElevenLabs upgrade, one list per language.
+# Brett's call (2026-08-25): front-load the top 5 scam articles across all
+# 5 priority languages, tier by tier, paced against real remaining quota
+# (check elevenlabs.io/app/subscription before adding to this list -- a
+# full article is ~5,000 characters, so a 5-article tier for one language
+# is ~25,000). Filled in as both translation AND budget allow.
+LANG_EL_PAGES = {
+    "es": [
         "scams/phantom-hacker", "scams/tech-support-popup",
         "scams/grandparent-scam", "scams/government-impersonation",
         "scams/romance-scam",
@@ -170,15 +190,15 @@ def make_mac(lang, slug):
     print("wrote %s (%.1f MB, macOS, %s)" % (mp3, os.path.getsize(mp3) / 1e6, lang))
 
 
-def make_elevenlabs(slug, api_key):
-    # English (TOP20) only -- see module docstring.
+def make_elevenlabs(lang, slug, api_key):
     text = markdown_to_speech_text(
-        split_front_matter(open(find_source("en", slug), encoding="utf-8").read())[1]
+        split_front_matter(open(find_source(lang, slug), encoding="utf-8").read())[1]
     )
-    mp3 = out_path("en", slug, "mp3")
+    mp3 = out_path(lang, slug, "mp3")
+    model = EL_MODEL_OVERRIDE.get(lang, EL_MODEL)
     req = urllib.request.Request(
         "https://api.elevenlabs.io/v1/text-to-speech/" + EL_VOICE_ID,
-        data=json.dumps({"text": text, "model_id": EL_MODEL}).encode("utf-8"),
+        data=json.dumps({"text": text, "model_id": model}).encode("utf-8"),
         headers={"xi-api-key": api_key, "Content-Type": "application/json"},
         method="POST",
     )
@@ -188,15 +208,15 @@ def make_elevenlabs(slug, api_key):
                 data = resp.read()
             break
         except urllib.error.HTTPError as e:
-            print("ElevenLabs FAILED for %s: %s %s" % (slug, e.code, e.read().decode()[:200]))
+            print("ElevenLabs FAILED for %s/%s: %s %s" % (lang, slug, e.code, e.read().decode()[:200]))
             return False
         except (TimeoutError, urllib.error.URLError) as e:
-            print("ElevenLabs timeout/network error for %s (attempt %d/3): %s" % (slug, attempt + 1, e))
+            print("ElevenLabs timeout/network error for %s/%s (attempt %d/3): %s" % (lang, slug, attempt + 1, e))
             if attempt == 2:
                 return False
     with open(mp3, "wb") as f:
         f.write(data)
-    print("wrote %s (%.1f MB, ElevenLabs, %d chars)" % (mp3, len(data) / 1e6, len(text)))
+    print("wrote %s (%.1f MB, ElevenLabs/%s, %d chars)" % (mp3, len(data) / 1e6, model, len(text)))
     return True
 
 
@@ -215,9 +235,22 @@ if __name__ == "__main__":
         skipped = len(TOP20) - len(todo)
         print("TOP20: %d already done, %d to do, %d characters" % (skipped, len(todo), total_chars))
         for slug in todo:
-            make_elevenlabs(slug, api_key)
+            make_elevenlabs("en", slug, api_key)
+
+        for lang, slugs in LANG_EL_PAGES.items():
+            todo = [s for s in slugs if not os.path.exists(out_path(lang, s, "mp3"))]
+            total_chars = 0
+            for slug in todo:
+                text = markdown_to_speech_text(
+                    split_front_matter(open(find_source(lang, slug), encoding="utf-8").read())[1]
+                )
+                total_chars += len(text)
+            print("%s (ElevenLabs): %d already done, %d to do, %d characters" %
+                  (lang, len(slugs) - len(todo), len(todo), total_chars))
+            for slug in todo:
+                make_elevenlabs(lang, slug, api_key)
     else:
-        print("No ELEVENLABS_API_KEY set -- skipping English TOP20 (run with the env var set to do those).")
+        print("No ELEVENLABS_API_KEY set -- skipping English TOP20 and LANG_EL_PAGES (run with the env var set to do those).")
 
     for slug in REST:
         if os.path.exists(out_path("en", slug, "mp3")):
