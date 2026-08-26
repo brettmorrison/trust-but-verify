@@ -3,6 +3,23 @@
 Roughly priority order. Update as items close.
 
 ## Resolved
+- Second blog post: "Spying on the Scammers" (Jim Browning's YouTube
+  investigation into a real Indian scam call center) — verified channel
+  legitimacy, the specific video, and the BBC Panorama/police-raid
+  connection before publishing; included the honest detail that the
+  operator was later acquitted rather than the tidier version.
+- A real accessibility-tree pass on the feedback form (not just
+  automated/structural checks) found the honeypot field's aria-hidden
+  was silently inert — Chrome ignores it on any element with a
+  focusable descendant, which this field's tabindex="-1" still counts
+  as. Fixed by making the label itself unambiguous instead.
+- Heads up: a separate session (Brett + Opus 5) has been working this
+  same repo in parallel — expanded and translated the phishing page
+  into all 45 languages, updated the translation-feedback copy
+  sitewide, and caught a real bug in this session's own audio work
+  (CSP had no media-src, silently blocking every `<audio>` player in
+  production — undetectable via local testing without real CSP
+  headers). Both sessions have stayed conflict-free via git so far.
 - Accessibility, phase 1 (English, screen-reader + audio): started on
   Brett's request to support visually impaired and blind visitors.
   Real landmarks (distinct header/footer nav labels, a named sidebar),
@@ -203,13 +220,6 @@ Roughly priority order. Update as items close.
    for-family, and printables (nothing suitable found at all, tried
    twice independently). Try again, or leave them photo-less — the site
    reads fine either way. phantom-hacker got a replacement and is done.
-10. Blog: a second post linking to YouTube "scam baiter" videos that show
-    real scam call centers operating at industrial scale (Brett's example:
-    someone who "hacks back" into Indian call centers — account name not
-    recalled; likely one of the well-known scam-baiting channels, e.g.
-    Trilogy Media, Scammer Payback, or Kitboga — verify identity and
-    channel legitimacy before linking, same bar as the trailer link on
-    the first post). Plain links only, per this site's no-embed rule.
 
 ## Unrelated flag
 Password reset email clusters in GoDaddy account from an earlier session —
