@@ -190,7 +190,12 @@ Roughly priority order. Update as items close.
 2. Confirm Cloudflare Web Analytics is toggled on (Analytics & Logs → Web
    Analytics, automatic mode) — copy already assumes it is.
 3. Set up `translations@trustbutverifyproject.org` via Cloudflare Email
-   Routing, if not already done.
+   Routing, if not already done. Note (2026-08-25): Brett accidentally
+   started this setup on a typo domain, `trustbutverifiyproject.org`
+   (verif**iy**) — a real zone in the same Cloudflare account, same
+   nameservers, easy to select by mistake from a quick-search. Set to
+   auto-expire, not renewed. Whatever Email Routing config happened
+   there doesn't count — needs redoing on the correctly-spelled zone.
 4. Set up the feedback form: create a Resend account, verify
    trustbutverifyproject.org (add its DNS records in Cloudflare —
    merge into the existing SPF TXT record if Email Routing already
