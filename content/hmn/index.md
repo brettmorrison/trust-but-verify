@@ -29,14 +29,16 @@ neeg ntawd yuav tseem nyob qhov ntawd.
 
 **3. Tos ib hnub.**
 
-Teeb meem tseeb yuav dhau ib hmo tsaug zog. Kev dag ntxias yuav tsis dhau.
+Teeb meem tseeb tseem yuav nyob tom qab ib hmos tsaug zog. Kev dag ntxias
+yuav tsis nyob.
 
 ## Peb yam cim uas yuav tsum ua rau koj nres
 
-- Nws tuaj cuag koj — koj tsis yog tus pib.
-- Nws tsim koj lub siab ceev ceev — kev ntshai, kev txhawj xeeb, los sis kev
-  maj.
-- Nws xav tau kev hloov — nyiaj, tus lej code, los sis koj lub computer.
+- Nws tuaj cuag koj — tsis yog koj pib.
+- Nws ua rau koj ntxhov siab sai sai — kev ntshai, kev txhawj xeeb, los sis
+  kev maj.
+- Nws xav kom koj xa ib yam dab tsi — nyiaj, tus lej code, los sis kev nkag
+  rau koj lub computer.
 
 ## Yeej tsis muaj, txawm yog ib zaug los tsis muaj
 
@@ -45,7 +47,7 @@ Teeb meem tseeb yuav dhau ib hmo tsaug zog. Kev dag ntxias yuav tsis dhau.
 - **Koj lub tsev txhab nyiaj yeej yuav tsis hais kom koj rho nyiaj tawm
   hauv koj tus account.**
 - **Tsis txhob qhia leej twg paub tus lej code uas koj tau txais los ntawm
-  xov xwm.**
+  tsab ntawv xov tooj.**
 - **Tsis muaj leej twg tuaj koj lub tsev los coj nyiaj ntsuab los sis
   kub.**
 
@@ -90,5 +92,5 @@ uas xav tau nws.
 do not print or distribute this yet. Hmong speakers: we need one reader. It
 takes an hour.*
 
-**Yog tias qhov no twb tshwm sim lawm: qhov no tsis yog koj lub txim, thiab
-tseem tsis tau lig dhau.**
+**Yog tias qhov no twb tshwm sim lawm: tsis yog koj txhaum, thiab tseem tsis
+tau lig.**

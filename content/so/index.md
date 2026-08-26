@@ -28,23 +28,21 @@ halkaas buu joogi doonaa.
 
 **3. Sug hal maalin.**
 
-Dhibaato dhab ah waxay ka badbaadaa hal habeen oo hurdo ah. Khiyaanadu ma
-badbaadi karto.
+Dhibaato dhab ahi way adkaysataa hal habeen oo hurdo ah. Khiyaanaduse ma
+adkaysato.
 
 ## Saddex calaamadood oo lagu joojiyo
 
-- Adigaa loo yeeray — mana bilaabin.
-- Dareenkaaga si degdeg ah bay u taabteen — cabsi, walaac, ama degdeg.
+- Iyagaa kula soo xiriiray — adigu ma aadan bilaabin.
+- Si degdeg ah ayay u taabatay dareenkaaga — cabsi, walaac, ama degdeg.
 - Waxay rabaan wareejin — lacag, kood, ama kombiyuutarkaaga.
 
-## Waligeed, xitaa hal mar
+## Marnaba, xitaa hal mar
 
-- **Ma jiro machad sharci ah oo aqbala kaararka hadiyadda si lacag loogu
-  bixiyo.**
-- **Bangigaagu marnaba kuma weydiisan doono inaad lacag ka bixiso
-  akoonkaaga.**
-- **Weligaa ha u sheegin qof kasta kood aad ku heshay fariin qoraal ah.**
-- **Ninna kuma iman doono guriga si uu u qaado lacag caddaan ah ama
+- **Ma jiro hay'ad sharci ah oo lacag ku qaadata kaararka hadiyadda.**
+- **Bangigaagu marnaba kaa codsan maayo inaad lacagta ka saarto akoonkaaga.**
+- **Weligaa qofna ha u sheegin kood aad ku heshay fariin qoraal ah.**
+- **Qofna kuuma iman doono gurigaaga si uu u qaato lacag caddaan ah ama
   dahab.**
 
 ## Caawimaad bilaash ah — xukun la'aan
@@ -87,5 +85,4 @@ kasta oo aad soo dirto wuxuu bogga uga wanaajiyaa qofka xiga ee u baahan.
 do not print or distribute this yet. Somali speakers: we need one reader.
 It takes an hour.*
 
-**Haddii ay hore u dhacday: ma ihid kii qaladka lahaa, wax kastana wali
-lama daahin.**
+**Haddii ay hore u dhacday: ma aha khaladkaaga, welina ma daahin.**
