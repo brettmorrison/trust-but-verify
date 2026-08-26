@@ -3,21 +3,29 @@
 Roughly priority order. Update as items close.
 
 ## Resolved
-- First step of non-English audio expansion, at Brett's request ("get
-  audio in the top 5 languages for the top 10 articles, without going
-  over the $22/mo budget"). Translated the 5 missing scam-type articles
-  from the English top-10 list into Spanish (phantom-hacker,
-  tech-support-popup, grandparent-scam, government-impersonation,
-  romance-scam — the other 5 of the "top 10" were already substantially
-  covered by es/nucleo.md, the existing combined landing page).
-  Generated narration for all 6 Spanish pages (the 5 new ones +
-  nucleo.md) via the free macOS voice — **zero additional cost**,
-  ElevenLabs stays scoped to English only. make_audio.py and
-  build_site.py's audio-player injection are now both fully
-  language-generic (MAC_VOICES/LANG_PAGES/LANG_AUDIO_PAGES), so
-  extending to Vietnamese, Chinese, Russian, and Korean next is a
-  translate-then-rerun-the-script operation, no code changes needed.
-  See Open #1 below for the continuation plan.
+- Non-English translation + audio expansion, at Brett's request. Phase
+  1: translated the 5 missing scam-type articles from the English
+  top-10 list into Spanish (phantom-hacker, tech-support-popup,
+  grandparent-scam, government-impersonation, romance-scam), narrated
+  via the free macOS voice — $0. Phase 2, same day, after Brett heard a
+  direct side-by-side comparison of the free voice vs. ElevenLabs and
+  chose to front-load quality: translated the same 5 articles into
+  Vietnamese, Chinese, Russian, and Korean too (20 more pages, all
+  unvalidated AI drafts pending native review), and upgraded Spanish's
+  5 articles from the free voice to ElevenLabs (~25,208 characters,
+  checked against the account's real remaining quota first — Creator
+  plan, 131,000 credits/mo, resets Sept 24). make_audio.py now has
+  LANG_EL_PAGES (ElevenLabs, non-English) alongside LANG_PAGES (free
+  macOS voice) and a per-language model override (Vietnamese needs
+  Turbo v2.5 — the standard multilingual model doesn't support it at
+  all). Also fixed a real, sitewide, pre-existing bug found while
+  wiring this up: every non-English page's Home link and site logo
+  pointed at the English homepage instead of that language's own
+  landing page, and the sidebar's scam-type links always pointed to
+  English even when a translated version existed — both fixed for all
+  45 languages, not just the 4 added this session. See Open #1 for the
+  paced continuation plan (budget doesn't allow doing every language at
+  once).
 - Full security audit at Brett's request, given how much surface area
   got added this session. One real code fix: build_site.py wrote a
   page's output path straight from frontmatter `slug:` with no
@@ -211,23 +219,31 @@ Roughly priority order. Update as items close.
 
 ## Open
 1. Accessibility, phase 3: 26 English pages have audio (20 via
-   ElevenLabs — the highest-value pages, ~84k characters, one-time
-   batch on a 30-day IP-restricted, TTS-only-scoped key; 6 more via
-   the free macOS voice), plus 6 Spanish pages now (see Resolved).
-   Still open: a real screen-reader pass (VoiceOver, free, built into
-   macOS) rather than just automated/structural checks; the ElevenLabs
-   key expires in 30 days from 2026-08-25 — nothing depends on it
-   after the English batch, but note it if any of those 20 pages'
-   content changes enough to need re-narration with that voice later
-   (a new key would be needed). **Next language batch: Vietnamese,
-   Chinese, or Russian** (Korean has no combined landing page yet,
-   unlike es/vi/zh/ru — translate one first) — same pattern as
-   Spanish: translate the 5 missing top-10 scam articles, add the
-   language to MAC_VOICES' existing entry (already filled in for all
-   5: vi=Linh, zh=Tingting, ru=Milena, ko=Yuna) and to LANG_PAGES /
-   LANG_AUDIO_PAGES in make_audio.py / build_site.py, rerun
-   make_audio.py (macOS-only, $0). Pace as "slowly" as Brett wants —
-   one language at a time, no rush.
+   ElevenLabs, 6 via free macOS voice), plus Spanish now has all 5 of
+   its scam articles on ElevenLabs too (upgraded from free voice
+   2026-08-25) and vi/zh/ru/ko each have the same 5 articles
+   translated but still on the TODO list for ElevenLabs narration —
+   translated text exists, audio doesn't yet. Real quota check
+   2026-08-25: Creator plan, 131,000 credits/mo, ~58k used this cycle
+   after the Spanish batch, resets Sept 24. Brett's direction (chosen
+   after hearing a direct free-vs-ElevenLabs comparison): front-load
+   ElevenLabs across all 5 priority languages' top 5 articles, then
+   the next 5 articles in those same languages, then expand to the
+   next tier of languages ElevenLabs actually supports well (skip any
+   language ElevenLabs doesn't cover) — but PACED against real
+   remaining quota each cycle, not all at once (a 5-language x
+   5-article tier is ~126k characters — more than one Creator cycle by
+   itself). Next concrete step: generate ElevenLabs audio for the
+   vi/zh/ru/ko articles already translated, checking
+   elevenlabs.io/app/subscription for real remaining quota first each
+   time, using make_audio.py's LANG_EL_PAGES (Vietnamese needs the
+   eleven_turbo_v2_5 model override already wired in — standard
+   multilingual model doesn't support Vietnamese at all). Still open
+   regardless of budget: a real screen-reader pass (VoiceOver, free,
+   built into macOS) rather than just automated/structural checks; the
+   original English-batch ElevenLabs key expired around 2026-09-24 —
+   TBVP2 (created 2026-08-25) is the active key now, same 30-day-ish
+   expiry pattern likely applies, renew when it lapses.
 2. Confirm Cloudflare Web Analytics is toggled on (Analytics & Logs → Web
    Analytics, automatic mode) — copy already assumes it is. Note
    (2026-08-25): while checking this, Brett found Cloudflare's separate
