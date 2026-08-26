@@ -3,6 +3,11 @@
 Roughly priority order. Update as items close.
 
 ## Resolved
+- `translations@trustbutverifyproject.org` is live via Cloudflare Email
+  Routing, forwarding to Brett's inbox — confirmed working 2026-08-25
+  (on the correct domain, after the typo-domain false start noted
+  above). MX/DKIM records show Locked (Cloudflare-managed), the SPF
+  TXT record is deliberately Unlocked for the future Resend merge.
 - Second blog post: "Spying on the Scammers" (Jim Browning's YouTube
   investigation into a real Indian scam call center) — verified channel
   legitimacy, the specific video, and the BBC Panorama/police-raid
@@ -188,15 +193,14 @@ Roughly priority order. Update as items close.
    20 pages' content changes enough to need re-narration with that
    voice later (a new key would be needed).
 2. Confirm Cloudflare Web Analytics is toggled on (Analytics & Logs → Web
-   Analytics, automatic mode) — copy already assumes it is.
-3. Set up `translations@trustbutverifyproject.org` via Cloudflare Email
-   Routing, if not already done. Note (2026-08-25): Brett accidentally
-   started this setup on a typo domain, `trustbutverifiyproject.org`
-   (verif**iy**) — a real zone in the same Cloudflare account, same
-   nameservers, easy to select by mistake from a quick-search. Set to
-   auto-expire, not renewed. Whatever Email Routing config happened
-   there doesn't count — needs redoing on the correctly-spelled zone.
-4. Set up the feedback form: create a Resend account, verify
+   Analytics, automatic mode) — copy already assumes it is. Note
+   (2026-08-25): while checking this, Brett found Cloudflare's separate
+   RUM (Real User Measurements) feature on the same page — that's a
+   different, more invasive product (collects device/location/network
+   context, not just anonymous pageviews) and privacy.md doesn't
+   disclose it. Left off for now; if ever enabled, use "Exclude EU"
+   and update privacy.md first.
+3. Set up the feedback form: create a Resend account, verify
    trustbutverifyproject.org (add its DNS records in Cloudflare —
    merge into the existing SPF TXT record if Email Routing already
    made one, don't add a second), generate an API key, and add it as
@@ -204,7 +208,7 @@ Roughly priority order. Update as items close.
    steps in DEPLOY.md. The code (functions/api/feedback.js,
    content/en/feedback.md) is already built and deployed — this is
    just the account/key setup, a user action.
-5. Circulate the translation validator recruitment page — nothing
+4. Circulate the translation validator recruitment page — nothing
    non-English is validated yet, across all 45 languages.
 6. Deeper content only exists in 4 languages (es/vi/zh/ru) plus English —
    the other 40 are single landing pages. Decide whether to expand any.
