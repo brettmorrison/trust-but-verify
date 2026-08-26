@@ -39,12 +39,16 @@ AUDIO_PAGES = {
 # Non-English audio, free macOS voice only -- see build/make_audio.py
 # LANG_PAGES (must match exactly; content-relative slugs, no lang prefix).
 # Filled in one language at a time as translations land.
+_SCAM5 = {
+    "scams/phantom-hacker", "scams/tech-support-popup", "scams/grandparent-scam",
+    "scams/government-impersonation", "scams/romance-scam",
+}
 LANG_AUDIO_PAGES = {
-    "es": {
-        "nucleo", "scams/phantom-hacker", "scams/tech-support-popup",
-        "scams/grandparent-scam", "scams/government-impersonation",
-        "scams/romance-scam",
-    },
+    "es": {"nucleo"} | _SCAM5,
+    "vi": set(_SCAM5),
+    "zh": set(_SCAM5),
+    "ru": set(_SCAM5),
+    "ko": set(_SCAM5),
 }
 # Each language's landing-page content file isn't named "home.md" like
 # English's -- es's is nucleo.md. Maps lang -> its home page's content slug.
@@ -203,6 +207,7 @@ UI = {
    navhome="Trang ch\u1ee7", navscams="C\u00e1c lo\u1ea1i l\u1eeba \u0111\u1ea3o", navprint="T\u00e0i li\u1ec7u in",
    navabout="Gi\u1edbi thi\u1ec7u", navtalk="Tr\u00ecnh b\u00e0y bu\u1ed5i n\u00f3i chuy\u1ec7n n\u00e0y", navhelp="Gi\u00fap d\u1ecbch thu\u1eadt",
    navprivacy="Quy\u1ec1n ri\u00eang t\u01b0", navterms="\u0110i\u1ec1u kho\u1ea3n", navblog="Blog",
+   listen="Nghe trang n\u00e0y:",
    railtitle="T\u00ecm h\u01b0\u1edbng \u0111i c\u1ee7a b\u1ea1n", s_romance="Ng\u01b0\u1eddi t\u00f4i quen qua m\u1ea1ng",
    s_tech="H\u1ed7 tr\u1ee3 k\u1ef9 thu\u1eadt gi\u1ea3 m\u1ea1o", s_bank="Ng\u00e2n h\u00e0ng / \u201ctin t\u1eb7c ma\u201d",
    s_gov="Gi\u1ea3 m\u1ea1o c\u01a1 quan ch\u00ednh ph\u1ee7", s_grandparent="Ch\u00e1u g\u1eb7p r\u1eafc r\u1ed1i",
@@ -215,6 +220,7 @@ UI = {
    navhome="\u9996\u9875", navscams="\u8bc8\u9a97\u7c7b\u578b", navprint="\u5370\u5237\u6750\u6599",
    navabout="\u5173\u4e8e\u6211\u4eec", navtalk="\u505a\u8fd9\u4e2a\u8bb2\u5ea7", navhelp="\u5e2e\u52a9\u7ffb\u8bd1",
    navprivacy="\u9690\u79c1", navterms="\u6761\u6b3e", navblog="\u535a\u5ba2",
+   listen="\u6536\u542c\u672c\u9875\uff1a",
    railtitle="\u5feb\u901f\u5bfc\u822a", s_romance="\u7f51\u604b\u5bf9\u8c61",
    s_tech="\u865a\u5047\u6280\u672f\u652f\u6301", s_bank="\u94f6\u884c\uff0f\u201c\u5e7d\u7075\u9ed1\u5ba2\u201d",
    s_gov="\u5192\u5145\u653f\u5e9c\u673a\u6784", s_grandparent="\u5b59\u8f88\u9047\u5230\u9ebb\u70e6",
@@ -227,6 +233,7 @@ UI = {
    navhome="\u0413\u043b\u0430\u0432\u043d\u0430\u044f", navscams="\u0412\u0438\u0434\u044b \u043c\u043e\u0448\u0435\u043d\u043d\u0438\u0447\u0435\u0441\u0442\u0432\u0430", navprint="\u041f\u0435\u0447\u0430\u0442\u043d\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b",
    navabout="\u041e \u0441\u0430\u0439\u0442\u0435", navtalk="\u041f\u0440\u043e\u0432\u0435\u0441\u0442\u0438 \u044d\u0442\u0443 \u0431\u0435\u0441\u0435\u0434\u0443", navhelp="\u041f\u043e\u043c\u043e\u0447\u044c \u0441 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u043e\u043c",
    navprivacy="\u041a\u043e\u043d\u0444\u0438\u0434\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u044c", navterms="\u0423\u0441\u043b\u043e\u0432\u0438\u044f", navblog="\u0411\u043b\u043e\u0433",
+   listen="\u041f\u0440\u043e\u0441\u043b\u0443\u0448\u0430\u0442\u044c \u044d\u0442\u0443 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443:",
    railtitle="\u0411\u044b\u0441\u0442\u0440\u044b\u0439 \u043f\u0435\u0440\u0435\u0445\u043e\u0434", s_romance="\u0427\u0435\u043b\u043e\u0432\u0435\u043a, \u0432\u0441\u0442\u0440\u0435\u0447\u0435\u043d\u043d\u044b\u0439 \u043e\u043d\u043b\u0430\u0439\u043d",
    s_tech="\u041f\u043e\u0434\u0434\u0435\u043b\u044c\u043d\u0430\u044f \u0442\u0435\u0445\u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430", s_bank="\u0411\u0430\u043d\u043a / \u00ab\u0444\u0430\u043d\u0442\u043e\u043c\u043d\u044b\u0439 \u0445\u0430\u043a\u0435\u0440\u00bb",
    s_gov="\u041c\u043e\u0448\u0435\u043d\u043d\u0438\u043a\u0438 \u043e\u0442 \u0438\u043c\u0435\u043d\u0438 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0430", s_grandparent="\u0412\u043d\u0443\u043a \u0432 \u0431\u0435\u0434\u0435",
@@ -242,6 +249,7 @@ UI["ko"] = dict(strap="전화를 끊으십시오. 번호를 직접 찾으십시�
   navhome="홈", navscams="사기 유형", navprint="인쇄 자료",
   navabout="소개", navtalk="이 강연 진행하기", navhelp="번역 돕기",
   navprivacy="개인정보 보호", navterms="이용 약관", navblog="블로그",
+  listen="이 페이지 듣기:",
   railtitle="빠른 이동", s_romance="온라인에서 만난 사람",
   s_tech="가짜 기술 지원", s_bank="은행 / “유령 해커”",
   s_gov="정부 사칭", s_grandparent="손주가 곤경에 처했다는 전화",

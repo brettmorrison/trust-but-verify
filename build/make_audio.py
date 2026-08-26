@@ -83,11 +83,24 @@ ALL_PAGES = TOP20 + REST
 # Brett -- so a language only appears once it has real translated content
 # worth reading aloud. Slugs are filenames relative to content/<lang>/,
 # same convention as TOP20/REST above.
+SCAM5 = [
+    "scams/phantom-hacker", "scams/tech-support-popup", "scams/grandparent-scam",
+    "scams/government-impersonation", "scams/romance-scam",
+]
+
 LANG_PAGES = {
     "es": [
         "nucleo",  # the combined home/three-steps/warning-signs landing page
         # the 5 scam articles moved to LANG_EL_PAGES (ElevenLabs) below
     ],
+    # vi/zh/ru/ko: free voice for now -- interim narration while their
+    # ElevenLabs upgrades queue up per the paced rollout (see
+    # LANG_EL_PAGES). Move a language's SCAM5 list here -> there as its
+    # ElevenLabs batch actually runs, same pattern as Spanish.
+    "vi": list(SCAM5),
+    "zh": list(SCAM5),
+    "ru": list(SCAM5),
+    "ko": list(SCAM5),
 }
 
 # Non-English pages worth the ElevenLabs upgrade, one list per language.
@@ -97,11 +110,7 @@ LANG_PAGES = {
 # full article is ~5,000 characters, so a 5-article tier for one language
 # is ~25,000). Filled in as both translation AND budget allow.
 LANG_EL_PAGES = {
-    "es": [
-        "scams/phantom-hacker", "scams/tech-support-popup",
-        "scams/grandparent-scam", "scams/government-impersonation",
-        "scams/romance-scam",
-    ],
+    "es": list(SCAM5),
 }
 
 
