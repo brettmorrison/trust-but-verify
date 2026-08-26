@@ -49,8 +49,14 @@ with family overseas. Tell us and we'll write the page.
 
 ## What it takes
 
-**About one to two hours.** The core page in each language is roughly 2,000
-words.
+**About one to two hours for most languages.** The core page in each language
+is roughly 2,000 words.
+
+**Spanish, Vietnamese, Chinese, Russian, and Korean have more material** —
+five additional scam-type articles each, not just the core page, so
+validating everything currently drafted in one of these runs closer to
+three to four hours. You don't have to do it all at once, and checking just
+the core page first is still a real, useful contribution on its own.
 
 **No special tools.** Read it, mark what's wrong, send us notes. Bullet points in
 an email are perfect. Voice memo is fine too. Handwritten on a printout and
@@ -93,7 +99,7 @@ already has a full webpage and a printable fridge sheet ready to go:
 | Arabic | Drafted — needs a native reader |
 | Armenian | Drafted — needs a native reader |
 | Bengali | Drafted — needs a native reader |
-| Chinese (Simplified) | Drafted — needs a native reader |
+| Chinese (Simplified) | Drafted — needs a native reader (core page + 5 articles) |
 | Croatian | Drafted — needs a native reader |
 | Danish | Drafted — needs a native reader |
 | Estonian | Drafted — needs a native reader |
@@ -112,7 +118,7 @@ already has a full webpage and a printable fridge sheet ready to go:
 | Italian | Drafted — needs a native reader |
 | Japanese | Drafted — needs a native reader |
 | Khmer | Drafted — needs a native reader |
-| Korean | Drafted — needs a native reader |
+| Korean | Drafted — needs a native reader (core page + 5 articles) |
 | Latvian | Drafted — needs a native reader |
 | Lithuanian | Drafted — needs a native reader |
 | Malay | Drafted — needs a native reader |
@@ -122,16 +128,16 @@ already has a full webpage and a printable fridge sheet ready to go:
 | Portuguese | Drafted — needs a native reader |
 | Punjabi | Drafted — needs a native reader |
 | Romanian | Drafted — needs a native reader |
-| Russian | Drafted — needs a native reader |
+| Russian | Drafted — needs a native reader (core page + 5 articles) |
 | Serbian | Drafted — needs a native reader |
 | Somali | Drafted — needs a native reader |
-| Spanish | Drafted — needs a native reader |
+| Spanish | Drafted — needs a native reader (core page + 5 articles) |
 | Swahili | Drafted — needs a native reader |
 | Swedish | Drafted — needs a native reader |
 | Tagalog | Drafted — needs a native reader |
 | Ukrainian | Drafted — needs a native reader |
 | Urdu | Drafted — needs a native reader |
-| Vietnamese | Drafted — needs a native reader |
+| Vietnamese | Drafted — needs a native reader (core page + 5 articles) |
 
 **Not yet drafted, and wanted:** Turkish, Traditional Chinese (a separate job
 from Simplified, not a conversion — see below).
