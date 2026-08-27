@@ -93,29 +93,50 @@ already has a full webpage and a printable fridge sheet ready to go:
 
 | Language | Status |
 |---|---|
-| Albanian | Drafted (needs a native reader | | Amharic | Drafted) needs a native reader |
-| Arabic | Drafted (needs a native reader | | Armenian | Drafted) needs a native reader |
-| Bengali | Drafted, needs a native reader | | Chinese (Simplified) | Drafted, needs a native reader (core page + 5 articles) |
-| Croatian | Drafted (needs a native reader | | Danish | Drafted) needs a native reader |
-| Estonian | Drafted (needs a native reader | | Farsi | Drafted) needs a native reader |
-| French | Drafted (needs a native reader | | Georgian | Drafted) needs a native reader |
-| German | Drafted (needs a native reader | | Greek | Drafted) needs a native reader |
-| Gujarati | Drafted, needs a native reader | | Haitian Creole | Drafted, needs a native reader |
-| Hebrew | Drafted (needs a native reader | | Hindi | Drafted) needs a native reader |
-| Hmong | Drafted (needs a native reader | | Hungarian | Drafted) needs a native reader |
-| Indonesian | Drafted (needs a native reader | | Italian | Drafted) needs a native reader |
-| Japanese | Drafted (needs a native reader | | Khmer | Drafted) needs a native reader |
+| Albanian | Drafted, needs a native reader |
+| Amharic | Drafted, needs a native reader |
+| Arabic | Drafted, needs a native reader |
+| Armenian | Drafted, needs a native reader |
+| Bengali | Drafted, needs a native reader |
+| Chinese (Simplified) | Drafted, needs a native reader (core page + 5 articles) |
+| Croatian | Drafted, needs a native reader |
+| Danish | Drafted, needs a native reader |
+| Estonian | Drafted, needs a native reader |
+| Farsi | Drafted, needs a native reader |
+| French | Drafted, needs a native reader |
+| Georgian | Drafted, needs a native reader |
+| German | Drafted, needs a native reader |
+| Greek | Drafted, needs a native reader |
+| Gujarati | Drafted, needs a native reader |
+| Haitian Creole | Drafted, needs a native reader |
+| Hebrew | Drafted, needs a native reader |
+| Hindi | Drafted, needs a native reader |
+| Hmong | Drafted, needs a native reader |
+| Hungarian | Drafted, needs a native reader |
+| Indonesian | Drafted, needs a native reader |
+| Italian | Drafted, needs a native reader |
+| Japanese | Drafted, needs a native reader |
+| Khmer | Drafted, needs a native reader |
 | Korean | Drafted, needs a native reader (core page + 5 articles) |
-| Latvian | Drafted (needs a native reader | | Lithuanian | Drafted) needs a native reader |
-| Malay | Drafted (needs a native reader | | Norwegian | Drafted) needs a native reader |
-| Pashto | Drafted (needs a native reader | | Polish | Drafted) needs a native reader |
-| Portuguese | Drafted (needs a native reader | | Punjabi | Drafted) needs a native reader |
-| Romanian | Drafted (needs a native reader | | Russian | Drafted) needs a native reader (core page + 5 articles) |
-| Serbian | Drafted (needs a native reader | | Somali | Drafted) needs a native reader |
+| Latvian | Drafted, needs a native reader |
+| Lithuanian | Drafted, needs a native reader |
+| Malay | Drafted, needs a native reader |
+| Norwegian | Drafted, needs a native reader |
+| Pashto | Drafted, needs a native reader |
+| Polish | Drafted, needs a native reader |
+| Portuguese | Drafted, needs a native reader |
+| Punjabi | Drafted, needs a native reader |
+| Romanian | Drafted, needs a native reader |
+| Russian | Drafted, needs a native reader (core page + 5 articles) |
+| Serbian | Drafted, needs a native reader |
+| Somali | Drafted, needs a native reader |
 | Spanish | Drafted, needs a native reader (core page + 5 articles) |
-| Swahili | Drafted (needs a native reader | | Swedish | Drafted) needs a native reader |
-| Tagalog | Drafted (needs a native reader | | Ukrainian | Drafted) needs a native reader |
-| Urdu | Drafted (needs a native reader | | Vietnamese | Drafted) needs a native reader (core page + 5 articles) |
+| Swahili | Drafted, needs a native reader |
+| Swedish | Drafted, needs a native reader |
+| Tagalog | Drafted, needs a native reader |
+| Ukrainian | Drafted, needs a native reader |
+| Urdu | Drafted, needs a native reader |
+| Vietnamese | Drafted, needs a native reader (core page + 5 articles) |
 
 **Not yet drafted, and wanted:** Turkish, Traditional Chinese (a separate job
 from Simplified, not a conversion, see below).
