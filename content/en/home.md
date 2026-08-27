@@ -34,6 +34,11 @@ applied to a specific situation.
 
 ---
 
+**[Is it happening right now? Someone on the phone, a popup, a knock at the
+door — start here.](/right-now)**
+
+---
+
 ## What kind of call did you get? {#scam-types}
 
 Pick the one closest to what's happening. Each page tells you exactly what to
