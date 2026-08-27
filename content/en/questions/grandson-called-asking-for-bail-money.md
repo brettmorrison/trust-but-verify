@@ -10,7 +10,7 @@ lang: en
 **Do this first, before you read anything else on this page:**
 
 1. **Hang up.**
-2. **Call your grandson on the number you've always used** — not the number that
+2. **Call your grandson on the number you've always used**: not the number that
    called you.
 3. **If he doesn't answer, call his parents right now.**
 
@@ -35,8 +35,8 @@ in ten seconds. Everything else in the script is decoration around that.
 ## "But it was his voice"
 
 It may well have sounded exactly like him. Software copies a person's voice from
-a few seconds of audio — a Facebook video, a voicemail greeting, a livestream —
-and it's free and takes about a minute.
+a few seconds of audio (a Facebook video, a voicemail greeting, a livestream) and
+it's free and takes about a minute.
 
 You cannot beat this by listening. Nobody can. That's why the answer is to call
 him back on your own number: the cloning works on the call they place, and it
@@ -49,7 +49,7 @@ More: [voice cloning](/scams/voice-cloning).
 Often they didn't. The call usually opens with "Grandma? It's me" and waits for
 you to say the name. Then they use it.
 
-And if they did know it — names, schools, and hometowns are on Facebook, in
+And if they did know it, names, schools, and hometowns are on Facebook, in
 obituaries, and in graduation announcements, or bought from a data broker.
 [How they got your information](/how-they-got-your-information).
 
@@ -70,7 +70,7 @@ obituaries, and in graduation announcements, or bought from a data broker.
 
 ## If you can't reach anyone and you're still worried
 
-Call the jail or the court directly — a real one, whose number you look up
+Call the jail or the court directly, a real one, whose number you look up
 yourself in the county where the arrest supposedly happened. Arrest records are
 public and they can tell you in a minute whether he's there.
 
@@ -79,7 +79,7 @@ You can also call **833-372-8311** (National Elder Fraud Hotline, weekdays
 
 ---
 
-## Before it happens again — set the code word
+## Before it happens again, set the code word
 
 One word, shared out loud at a family meal, never posted anywhere. Then, next
 time, you ask for the word.
@@ -97,6 +97,6 @@ of this where making that call was the wrong move.
 ---
 
 **If money already moved:** [Do this now](/i-think-i-was-scammed). Call your bank
-immediately — same-day recalls have worked. And there is no reason to be
+immediately, same-day recalls have worked. And there is no reason to be
 embarrassed: this call is designed by professionals to work on people who love
 their families.

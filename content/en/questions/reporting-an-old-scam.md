@@ -9,7 +9,7 @@ lang: en
 
 **No. Report it.**
 
-The money is probably not coming back — recovery mostly depends on hours, not
+The money is probably not coming back, recovery mostly depends on hours, not
 months. But recovery was never the only reason to report, and several of the
 other reasons still apply fully.
 
@@ -23,7 +23,7 @@ establishes how long an operation ran. Investigators regularly work from reports
 filed long after the fact.
 
 **It puts you on the list for restitution.** When a case ends in conviction or an
-FTC action, money sometimes gets distributed to victims — years later, usually a
+FTC action, money sometimes gets distributed to victims, years later, usually a
 fraction. You can only receive it if you're on the record. People miss out on
 real money by having never filed.
 
@@ -43,10 +43,10 @@ taxes.
 | **reportfraud.ftc.gov** | All fraud, any age |
 | **identitytheft.gov** | If personal information was taken |
 | **Local police** | For a report number |
-| **833-372-8311** | National Elder Fraud Hotline — they'll help you file. Weekdays, 10 a.m.–6 p.m. Eastern |
+| **833-372-8311** | National Elder Fraud Hotline, they'll help you file. Weekdays, 10 a.m.-6 p.m. Eastern |
 
 Say the date as best you remember it. Approximate is fine. Nobody will criticize
-you for the delay — the people taking these reports know exactly why people wait.
+you for the delay, the people taking these reports know exactly why people wait.
 
 ---
 
@@ -84,7 +84,7 @@ Not necessarily your bank balance. But it moves this out of the category of a
 private thing you carry, and into the category of a crime somebody is counting.
 
 Investigators build cases from reports filed months and years late. Yours might
-be the one that matters — and either way, you'll have set it down.
+be the one that matters, and either way, you'll have set it down.
 
 ---
 

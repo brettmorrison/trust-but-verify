@@ -10,14 +10,14 @@ lang: en
 This is the biggest one by money, and it isn't close.
 
 Americans over 60 reported **$3.5 billion** in investment fraud losses to the FBI
-in 2025 — nearly half of all elder fraud losses that year. Most of it involved
+in 2025, nearly half of all elder fraud losses that year. Most of it involved
 cryptocurrency, and most of it began as a relationship.
 
 ---
 
 ## How it works now
 
-The old picture — a pushy broker cold-calling about a hot stock — is out of date.
+The old picture (a pushy broker cold-calling about a hot stock) is out of date.
 
 The modern version, sometimes called "pig butchering" for reasons that tell you
 everything about how its operators think, takes months.
@@ -26,12 +26,12 @@ everything about how its operators think, takes months.
 app. A Facebook group about gardening or faith or grief. Weeks or months of
 ordinary friendship, no mention of money.
 
-**2. Wealth mentioned casually.** They're doing well. Not selling anything — they
+**2. Wealth mentioned casually.** They're doing well. Not selling anything, they
 just have an uncle in the business, or a system, or a platform they use. When you
 ask, they're a little reluctant to explain. That reluctance is the sales pitch.
 
 **3. A small test investment.** A few hundred dollars. The platform is
-beautiful — a real website, an app, charts, statements, customer support. Your
+beautiful, a real website, an app, charts, statements, customer support. Your
 balance goes up. You withdraw a small profit, easily. **This withdrawal is the
 key move in the entire scheme.** It converts you from cautious to confident, and
 everything after it is downhill.
@@ -67,14 +67,13 @@ There is no $400,000. There never was.
 **Check the person.** Every legitimate investment professional in the United
 States is registered and searchable:
 
-- **brokercheck.finra.org** — brokers
-- **adviserinfo.sec.gov** — investment advisers
+- **brokercheck.finra.org** (brokers - **adviserinfo.sec.gov**) investment advisers
 - **Or call 800-289-9999** (FINRA) and ask
 
 Not there? They cannot legally sell you an investment. That's the end of it.
 
 **Check the firm.** Search the company name plus the word "scam" or "review." Then
-check how old the website is — a "20-year-old firm" with a domain registered four
+check how old the website is, a "20-year-old firm" with a domain registered four
 months ago is not a 20-year-old firm.
 
 ---
@@ -106,12 +105,12 @@ Additional rules:
 
 Any pressure against question three ends the conversation. Legitimate
 opportunities survive a week. That's the whole idea behind
-[waiting a day](/the-three-steps) — just scaled to the size of the money.
+[waiting a day](/the-three-steps), just scaled to the size of the money.
 
 ---
 
 **If you've already invested:** [Do this now](/i-think-i-was-scammed). Report to
-ic3.gov — the FBI actively works these cases, and crypto has occasionally been
+ic3.gov. The FBI actively works these cases, and crypto has occasionally been
 traced and seized. Do not pay any fee to release your funds. That is the scam
 completing itself.
 

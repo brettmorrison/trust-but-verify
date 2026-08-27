@@ -23,7 +23,7 @@ files on individuals: name, current and past addresses, age, phone numbers,
 relatives, home value, estimated income, buying habits. Legal in most of the
 United States. There are hundreds of them.
 
-**2. Breaches.** Companies you've done business with get hacked — insurers,
+**2. Breaches.** Companies you've done business with get hacked, insurers,
 retailers, hospitals, credit bureaus, phone companies. Those files circulate for
 years. Almost every American adult is in several.
 
@@ -33,7 +33,7 @@ particular are a gift to scammers: they list surviving relatives by name and
 relationship.
 
 **4. Social media.** Birthdays, pets, schools, grandchildren's names, the town
-you grew up in, where you're on vacation right now — which is also, not
+you grew up in, where you're on vacation right now, which is also, not
 coincidentally, the answers to most security questions.
 
 **5. Lists of previous victims.** If you've been scammed once, that fact gets
@@ -58,7 +58,7 @@ regardless of what they know.
 
 ## Can I get it taken down?
 
-Partly. You won't get it all, and you shouldn't spend your life trying — but a
+Partly. You won't get it all, and you shouldn't spend your life trying, but a
 few hours does reduce your exposure meaningfully.
 
 **Free, and worth doing:**
@@ -70,7 +70,7 @@ few hours does reduce your exposure meaningfully.
   888-567-8688. Cuts down mail theft too.
 - **Register at donotcall.gov.** It won't stop criminals, who ignore it, but it
   thins out the legitimate calls so the odd ones stand out.
-- **Set social media to friends-only** — yours, and encourage grandchildren to do
+- **Set social media to friends-only**: yours, and encourage grandchildren to do
   the same. Their public videos are what voice cloning uses.
 - **Google your own name** and see what comes up. It's what a scammer does first.
 
@@ -82,7 +82,7 @@ choice, not a necessary one.
 
 ## Don't spend your worry here
 
-You can't undo what's already out. And you don't need to — the whole defense on
+You can't undo what's already out. And you don't need to, the whole defense on
 this site is built to work *even though* they know things about you.
 
 Reducing your exposure is good hygiene. **Hanging up and calling a number you

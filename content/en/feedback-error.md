@@ -1,5 +1,5 @@
 ---
-title: Something went wrong — Trust But Verify
+title: Something went wrong
 slug: /feedback/error
 description: Your feedback didn't send.
 lang: en
@@ -7,7 +7,7 @@ lang: en
 
 # That didn't go through
 
-Nothing was lost — your message just didn't send, most likely a problem on
+Nothing was lost. Your message just didn't send, most likely a problem on
 our end, not something you did.
 
 **[Go back and try again.](/feedback)** If it happens twice, email it

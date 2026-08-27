@@ -1,11 +1,11 @@
 ---
-title: Caller ID said it was my bank — can that be faked?
+title: Caller ID said it was my bank, can that be faked?
 slug: /questions/can-caller-id-be-faked
 description: Yes. Trivially. It costs a few dollars and requires no skill. Caller ID is not evidence of anything.
 lang: en
 ---
 
-# Caller ID said it was my bank — can that be faked?
+# Caller ID said it was my bank, can that be faked?
 
 **Yes. Easily, cheaply, and by anyone.**
 
@@ -31,7 +31,7 @@ regulated phone company. It was never designed to prove identity, and there is n
 verification behind it. Internet calling made it trivially editable.
 
 Phone companies are deploying a system called STIR/SHAKEN that adds a verification
-mark, and it helps — but it's incomplete, it doesn't cover every network, and it
+mark, and it helps, but it's incomplete, it doesn't cover every network, and it
 doesn't stop a caller who is misusing a legitimately obtained number.
 
 Your "Scam Likely" warnings are a useful signal when they appear. Their absence
@@ -45,7 +45,7 @@ Nothing, during their call. That's the point.
 
 The only reliable verification is **the call you place**:
 
-> Hang up. Look up the number yourself — on your card, your statement, your bill.
+> Hang up. Look up the number yourself, on your card, your statement, your bill.
 > Call it.
 
 If it was really your bank, you'll reach your bank and can pick up where you left
@@ -79,7 +79,7 @@ work anywhere.**
 > "I'm going to hang up and call the number on my card."
 
 Say it and hang up. You don't have to wait for a response, argue, or apologize.
-A real employee expects this. A scammer will try to stop you — and that attempt
+A real employee expects this. A scammer will try to stop you, and that attempt
 is your answer.
 
 ## What you have that they can't touch
@@ -87,8 +87,8 @@ is your answer.
 They can fake the number on your screen. They cannot answer the phone when you
 call your bank.
 
-That asymmetry is permanent, and it's entirely in your favor. One sentence —
-"I'll call the number on my card" — turns their strongest trick into nothing at
+That asymmetry is permanent, and it's entirely in your favor. One sentence ("I'll
+call the number on my card") turns their strongest trick into nothing at
 all.
 
 ---

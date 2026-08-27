@@ -20,7 +20,7 @@ The hardest part of hanging up isn't fear. It's manners.
 
 You were raised not to be rude to someone who is being polite to you. Scammers
 know that, and it's the tool they use most. The urgency, the authority, the
-patience in their voice — all of it is built to make hanging up feel like the
+patience in their voice, all of it is built to make hanging up feel like the
 wrong thing to do.
 
 It isn't. **A real bank, a real police officer, a real grandchild, a real
@@ -67,13 +67,13 @@ real app or an address you type yourself. Then read
 [the phishing page](/scams/phishing).
 
 **A password.** Change it there, and anywhere else you used the same one. Your
-email account first — it's the one that can reset all the others.
+email account first, it's the one that can reset all the others.
 
 **Access to your computer.** Turn it off now, at the power button, and read
 [what to do next](/questions/i-let-someone-into-my-computer).
 
 **Your Social Security number.** [Here is what that does and doesn't
-mean](/questions/i-gave-out-my-social-security-number) — it's less than most
+mean](/questions/i-gave-out-my-social-security-number), it's less than most
 people fear.
 
 **Money.** Go to [I think I was scammed](/i-think-i-was-scammed) and start with
@@ -104,11 +104,11 @@ whole site is built on: a small, harmless delay against a loss you can't undo.
 
 ---
 
-## Free help — nobody blames you
+## Free help, nobody blames you
 
-- **National Elder Fraud Hotline: 833-372-8311** — Monday to Friday, 10 a.m. to
+- **National Elder Fraud Hotline: 833-372-8311**: Monday to Friday, 10 a.m. to
   6 p.m. Eastern. Run by the Department of Justice.
-- **AARP Fraud Watch Helpline: 877-908-3360** — Monday to Friday, 8 a.m. to
+- **AARP Fraud Watch Helpline: 877-908-3360**: Monday to Friday, 8 a.m. to
   8 p.m. Eastern. You don't have to be a member.
 
 ---

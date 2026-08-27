@@ -12,10 +12,10 @@ positioned better than any website to prevent this. You see people daily. You
 notice when someone's rattled.
 
 Everything here is free. Print it, copy it, translate it, put your own logo on
-it, hand it out. You don't need to ask us — just keep a small credit line to
+it, hand it out. You don't need to ask us, just keep a small credit line to
 the Trust But Verify Project somewhere reasonable (it's [CC BY-NC](/terms)).
 That license is non-commercial, but using it at your facility is explicitly
-fine even though you're a business — the license stops someone from selling
+fine even though you're a business. The license stops someone from selling
 this material itself, not from a nursing home or senior center handing it to
 residents for free, which is exactly what it's for.
 
@@ -28,13 +28,13 @@ residents for free, which is exactly what it's for.
 Not a stack at the desk. In the unit, on the refrigerator, where someone standing
 in their kitchen holding a phone can see it.
 
-[Print the fridge sheet](/printables) — large type, one page, 45 languages.
+[Print the fridge sheet](/printables), large type, one page, 45 languages.
 
 **Print and distribute the English version freely.** The other 44 languages are
 AI translations awaiting a native speaker's review, and they carry a warning band
 saying so. Please don't put those in units yet. If you have a bilingual staff
 member or resident who'd read one, [that's exactly who we
-need](/help-translate) — and it would unlock that language for every facility,
+need](/help-translate), and it would unlock that language for every facility,
 not just yours.
 
 ### 2. Make the front desk a verification stop
@@ -90,7 +90,7 @@ remember three things. Make sure they're the right three.
 **Leave twelve minutes for questions.** Questions are where the actual education
 happens, and someone will describe something that happened to them last week.
 
-**Have handouts in hand as people leave** — not on a table by the door. Hand
+**Have handouts in hand as people leave**: not on a table by the door. Hand
 them over personally.
 
 **Say plainly: this happens to everyone.** Include yourself. Tell them about a
@@ -116,7 +116,7 @@ honestly.
 They will be embarrassed, and embarrassment is the reason it goes unreported and
 happens again.
 
-1. "I'm glad you told me" — first, before anything else.
+1. "I'm glad you told me", first, before anything else.
 2. Sit with them while they call their bank on a number from their own card.
 3. Offer to sit with them while they call **833-372-8311**. That hotline exists
    for exactly this and will walk them through reporting.
@@ -130,7 +130,7 @@ happens again.
 
 The talk this project grew out of was given by a volunteer with a cybersecurity
 background at his parents' community. The script, slides, and handouts are all
-free to use — you don't need a specialist, you need somebody willing to stand up
+free to use. You don't need a specialist, you need somebody willing to stand up
 for 25 minutes.
 
 [Everything's on the printables page](/printables).
@@ -138,7 +138,7 @@ for 25 minutes.
 ## What you're actually building
 
 A building where people check with each other is a building scammers do poorly
-in. Not because anyone became suspicious — because asking got easy.
+in. Not because anyone became suspicious, because asking got easy.
 
 The residents who learn this will teach each other. That's the part that outlasts
 any handout you print: a hallway where "let me ask at the desk first" is just

@@ -8,7 +8,7 @@ lang: en
 # The contractor at the door
 
 Not every scam comes through a screen. This one knocks, and it follows the
-weather — a crew shows up right after a storm, hail, or flood.
+weather, a crew shows up right after a storm, hail, or flood.
 
 ## How it goes
 
@@ -21,7 +21,7 @@ Then:
 
 - **Cash up front**, or a large deposit before anything starts
 - **Today only** pricing
-- **Damage that appears** during the "free inspection" — some will make it while
+- **Damage that appears** during the "free inspection". Some will make it while
   they're up there
 - Work that starts, then a demand for more money for something they "found"
 - Work that never gets finished, or gets done badly with the wrong materials
@@ -57,8 +57,8 @@ else. A real contractor who wants your business will still want it tomorrow.
 
 **3. Verify the license and the insurance.** Ask for the license number and the
 insurance certificate, then call the insurer yourself to confirm it's active.
-Licensing rules vary a lot by state — some states don't license general
-contractors or roofers at all — so also check with your city or county, the
+Licensing rules vary a lot by state, some states don't license general contractors
+or roofers at all, so also check with your city or county, the
 Better Business Bureau, and search the business name plus "reviews" and
 "complaints."
 
@@ -72,7 +72,7 @@ sign a document that assigns your benefits to a contractor without an attorney o
 your insurance agent reading it first.
 
 **7. Know your right to cancel.** For most sales made at your door over $25,
-federal law gives you **three days to cancel in writing** — the FTC's Cooling-Off
+federal law gives you **three days to cancel in writing**: the FTC's Cooling-Off
 Rule. They must tell you this. Many don't.
 
 ---
@@ -89,16 +89,16 @@ The same architecture, different costume:
   is the whole trick.
 - **The driveway sealer** with leftover material. It's usually thinned motor oil,
   and it will run down your driveway in the next rain.
-- **The tree trimmer** after a storm, cash only, no license, no insurance — and if
+- **The tree trimmer** after a storm, cash only, no license, no insurance, and if
   they're hurt on your property uninsured, that becomes your problem.
 
 ---
 
 ## If it's already happened
 
-- Call your local police non-emergency line — this one is genuinely local, and
+- Call your local police non-emergency line. This one is genuinely local, and
   they often already know the crew
-- Report to your state attorney general's consumer protection office — search
+- Report to your state attorney general's consumer protection office, search
   "[your state] attorney general consumer protection"
 - Report at reportfraud.ftc.gov
 - Call your insurer if a claim was involved

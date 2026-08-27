@@ -14,7 +14,7 @@ Nearly every one has all three of these. If you catch two, stop anyway.
 
 ---
 
-## Sign 1 — It came to you
+## Sign 1. It came to you
 
 You did not start this.
 
@@ -30,16 +30,16 @@ turns their call into your call, and takes the whole thing away from them.
 
 ---
 
-## Sign 2 — It moved you fast
+## Sign 2. It moved you fast
 
 Something hit you in the chest before you had time to think.
 
 Scammers work with four feelings, and they only need one:
 
-- **Fear** — arrest, a frozen account, a virus, a lost benefit, a warrant
-- **Urgency** — today only, in the next hour, before the deadline, right now
-- **Love** — a grandchild crying, a partner in trouble, someone who needs you
-- **Excitement** — a prize, a refund, an investment, a rate that won't last
+- **Fear**: arrest, a frozen account, a virus, a lost benefit, a warrant
+- **Urgency**: today only, in the next hour, before the deadline, right now
+- **Love**: a grandchild crying, a partner in trouble, someone who needs you
+- **Excitement**: a prize, a refund, an investment, a rate that won't last
 
 Notice what these have in common: every one of them makes checking feel like a
 waste of precious time. That's not a side effect. That's the product.
@@ -54,14 +54,14 @@ decide. I wait until my hands are steady.**
 
 ---
 
-## Sign 3 — It wants a transfer
+## Sign 3. It wants a transfer
 
 Sooner or later, every scam asks for one of four things:
 
-- **Money** — a wire, gift cards, cash, crypto, a payment app
-- **A code** — the six digits your bank just texted you
+- **Money**: a wire, gift cards, cash, crypto, a payment app
+- **A code**: the six digits your bank just texted you
 - **A password or Social Security number**
-- **Access to your computer** — "let me just connect and take a look"
+- **Access to your computer**: "let me just connect and take a look"
 
 Three of those four never happen in legitimate business:
 
@@ -88,7 +88,7 @@ the other way around: you call them, then they may ask.
 | It wants a transfer | Is money, a code, or my computer on the table? |
 
 Three yeses is a scam until proven otherwise. Not "probably." Treat it as one and
-make them prove it — which they can only do on a number you looked up yourself.
+make them prove it, which they can only do on a number you looked up yourself.
 
 ---
 
@@ -103,7 +103,7 @@ transaction from your own children.
 
 **They stay on the phone with you.** Real companies hang up and let you go about
 your day. A scammer will keep you on the line through the drive to the bank,
-through the store, through the machine — because the moment you're alone with
+through the store, through the machine, because the moment you're alone with
 your thoughts, you might tell somebody.
 
 **They coach you on what to say.** If anyone tells you what to say to a teller,
@@ -112,12 +112,12 @@ to protect you. Say exactly that to the teller instead.
 
 **They know something about you.** They know your address, your bank's name, the
 last four of your card. See [how they got your information](/how-they-got-your-information)
-— it's for sale, it's cheap, and it proves nothing about who's calling.
+, it's for sale, it's cheap, and it proves nothing about who's calling.
 
 ## What this gives you
 
 You now have something better than a list of scams to memorize. You have a shape
-to recognize — and the shape doesn't change when they invent a new story next
+to recognize, and the shape doesn't change when they invent a new story next
 week.
 
 Someone who can spot these three signs is not an easy target. They are, from a
@@ -125,5 +125,5 @@ scammer's point of view, a waste of a phone call. That's a good thing to be.
 
 ---
 
-**Next:** [How they ask to be paid](/how-they-ask-to-be-paid) — the single most
+**Next:** [How they ask to be paid](/how-they-ask-to-be-paid), the single most
 reliable tell of all.

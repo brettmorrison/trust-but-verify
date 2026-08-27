@@ -13,7 +13,7 @@ You're reading the news or looking something up. Suddenly the screen fills with 
 warning. Maybe a siren sound. Maybe a robotic voice.
 
 > **⚠ YOUR COMPUTER HAS BEEN BLOCKED**
-> Windows Defender — Trojan detected
+> Windows Defender. Trojan detected
 > Your banking information is at risk.
 > **Do not shut down your computer.**
 > Call Microsoft Support: 1-888-XXX-XXXX
@@ -25,7 +25,7 @@ refuse to leave.
 
 **Nothing is wrong with your computer.**
 
-You clicked a bad ad — often on an ordinary, legitimate website, because ad space
+You clicked a bad ad, often on an ordinary, legitimate website, because ad space
 is sold and resold and scammers buy it. The "warning" is just a web page designed
 to look like a system alert. It's a picture of an emergency, not an emergency.
 
@@ -45,7 +45,7 @@ need remote access to fix it.
 > **Tech support will never call you first.**
 
 Not Microsoft. Not Apple. Not any antivirus company. None of them monitor your
-machine, so none of them can know something is wrong — which means a call like
+machine, so none of them can know something is wrong, which means a call like
 this is the wrong itself, not a warning about one. Hang up. If you want to
 check, look up the company's number yourself and call them, the same as
 everything else on this site.
@@ -53,7 +53,7 @@ everything else on this site.
 ## What happens if you call
 
 A polite, professional person answers, often with a queue and hold music. They
-ask you to install a program so they can "look at" your machine — AnyDesk,
+ask you to install a program so they can "look at" your machine. AnyDesk,
 TeamViewer, LogMeIn, UltraViewer. Real tools, used for real support, being used
 against you here.
 
@@ -65,8 +65,8 @@ Then comes the bill. $200 to $600 for "removal," or a multi-year "security
 plan." And now they have remote access to your computer, your files, your saved
 passwords, and often your bank login.
 
-Sometimes it goes further. They "refund" you too much money — a fake screen
-showing $20,000 instead of $200 — and beg you to send back the difference,
+Sometimes it goes further. They "refund" you too much money (a fake screen showing
+$20,000 instead of $200) and beg you to send back the difference,
 crying that they'll lose their job. That's how a $400 scam becomes a $19,600 one.
 Nothing was ever sent to you. The number on your screen was typed by them.
 
@@ -84,7 +84,7 @@ a fake bank, who hands you off to a fake government official.
 2. Close the browser. If it won't close: hold Ctrl + Alt + Delete on Windows (or
    Command + Option + Escape on a Mac) and force it to quit.
 3. If that fails, hold the power button until the computer shuts off. **This is
-   safe.** The warning telling you not to shut down is lying — that instruction
+   safe.** The warning telling you not to shut down is lying, that instruction
    exists only to keep you scared and on the screen.
 4. When it restarts, don't reopen the previous tabs.
 5. That's it. You're done. Nothing is infected.
@@ -108,7 +108,7 @@ advertising, and in this case, advertising a crime.
 ## You handled it
 
 If you closed that window without calling, you just beat a scam that takes
-hundreds of millions of dollars a year. That wasn't luck — that was you knowing
+hundreds of millions of dollars a year. That wasn't luck. That was you knowing
 one fact that they were counting on you not knowing.
 
 Tell somebody about it. The next person who sees that screen will be glad you

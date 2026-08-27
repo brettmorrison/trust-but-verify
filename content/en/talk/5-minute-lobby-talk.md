@@ -18,7 +18,7 @@ center, or a family dinner.
 ## [0:00] Open with a story, not a statistic
 
 > Last month a woman in a building not far from here got a call. It was her
-> grandson — crying, saying he'd been arrested and please don't tell his mother.
+> grandson, crying, saying he'd been arrested and please don't tell his mother.
 >
 > She had eleven hundred dollars in a courier's hands within the hour.
 >
@@ -46,7 +46,7 @@ time. Never name anyone.]*
 
 ---
 
-## [1:30] The three steps — the core of the whole talk
+## [1:30] The three steps, the core of the whole talk
 
 > Here's the whole thing. Three steps, before any money moves.
 >
@@ -72,7 +72,7 @@ time. Never name anyone.]*
 > **It came to you.** You didn't start this. They called you.
 >
 > **It moved you fast.** Fear, or urgency, or worry about someone you love. If
-> your chest went tight — that's the sign.
+> your chest went tight, that's the sign.
 >
 > **It wants a transfer.** Money, or a code, or somebody wanting into your
 > computer.
@@ -105,7 +105,7 @@ time. Never name anyone.]*
 > of anything.
 >
 > Here's what beats it. Pick a family code word. A street you lived on, a dog's
-> name — something that was never posted anywhere.
+> name, something that was never posted anywhere.
 >
 > Tell your children and your grandchildren. Then, when a frightened voice calls,
 > you ask for the word.
@@ -121,10 +121,10 @@ time. Never name anyone.]*
 > You don't have to get suspicious of everybody. You just add one step.
 >
 > And one more thing. If something has already happened to you, or to somebody
-> you care about — there's no shame in it, and it's not too late. There's a free
+> you care about, there's no shame in it, and it's not too late. There's a free
 > hotline: 833-372-8311. They'll walk you through it.
 >
-> I've got sheets here. Take two — one for you and one for a neighbor.
+> I've got sheets here. Take two, one for you and one for a neighbor.
 
 ---
 

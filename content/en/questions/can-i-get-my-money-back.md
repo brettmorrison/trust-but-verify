@@ -1,7 +1,7 @@
 ---
 title: Can I get my money back after a scam?
 slug: /questions/can-i-get-my-money-back
-description: Sometimes — and it depends almost entirely on how you paid and how fast you act.
+description: Sometimes, and it depends almost entirely on how you paid and how fast you act.
 lang: en
 ---
 
@@ -20,7 +20,7 @@ reporting fraud and I need to stop or recall a payment."*
 |---|---|---|
 | **Credit card** | Good | Dispute it. Federal law gives you strong chargeback rights. |
 | **Debit card** | Fair, if fast | Call today. Protections shrink sharply after 2 days, and again after 60. |
-| **Bank wire** | Possible within hours | Ask your bank for a **recall** immediately. Also file at ic3.gov — the FBI has frozen wires this way. |
+| **Bank wire** | Possible within hours | Ask your bank for a **recall** immediately. Also file at ic3.gov. The FBI has frozen wires this way. |
 | **Zelle / Venmo / Cash App** | Poor | Report it anyway. Banks may cover impersonation scams in some cases; ask directly. |
 | **Gift cards** | Poor, occasionally works | Call the card company (Apple, Google, Target, Amazon) with the numbers and receipt. Funds are sometimes still on the card. |
 | **Cryptocurrency** | Very poor | Report at ic3.gov. Occasionally traced and seized in large cases. |
@@ -32,7 +32,7 @@ reporting fraud and I need to stop or recall a payment."*
 ## Why speed matters this much
 
 A wire transfer can sometimes be recalled the same day. The FBI runs a Recovery
-Asset Team that has frozen funds by acting within hours of a report — and hours is
+Asset Team that has frozen funds by acting within hours of a report, and hours is
 literally the window.
 
 The same is true of a gift card that hasn't been drained yet, and a check that
@@ -50,7 +50,7 @@ So you can recognize the fake version:
 - A **credit card dispute**
 - Law enforcement returning seized funds, by mail, after a prosecution, usually
   years later and usually a fraction
-- An **FTC refund program** — real, and always free. Check ftc.gov/refunds
+- An **FTC refund program**: real, and always free. Check ftc.gov/refunds
   yourself.
 - A lawyer **you** found and hired
 
@@ -74,7 +74,7 @@ money to get money is the oldest rule in fraud and it has no exceptions.
 Report it anyway, even months later. It isn't wasted:
 
 - Patterns get built from reports, and prosecutions come from patterns
-- Some losses are deductible in limited circumstances — worth one call to a tax
+- Some losses are deductible in limited circumstances, worth one call to a tax
   professional
 - If a court eventually orders restitution, you have to already be on the record
 
@@ -83,7 +83,7 @@ still helps](/questions/reporting-an-old-scam).
 
 ## Whatever the outcome, the next one won't land
 
-Recovery is a coin flip and it depends on things outside your control — how you
+Recovery is a coin flip and it depends on things outside your control, how you
 paid, how fast the bank moved, where the money went.
 
 What isn't a coin flip is what happens next time. You know the shape of this now.

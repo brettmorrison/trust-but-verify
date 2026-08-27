@@ -39,7 +39,7 @@ machine translation usually isn't, because register doesn't survive translation.
 **What words your community wouldn't use.** Regional vocabulary, the wrong
 formality, a term that's fine in one country and odd in another.
 
-**What's missing.** The scams that reach your community may be different — a
+**What's missing.** The scams that reach your community may be different, a
 remittance scam, an immigration-status threat, a scheme that only works on people
 with family overseas. Tell us and we'll write the page.
 
@@ -52,8 +52,7 @@ with family overseas. Tell us and we'll write the page.
 **About one to two hours for most languages.** The core page in each language
 is roughly 2,000 words.
 
-**Spanish, Vietnamese, Chinese, Russian, and Korean have more material** —
-five additional scam-type articles each, not just the core page, so
+**Spanish, Vietnamese, Chinese, Russian, and Korean have more material**: five additional scam-type articles each, not just the core page, so
 validating everything currently drafted in one of these runs closer to
 three to four hours. You don't have to do it all at once, and checking just
 the core page first is still a real, useful contribution on its own.
@@ -64,7 +63,7 @@ photographed is fine.
 
 **You don't have to be an expert on scams.** You're checking the language, not
 the security advice. If the advice sounds wrong to you, say so and we'll check
-it against the federal sources — but that's a bonus, not the job.
+it against the federal sources, but that's a bonus, not the job.
 
 **You don't have to fix it.** Pointing at a sentence and saying "nobody talks
 like this" is complete and useful feedback. We'll rewrite it and send it back.
@@ -73,7 +72,7 @@ like this" is complete and useful feedback. We'll rewrite it and send it back.
 
 ## What you get
 
-**Your name on the page, if you want it.** Or not — plenty of people would rather
+**Your name on the page, if you want it.** Or not, plenty of people would rather
 not be listed, and that's fine, no explanation needed.
 
 **No money.** Nobody involved in this is paid, including the person who started
@@ -82,65 +81,44 @@ it. There's no budget, and there won't be one.
 **The material, to use however you like.** Translate it further, put your
 organization's name on it, rebrand it entirely, hand it out at your church,
 mosque, temple, clinic, community center, or senior living facility. You
-don't need our permission — it's [CC BY-NC](/terms), so just keep a small
+don't need our permission, it's [CC BY-NC](/terms), so just keep a small
 credit line to the Trust But Verify Project somewhere reasonable.
 
 ---
 
 ## Languages we need
 
-**All 44 of these are drafted and waiting on a native reader** — every one
+**All 44 of these are drafted and waiting on a native reader**: every one
 already has a full webpage and a printable fridge sheet ready to go:
 
 | Language | Status |
 |---|---|
-| Albanian | Drafted — needs a native reader |
-| Amharic | Drafted — needs a native reader |
-| Arabic | Drafted — needs a native reader |
-| Armenian | Drafted — needs a native reader |
-| Bengali | Drafted — needs a native reader |
-| Chinese (Simplified) | Drafted — needs a native reader (core page + 5 articles) |
-| Croatian | Drafted — needs a native reader |
-| Danish | Drafted — needs a native reader |
-| Estonian | Drafted — needs a native reader |
-| Farsi | Drafted — needs a native reader |
-| French | Drafted — needs a native reader |
-| Georgian | Drafted — needs a native reader |
-| German | Drafted — needs a native reader |
-| Greek | Drafted — needs a native reader |
-| Gujarati | Drafted — needs a native reader |
-| Haitian Creole | Drafted — needs a native reader |
-| Hebrew | Drafted — needs a native reader |
-| Hindi | Drafted — needs a native reader |
-| Hmong | Drafted — needs a native reader |
-| Hungarian | Drafted — needs a native reader |
-| Indonesian | Drafted — needs a native reader |
-| Italian | Drafted — needs a native reader |
-| Japanese | Drafted — needs a native reader |
-| Khmer | Drafted — needs a native reader |
-| Korean | Drafted — needs a native reader (core page + 5 articles) |
-| Latvian | Drafted — needs a native reader |
-| Lithuanian | Drafted — needs a native reader |
-| Malay | Drafted — needs a native reader |
-| Norwegian | Drafted — needs a native reader |
-| Pashto | Drafted — needs a native reader |
-| Polish | Drafted — needs a native reader |
-| Portuguese | Drafted — needs a native reader |
-| Punjabi | Drafted — needs a native reader |
-| Romanian | Drafted — needs a native reader |
-| Russian | Drafted — needs a native reader (core page + 5 articles) |
-| Serbian | Drafted — needs a native reader |
-| Somali | Drafted — needs a native reader |
-| Spanish | Drafted — needs a native reader (core page + 5 articles) |
-| Swahili | Drafted — needs a native reader |
-| Swedish | Drafted — needs a native reader |
-| Tagalog | Drafted — needs a native reader |
-| Ukrainian | Drafted — needs a native reader |
-| Urdu | Drafted — needs a native reader |
-| Vietnamese | Drafted — needs a native reader (core page + 5 articles) |
+| Albanian | Drafted (needs a native reader | | Amharic | Drafted) needs a native reader |
+| Arabic | Drafted (needs a native reader | | Armenian | Drafted) needs a native reader |
+| Bengali | Drafted, needs a native reader | | Chinese (Simplified) | Drafted, needs a native reader (core page + 5 articles) |
+| Croatian | Drafted (needs a native reader | | Danish | Drafted) needs a native reader |
+| Estonian | Drafted (needs a native reader | | Farsi | Drafted) needs a native reader |
+| French | Drafted (needs a native reader | | Georgian | Drafted) needs a native reader |
+| German | Drafted (needs a native reader | | Greek | Drafted) needs a native reader |
+| Gujarati | Drafted, needs a native reader | | Haitian Creole | Drafted, needs a native reader |
+| Hebrew | Drafted (needs a native reader | | Hindi | Drafted) needs a native reader |
+| Hmong | Drafted (needs a native reader | | Hungarian | Drafted) needs a native reader |
+| Indonesian | Drafted (needs a native reader | | Italian | Drafted) needs a native reader |
+| Japanese | Drafted (needs a native reader | | Khmer | Drafted) needs a native reader |
+| Korean | Drafted, needs a native reader (core page + 5 articles) |
+| Latvian | Drafted (needs a native reader | | Lithuanian | Drafted) needs a native reader |
+| Malay | Drafted (needs a native reader | | Norwegian | Drafted) needs a native reader |
+| Pashto | Drafted (needs a native reader | | Polish | Drafted) needs a native reader |
+| Portuguese | Drafted (needs a native reader | | Punjabi | Drafted) needs a native reader |
+| Romanian | Drafted (needs a native reader | | Russian | Drafted) needs a native reader (core page + 5 articles) |
+| Serbian | Drafted (needs a native reader | | Somali | Drafted) needs a native reader |
+| Spanish | Drafted, needs a native reader (core page + 5 articles) |
+| Swahili | Drafted (needs a native reader | | Swedish | Drafted) needs a native reader |
+| Tagalog | Drafted (needs a native reader | | Ukrainian | Drafted) needs a native reader |
+| Urdu | Drafted (needs a native reader | | Vietnamese | Drafted) needs a native reader (core page + 5 articles) |
 
 **Not yet drafted, and wanted:** Turkish, Traditional Chinese (a separate job
-from Simplified, not a conversion — see below).
+from Simplified, not a conversion, see below).
 
 If you speak one of these two and are willing to be the reader, we'll write
 the draft for you to check. Tell us which and we'll get it to you.
@@ -162,8 +140,7 @@ unvalidated ones.**
 
 ## Who's a good fit
 
-- Anyone bilingual who talks to older relatives in that language regularly —
-  this is the best qualification there is, better than a translation degree
+- Anyone bilingual who talks to older relatives in that language regularly. This is the best qualification there is, better than a translation degree
 - Community health workers, church and mosque volunteers, senior center staff
 - Adult children who already explain this stuff to their parents in two languages
 - Students who need volunteer hours and speak the language at home
@@ -178,7 +155,7 @@ growing up, you are exactly who we're looking for.
 
 **translations [at] trustbutverifyproject [dot] org**
 
-Tell us the language, and roughly how you use it — spoken at home, professionally,
+Tell us the language, and roughly how you use it, spoken at home, professionally,
 grew up with it. That's all the screening there is.
 
 If you'd rather look before you commit, all the files are freely downloadable and

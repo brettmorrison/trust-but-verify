@@ -13,17 +13,17 @@ Every scam in the world, however it arrives, has to get you to do one thing:
 That's the trick. Not clever technology. Not a convincing accent. Speed.
 
 So the defense isn't cleverness either. It's three steps that all do the same
-thing — they put time between the request and the money.
+thing. They put time between the request and the money.
 
 ---
 
-## Step 1 — Look up the number yourself
+## Step 1. Look up the number yourself
 
 **Never use the number they gave you.**
 
 Not the number in the text. Not the number on the popup. Not the number the
 caller reads out. Not the one in the email signature. Not even the number that
-comes up first when you search the company's name — scammers buy those search
+comes up first when you search the company's name. Scammers buy those search
 results too.
 
 Use a number you already had before today:
@@ -43,10 +43,10 @@ have to win the argument. You just have to hang up.
 
 ---
 
-## Step 2 — Call the person yourself
+## Step 2. Call the person yourself
 
-If the message claims to be from a person — your grandson, your daughter, your
-pastor, your neighbor — call **that person**, on the number you have always used
+If the message claims to be from a person (your grandson, your daughter, your
+pastor, your neighbor) call **that person**, on the number you have always used
 for them.
 
 Not the number they're texting from. People's phone numbers do not change in an
@@ -73,7 +73,7 @@ on the internet.
 
 ---
 
-## Step 3 — Wait a day
+## Step 3. Wait a day
 
 This is the step people skip, and the one that works even when the other two fail.
 
@@ -90,7 +90,7 @@ someone needs you to stop thinking.**
 
 If a full day is too long, take twenty minutes. Make coffee. Tell one person out
 loud what's being asked of you. Saying it out loud to another human being is
-remarkably effective — most people hear the problem in their own sentence before
+remarkably effective. Most people hear the problem in their own sentence before
 the other person even answers.
 
 ---
@@ -127,5 +127,5 @@ look at the back of a card, and sleep on a decision. You've been doing all three
 your whole life.
 
 The only new part is doing them **before** the money moves instead of after. That
-one change puts you ahead of every scammer working today — and they know it,
+one change puts you ahead of every scammer working today, and they know it,
 which is exactly why they spend so much energy trying to keep you on the line.

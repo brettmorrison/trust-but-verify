@@ -20,7 +20,7 @@ So let's just say it plainly.
 | Agency | How they contact you | What they will never do |
 |---|---|---|
 | **IRS** | Letter, by mail, first | Call demanding immediate payment. Ask for gift cards. Threaten arrest by phone. Email you about a refund. |
-| **Social Security** | Letter, by mail | Threaten to suspend your number. Your Social Security number cannot be suspended — the concept does not exist. |
+| **Social Security** | Letter, by mail | Threaten to suspend your number. Your Social Security number cannot be suspended. The concept does not exist. |
 | **Medicare** | Letter; they already have your info | Call to sell you a plan, a brace, a test kit, or a new card. |
 | **Police / Sheriff** | In person, or a letter | Call about a warrant and take payment over the phone. No department on earth collects fines by phone. |
 | **Courts** | Mailed summons | Call about missed jury duty and demand a fine in gift cards. |
@@ -31,7 +31,7 @@ So let's just say it plainly.
 
 **The federal government sends mail.**
 
-Every serious matter — taxes, benefits, warrants, court dates, fines — begins
+Every serious matter (taxes, benefits, warrants, court dates, fines) begins
 with a letter and comes with a process, an appeal, and a paper trail. That's not
 bureaucracy being slow. It's a legal requirement, because you're entitled to
 notice and to respond.
@@ -51,7 +51,7 @@ been suspended due to suspicious activity." "Your benefits will stop today."
 a refund but we need your account number to send it."
 
 **Confusion:** "We're just verifying your information for our records." No threat
-at all — just a friendly voice collecting your Social Security number, your
+at all, just a friendly voice collecting your Social Security number, your
 Medicare number, and your date of birth.
 
 That third one is underrated and effective. Nothing bad seems to be happening, so
@@ -63,7 +63,7 @@ nothing triggers alarm.
 
 1. **Hang up.** You are allowed to hang up on someone claiming to be a federal
    agent. It is not a crime and it never has been.
-2. **Do not press any number** — not even "press 2 to speak to an officer." Any
+2. **Do not press any number**: not even "press 2 to speak to an officer." Any
    keypress marks your number as live and answered.
 3. **If you're worried it's real, call the agency yourself** on a number you look
    up independently:
@@ -81,7 +81,7 @@ nothing triggers alarm.
 It is not a catastrophe and you have a clear path.
 
 Go to [I gave out my Social Security
-number](/questions/i-gave-out-my-social-security-number) — freeze your credit,
+number](/questions/i-gave-out-my-social-security-number), freeze your credit,
 open a recovery plan at identitytheft.gov, and monitor. It takes about an hour
 and closes most of the risk.
 

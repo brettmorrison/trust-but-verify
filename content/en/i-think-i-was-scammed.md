@@ -27,10 +27,10 @@ for the money to disappear. So let's skip it and go to work.
 ### 1. Stop all contact
 
 Hang up. Don't answer callbacks. Don't reply to "we can fix this." Do not delete
-anything — you'll need the texts, emails, and numbers as evidence. Just stop
+anything, you'll need the texts, emails, and numbers as evidence. Just stop
 responding.
 
-### 2. Call your bank — right now, on the number on your card
+### 2. Call your bank, right now, on the number on your card
 
 Say these words: **"I am reporting fraud. I need to stop or recall a payment."**
 
@@ -44,20 +44,20 @@ reissued.
 
 ### 3. If you sent gift cards, call the card company immediately
 
-Not the store — the company on the card (Apple, Google Play, Target, eBay,
+Not the store, the company on the card (Apple, Google Play, Target, eBay,
 Amazon). Tell them the card was used in a scam. Have the receipt and the card
 numbers ready. Sometimes the money is still on the card. It's a long shot, and
 long shots have paid off.
 
 ### 4. If you let anyone into your computer
 
-Disconnect it from the internet — unplug the cable, or turn off Wi-Fi. Don't use
+Disconnect it from the internet, unplug the cable, or turn off Wi-Fi. Don't use
 it for banking. Get it looked at by someone you chose yourself, not anyone who
 called you. See [I let someone into my computer](/questions/i-let-someone-into-my-computer).
 
 ### 5. Change the password on your email first
 
-Not your bank first — your **email** first. Whoever controls your email can reset
+Not your bank first, your **email** first. Whoever controls your email can reset
 every other password you have. It's the master key. Then change your banking
 passwords, from a different device if you can.
 
@@ -74,15 +74,15 @@ centers get raided, and sometimes how money gets frozen.
 |---|---|---|
 | **FBI IC3** | ic3.gov | Anything involving the internet, a phone, or a wire. Best chance of a recall. |
 | **FTC** | reportfraud.ftc.gov | All fraud. Feeds law enforcement nationwide. |
-| **Identity theft** | identitytheft.gov | If they got your Social Security number — gives you a recovery plan |
+| **Identity theft** | identitytheft.gov | If they got your Social Security number, gives you a recovery plan |
 | **Local police** | Non-emergency line | You need a report number for banks and insurers |
 
 **Need help doing it?** Two free helplines, staffed by people, no judgment:
 
-- **National Elder Fraud Hotline: 833-372-8311** — Monday to Friday, 10 a.m. to
+- **National Elder Fraud Hotline: 833-372-8311**: Monday to Friday, 10 a.m. to
   6 p.m. Eastern. Run by the Department of Justice. They'll walk you through
   filing.
-- **AARP Fraud Watch Helpline: 877-908-3360** — Monday to Friday, 8 a.m. to
+- **AARP Fraud Watch Helpline: 877-908-3360**: Monday to Friday, 8 a.m. to
   8 p.m. Eastern. Free whether or not you're a member. They also run free
   support groups for people who've been through this.
 
@@ -96,7 +96,7 @@ case to fifty others.
 ### 8. Tell one person
 
 A family member, a friend, your doctor, someone at the front desk. Not so they
-can fix it — so you're not carrying it alone, and so somebody knows to watch for
+can fix it, so you're not carrying it alone, and so somebody knows to watch for
 the follow-up call.
 
 ---
@@ -107,9 +107,8 @@ the follow-up call.
 
 Free, and reversible any time you actually need credit. Do all three:
 
-- **Equifax** — 888-378-4329
-- **Experian** — 888-397-3742
-- **TransUnion** — 800-916-8800
+- **Equifax** (888-378-4329 - **Experian**) 888-397-3742
+- **TransUnion**: 800-916-8800
 
 A freeze stops anyone from opening accounts in your name. It doesn't affect
 your existing cards or your credit score.
@@ -120,7 +119,7 @@ annualcreditreport.com, or 877-322-8228. Free. Look for accounts you didn't open
 
 ### 11. Watch every statement for three months
 
-Not just for big charges — for small ones. Scammers test a stolen card with a
+Not just for big charges, for small ones. Scammers test a stolen card with a
 $1.20 charge before they try $1,200.
 
 ### 12. Expect the second scam
@@ -130,7 +129,7 @@ This is the most important sentence on this page.
 **People who have been scammed once get targeted again, on purpose.** Your name
 goes on a list that is bought and sold. Within weeks you may hear from:
 
-- A "law firm" or "recovery service" that can get your money back — for a fee
+- A "law firm" or "recovery service" that can get your money back, for a fee
 - A "government investigator" following up on your case
 - A "fraud department" needing to verify your details
 
@@ -170,11 +169,11 @@ More: [For family members](/for-family).
 
 You are not the same person you were yesterday, and that's not only a loss.
 
-You now know exactly what this looks like from the inside — the pressure, the
+You now know exactly what this looks like from the inside, the pressure, the
 pacing, the way they keep you from telling anyone. Most people only know it as an
 abstraction. You know it as a memory, which means you will recognize it
 instantly, for the rest of your life.
 
 A lot of people are alive to that knowledge only because someone like you told
-them. When you're ready — and only when you're ready — that story is worth more
+them. When you're ready (and only when you're ready) that story is worth more
 than any pamphlet.

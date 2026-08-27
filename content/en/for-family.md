@@ -14,14 +14,14 @@ information. It's the conversation.
 different version for that.](/give-this-talk/#group)*
 
 **[Download this as a slide deck (PPTX)](/print/trust-but-verify-for-family.pptx)**
-— 12 slides with speaker notes, for giving this to a wider family group or a
+, 12 slides with speaker notes, for giving this to a wider family group or a
 support group instead of reading it alone.
 [Printer-friendly version](/print/trust-but-verify-for-family-printer-friendly.pptx)
-— same 12 slides, light backgrounds throughout so printing it at home doesn't
+, same 12 slides, light backgrounds throughout so printing it at home doesn't
 burn through your ink.
 
-Because the conversation you want to have — *"be careful, you're vulnerable"* —
-is the one that guarantees they will never tell you when something happens. And
+Because the conversation you want to have (*"be careful, you're vulnerable"*) is the
+one that guarantees they will never tell you when something happens. And
 the goal is not that your mother never gets a scam call. She will get several
 this week. The goal is that she calls **you** during, instead of telling nobody
 after.
@@ -51,7 +51,7 @@ Now you're two adults comparing notes. Nobody is being evaluated.
 
 **Make it a household rule, not a personal one.**
 
-> "I want us to have a family rule — nobody in this family moves money on a phone
+> "I want us to have a family rule, nobody in this family moves money on a phone
 > call they didn't start. Me included. Especially me, I'm on the computer all
 > day."
 
@@ -86,15 +86,15 @@ anywhere.
 Set it at a meal, out loud, with the grandchildren present. Four minutes. It
 defeats every voice-cloning scam in existence.
 
-### 2. "Call me first" — with a real reason
+### 2. "Call me first", with a real reason
 
 > "If anybody ever asks you for money, call me first, even at 3 a.m. Not because
-> you can't handle it — because if it's real I want to be there for it, and if
+> you can't handle it, because if it's real I want to be there for it, and if
 > it's not I want to be the one who's annoyed instead of you."
 
 ### 3. A trusted contact at the bank
 
-Most banks let an account holder name a **trusted contact** — someone the bank
+Most banks let an account holder name a **trusted contact**: someone the bank
 can call if they see something alarming. It gives the bank no control over the
 account and no ability to move money. It just means somebody gets a phone call.
 
@@ -116,14 +116,14 @@ Say: *"I'm really glad you told me. Let's fix what we can."*
 
 Do not say: "Why didn't you call me?" "How could you not see it?" "I told you
 about this." All three are understandable. All three teach the person to never
-tell you again — and there is very likely to be a next time, because
+tell you again, and there is very likely to be a next time, because
 [people who've been scammed once are deliberately targeted
 again](/scams/recovery-scam).
 
 Then work the list together: [I think I was scammed](/i-think-i-was-scammed).
 
-Handle the logistics yourself if they'll let you — the calls, the reports, the
-freezes — but let them keep decisions about their own money. Losing money to a
+Handle the logistics yourself if they'll let you (the calls, the reports, the
+freezes) but let them keep decisions about their own money. Losing money to a
 scammer and then losing authority over your accounts to your children is two
 losses, and people will hide the first to avoid the second.
 
@@ -131,8 +131,8 @@ losses, and people will hide the first to avoid the second.
 
 ## When there's a real capacity concern
 
-Sometimes worry isn't about a single scam call. Sometimes it's a pattern —
-repeated payments, new secrecy, a new "friend" on the phone, confusion about
+Sometimes worry isn't about a single scam call. Sometimes it's a pattern, repeated
+payments, new secrecy, a new "friend" on the phone, confusion about
 transactions that were once routine.
 
 That's a different problem, and it needs more than a website:
@@ -140,10 +140,9 @@ That's a different problem, and it needs more than a website:
 - Talk to their doctor about a cognitive check. Financial mistakes are sometimes
   the earliest visible symptom of a change, and they show up before memory
   complaints do.
-- **Eldercare Locator: 800-677-1116** — connects you to local aging services.
-- **Adult Protective Services** — if you believe someone is being financially
+- **Eldercare Locator: 800-677-1116**, connects you to local aging services. - **Adult Protective Services**, if you believe someone is being financially
   exploited, particularly by a caregiver, relative, or new acquaintance. Every
-  state runs its own APS with its own number — the Eldercare Locator above
+  state runs its own APS with its own number, the Eldercare Locator above
   will connect you to yours, or search "[your state] Adult Protective
   Services."
 - An elder law attorney, if powers of attorney need looking at.
@@ -156,7 +155,7 @@ than doing it during a crisis.
 ## And check yourself
 
 The fastest-growing victim group by percentage isn't older adults. Younger people
-get scammed constantly — they just lose smaller amounts, because they have less.
+get scammed constantly, they just lose smaller amounts, because they have less.
 
 Whatever rule you set for your mother, follow it yourself, out loud, where she
 can see. That's what makes it a family standard instead of a supervision plan.
@@ -164,8 +163,8 @@ can see. That's what makes it a family standard instead of a supervision plan.
 ## What success actually looks like
 
 It isn't that your mother never gets a scam call. It's that one day she says,
-"someone called me about my account and I told them I'd call the bank myself" —
-and she says it the way you'd mention taking out the trash.
+"someone called me about my account and I told them I'd call the bank myself", and
+she says it the way you'd mention taking out the trash.
 
 That's the goal. Not vigilance. Not worry. Just a habit she has, that she's a
 little proud of, that she'll pass along to a friend down the hall.

@@ -9,7 +9,7 @@ lang: en
 
 This is the one that takes everything.
 
-Not a few hundred dollars — entire retirement accounts, entire savings, sometimes
+Not a few hundred dollars, entire retirement accounts, entire savings, sometimes
 a house. The FBI named it and warned about it specifically because of how much
 older adults lose to it, and because of how well it's built.
 
@@ -18,7 +18,7 @@ who each seem to confirm the last one.
 
 ---
 
-## Act 1 — The tech support call
+## Act 1. The tech support call
 
 It starts with a popup, or a call about a subscription renewal, or an email about
 a charge you don't recognize. You call the number. A helpful technician takes a
@@ -29,10 +29,10 @@ system, and they may be inside your bank accounts.**
 
 He says he'll transfer you to your bank's fraud department to check.
 
-## Act 2 — The bank call
+## Act 2. The bank call
 
 A new person calls, or you're transferred. Caller ID shows your bank's real name
-and real number. (This is trivially easy to fake — see [can caller ID be
+and real number. (This is trivially easy to fake, see [can caller ID be
 faked](/questions/can-caller-id-be-faked).) They know your bank. They may know
 your account's last four digits.
 
@@ -46,14 +46,14 @@ Sometimes they add that a bank employee may be involved, so you mustn't discuss
 this with anyone at your branch. Sometimes they say the account is under federal
 monitoring.
 
-## Act 3 — The government call
+## Act 3. The government call
 
 If you hesitate, a third voice arrives with more authority: the Federal Reserve,
 the FTC, the FBI, the Treasury. They may email you an official-looking letter on
 a real-looking letterhead.
 
-They confirm everything the first two said, and instruct you to wire the money —
-or convert it to gold, or cash, or cryptocurrency — for safekeeping.
+They confirm everything the first two said, and instruct you to wire the money, or
+convert it to gold, or cash, or cryptocurrency, for safekeeping.
 
 Then a courier comes to your door. Or you drive to a Bitcoin machine while
 they stay on the phone with you.
@@ -99,7 +99,7 @@ Read that sentence again in a calm room. It sounds like what it is.
 
 **4. Nobody comes to your house to collect valuables.**
 No federal agency sends a courier. If someone's coming to your door for money,
-gold, or cash, call the police — the real ones, at 911 or your local
+gold, or cash, call the police, the real ones, at 911 or your local
 non-emergency number.
 
 ---
@@ -108,7 +108,7 @@ non-emergency number.
 
 Stop. Do not send anything today.
 
-Then, on a number **you** look up — off your card, off your statement, or by
+Then, on a number **you** look up, off your card, off your statement, or by
 walking into a branch:
 
 1. Call your bank and say: *"I need to verify whether anyone from this bank
@@ -130,7 +130,7 @@ And it dies the instant you walk into a branch or dial the number on your own
 card. All that machinery, undone by one phone call you chose to make.
 
 That's worth remembering. The more complicated a scheme is, the more places it
-has to break — and you only need to break it once.
+has to break, and you only need to break it once.
 
 ---
 

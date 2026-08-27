@@ -8,20 +8,20 @@ lang: en
 # "There's a problem with your account"
 
 This is the most frequently reported scam by Americans over 60. Not the costliest
-— but the one that arrives most often, in the most disguises.
+, but the one that arrives most often, in the most disguises.
 
 ## How it arrives
 
 A text, an email, or a voicemail about a problem:
 
-- A charge you didn't make — reply YES or NO
+- A charge you didn't make, reply YES or NO
 - Your account is locked or suspended
 - Your password is expiring
 - A payment failed and your service will be cut off
 - Your package couldn't be delivered
 - An unpaid toll
 - Verify your details to keep your benefits
-- Your antivirus subscription auto-renewed for $499 — call to cancel
+- Your antivirus subscription auto-renewed for $499, call to cancel
 
 They impersonate whoever you're most likely to have: Amazon, your bank, Netflix,
 USPS, Apple, Medicare, Microsoft, your electric company, PayPal.
@@ -30,9 +30,9 @@ USPS, Apple, Medicare, Microsoft, your electric company, PayPal.
 
 One of three things, and they're happy with any of them:
 
-1. **Your password** — via a link to a fake login page that looks perfect
-2. **Your verification code** — the six digits your bank texts you
-3. **A phone call from you** — which turns into one of the bigger schemes on this
+1. **Your password**: via a link to a fake login page that looks perfect
+2. **Your verification code**, the six digits your bank texts you 3. **A phone call from
+you**, which turns into one of the bigger schemes on this
    site
 
 That third one is the growing version, and the sneakiest. There's no link to
@@ -155,7 +155,7 @@ itself. Real companies are glad for you to reach them your own way. A message
 that needs you to stay inside it is telling you something.
 
 **It arrived out of nowhere.** You weren't expecting a package. You don't drive
-that toll road. You don't have that subscription. Though sometimes you do — they
+that toll road. You don't have that subscription. Though sometimes you do, they
 send thousands and some land right.
 
 ---
@@ -214,7 +214,7 @@ into a chat. Anyone asking is standing at your bank's front door trying to get
 you to hand them the key.
 
 **Don't reply STOP to a scam text.** It confirms a live person reads that number.
-Delete it, or report it by forwarding to 7726 (SPAM) — free on all US carriers.
+Delete it, or report it by forwarding to 7726 (SPAM), free on all US carriers.
 
 ---
 
@@ -246,7 +246,7 @@ number, its clock. **Taking any single one of them outside is enough to end it.*
 
 ## If you clicked and entered your password
 
-1. Change that password immediately — on the real site, typed yourself
+1. Change that password immediately, on the real site, typed yourself
 2. If you use that password anywhere else, change it there too. This is the real
    damage. One password, reused, unlocks a whole life.
 3. Change your **email** password first if it was the same one
@@ -278,11 +278,11 @@ stolen accounts. A password manager fixes that permanently: it invents a
 different, harder password for every site and remembers all of them, so you
 only have to remember one.
 
-You likely already have one, free, built into a device you own — Apple
+You likely already have one, free, built into a device you own. Apple
 ("Passwords" on iPhone and Mac), Google ("Password Manager" in Chrome and
 Android), and Microsoft (in Windows and Edge) all include one. You don't have
 to buy or install anything. Ask someone you trust to help you turn it on and
-move your most important passwords — email and banking first — into it.
+move your most important passwords (email and banking first) into it.
 
 ## The habit that ends this whole category
 
@@ -291,7 +291,7 @@ every time, without exception.
 
 That's not vigilance and it doesn't require you to inspect anything. It's one
 habit, and once you have it, this entire category of scam simply stops working on
-you — today's version and every version they invent next.
+you, today's version and every version they invent next.
 
 ---
 

@@ -7,7 +7,7 @@ lang: en
 
 # It's a scam if they already know my address?
 
-**Yes — knowing things about you proves nothing.**
+**Yes, knowing things about you proves nothing.**
 
 This trips up careful people more than almost anything else, because it feels
 like proof. It isn't. It's the cheapest part of the whole operation.
@@ -38,7 +38,7 @@ obituaries. See [how did they get my information](/questions/how-did-they-get-my
 
 Because you were taught it identifies you. It's what a company asks *you* for.
 
-But that's backwards. It works as a check when **you** call **them** — you're
+But that's backwards. It works as a check when **you** call **them**: you're
 proving who you are to an institution you chose to contact.
 
 It proves nothing in the other direction. Card numbers appear in breaches

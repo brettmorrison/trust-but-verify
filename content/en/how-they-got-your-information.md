@@ -18,7 +18,7 @@ explains why a caller can recite your address and still be a total stranger.
 dossiers on individuals: name, every address you've had, age, phone numbers,
 relatives, whether you own your home and what it's worth, estimated income,
 purchase history, and inferred interests. This is legal in most of the US. Some
-brokers specialize in exactly the categories scammers want most — recent widows,
+brokers specialize in exactly the categories scammers want most, recent widows,
 people with health conditions, people who've responded to sweepstakes.
 
 **Breaches.** Companies you dealt with get hacked: insurers, pharmacies,
@@ -38,8 +38,7 @@ key to most security questions.
 **Sucker lists.** If you've lost money once, that fact is itself a product. It's
 sold, and it's why the [second approach](/scams/recovery-scam) always arrives.
 
-**Your own voice and face.** Any public video — a livestreamed service, a
-grandchild's TikTok, a work presentation — is enough audio for [voice
+**Your own voice and face.** Any public video (a livestreamed service, a grandchild's TikTok, a work presentation) is enough audio for [voice
 cloning](/scams/voice-cloning).
 
 ---
@@ -49,7 +48,7 @@ cloning](/scams/voice-cloning).
 **1. Nothing a caller knows about you means anything.**
 
 Your address, your bank's name, your birthday, your children's names, the last
-four of your card — all purchasable. Recited details are a script, not a
+four of your card, all purchasable. Recited details are a script, not a
 credential.
 
 **2. You are targeted, not selected at random.**
@@ -73,14 +72,14 @@ trying. But a few hours makes a real dent:
 does and how to do it, use [Shrink what they can
 find](/protect-your-privacy).*
 
-**Do these — free, high value:**
+**Do these, free, high value:**
 
 - **Freeze your credit** at Equifax (888-378-4329), Experian (888-397-3742), and
   TransUnion (800-916-8800). Biggest single win available to anyone.
-- **Opt out of pre-approved offers** — optoutprescreen.com or 888-567-8688. Fewer
+- **Opt out of pre-approved offers**: optoutprescreen.com or 888-567-8688. Fewer
   offers in the mailbox also means less mail theft.
 - **Set social media to friends-only.** Yours, and ask grandchildren to do the
-  same — their videos are the voice-cloning source.
+  same. Their videos are the voice-cloning source.
 - **Remove birth year and phone number** from public profiles.
 - **Register at donotcall.gov.** Criminals ignore it, but it thins legitimate
   calls so the strange ones stand out more.
@@ -108,7 +107,7 @@ find](/protect-your-privacy).*
 Privacy hygiene reduces how often you're targeted. It doesn't decide whether a
 scam succeeds.
 
-What decides that is the [three steps](/the-three-steps) — hanging up, calling a
+What decides that is the [three steps](/the-three-steps), hanging up, calling a
 number you looked up, and waiting a day. Those work perfectly well against
 someone who knows everything about you.
 
@@ -118,7 +117,7 @@ sleep over it.**
 ## The good news buried in all this
 
 If knowing things about you were the same as proving who they are, you'd be
-defenseless — because that information is out there and you can't get it back.
+defenseless, because that information is out there and you can't get it back.
 
 But it isn't the same, and you aren't defenseless. The number you dial is
 something they can never buy, breach, or fake. Every bit of information they've

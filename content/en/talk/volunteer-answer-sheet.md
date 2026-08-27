@@ -1,7 +1,7 @@
 ---
 title: The volunteer answer sheet
 slug: /talk/volunteer-answer-sheet
-description: For whoever staffs a table afterward — the questions people actually ask, with short answers ready.
+description: For whoever staffs a table afterward, the questions people actually ask, with short answers ready.
 lang: en
 ---
 
@@ -13,8 +13,7 @@ actually ask, with short answers ready.
 **General rule: it's fine to say "I don't know, but here's who does."**
 The two helplines are always a good answer.
 
-- **National Elder Fraud Hotline — 833-372-8311** (weekdays, 10–6 Eastern)
-- **AARP Fraud Watch Helpline — 877-908-3360** (weekdays, 8–8 Eastern, free for
+- **National Elder Fraud Hotline (833-372-8311** (weekdays, 10-6 Eastern) - **AARP Fraud Watch Helpline) 877-908-3360** (weekdays, 8-8 Eastern, free for
   anyone)
 
 ---
@@ -27,7 +26,7 @@ was really them, you'll reach them.
 ## "Caller ID said it was them."
 
 Caller ID can be faked for a few dollars by anybody. It's like the return address
-on an envelope — written by whoever sent it.
+on an envelope, written by whoever sent it.
 
 ## "But they knew my address and the last four of my card."
 
@@ -51,7 +50,7 @@ There's a page with the full list.
 
 ## "Should I get a new Social Security number?"
 
-Almost certainly not. Freeze your credit at all three bureaus instead — it's
+Almost certainly not. Freeze your credit at all three bureaus instead, it's
 free, reversible, and does more good.
 
 ## "Does freezing my credit hurt my credit score?"
@@ -72,7 +71,7 @@ list if there's ever a restitution payment.
 
 ## "Can I get my money back?"
 
-Sometimes — depends on how you paid and how fast you act. Credit card, good.
+Sometimes, depends on how you paid and how fast you act. Credit card, good.
 Wire, only within hours. Gift cards, occasionally. Crypto, rarely.
 
 ## "Someone called offering to recover money I lost."
@@ -83,13 +82,13 @@ return your money.
 ## "My daughter thinks I should let her handle my accounts."
 
 That's a family conversation, not a scam question. What often works well is a
-"trusted contact" at your bank — someone they can call if they see something
+"trusted contact" at your bank, someone they can call if they see something
 odd. It gives them no control over your money. Ask your branch for it by name.
 
 ## "What about my mother, who won't listen to me?"
 
 Ask for her help instead of offering yours. "Mom, I almost got taken by a text
-last week — have you been getting these?" It works far better than a warning.
+last week, have you been getting these?" It works far better than a warning.
 
 ## "Is [specific company] legitimate?"
 
@@ -112,7 +111,7 @@ legally sell you an investment.
 4. Offer the hotline: 833-372-8311.
 5. Ask if they'd like family told. Respect the answer.
 6. Warn them, gently, that someone will call in the coming weeks about recovering
-   the money — and that it will be a second scam.
+   the money, and that it will be a second scam.
 
 **Never say:** "You should have..." / "Didn't you notice..." / "That's an old
 one." Someone telling you is the hard part. Don't make them regret it.

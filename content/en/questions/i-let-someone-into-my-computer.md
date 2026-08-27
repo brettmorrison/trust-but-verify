@@ -11,7 +11,7 @@ This is fixable. Work down the list in order.
 
 ---
 
-## 1. Disconnect it from the internet — now
+## 1. Disconnect it from the internet, now
 
 Unplug the network cable, or turn off Wi-Fi, or unplug the router. That ends
 their access immediately, even if the remote program is still running.
@@ -20,7 +20,7 @@ their access immediately, even if the remote program is still running.
 
 No banking, no email, no shopping, until step 6 is done.
 
-## 3. Change your email password first — from a different device
+## 3. Change your email password first, from a different device
 
 Your phone, a tablet, a family member's computer. **Email before banking.**
 Whoever controls your email can reset every other password you own. It's the
@@ -44,7 +44,7 @@ it.** Say so.
 
 Credit card: call and dispute. Debit card: call immediately, protections are
 weaker and time matters more. If they "refunded" you too much and asked you to
-send the difference back — that was fake, nothing was ever sent to you, and the
+send the difference back. That was fake, nothing was ever sent to you, and the
 money you returned was your own.
 
 ## 6. Have the computer checked by someone you chose
@@ -52,12 +52,12 @@ money you returned was your own.
 A local repair shop, a family member who's good with computers, a library tech
 program. **Not anyone who contacted you.**
 
-Tell them exactly which program was installed — AnyDesk, TeamViewer, LogMeIn,
+Tell them exactly which program was installed. AnyDesk, TeamViewer, LogMeIn,
 UltraViewer, or something else. If you don't remember, they'll find it.
 
 Ask them to remove the remote access software and check for anything left behind
 that starts up on its own. If you keep passwords saved in your browser, ask them
-about that too — assume every one of them was copied.
+about that too, assume every one of them was copied.
 
 If a full reset is recommended and your files are backed up, that's the most
 certain option.
@@ -73,8 +73,7 @@ subscription," or getting your money back. Same crew or their customers.
 ## Report it
 
 - **reportfraud.ftc.gov**
-- **ic3.gov** — especially if money moved
-- **833-372-8311** — National Elder Fraud Hotline, if you'd like help doing it
+- **ic3.gov** (especially if money moved - **833-372-8311**) National Elder Fraud Hotline, if you'd like help doing it
 
 ---
 
@@ -82,15 +81,15 @@ subscription," or getting your money back. Same crew or their customers.
 
 Understanding it makes the cleanup make sense:
 
-- **Passwords saved in your browser** — copied in seconds
+- **Passwords saved in your browser**: copied in seconds
 - **Your bank login**, watched live if you signed in
 - **Files** with account numbers, tax returns, or a document where you kept
   passwords
 - **A fee** for "fixing" the imaginary problem
-- **The refund trick** — a fake screen showing an overpayment, then tears and a
+- **The refund trick**: a fake screen showing an overpayment, then tears and a
   plea to send back the difference
 - **A foothold** to come back later, or to hand you off to a fake bank and a fake
-  government agent — see [Phantom Hacker](/scams/phantom-hacker)
+  government agent, see [Phantom Hacker](/scams/phantom-hacker)
 
 ---
 
@@ -105,7 +104,7 @@ tools they used are the same ones real technicians use every day.
 A computer can be cleaned. Passwords can be changed. Cards can be reissued. Every
 item on the list above has a fix, and most of them take an afternoon.
 
-Work down the list and you'll be back to normal in a few days — and you'll never
+Work down the list and you'll be back to normal in a few days, and you'll never
 again wonder what to do if a screen tells you to call somebody.
 
 ---

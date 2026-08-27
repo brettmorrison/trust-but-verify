@@ -17,7 +17,7 @@ don't need to ask us.
 One page. 18-point type. The three steps, the three signs, the payment red flags,
 and the two helplines.
 
-**Made to be taped to a refrigerator, or kept next to the computer** — not
+**Made to be taped to a refrigerator, or kept next to the computer**: not
 filed in a drawer. Those are the places someone will actually be standing when
 the phone rings or a scary popup fills the screen.
 
@@ -25,7 +25,7 @@ Available in **all 45 languages**.
 
 **Only the English version is validated and ready to print.** The rest are
 AI translations that no native speaker has checked yet. They carry a warning
-band saying so, in their own language — you'll need to get one validated by a
+band saying so, in their own language, you'll need to get one validated by a
 native speaker before handing it out. If you can help and want to
 contribute, [please help us check one.](/help-translate)
 
@@ -95,13 +95,13 @@ two helplines on the back.
 
 Prints eight to a page. Cut and hand out at the end of a talk.
 
-Available in **all 45 languages** — again, only the English card is
+Available in **all 45 languages**: again, only the English card is
 validated. The others carry the same warning line.
 
 ## The one-page infographic
 
-A more visual "by the numbers" sheet — total losses, where the money
-actually goes, what's growing fastest — alongside the same three-step
+A more visual "by the numbers" sheet, total losses, where the money actually goes,
+what's growing fastest, alongside the same three-step
 method. Good for a bulletin board or a table display next to the fridge
 sheet, not instead of it.
 
@@ -118,19 +118,19 @@ this site's readers.
 | አማርኛ Amharic | [PDF](/print/infographic-am.pdf) | |
 
 Only the English version is validated. The rest are unvalidated AI
-translations, same as everything else on this site — [help us check
+translations, same as everything else on this site, [help us check
 one](/help-translate).
 
 ## Adding your own front desk number
 
 If you run a facility, a version with a blank space for your own front desk
-number, logo, or local police contact is genuinely useful — a resident who can
+number, logo, or local police contact is genuinely useful. A resident who can
 walk twenty feet to ask a person is far better protected than one who has to
 call a national hotline.
 
 We don't publish that file for open download. An editable copy still carrying
 this project's name is exactly the kind of thing someone could quietly alter
-and pass off as official — a real risk on a fraud-prevention site of all
+and pass off as official, a real risk on a fraud-prevention site of all
 places. Email **translations [at] trustbutverifyproject [dot] org** and we'll send it to
 you directly.
 
@@ -139,14 +139,14 @@ you directly.
 ## For running your own session
 
 Scripts, a slide deck, and practical delivery notes for giving this talk
-yourself — no expertise required. **[See all of it here.](/give-this-talk)**
+yourself, no expertise required. **[See all of it here.](/give-this-talk)**
 
 ---
 
 ## For sending to family
 
 Short, ready-to-paste text messages and emails. Written to sound like a person,
-not a pamphlet — so you can send one to your mother without it feeling like a
+not a pamphlet, so you can send one to your mother without it feeling like a
 warning notice.
 
 ---
@@ -165,13 +165,13 @@ warning notice.
 
 All of it is free to reuse, in any format, including under your own name.
 Translate it. Rewrite it. Cut it down. Put your logo on it. **Licensed [CC
-BY-NC](/terms)** — the one condition is a small credit line to the Trust
+BY-NC](/terms)**: the one condition is a small credit line to the Trust
 But Verify Project somewhere reasonable. Printing and handing it out at a
 nursing home, assisted living community, or senior center is explicitly
-fine, even though those are businesses — that's exactly the use this is
+fine, even though those are businesses, that's exactly the use this is
 for.
 
-The only other thing we'd ask — not a condition, just a request — is that if
+The only other thing we'd ask (not a condition, just a request) is that if
 you change the advice itself, check it against the FBI and FTC guidance
 first, so nobody ends up with a refrigerator sheet that tells them something
 wrong.

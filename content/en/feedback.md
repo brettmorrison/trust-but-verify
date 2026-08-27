@@ -8,7 +8,7 @@ lang: en
 # Feedback
 
 Found something wrong, out of date, confusing, or missing? Tell us. This goes
-straight to the maintainer's inbox — nothing is stored, and nothing is added
+straight to the maintainer's inbox. Nothing is stored, and nothing is added
 to any list.
 
 Prefer email? **translations [at] trustbutverifyproject [dot] org** reaches the same
@@ -21,7 +21,7 @@ place.
      future editor. The label itself is the real accessibility fix --
      unambiguous if a screen reader's virtual cursor lands here anyway. -->
 <p class="hp">
-<label for="website">Leave this field blank — it's a spam trap, not part of the form</label>
+<label for="website">Leave this field blank, it's a spam trap, not part of the form</label>
 <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
 </p>
 
@@ -41,7 +41,7 @@ place.
 ## What happens to what you write
 
 It's emailed to the person who maintains this site, read by a person, and
-not stored anywhere else — no database, no analytics, no mailing list. See
+not stored anywhere else, no database, no analytics, no mailing list. See
 the full [privacy policy](/privacy).
 
 ---

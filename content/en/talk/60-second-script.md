@@ -18,7 +18,7 @@ this are professionals.
 
 So here's a rule that works even against a professional.
 
-Before any money moves — three steps.
+Before any money moves, three steps.
 
 **One. Look up the number yourself.** Not the number they gave you. The one on
 your card, or your statement.
@@ -30,7 +30,7 @@ there.
 
 You don't have to get suspicious of everybody. You just add one step.
 
-And if something already happened — call eight-three-three, three-seven-two,
+And if something already happened, call eight-three-three, three-seven-two,
 eight-three-one-one. That's the National Elder Fraud Hotline. It's free, and
 nobody there will judge you.
 
@@ -40,7 +40,7 @@ nobody there will judge you.
 
 Before you move any money, three steps.
 
-Look up the number yourself — not the one they gave you.
+Look up the number yourself, not the one they gave you.
 
 Call the person yourself. Hang up first.
 
@@ -52,5 +52,5 @@ You don't have to get suspicious of everybody. You just add one step.
 
 ## 15-second version
 
-If somebody calls you about money — hang up, look up the number yourself, and
+If somebody calls you about money, hang up, look up the number yourself, and
 call them back. That one habit stops almost every scam there is.

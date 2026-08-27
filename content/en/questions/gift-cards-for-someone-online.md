@@ -50,13 +50,13 @@ Every one of these is a scam, without exception:
 
 **Send nothing. Not one card. Not a small one to help out.**
 
-The small first request is a test — of whether you'll say yes, and of whether
+The small first request is a test, of whether you'll say yes, and of whether
 you'll tell anybody. Passing it doesn't end the asking. It begins it.
 
 Then, before you do anything else:
 
 **Tell one person out loud.** A friend, a son or daughter, a neighbor, the front
-desk. Not to ask permission — just say the situation out loud to another human
+desk. Not to ask permission, just say the situation out loud to another human
 being. Most people hear the answer in their own sentence.
 
 If you'd rather talk to a stranger who won't judge you and doesn't know your
@@ -81,7 +81,7 @@ settles it. You are being coached to defeat a protection that exists for you.
 
 ## If you already sent the numbers
 
-Move fast — occasionally the money is still on the card:
+Move fast, occasionally the money is still on the card:
 
 1. Call the **card company**, not the store: Apple, Google Play, Target, Amazon,
    eBay, Steam. Say the card was used in a scam.

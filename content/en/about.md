@@ -12,7 +12,7 @@ lang: en
 This started as a 25-minute talk I'm putting together to give in the
 activity room of the assisted living community where my parents live.
 
-I work in data protection and privacy — encryption, passwords, account
+I work in data protection and privacy, encryption, passwords, account
 security, the works. All of that still matters for people of any age,
 my parents included. But none of it stops a phone call. What stops a
 phone call is a rule short enough to remember while a stranger is
@@ -24,34 +24,35 @@ themselves. [More about me on LinkedIn.](https://www.linkedin.com/in/brettmorris
 
 ## This happens to families like yours
 
-A great-uncle took out a reverse mortgage — $300,000 of his house, gone. A
+A great-uncle took out a reverse mortgage, $300,000 of his house, gone. A
 coworker's father was on the phone with "Microsoft," being walked into his
 bank account, until she caught the call in time. A coworker's daughter sent
 money for months to a boyfriend she'd never met, "working in Oman."
 
 None of them are foolish. This project exists so you can catch it the way
-that coworker did — in the moment, not after.
+that coworker did, in the moment, not after.
 
 The same patterns show up constantly in federal prosecutions: a
-[Rhode Island romance scam](https://www.justice.gov/usao-ri/pr/indiana-woman-admits-victimizing-96-year-old-rhode-island-widower-through-online-romance)
+[Rhode Island romance
+scam](https://www.justice.gov/usao-ri/pr/indiana-woman-admits-victimizing-96-year-old-rhode-island-widower-through-online-romance)
 that cost a widower $80,000, a
-["phantom hacker" case](https://www.justice.gov/usao-az/pr/california-man-pleads-guilty-role-phantom-hacker-scheme-targeting-elderly-victims)
+["phantom hacker"
+case](https://www.justice.gov/usao-az/pr/california-man-pleads-guilty-role-phantom-hacker-scheme-targeting-elderly-victims)
 where scammers collected $500,000 in gold bullion. Every one collapses at the
 same point: a number looked up independently instead of trusted on the call.
 
 ## Why "Trust But Verify"
 
-*Trust but verify* translates a Russian proverb — *doveryai, no proveryai* —
-that entered American English in the 1980s. It doesn't say trust nobody. It
+*Trust but verify* translates a Russian proverb (*doveryai, no proveryai*) that entered American English in the 1980s. It doesn't say trust nobody. It
 says: keep trusting, just check first.
 
 ## The rules this site follows
 
-One rule beats a list of forty scams to memorize — hence the three steps,
+One rule beats a list of forty scams to memorize, hence the three steps,
 repeated everywhere. No shame, ever: someone who's already lost money should
 be able to read any page here without flinching. Free, no products, no
 sponsors, no affiliate links, nothing sold. No cookies, no accounts, no
-mailing list — see [privacy](/privacy) for the one exception (anonymous
+mailing list, see [privacy](/privacy) for the one exception (anonymous
 pageview counts) and exactly what that means.
 
 ## Use anything here
@@ -61,11 +62,11 @@ distribute. Put your organization's name on it. Change the wording. Hand it out
 at a church, a library, a clinic, a union hall, a family dinner, a senior
 center, or a nursing home.
 
-You do not need our permission. **Licensed CC BY-NC** — keep a small credit
+You do not need our permission. **Licensed CC BY-NC**: keep a small credit
 line somewhere reasonable ("Adapted from the Trust But Verify Project,
 trustbutverifyproject.org"), and that's the whole ask. Using it, printing it,
-or handing it out at a facility that happens to be a business — a nursing
-home, an assisted living community — is fine; the license only stops someone
+or handing it out at a facility that happens to be a business (a nursing home, an
+assisted living community) is fine; the license only stops someone
 from selling this material itself.
 
 ## About the translations

@@ -35,7 +35,7 @@ applied to a specific situation.
 ---
 
 **[Is it happening right now? Someone on the phone, a popup, a knock at the
-door — start here.](/right-now)**
+door, start here.](/right-now)**
 
 ---
 
@@ -45,28 +45,45 @@ Pick the one closest to what's happening. Each page tells you exactly what to
 do next.
 
 <div class="cards">
-<a class="card" href="/scams/grandparent-scam">A grandchild in trouble<span>The bail money call</span></a>
-<a class="card" href="/scams/virtual-kidnapping">Someone says they've kidnapped my family<span>Screaming on the phone, a twenty-minute clock</span></a>
-<a class="card" href="/scams/romance-scam">Someone I met online<span>Asking for money, never met in person</span></a>
-<a class="card" href="/scams/tech-support-popup">A scary popup on my screen<span>Fake virus warning, a number to call</span></a>
-<a class="card" href="/scams/phantom-hacker">"Microsoft" or my bank called me<span>Unsolicited tech support or bank calls</span></a>
-<a class="card" href="/scams/government-impersonation">Someone from the government<span>IRS, Social Security, police impersonators</span></a>
-<a class="card" href="/scams/delivery-toll-recall-texts">A text about a package or toll<span>Delivery, toll, or recall texts</span></a>
-<a class="card" href="/scams/phishing">A suspicious email or text<span>Phishing — links, "verify your account"</span></a>
-<a class="card" href="/scams/job-scams">A job wants me to pay first<span>Fake recruiters, work-from-home offers</span></a>
-<a class="card" href="/scams/investment-and-crypto">An investment that sounds too good<span>Crypto and investment schemes</span></a>
-<a class="card" href="/scams/voice-cloning">It sounded exactly like them<span>AI-cloned voices</span></a>
-<a class="card" href="/scams/home-repair">Someone at my door about repairs<span>Home repair and contractor scams</span></a>
-<a class="card" href="/scams/recovery-scam">Someone offering to get my money back<span>Recovery scams, for people already scammed once</span></a>
-<a class="card" href="/scams/charity-scams">Someone's collecting for a disaster<span>Fake charities after a hurricane, fire, or flood</span></a>
-<a class="card" href="/scams/medicare-scams">Someone's calling about my Medicare<span>Medicare card and open-enrollment scams</span></a>
-<a class="card" href="/scams/sim-swap">My phone suddenly has no signal<span>SIM swap — your number moved to their phone</span></a>
-<a class="card" href="/scams/lottery-sweepstakes">"You've won" a prize I never entered<span>Lottery, sweepstakes, and inheritance scams</span></a>
+<a class="card" href="/scams/grandparent-scam">A grandchild in trouble<span>The bail money
+call</span></a>
+<a class="card" href="/scams/virtual-kidnapping">Someone says they've kidnapped my
+family<span>Screaming on the phone, a twenty-minute clock</span></a>
+<a class="card" href="/scams/romance-scam">Someone I met online<span>Asking for money, never
+met in person</span></a>
+<a class="card" href="/scams/tech-support-popup">A scary popup on my screen<span>Fake virus
+warning, a number to call</span></a>
+<a class="card" href="/scams/phantom-hacker">"Microsoft" or my bank called me<span>Unsolicited
+tech support or bank calls</span></a>
+<a class="card" href="/scams/government-impersonation">Someone from the government<span>IRS,
+Social Security, police impersonators</span></a>
+<a class="card" href="/scams/delivery-toll-recall-texts">A text about a package or
+toll<span>Delivery, toll, or recall texts</span></a>
+<a class="card" href="/scams/phishing">A suspicious email or text<span>Phishing, links,
+"verify your account"</span></a>
+<a class="card" href="/scams/job-scams">A job wants me to pay first<span>Fake recruiters,
+work-from-home offers</span></a>
+<a class="card" href="/scams/investment-and-crypto">An investment that sounds too
+good<span>Crypto and investment schemes</span></a>
+<a class="card" href="/scams/voice-cloning">It sounded exactly like them<span>AI-cloned
+voices</span></a>
+<a class="card" href="/scams/home-repair">Someone at my door about repairs<span>Home repair
+and contractor scams</span></a>
+<a class="card" href="/scams/recovery-scam">Someone offering to get my money
+back<span>Recovery scams, for people already scammed once</span></a>
+<a class="card" href="/scams/charity-scams">Someone's collecting for a disaster<span>Fake
+charities after a hurricane, fire, or flood</span></a>
+<a class="card" href="/scams/medicare-scams">Someone's calling about my Medicare<span>Medicare
+card and open-enrollment scams</span></a>
+<a class="card" href="/scams/sim-swap">My phone suddenly has no signal<span>SIM swap, your
+number moved to their phone</span></a>
+<a class="card" href="/scams/lottery-sweepstakes">"You've won" a prize I never
+entered<span>Lottery, sweepstakes, and inheritance scams</span></a>
 </div>
 
 **[I already sent money. What do I do?](/i-think-i-was-scammed)**
 
-## Nothing is happening — I want to be ready
+## Nothing is happening. I want to be ready
 
 - [The three signs that should stop you](/warning-signs)
 - [How they ask to be paid](/how-they-ask-to-be-paid)
@@ -83,7 +100,7 @@ do next.
 
 ## Why "trust but verify"
 
-It's an old translation of a Russian proverb — *doveryai, no proveryai* — and it
+It's an old translation of a Russian proverb (*doveryai, no proveryai*) and it
 was said so often in the 1980s that most Americans over sixty can finish the
 phrase without being prompted.
 
@@ -97,15 +114,15 @@ ahead and trust. Then check. The two were never in conflict.
 
 A volunteer project. Free, and staying free. No products, no sponsors, no
 advertising, no mailing list, no donation button. No cookies, no accounts,
-nothing sold or shared. We keep one anonymous number — how many people
-visited each page — with no way to trace it back to you. A website about not
+nothing sold or shared. We keep one anonymous number (how many people visited each page) with
+no way to trace it back to you. A website about not
 getting your information taken should say plainly what little it keeps, and
 it does.
 
 Everything here can be printed, copied, translated, read aloud, or handed to a
 neighbor without asking us. That's the point.
 
-**Available in 45 languages** — use the language switcher at the top of
+**Available in 45 languages**: use the language switcher at the top of
 this page. Calling a hotline instead? See
 [which ones offer an interpreter, and the exact words to ask for one](/resources-by-language).
 

@@ -29,7 +29,7 @@ Microsoft, not your electric company, not a court, not a bail bondsman, not a
 sheriff's deputy, not a hospital.
 
 If gift cards come up in any conversation about a debt, a fine, a fee, a bail, a
-refund, or a computer problem — that is the end of the analysis. There is no
+refund, or a computer problem. That is the end of the analysis. There is no
 second interpretation.
 
 ### 2. Wire transfer
@@ -52,7 +52,7 @@ That sentence should sound as strange as it is.
 ### 4. Cash by mail or courier
 
 Cash in a magazine, cash in a box, cash handed to a young man who comes to your
-door to "collect it for the investigation." Gold and silver bars too — that
+door to "collect it for the investigation." Gold and silver bars too, that
 version is real and growing.
 
 No agency on earth sends someone to your home to collect valuables. Not one.
@@ -61,7 +61,7 @@ No agency on earth sends someone to your home to collect valuables. Not one.
 
 Zelle, Venmo, Cash App, Apple Pay. These are wonderful for splitting a dinner
 with someone you know. They are designed for people who already trust each
-other, and they move like cash — instantly, and usually with no way back.
+other, and they move like cash, instantly, and usually with no way back.
 
 **Zelle in particular:** most banks treat a Zelle payment you authorized as
 final, even if you were tricked into it. Assume it's gone the moment you press
@@ -120,7 +120,7 @@ conversation for you.
 ## One question, and you're ahead
 
 You don't have to out-argue anyone or prove they're lying. You just have to know
-what real money movement looks like — and now you do.
+what real money movement looks like, and now you do.
 
 Ask how they want to be paid, listen to the answer, and you'll often know
 everything you need to know before they finish the sentence.
@@ -128,4 +128,4 @@ everything you need to know before they finish the sentence.
 ---
 
 **If money already moved:** [Here's what to do, in order](/i-think-i-was-scammed).
-Speed matters — but not panic. Read the list.
+Speed matters, but not panic. Read the list.

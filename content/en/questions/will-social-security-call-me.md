@@ -7,7 +7,7 @@ lang: en
 
 # Will Social Security ever call me?
 
-**Almost never — and never like this.**
+**Almost never, and never like this.**
 
 Social Security communicates by mail. They may call you back if you called them
 first, or if you have an open claim you already know about. That's it.
@@ -30,7 +30,7 @@ They will never:
 Or: your number was found near a car in Texas containing drugs. Or there's a
 warrant. It is nonsense, and it is designed to make you too frightened to check.
 
-**The benefit.** *"There's a cost-of-living increase — I just need to verify your
+**The benefit.** *"There's a cost-of-living increase. I just need to verify your
 information."* Then they collect your Social Security number, date of birth, and
 bank details. Nothing threatening happens, which is exactly why it works.
 
@@ -43,7 +43,7 @@ bank details. Nothing threatening happens, which is exactly why it works.
 
 1. **Hang up.** You may hang up on someone claiming to be a federal official. It
    is not a crime.
-2. **Don't press any keys** — not even to be removed from a list. A keypress
+2. **Don't press any keys**: not even to be removed from a list. A keypress
    marks your number as answered by a real person.
 3. **If you're worried it's real, call Social Security yourself: 800-772-1213.**
    They can tell you in a minute whether anything is going on with your account.
@@ -53,7 +53,7 @@ bank details. Nothing threatening happens, which is exactly why it works.
 
 ## Caller ID showed the real Social Security number
 
-That means nothing. Faking caller ID takes a few dollars and no skill — scammers
+That means nothing. Faking caller ID takes a few dollars and no skill, scammers
 routinely display real agency numbers, including the SSA's actual switchboard.
 See [can caller ID be faked](/questions/can-caller-id-be-faked).
 
@@ -77,7 +77,7 @@ Your benefits are not at risk from hanging up on someone. Your number cannot be
 suspended. There is no version of this where hanging up and calling 800-772-1213
 yourself makes anything worse.
 
-Knowing that one thing — that the threat itself is impossible — makes this
+Knowing that one thing (that the threat itself is impossible) makes this
 particular call harmless for the rest of your life.
 
 ---

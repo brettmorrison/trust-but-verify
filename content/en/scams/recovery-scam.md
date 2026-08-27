@@ -24,7 +24,7 @@ Weeks or months later:
 
 - A **law firm** specializing in fraud recovery, with a real-looking website
 - A **crypto recovery service** with blockchain expertise
-- A **government investigator** — FTC, FBI, a "victim asset recovery unit"
+- A **government investigator**: FTC, FBI, a "victim asset recovery unit"
 - A **fraud department** following up on your case
 - A **class action settlement** you're entitled to a share of
 
@@ -69,12 +69,12 @@ independently.
 
 So you know what the real thing looks like:
 
-- **Your bank**, if you report fast enough for a recall — hours, not days
+- **Your bank**, if you report fast enough for a recall, hours, not days
 - **A credit card dispute**, if you paid by card
 - **A gift card company**, occasionally, if funds are still on the card
 - **A court-ordered distribution** after a prosecution, which arrives by mail,
-  years later, usually for a fraction — and never requires a payment from you
-- **FTC refund programs** — real, and always free. Check ftc.gov/refunds
+  years later, usually for a fraction, and never requires a payment from you -
+**FTC refund programs**, real, and always free. Check ftc.gov/refunds
   yourself; never take someone's word that you're owed one.
 
 Every one of those is free to you. Every one is something you initiate or that
@@ -86,11 +86,11 @@ arrives by mail through an official process.
 
 If someone in your family has been scammed, tell them this part **in advance**,
 before the second call comes. Then it's a prediction that came true rather than a
-new emergency, and prediction is enormously protective — a call that was
+new emergency, and prediction is enormously protective. A call that was
 described to you last month is a call you recognize.
 
 Also worth saying out loud: *"If anyone calls about getting the money back, we'll
-look at it together first."* Not supervision — a second pair of eyes, offered
+look at it together first."* Not supervision, a second pair of eyes, offered
 before it's needed.
 
 ## You already know how this one ends
@@ -99,7 +99,7 @@ That's the advantage here. This call is coming, and now you can see it arriving
 from a long way off.
 
 When it comes, you'll recognize the shape of it before they finish their opening
-line. That's not a small thing — it means the worst day is already behind you,
+line. That's not a small thing. It means the worst day is already behind you,
 and this one won't cost you anything.
 
 ---

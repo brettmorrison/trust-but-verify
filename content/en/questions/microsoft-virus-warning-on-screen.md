@@ -25,7 +25,7 @@ dangerous thing on that screen.
 3. If it won't close, force it: **Ctrl + Alt + Delete** (Windows) or
    **Command + Option + Escape** (Mac), select the browser, end it.
 4. If that fails, **hold the power button until the computer turns off.** This is
-   safe. The message telling you not to shut down is lying — it says that only to
+   safe. The message telling you not to shut down is lying. It says that only to
    keep you frightened and looking at the number.
 5. Turn it back on. Don't restore the old tabs.
 
@@ -36,7 +36,7 @@ Done. Nothing else is needed. No scan, no cleanup, no call.
 ## Why it happened
 
 You clicked an ad, probably on a perfectly ordinary website. Ad space gets sold
-and resold, and scammers buy it. The "warning" is just a web page — some text, a
+and resold, and scammers buy it. The "warning" is just a web page, some text, a
 picture of a shield, sometimes a siren sound and a robotic voice. It can go full
 screen and it can pretend the mouse is stuck.
 
@@ -46,7 +46,7 @@ It's a photograph of an emergency, not an emergency.
 
 - Install an ad blocker (uBlock Origin is free and well-regarded)
 - Keep your browser updated
-- Don't install "PC cleaner" or "driver updater" programs — that whole category is
+- Don't install "PC cleaner" or "driver updater" programs. That whole category is
   a problem
 - Never call a number that appears on your screen. Not once.
 
@@ -54,8 +54,8 @@ It's a photograph of an emergency, not an emergency.
 
 ## What if I already called?
 
-Then they walked you through installing a remote access program — AnyDesk,
-TeamViewer, LogMeIn, UltraViewer — and showed you something scary (usually
+Then they walked you through installing a remote access program (AnyDesk,
+TeamViewer, LogMeIn, UltraViewer) and showed you something scary (usually
 Windows Event Viewer, which shows hundreds of harmless red "errors" on every
 computer on earth).
 
@@ -64,7 +64,7 @@ and follow those steps in order.
 
 If they charged you, dispute it with your card. If they told you your bank
 accounts were compromised and offered to transfer you, stop everything and read
-[Phantom Hacker](/scams/phantom-hacker) — that's the beginning of the scheme that
+[Phantom Hacker](/scams/phantom-hacker), that's the beginning of the scheme that
 takes entire savings accounts.
 
 ## Nothing was ever wrong

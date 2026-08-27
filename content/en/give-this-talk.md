@@ -1,7 +1,7 @@
 ---
 title: Give this talk
 slug: /give-this-talk
-description: This whole project started as a 25-minute talk. You can give it too — no expertise required.
+description: This whole project started as a 25-minute talk. You can give it too, no expertise required.
 lang: en
 ---
 
@@ -10,8 +10,12 @@ lang: en
 Two different situations. Pick the one that matches yours.
 
 <div class="cards">
-<a class="card" href="#group">Presenting to a group<span>A room of older adults — a senior center, a lobby, a community meeting. This page: scripts, slides, timing.</span></a>
-<a class="card" href="/for-family/">Talking to your own family member<span>One-on-one, usually a parent. A separate page: how to raise it without the conversation backfiring.</span></a>
+<a class="card" href="#group">Presenting to a group<span>A room of older
+adults, a senior center, a lobby, a community meeting. This page: scripts,
+slides, timing.</span></a>
+<a class="card" href="/for-family/">Talking to your own family
+member<span>One-on-one, usually a parent. A separate page: how to raise it
+without the conversation backfiring.</span></a>
 </div>
 
 ---
@@ -25,30 +29,38 @@ to do the same thing. You need three steps and about the same amount of time.
 Pick the version that fits what you've got.
 
 <div class="cards">
-<a class="card" href="/talk/5-minute-lobby-talk/">The 5-minute lobby talk<span>No slides, no prep beyond reading it once. A residents' meeting, a church group, a family dinner.</span></a>
-<a class="card" href="/talk/speaker-script/">The full 25-minute talk<span>Slides plus a complete speaker script with timings — the original talk.</span></a>
-<a class="card" href="/talk/60-second-script/">The 60-second script<span>A radio spot, a voicemail greeting, a bulletin, or a newsletter blurb.</span></a>
-<a class="card" href="/talk/volunteer-answer-sheet/">The volunteer answer sheet<span>For whoever staffs a table afterward — real questions people ask, with short answers ready.</span></a>
+<a class="card" href="/talk/5-minute-lobby-talk/">The 5-minute lobby
+talk<span>No slides, no prep beyond reading it once. A residents' meeting, a
+church group, a family dinner.</span></a>
+<a class="card" href="/talk/speaker-script/">The full 25-minute
+talk<span>Slides plus a complete speaker script with timings, the original
+talk.</span></a>
+<a class="card" href="/talk/60-second-script/">The 60-second script<span>A
+radio spot, a voicemail greeting, a bulletin, or a newsletter
+blurb.</span></a>
+<a class="card" href="/talk/volunteer-answer-sheet/">The volunteer answer
+sheet<span>For whoever staffs a table afterward, real questions people ask,
+with short answers ready.</span></a>
 </div>
 
-**[Download the slide deck (PPTX)](/print/trust-but-verify-talk.pptx)** — 22
+**[Download the slide deck (PPTX)](/print/trust-but-verify-talk.pptx)**: 22
 slides, built to pair with the full speaker script. Presenter notes are on
 every slide too, so the deck works on its own if that's easier.
 [Printer-friendly version](/print/trust-but-verify-talk-printer-friendly.pptx)
-— same 22 slides, light backgrounds throughout so printing it at home doesn't
+, same 22 slides, light backgrounds throughout so printing it at home doesn't
 burn through your ink.
 
 ---
 
 ## What actually works when you give this
 
-**Open with a story, not a statistic.** A local one if you have it — never
+**Open with a story, not a statistic.** A local one if you have it, never
 naming anyone. Statistics inform; stories make people lean forward.
 
 **Say the part that lets people relax, early.** The person who got scammed
 raised four kids and ran a business for thirty years. The people who called
 her do this full time, with scripts and quotas. Nobody in the room is going
-to out-think a professional — and you're not asking them to. Just to be
+to out-think a professional, and you're not asking them to. Just to be
 slower than one.
 
 **Never ask who's been scammed.** Not for a show of hands, not anonymously,
@@ -63,7 +75,7 @@ people actually ask questions afterward.
 someone was handed gets taped to a fridge. A sheet from a pile gets left
 behind.
 
-**If someone tells you they've lost money** — in the room or after — your
+**If someone tells you they've lost money** (in the room or after) your
 first words are *"I'm glad you told me."* Then, quietly, offer to sit with
 them while they call their bank.
 
@@ -72,12 +84,12 @@ them while they call their bank.
 ## Before you're ready to speak
 
 You don't need to memorize anything. Read through the version you picked
-once, out loud, on your own. That's the only rehearsal this requires — the
+once, out loud, on your own. That's the only rehearsal this requires, the
 whole point of a script is that you don't have to improvise.
 
 These translations are done by AI and haven't been checked by a native
 speaker yet. If you speak one of the languages and can improve one, we'd be
-grateful — email **translations [at] trustbutverifyproject [dot] org**. We
+grateful, email **translations [at] trustbutverifyproject [dot] org**. We
 can't promise to help everyone one to one, but every correction you send
 makes the page better for the next person who needs it.
 

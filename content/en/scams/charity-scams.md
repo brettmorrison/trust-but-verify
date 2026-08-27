@@ -19,7 +19,7 @@ charities collected an estimated $34 million in a matter of weeks.
 
 > "Hi, I'm calling on behalf of the American Red Relief Fund. We're on the
 > ground right now helping families who lost everything in the flooding. Even
-> $20 helps us get supplies to them tonight — can I get your card number?"
+> $20 helps us get supplies to them tonight, can I get your card number?"
 
 The name is close enough to a real charity that it doesn't register as odd.
 "Red Relief" instead of "Red Cross." "Firefighters Assistance League" instead
@@ -44,16 +44,16 @@ Hang up, or close the text. If you want to help, go find the charity yourself.
 
 Two free lookup tools do this in under a minute:
 
-- **charitynavigator.org** — rates how much of a charity's money reaches its
+- **charitynavigator.org**: rates how much of a charity's money reaches its
   cause
-- **give.org** (the BBB Wise Giving Alliance) — checks whether a charity meets
+- **give.org** (the BBB Wise Giving Alliance), checks whether a charity meets
   basic accountability standards
 
 Search the charity's name there. If it doesn't come up, or the name is close
 but not quite right, that's your answer.
 
-For a fast-moving disaster, the national charities you already know — the
-Red Cross, Salvation Army, established local community foundations — are
+For a fast-moving disaster, the national charities you already know, the
+Red Cross, Salvation Army, established local community foundations, are
 almost always taking donations too, and they're easy to verify because
 they've existed for years.
 
@@ -61,15 +61,15 @@ they've existed for years.
 
 ## The tells
 
-- **They called or texted you** — real charities you already support might
+- **They called or texted you**: real charities you already support might
   mail a letter; the ones that cold-call about breaking news are the ones to
   question
-- **The name is almost right** — a letter or two off a name you know
-- **They want a gift card, wire, or cryptocurrency** — no legitimate charity
+- **The name is almost right**: a letter or two off a name you know
+- **They want a gift card, wire, or cryptocurrency**: no legitimate charity
   asks for these
-- **They pressure you to give immediately** — "the need is right now" is
+- **They pressure you to give immediately**: "the need is right now" is
   designed to stop you from checking
-- **They can't tell you clearly how the money is used** — a real charity
+- **They can't tell you clearly how the money is used**: a real charity
   representative can answer this
 
 ---
@@ -79,10 +79,10 @@ they've existed for years.
 **Look the charity up yourself** at charitynavigator.org or give.org before
 giving anything, no matter how urgent it sounds.
 
-**Give directly on the charity's own website** — type the address yourself,
+**Give directly on the charity's own website**: type the address yourself,
 don't follow a link from a text or call.
 
-**Pay by card, never gift card, wire, or crypto** — a card payment can be
+**Pay by card, never gift card, wire, or crypto**: a card payment can be
 disputed; the others can't.
 
 **If you already gave to what turned out to be fake:** contact your bank or
