@@ -71,6 +71,7 @@ do next.
 - [The three signs that should stop you](/warning-signs)
 - [How they ask to be paid](/how-they-ask-to-be-paid)
 - [How they got your information in the first place](/how-they-got-your-information)
+- [Shrink what they can find: six things you can actually do](/protect-your-privacy)
 - [Print the one-page sheet for your refrigerator](/printables)
 
 ## Someone I love is being targeted

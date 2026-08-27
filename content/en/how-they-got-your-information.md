@@ -69,6 +69,10 @@ someone bought.
 You can't undo what's out there, and you shouldn't organize your life around
 trying. But a few hours makes a real dent:
 
+*Short version below. If you'd rather be walked through each one, with what it
+does and how to do it, use [Shrink what they can
+find](/protect-your-privacy).*
+
 **Do these — free, high value:**
 
 - **Freeze your credit** at Equifax (888-378-4329), Experian (888-397-3742), and
