@@ -14,6 +14,16 @@ any age. The first 4 languages after Spanish (Vietnamese, Chinese, Korean)
 were ordered by foreign-born population before this rule was set; nothing
 retroactive needed, but every language decision from here on should pull
 real LEP 65+ numbers, not estimate from country-of-birth data.
+**Spanish is always #2, right after English**, regardless of what LEP
+data says about other languages — Brett's explicit standing rule
+(2026-08-27), not open to re-ranking.
+
+**Spend-check cadence (standing rule, set 2026-08-27):** finish the
+current language's ElevenLabs batch fully (own it — don't leave one
+half-done), report the real character count, and WAIT for Brett to
+check and report the real credits-used number before starting the
+next language. Don't chain languages back-to-back even when the math
+looks safe.
 
 ## Resolved
 - Non-English translation + audio expansion, at Brett's request. Phase
