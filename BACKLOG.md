@@ -234,9 +234,9 @@ Roughly priority order. Update as items close.
    same reason unless Brett says otherwise. Real quota checks:
    2026-08-25 showed 64,298/131,000; still 64,298 on 2026-08-27 (2-day
    gap, nothing drifted); after Vietnamese, confirmed 71,574 used,
-   59,426 remaining. Chinese's batch (~9,117 chars) not yet
-   independently re-confirmed against the dashboard — should cost very
-   little given the character count. Creator plan, 131,000 credits/mo,
+   59,426 remaining; after Chinese, confirmed 76,589 used, 54,411
+   remaining (Chinese's batch cost ~5,015 credits for 9,117
+   characters — cheap, as expected). Creator plan, 131,000 credits/mo,
    resets Sept 24. Brett's standing pacing rule (2026-08-27, still in
    force): go slow, one language at a time, stop and let him check
    spending between batches — do NOT chain multiple languages' batches
