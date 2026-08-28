@@ -2,6 +2,19 @@
 
 Roughly priority order. Update as items close.
 
+**Language-priority metric (standing rule, set 2026-08-27):** when deciding
+which language gets translation/audio work next, use Limited English
+Proficiency (LEP), age 65+, by language spoken at home — Census ACS Table
+B16004 ("Language Spoken at Home by Ability to Speak English by Age"), not
+raw foreign-born population by country of origin. Reasoning: foreign-born
+counts miss US-born LEP speakers (e.g. someone born here who still speaks
+Korean at home and struggles with English) and aren't age-filterable to
+this site's actual audience — older adults specifically, not immigrants of
+any age. The first 4 languages after Spanish (Vietnamese, Chinese, Korean)
+were ordered by foreign-born population before this rule was set; nothing
+retroactive needed, but every language decision from here on should pull
+real LEP 65+ numbers, not estimate from country-of-birth data.
+
 ## Resolved
 - Non-English translation + audio expansion, at Brett's request. Phase
   1: translated the 5 missing scam-type articles from the English
