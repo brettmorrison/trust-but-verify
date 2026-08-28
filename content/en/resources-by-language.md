@@ -111,12 +111,17 @@ publish as of 2026, not guessed:
 | **[Spanish](/es/)** | Full, ftc.gov/es, consumidor.ftc.gov | Direct Spanish-speaking staff on both helplines |
 | **[Arabic](/ar/)** | Some, FTC and SSA | Interpreter: *"Arabic, please"* |
 | **[Armenian](/hy/)** | Some, SSA | Interpreter: *"Armenian, please"* |
-| **[Amharic](/am/)** | Some, FTC | Interpreter: *"Amharic, please"* | | **[Chinese](/zh/)** | Some, FTC and SSA (Traditional and Simplified) | Interpreter: *"Chinese, please"* or *"Mandarin, please"* / *"Cantonese, please"* |
-| **[Farsi](/fa/)** | Some, SSA | Interpreter: *"Farsi, please"* | | **[French](/fr/)** | Some, FTC and SSA | Interpreter: *"French, please"* |
-| **[Greek](/el/)** | Some, SSA | Interpreter: *"Greek, please"* | | **[Haitian Creole](/ht/)** | Some, SSA | Interpreter: *"Haitian Creole, please"* |
-| **[Hmong](/hmn/)** | Some, FTC | Interpreter: *"Hmong, please"* | | **[Italian](/it/)** | Some, SSA | Interpreter: *"Italian, please"* |
+| **[Amharic](/am/)** | Some, FTC | Interpreter: *"Amharic, please"* |
+| **[Chinese](/zh/)** | Some, FTC and SSA (Traditional and Simplified) | Interpreter: *"Chinese, please"* or *"Mandarin, please"* / *"Cantonese, please"* |
+| **[Farsi](/fa/)** | Some, SSA | Interpreter: *"Farsi, please"* |
+| **[French](/fr/)** | Some, FTC and SSA | Interpreter: *"French, please"* |
+| **[Greek](/el/)** | Some, SSA | Interpreter: *"Greek, please"* |
+| **[Haitian Creole](/ht/)** | Some, SSA | Interpreter: *"Haitian Creole, please"* |
+| **[Hmong](/hmn/)** | Some, FTC | Interpreter: *"Hmong, please"* |
+| **[Italian](/it/)** | Some, SSA | Interpreter: *"Italian, please"* |
 | **[Korean](/ko/)** | Some, FTC and SSA | Interpreter: *"Korean, please"* |
-| **[Polish](/pl/)** | Some, SSA | Interpreter: *"Polish, please"* | | **[Portuguese](/pt/)** | Some, SSA | Interpreter: *"Portuguese, please"* |
+| **[Polish](/pl/)** | Some, SSA | Interpreter: *"Polish, please"* |
+| **[Portuguese](/pt/)** | Some, SSA | Interpreter: *"Portuguese, please"* |
 | **[Russian](/ru/)** | Some, FTC and SSA | Interpreter: *"Russian, please"* |
 | **[Somali](/so/)** | Some, FTC and SSA | Interpreter: *"Somali, please"* |
 | **[Tagalog](/tl/)** | Some, FTC and SSA | Interpreter: *"Tagalog, please"* |
