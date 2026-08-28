@@ -219,26 +219,26 @@ Roughly priority order. Update as items close.
 
 ## Open
 1. Accessibility, phase 3: 26 English pages have audio (20 via
-   ElevenLabs, 6 via free macOS voice), plus Spanish now has all 5 of
-   its scam articles on ElevenLabs too (upgraded from free voice
-   2026-08-25) and vi/zh/ru/ko each have the same 5 articles
-   translated but still on the TODO list for ElevenLabs narration —
-   translated text exists, audio doesn't yet. Real quota check
-   2026-08-25: Creator plan, 131,000 credits/mo, ~58k used this cycle
-   after the Spanish batch, resets Sept 24. Brett's direction (chosen
-   after hearing a direct free-vs-ElevenLabs comparison): front-load
-   ElevenLabs across all 5 priority languages' top 5 articles, then
-   the next 5 articles in those same languages, then expand to the
-   next tier of languages ElevenLabs actually supports well (skip any
-   language ElevenLabs doesn't cover) — but PACED against real
-   remaining quota each cycle, not all at once (a 5-language x
-   5-article tier is ~126k characters — more than one Creator cycle by
-   itself). Next concrete step: generate ElevenLabs audio for the
-   vi/zh/ru/ko articles already translated, checking
-   elevenlabs.io/app/subscription for real remaining quota first each
-   time, using make_audio.py's LANG_EL_PAGES (Vietnamese needs the
-   eleven_turbo_v2_5 model override already wired in — standard
-   multilingual model doesn't support Vietnamese at all). Still open
+   ElevenLabs, 6 via free macOS voice). Spanish and Vietnamese now have
+   all 5 of their scam articles on ElevenLabs (Spanish 2026-08-25,
+   Vietnamese 2026-08-27 — Vietnamese needed the eleven_turbo_v2_5
+   model override, since the standard multilingual model doesn't
+   support it at all). zh/ru/ko still have the same 5 articles
+   translated but on the free macOS voice, TODO for the ElevenLabs
+   upgrade. Real quota checks: 2026-08-25 showed 64,298/131,000 used;
+   still 64,298 on 2026-08-27 (confirms nothing drifted over 2 days),
+   then the Vietnamese batch (eleven_turbo_v2_5, 26,455 characters)
+   confirmed at 71,574 used, 59,426 remaining — real number from
+   Brett's dashboard, not an estimate. Turbo v2.5 appears to cost
+   fewer credits per character than the standard multilingual model
+   (only ~7,276 credits for 26,455 characters). Creator plan,
+   131,000 credits/mo, resets Sept 24. Brett's explicit pacing rule
+   (2026-08-27): go slow, one language at a time, stop and let him
+   check spending between batches — do NOT chain multiple languages'
+   batches without a fresh quota confirmation in between, even if the
+   math looks safe. Next language in priority order once cleared:
+   Chinese or Russian (both already translated, both on the standard
+   eleven_multilingual_v2 model, no override needed). Still open
    regardless of budget: a real screen-reader pass (VoiceOver, free,
    built into macOS) rather than just automated/structural checks; the
    original English-batch ElevenLabs key expired around 2026-09-24 —
