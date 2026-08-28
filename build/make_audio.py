@@ -93,11 +93,6 @@ LANG_PAGES = {
         "nucleo",  # the combined home/three-steps/warning-signs landing page
         # the 5 scam articles moved to LANG_EL_PAGES (ElevenLabs) below
     ],
-    # ru: free voice for now -- interim narration while its ElevenLabs
-    # upgrade queues up per the paced rollout (see LANG_EL_PAGES). Move
-    # a language's SCAM5 list here -> there as its ElevenLabs batch
-    # actually runs, same pattern as Spanish/Vietnamese/Chinese/Korean.
-    "ru": list(SCAM5),
 }
 
 # Non-English pages worth the ElevenLabs upgrade, one list per language.
@@ -111,6 +106,7 @@ LANG_EL_PAGES = {
     "vi": list(SCAM5),  # eleven_turbo_v2_5 via EL_MODEL_OVERRIDE -- see above
     "zh": list(SCAM5),
     "ko": list(SCAM5),
+    "ru": list(SCAM5),
 }
 
 
