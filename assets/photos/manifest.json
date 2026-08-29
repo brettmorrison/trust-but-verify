@@ -1,201 +1,205 @@
 [
-  {
-    "topic": "home",
-    "file": null,
-    "commons_url": null,
-    "license": null,
-    "author": null,
-    "title": null,
-    "skipped_reason": "Removed 2026-08-24 — Brett flagged the previous photo (hand holding phone by window) as not good. Searched Wikimedia Commons + Openverse for a replacement matching the new tagline's 'pause, not panic' mood; nothing found cleanly satisfied license + landscape orientation + tone + US-plausible setting all at once (closest candidates: a culturally distant but well-matched Commons photo, or a portrait-orientation photo that echoes the very photo being replaced). Left photo-less rather than force a bad fit, same as charity-scams/government-impersonation/recovery-scam/lottery-sweepstakes/for-family/printables."
-  },
-  {
-    "topic": "about",
-    "file": "assets/photos/source/about.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Grandparent_enjoys_coffee_while_watching_child_play_with_toy_car_during_sunset_at_the_park.jpg",
-    "license": "CC BY 2.0",
-    "author": "Shixart1985",
-    "title": "Grandparent enjoys coffee while watching child play with toy car during sunset at the park.jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "grandparent-scam",
-    "file": "assets/photos/source/grandparent-scam.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Senior_woman_engaged_in_a_cheerful_conversation_on_a_landline_phone_at_her_home.jpg",
-    "license": "CC BY 2.0",
-    "author": "Shixart1985",
-    "title": "Senior woman engaged in a cheerful conversation on a landline phone at her home.jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "virtual-kidnapping",
-    "file": "assets/photos/source/virtual-kidnapping.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Woman_looking_at_phone_in_a_casual_setting_while_smiling_and_enjoying_the_moment_with_a_relaxed_atmosphere.jpg",
-    "license": "CC BY 2.0",
-    "author": "Shixart1985",
-    "title": "Woman looking at phone in a casual setting while smiling and enjoying the moment with a relaxed atmosphere.jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "romance-scam",
-    "file": "assets/photos/source/romance-scam.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Woman_with_long_nails_typing_on_a_laptop_keyboard.jpg",
-    "license": "CC BY 2.0",
-    "author": "Shixart1985",
-    "title": "Woman with long nails typing on a laptop keyboard.jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "tech-support-popup",
-    "file": "assets/photos/source/tech-support-popup.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Laptop_and_small_plant_on_a_desk_in_a_modern_workspace_during_daylight_hours.jpg",
-    "license": "CC BY 2.0",
-    "author": "Shixart1985",
-    "title": "Laptop and small plant on a desk in a modern workspace during daylight hours.jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "phantom-hacker",
-    "file": "assets/photos/web/phantom-hacker.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Frustrated_woman_holds_telephone_receiver_while_working_at_laptop.jpg",
-    "license": "CC BY 2.0",
-    "author": "Shixart1985",
-    "title": "Frustrated woman holds telephone receiver while working at laptop.jpg",
-    "skipped_reason": null,
-    "note": "First candidate (antique typewriter, see git history) was rejected on human review as anachronistic. This replacement was sourced in a follow-up manual search directly against the Commons API."
-  },
-  {
-    "topic": "government-impersonation",
-    "file": null,
-    "commons_url": "https://commons.wikimedia.org/wiki/File:A_white_desk_is_arranged_in_a_cozy_room.jpg",
-    "license": "CC BY 2.0",
-    "author": "Shixart1985",
-    "title": "A white desk is arranged in a cozy room.jpg",
-    "skipped_reason": "Rejected on human review: generic styled desk decor with no visible connection to government, mail, or impersonation — doesn't read as relevant to the topic. Downloaded but not used."
-  },
-  {
-    "topic": "delivery-toll-recall-texts",
-    "file": "assets/photos/source/delivery-toll-recall-texts.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:A_Delivery_Driver_Knocking_on_a_Door_to_Deliver_Packages.jpg",
-    "license": "CC BY 2.0",
-    "author": "Meanwell Packaging",
-    "title": "A Delivery Driver Knocking on a Door to Deliver Packages.jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "phishing",
-    "file": "assets/photos/source/phishing.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Hands_are_seen_typing_on_a_laptop_keyboard.jpg",
-    "license": "CC BY 2.0",
-    "author": "Shixart1985",
-    "title": "Hands are seen typing on a laptop keyboard.jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "job-scams",
-    "file": "assets/photos/source/job-scams.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Working_at_a_desk_with_a_laptop_coffee_cup_and_a_plant_on_a_white_surface.jpg",
-    "license": "CC BY 2.0",
-    "author": "Shixart1985",
-    "title": "Working at a desk with a laptop coffee cup and a plant on a white surface.jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "investment-and-crypto",
-    "file": "assets/photos/source/investment-and-crypto.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Analyzing_Financial_Data_(5099605109).jpg",
-    "license": "CC BY-SA 2.0",
-    "author": "Dave Dugdale from Superior, USA",
-    "title": "Analyzing Financial Data (5099605109).jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "voice-cloning",
-    "file": "assets/photos/source/voice-cloning.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Woman_talking_on_phone_in_a_modern_indoor_space_closeup.jpg",
-    "license": "CC BY 2.0",
-    "author": "Shixart1985",
-    "title": "Woman talking on phone in a modern indoor space closeup.jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "home-repair",
-    "file": "assets/photos/source/home-repair.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Elderly_man_stands_in_garage_near_car_with_tools_showing_signs_of_work_done.jpg",
-    "license": "CC BY 2.0",
-    "author": "Shixart1985",
-    "title": "Elderly man stands in garage near car with tools showing signs of work done.jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "recovery-scam",
-    "file": null,
-    "commons_url": null,
-    "license": null,
-    "author": null,
-    "title": null,
-    "skipped_reason": "No appropriately licensed, appropriately toned photo found on Commons for 'handshake' or 'person reviewing paperwork, reassuring' after extensive search. Available handshake photos were either studio/military-uniform shots, oddly-branded casual photos, or historical/political images \u2014 none matched a calm, reassuring, everyday recovery-scam context."
-  },
-  {
-    "topic": "charity-scams",
-    "file": null,
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Wooden_alms_box,_Netherlands,_1601-1800_Wellcome_L0057457.jpg",
-    "license": "CC BY 4.0",
-    "author": "Wellcome Collection (Science Museum, London / Wellcome Images)",
-    "title": "Wooden alms box, Netherlands, 1601-1800 Wellcome L0057457.jpg",
-    "skipped_reason": "Rejected on human review: a 17th-18th century museum artifact, studio-photographed on a grey backdrop, reads as a history-museum photo, not a modern phone/text charity scam. Downloaded but not used."
-  },
-  {
-    "topic": "medicare-scams",
-    "file": "assets/photos/source/medicare-scams.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_stethoscope_chest_piece_in_a_womans_hand_with_a_blurry_background.jpg",
-    "license": "CC BY 2.0",
-    "author": "Shixart1985",
-    "title": "Close-up of a stethoscope chest piece in a womans hand with a blurry background.jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "sim-swap",
-    "file": "assets/photos/source/sim-swap.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Nano_SIM_card_and_tray.jpg",
-    "license": "CC BY-SA 3.0",
-    "author": "BwDraco",
-    "title": "Nano SIM card and tray.jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "lottery-sweepstakes",
-    "file": null,
-    "commons_url": null,
-    "license": null,
-    "author": null,
-    "title": null,
-    "skipped_reason": "No appropriately licensed, appropriately toned envelope/mail photo found. Candidates were either historical/Civil War envelope photos, foreign-government-branded bills (Dutch police/water utility, inappropriate and non-generic), or off-topic results. Skipped rather than force a mismatched image."
-  },
-  {
-    "topic": "warning-signs",
-    "file": "assets/photos/source/warning-signs.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:Woman_talks_on_the_phone_while_writing_in_a_notebook.jpg",
-    "license": "CC BY 2.0",
-    "author": "Shixart1985",
-    "title": "Woman talks on the phone while writing in a notebook.jpg",
-    "skipped_reason": null
-  },
-  {
-    "topic": "for-family",
-    "file": null,
-    "commons_url": null,
-    "license": null,
-    "author": null,
-    "title": null,
-    "skipped_reason": "Could not find a distinct, well-licensed, modern, warm adult-child-and-older-parent photo (as opposed to the grandparent/grandchild image already used for 'about'). Candidates found were either statues, vintage/1890s group photos, or watermarked/mismatched-tone images. Skipped to avoid reusing the same photo across two site sections or forcing a bad fit."
-  },
-  {
-    "topic": "printables",
-    "file": null,
-    "commons_url": null,
-    "license": null,
-    "author": null,
-    "title": null,
-    "skipped_reason": "No suitable photo of a printed sheet on a refrigerator with a magnet was found. The closest match (children's alphabet magnets on a fridge) reads as a kid's kitchen scene, not a printed reference sheet, and did not fit the calm/literal tone needed."
-  }
+    {
+        "topic": "home",
+        "file": "assets/photos/source/home.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Woman_holding_glass_of_coffee_indoors_while_sitting_by_the_window.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Woman holding glass of coffee indoors while sitting by the window.jpg",
+        "skipped_reason": null,
+        "note": "Replaces the removed hand-holding-phone-by-window photo (2026-08-24). Found by browsing Shixart1985's full Commons upload catalog directly rather than blind keyword search: a calm close-up of a woman with a cup of coffee by a window, no phone in frame, matching the 'pause, not panic' mood."
+    },
+    {
+        "topic": "about",
+        "file": "assets/photos/source/about.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Grandparent_enjoys_coffee_while_watching_child_play_with_toy_car_during_sunset_at_the_park.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Grandparent enjoys coffee while watching child play with toy car during sunset at the park.jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "grandparent-scam",
+        "file": "assets/photos/source/grandparent-scam.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Senior_woman_engaged_in_a_cheerful_conversation_on_a_landline_phone_at_her_home.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Senior woman engaged in a cheerful conversation on a landline phone at her home.jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "virtual-kidnapping",
+        "file": "assets/photos/source/virtual-kidnapping.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Woman_looking_at_phone_in_a_casual_setting_while_smiling_and_enjoying_the_moment_with_a_relaxed_atmosphere.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Woman looking at phone in a casual setting while smiling and enjoying the moment with a relaxed atmosphere.jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "romance-scam",
+        "file": "assets/photos/source/romance-scam.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Woman_with_long_nails_typing_on_a_laptop_keyboard.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Woman with long nails typing on a laptop keyboard.jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "tech-support-popup",
+        "file": "assets/photos/source/tech-support-popup.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Laptop_and_small_plant_on_a_desk_in_a_modern_workspace_during_daylight_hours.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Laptop and small plant on a desk in a modern workspace during daylight hours.jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "phantom-hacker",
+        "file": "assets/photos/web/phantom-hacker.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Frustrated_woman_holds_telephone_receiver_while_working_at_laptop.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Frustrated woman holds telephone receiver while working at laptop.jpg",
+        "skipped_reason": null,
+        "note": "First candidate (antique typewriter, see git history) was rejected on human review as anachronistic. This replacement was sourced in a follow-up manual search directly against the Commons API."
+    },
+    {
+        "topic": "government-impersonation",
+        "file": "assets/photos/source/government-impersonation.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Elderly_woman_multitasking_on_the_phone_while_managing_tasks_on_her_laptop.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Elderly woman multitasking on the phone while managing tasks on her laptop.jpg",
+        "skipped_reason": null,
+        "note": "First candidate (a white desk arranged in a cozy room, see above) was rejected as having zero connection to the topic. Commons has no photo of an actual government letter/mailbox that clears the bar (checked directly), so this uses the same 'alarming phone call at home' visual language as the site's other call-scam pages: an older woman looking concerned on a landline while at her laptop in her kitchen."
+    },
+    {
+        "topic": "delivery-toll-recall-texts",
+        "file": "assets/photos/source/delivery-toll-recall-texts.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:A_Delivery_Driver_Knocking_on_a_Door_to_Deliver_Packages.jpg",
+        "license": "CC BY 2.0",
+        "author": "Meanwell Packaging",
+        "title": "A Delivery Driver Knocking on a Door to Deliver Packages.jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "phishing",
+        "file": "assets/photos/source/phishing.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Hands_are_seen_typing_on_a_laptop_keyboard.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Hands are seen typing on a laptop keyboard.jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "job-scams",
+        "file": "assets/photos/source/job-scams.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Working_at_a_desk_with_a_laptop_coffee_cup_and_a_plant_on_a_white_surface.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Working at a desk with a laptop coffee cup and a plant on a white surface.jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "investment-and-crypto",
+        "file": "assets/photos/source/investment-and-crypto.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Analyzing_Financial_Data_(5099605109).jpg",
+        "license": "CC BY-SA 2.0",
+        "author": "Dave Dugdale from Superior, USA",
+        "title": "Analyzing Financial Data (5099605109).jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "voice-cloning",
+        "file": "assets/photos/source/voice-cloning.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Woman_talking_on_phone_in_a_modern_indoor_space_closeup.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Woman talking on phone in a modern indoor space closeup.jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "home-repair",
+        "file": "assets/photos/source/home-repair.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Elderly_man_stands_in_garage_near_car_with_tools_showing_signs_of_work_done.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Elderly man stands in garage near car with tools showing signs of work done.jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "recovery-scam",
+        "file": null,
+        "commons_url": null,
+        "license": null,
+        "author": null,
+        "title": null,
+        "skipped_reason": "No photo literally depicting \"recovery scam\" exists on Commons. A follow-up pass (2026-08-27) matched the site's general phone-scene pattern (Shixart1985, businessman on phone in a bar/lounge) but on human review it broke visual consistency with every other hero photo on the site (all feature ordinary people at home, not suited businessmen in bars) and didn't read as specifically \"recovery\" vs. any other phone-scam topic. Reverted; left photo-less.",
+        "note": "'Handshake' and 'reviewing paperwork' searches (documented above) never found anything calm and appropriately licensed. Found by browsing Shixart1985's Commons catalog instead: a calm, professionally dressed man taking a phone call, fitting the page's 'law firm/government investigator follow-up call' scenario without any studio/handshake staginess."
+    },
+    {
+        "topic": "charity-scams",
+        "file": "assets/photos/source/charity-scams.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Outdoor_Metal_Donation_Box_-_Knoxville,_Tennessee_-_October_25,_2014.jpg",
+        "license": "CC BY 4.0",
+        "author": "David Ratledge",
+        "title": "Outdoor Metal Donation Box - Knoxville, Tennessee - October 25, 2014.jpg",
+        "skipped_reason": null,
+        "note": "First candidate (17th-18th century museum alms box, see above) was rejected as anachronistic and disconnected from a modern phone/text scam. Shixart1985's catalog has no donation/charity imagery. This replacement is a real, modern (2014), plainly-labeled 'DONATIONS PLEASE HELP' collection box photographed outdoors in Knoxville, Tennessee — a literal, one-second-legible connection to the topic, CC BY 4.0."
+    },
+    {
+        "topic": "medicare-scams",
+        "file": "assets/photos/source/medicare-scams.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_stethoscope_chest_piece_in_a_womans_hand_with_a_blurry_background.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Close-up of a stethoscope chest piece in a womans hand with a blurry background.jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "sim-swap",
+        "file": "assets/photos/source/sim-swap.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Nano_SIM_card_and_tray.jpg",
+        "license": "CC BY-SA 3.0",
+        "author": "BwDraco",
+        "title": "Nano SIM card and tray.jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "lottery-sweepstakes",
+        "file": null,
+        "commons_url": null,
+        "license": null,
+        "author": null,
+        "title": null,
+        "skipped_reason": "No appropriately licensed, appropriately toned envelope/mail photo found. Candidates were either historical/Civil War envelope photos, foreign-government-branded bills (Dutch police/water utility, inappropriate and non-generic), or off-topic results. Skipped rather than force a mismatched image. Re-checked 2026-08-28: Shixart1985's full Commons catalog (~5,200 uploads) has zero photos matching envelope/mail/prize/check/lottery/sweepstakes keywords. Broader Commons search for mail/envelope/mailbox/prize imagery returned only archival government PDFs, a decrepit rural mailbox nailed to a dead tree, and a Canada Post-branded mailbox (foreign government branding, excluded by the license/tone bar). Still no fit; still skipped."
+    },
+    {
+        "topic": "warning-signs",
+        "file": "assets/photos/source/warning-signs.jpg",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Woman_talks_on_the_phone_while_writing_in_a_notebook.jpg",
+        "license": "CC BY 2.0",
+        "author": "Shixart1985",
+        "title": "Woman talks on the phone while writing in a notebook.jpg",
+        "skipped_reason": null
+    },
+    {
+        "topic": "for-family",
+        "file": null,
+        "commons_url": null,
+        "license": null,
+        "author": null,
+        "title": null,
+        "skipped_reason": "Could not find a distinct, well-licensed, modern, warm adult-child-and-older-parent photo (as opposed to the grandparent/grandchild image already used for 'about'). Candidates found were either statues, vintage/1890s group photos, or watermarked/mismatched-tone images. Skipped to avoid reusing the same photo across two site sections or forcing a bad fit. Re-checked 2026-08-28: Shixart1985's full Commons catalog (~5,200 uploads) skews almost entirely to grandparent+young-child and parent+young-child scenes; searched explicitly for 'senior/elderly + daughter/son/caregiver/visiting' and found none. Broader Commons search for 'adult daughter visiting elderly mother' returned only archival institutional-care PDFs from the 1880s-1950s, no photos. Still no fit; still skipped."
+    },
+    {
+        "topic": "printables",
+        "file": null,
+        "commons_url": null,
+        "license": null,
+        "author": null,
+        "title": null,
+        "skipped_reason": "No suitable photo of a printed sheet on a refrigerator with a magnet was found. The closest match (children's alphabet magnets on a fridge) reads as a kid's kitchen scene, not a printed reference sheet, and did not fit the calm/literal tone needed. Re-checked 2026-08-28: Shixart1985's full Commons catalog (~5,200 uploads) has no fridge/refrigerator/magnet/note photos at all. Broader Commons search for 'paper taped refrigerator magnet' and 'printed sheet fridge magnet reminder' returned only unrelated physics/engineering PDFs about cryogenic magnets. Still no fit; still skipped."
+    }
 ]

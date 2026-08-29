@@ -69,6 +69,10 @@ LANG_HOME_SLUG = {"es": "nucleo"}
 # See assets/photos/manifest.json for the full sourcing record, including
 # topics deliberately left without a photo rather than forcing a bad fit.
 PHOTOS = {
+    "": dict(file="home.jpg", alt="A woman holding a cup of coffee while sitting by a window",
+             author="Shixart1985",
+             url="https://commons.wikimedia.org/wiki/File:Woman_holding_glass_of_coffee_indoors_while_sitting_by_the_window.jpg",
+             license="CC BY 2.0"),
     "about": dict(file="about.jpg", alt="A grandparent watching a child play with a toy car",
                   author="Shixart1985",
                   url="https://commons.wikimedia.org/wiki/File:Grandparent_enjoys_coffee_while_watching_child_play_with_toy_car_during_sunset_at_the_park.jpg",
@@ -129,6 +133,14 @@ PHOTOS = {
                                   author="Shixart1985",
                                   url="https://commons.wikimedia.org/wiki/File:Frustrated_woman_holds_telephone_receiver_while_working_at_laptop.jpg",
                                   license="CC BY 2.0"),
+    "scams/government-impersonation": dict(file="government-impersonation.jpg", alt="An older woman looking concerned while talking on a landline phone at her kitchen table with a laptop open",
+                                            author="Shixart1985",
+                                            url="https://commons.wikimedia.org/wiki/File:Elderly_woman_multitasking_on_the_phone_while_managing_tasks_on_her_laptop.jpg",
+                                            license="CC BY 2.0"),
+    "scams/charity-scams": dict(file="charity-scams.jpg", alt="An outdoor metal donation box labeled \"Donations Please Help\"",
+                                 author="David Ratledge",
+                                 url="https://commons.wikimedia.org/wiki/File:Outdoor_Metal_Donation_Box_-_Knoxville,_Tennessee_-_October_25,_2014.jpg",
+                                 license="CC BY 4.0"),
 }
 
 LANGS = [
