@@ -13,6 +13,10 @@ __pycache__/
 .venv/
 venv/
 
+# Intermediate state for build/learn_from_edits.py -- EDITORIAL_LEARNED_
+# PATTERNS.md (committed) is the human-facing output this regenerates from.
+/build/.editorial_learned_state.json
+
 # OS noise
 .DS_Store
 Thumbs.db
