@@ -1118,6 +1118,77 @@ def phone_wrap(s):
                   lambda m: '<a class="tel" href="tel:+1%s">%s</a>' % (m.group(1).replace("-",""), m.group(1)), s)
 
 
+def check_source_tables():
+    # Structural safety net, added after a sitewide find/replace pass (em
+    # dash removal) twice silently merged pairs of markdown table rows
+    # onto one line with mismatched pipe counts -- help-translate.md and
+    # resources-by-language.md both broke this way and both slipped past
+    # review because the diff still read as "just punctuation changed."
+    # A malformed table doesn't crash the build (python-markdown just
+    # mis-renders it), so nothing else here would have caught it. Scans
+    # every content/**/*.md file's raw text (not the rendered HTML) for
+    # `|`-delimited table blocks and checks every row has the same cell
+    # count as the header row directly above it.
+    problems = []
+    for dirpath, _dirs, files in os.walk(CONTENT):
+        for fn in sorted(files):
+            if not fn.endswith(".md"):
+                continue
+            path = os.path.join(dirpath, fn)
+            lines = open(path, encoding="utf-8").read().split("\n")
+            header_cells = None
+            in_table = False
+            for i, line in enumerate(lines):
+                stripped = line.strip()
+                is_row = stripped.startswith("|") and stripped.endswith("|")
+                is_sep = is_row and re.fullmatch(r"\|[\s:|-]+\|", stripped)
+                if is_row and not in_table:
+                    in_table = True
+                    header_cells = stripped.count("|") - 1
+                    continue
+                if in_table and is_sep:
+                    continue
+                if in_table and is_row:
+                    # A row with FEWER cells than the header is valid
+                    # markdown (renders as empty trailing cells) and is a
+                    # real, intentional pattern here (printables.md's
+                    # two-language-per-row tables legitimately end one
+                    # cell short when the language count is odd). Only
+                    # MORE cells than the header is the actual corruption
+                    # symptom -- two rows concatenated onto one line.
+                    cells = stripped.count("|") - 1
+                    if cells > header_cells:
+                        problems.append(
+                            "%s:%d: table row has %d cells, header has %d -- %s"
+                            % (os.path.relpath(path, ROOT), i + 1, cells, header_cells, stripped[:80])
+                        )
+                elif in_table and not is_row:
+                    in_table = False
+                    header_cells = None
+    if problems:
+        print("\nTABLE STRUCTURE CHECK FAILED:")
+        for p in problems:
+            print("  " + p)
+        raise SystemExit(1)
+
+
+def check_og_images(pages):
+    # Companion check: every page's og:image must actually exist in the
+    # build output. Caught 20 real missing share cards (make_share_cards.py
+    # not re-run after new content landed) that nothing else flagged.
+    missing = []
+    for _src, _meta, _body, _lang, slug in pages:
+        og_rel = (slug.strip("/") or "index").replace("/", "_") + ".png"
+        if not os.path.exists(os.path.join(OUT, "og", og_rel)):
+            missing.append(og_rel)
+    if missing:
+        print("\nOG:IMAGE CHECK FAILED -- missing from formats/og/ "
+              "(run build/make_share_cards.py):")
+        for m in missing:
+            print("  " + m)
+        raise SystemExit(1)
+
+
 def wrap_tables(s):
     # Wide tables (3+ real-content columns) don't fit 375px no matter how
     # the column widths are tuned -- forcing it just breaks words mid-
@@ -1514,6 +1585,9 @@ def build():
                     s_gov=UI["en"]["s_gov"], s_gov_href="/scams/government-impersonation/",
                     s_grandparent=UI["en"]["s_grandparent"], s_grandparent_href="/scams/grandparent-scam/",
                     s_kidnap=UI["en"]["s_kidnap"], s_signs=UI["en"]["s_signs"]))
+
+    check_source_tables()
+    check_og_images(pages)
 
     print("pages: %d" % written)
     print("output: %s" % OUT)
