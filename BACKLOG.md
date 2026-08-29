@@ -2,6 +2,18 @@
 
 Roughly priority order. Update as items close.
 
+**Training/CPE-credit initiative (2026-08-27):** Brett asked to pursue
+"certifications, CPE credits, training, learning, sharing." Full researched
+3-phase plan published: https://claude.ai/code/artifact/3ce9b63a-b0a6-41ec-9438-2800c4d12df1
+Phase 1 (self-study quiz + completion certificate) is buildable with no new
+accreditation and is the next concrete step. Phase 2 (partner with an
+already-accredited org rather than TBV becoming one) has a strong lead:
+ISACA Greater Houston Chapter runs a "Privacy Saturday" session track that
+fits Brett's own privacy background directly, and ISACA's CPE policy credits
+both presenters and attendees for qualifying sessions. Queued as a
+Brett-only decision in `~/Claude/DECISIONS.md`; full context in this
+session's project memory (project-tbv-training-cpe-plan.md).
+
 **Language-priority metric (standing rule, set 2026-08-27):** when deciding
 which language gets translation/audio work next, use Limited English
 Proficiency (LEP), age 65+, by language spoken at home — Census ACS Table
@@ -26,6 +38,26 @@ next language. Don't chain languages back-to-back even when the math
 looks safe.
 
 ## Resolved
+- Response to notes relayed from the other session (2026-08-27): "feedback
+  form fails for everyone" confirmed as the same known Resend-not-connected
+  gap, not a new code bug (verified by reading functions/api/feedback.js
+  directly). "Dropped five languages off the interpreter page" no longer
+  reproduces — resources-by-language.md's language table has all 44
+  non-English languages present (verified by diff against the LANGS master
+  list), likely already fixed by the other session's own commit 3736e03.
+  "Two missing share cards" was actually 20 — every one of the 20
+  charity/medicare/sim-swap/lottery pages added the previous session was
+  missing its og:image because make_share_cards.py wasn't re-run after
+  adding them; regenerated and committed (kept only the 20 genuinely new
+  files, discarded 133 files of non-deterministic PNG re-encoding noise on
+  unrelated, unchanged cards). Added a permanent build-time structural
+  check (check_source_tables() + check_og_images() in build_site.py) so
+  both bug classes fail the build loudly instead of silently mis-rendering
+  — verified against real reproductions of both bugs before committing.
+  Translated /right-now (the crisis-moment, mid-scam-call page) into all 5
+  priority languages and added free-voice audio in all 6 languages
+  including English, per the other session's flag that this was the single
+  highest-value remaining translation.
 - Non-English translation + audio expansion, at Brett's request. Phase
   1: translated the 5 missing scam-type articles from the English
   top-10 list into Spanish (phantom-hacker, tech-support-popup,
