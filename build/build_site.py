@@ -971,8 +971,14 @@ figure.hero-photo figcaption a{color:var(--muted)}
   border:3px solid var(--rule);border-radius:.3rem;margin-top:.4rem;
   background:var(--paper);color:var(--ink);width:100%;max-width:32rem;
   font:inherit;padding:.6rem;box-sizing:border-box}
-.feedback-form textarea:focus,.feedback-form input[type=email]:focus{
-  outline:none;border-color:var(--accent)}
+.feedback-form textarea:focus-visible,.feedback-form input[type=email]:focus-visible{
+  /* WCAG 2.2 SC 2.4.11 Focus Appearance (AA) wants at least 3:1 between the
+     focused and unfocused states of the indicator. The old rule removed the
+     outline and swapped the border from --rule #111 to --accent #123f7a,
+     which measures 1.81:1 -- near-black to dark navy is close to invisible.
+     Keep the same ring the rest of the site already uses on links and
+     buttons: #0b57d0 on paper is 6.29:1. */
+  outline:4px solid #0b57d0;outline-offset:2px}
 .feedback-form button{
   font:inherit;font-weight:800;border:3px solid var(--rule);border-radius:.4rem;
   background:var(--accent);color:#fff;padding:.7rem 1.6rem;cursor:pointer}
