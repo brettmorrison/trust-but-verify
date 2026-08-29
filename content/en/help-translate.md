@@ -89,7 +89,9 @@ credit line to the Trust But Verify Project somewhere reasonable.
 ## Languages we need
 
 **All 44 of these are drafted and waiting on a native reader**: every one
-already has a full webpage and a printable fridge sheet ready to go:
+already has a full webpage and a printable fridge sheet ready to go.
+[See exactly what's been checked so far](/validation-status), language by
+language — we publish that number whether or not it's flattering.
 
 | Language | Status |
 |---|---|
