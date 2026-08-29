@@ -34,6 +34,7 @@ AUDIO_PAGES = {
     "how-they-ask-to-be-paid", "for-family", "scams/sim-swap",
     "scams/charity-scams", "scams/lottery-sweepstakes", "scams/home-repair",
     "scams/phishing", "how-they-got-your-information", "for-facilities",
+    "right-now",
 }
 
 # Non-English audio, free macOS voice only -- see build/make_audio.py
@@ -53,11 +54,11 @@ _NEXT4 = {
 # more than one language version actually exists.
 ARTICLE_LANGS = ["en", "es", "vi", "zh", "ru", "ko"]
 LANG_AUDIO_PAGES = {
-    "es": {"nucleo"} | _SCAM5 | _NEXT4,
-    "vi": _SCAM5 | _NEXT4,
-    "zh": _SCAM5 | _NEXT4,
-    "ru": _SCAM5 | _NEXT4,
-    "ko": _SCAM5 | _NEXT4,
+    "es": {"nucleo", "right-now"} | _SCAM5 | _NEXT4,
+    "vi": {"right-now"} | _SCAM5 | _NEXT4,
+    "zh": {"right-now"} | _SCAM5 | _NEXT4,
+    "ru": {"right-now"} | _SCAM5 | _NEXT4,
+    "ko": {"right-now"} | _SCAM5 | _NEXT4,
 }
 # Each language's landing-page content file isn't named "home.md" like
 # English's -- es's is nucleo.md. Maps lang -> its home page's content slug.

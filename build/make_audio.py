@@ -74,6 +74,7 @@ TOP20 = [
 REST = [
     "scams/charity-scams", "scams/lottery-sweepstakes", "scams/home-repair",
     "scams/phishing", "how-they-got-your-information", "for-facilities",
+    "right-now",
 ]
 
 ALL_PAGES = TOP20 + REST
@@ -99,11 +100,11 @@ LANG_PAGES = {
     "es": [
         "nucleo",  # the combined home/three-steps/warning-signs landing page
         # the 5 scam articles moved to LANG_EL_PAGES (ElevenLabs) below
-    ] + list(NEXT4),
-    "vi": list(NEXT4),
-    "zh": list(NEXT4),
-    "ru": list(NEXT4),
-    "ko": list(NEXT4),
+    ] + list(NEXT4) + ["right-now"],
+    "vi": list(NEXT4) + ["right-now"],
+    "zh": list(NEXT4) + ["right-now"],
+    "ru": list(NEXT4) + ["right-now"],
+    "ko": list(NEXT4) + ["right-now"],
 }
 
 # Non-English pages worth the ElevenLabs upgrade, one list per language.
