@@ -111,5 +111,5 @@ validated_by: (none yet)
 ---
 
 **相关：** [幽灵黑客](/zh/scams/phantom-hacker) ·
-[有人打电话来问我的 Medicare](/scams/medicare-scams)（英文） ·
+[有人打电话来问我的 Medicare](/zh/scams/medicare-scams) ·
 [三个信号](/warning-signs)（英文）

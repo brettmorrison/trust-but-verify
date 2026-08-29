@@ -87,12 +87,23 @@ SCAM5 = [
     "scams/phantom-hacker", "scams/tech-support-popup", "scams/grandparent-scam",
     "scams/government-impersonation", "scams/romance-scam",
 ]
+# Second tier, translated 2026-08-27 into the same 5 languages -- free
+# voice only for now (Brett's cost-control call), no ElevenLabs upgrade
+# unless/until he says otherwise.
+NEXT4 = [
+    "scams/charity-scams", "scams/medicare-scams", "scams/sim-swap",
+    "scams/lottery-sweepstakes",
+]
 
 LANG_PAGES = {
     "es": [
         "nucleo",  # the combined home/three-steps/warning-signs landing page
         # the 5 scam articles moved to LANG_EL_PAGES (ElevenLabs) below
-    ],
+    ] + list(NEXT4),
+    "vi": list(NEXT4),
+    "zh": list(NEXT4),
+    "ru": list(NEXT4),
+    "ko": list(NEXT4),
 }
 
 # Non-English pages worth the ElevenLabs upgrade, one list per language.

@@ -163,5 +163,5 @@ validated_by: (none yet)
 
 ---
 
-**관련:** [휴대전화 신호가 갑자기 사라졌다면](/scams/sim-swap) (영어) ·
+**관련:** [휴대전화 신호가 갑자기 사라졌다면](/ko/scams/sim-swap) ·
 [세 가지 신호](/warning-signs) (영어)

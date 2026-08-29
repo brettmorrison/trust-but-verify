@@ -139,5 +139,5 @@ validated_by: (none yet)
 
 ---
 
-**相关：** [我的手机突然没信号了](/scams/sim-swap)（英文） ·
+**相关：** [我的手机突然没信号了](/zh/scams/sim-swap) ·
 [三个信号](/warning-signs)（英文）

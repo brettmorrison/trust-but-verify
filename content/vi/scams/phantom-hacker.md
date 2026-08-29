@@ -165,6 +165,6 @@ Hãy gọi cho ngân hàng trước khi quý vị đọc xong trang này.
 
 ---
 
-**Liên quan:** [Điện thoại tôi bỗng dưng mất sóng](/scams/sim-swap) (tiếng Anh) ·
+**Liên quan:** [Điện thoại tôi bỗng dưng mất sóng](/vi/scams/sim-swap) ·
 [Ba dấu hiệu cảnh báo](/warning-signs) (tiếng Anh) ·
 [Toàn bộ trang bằng tiếng Anh](/scams/phantom-hacker)

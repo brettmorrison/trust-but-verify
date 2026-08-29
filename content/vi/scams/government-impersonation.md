@@ -121,6 +121,6 @@ Là người luôn kiểm chứng không phải là khó chịu hay gây phiền
 ---
 
 **Liên quan:** [Tin tặc ma](/vi/scams/phantom-hacker) ·
-[Có người gọi về Medicare của tôi](/scams/medicare-scams) (tiếng Anh) ·
+[Có người gọi về Medicare của tôi](/vi/scams/medicare-scams) ·
 [Ba dấu hiệu cảnh báo](/warning-signs) (tiếng Anh) ·
 [Toàn bộ trang bằng tiếng Anh](/scams/government-impersonation)

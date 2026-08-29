@@ -43,17 +43,21 @@ _SCAM5 = {
     "scams/phantom-hacker", "scams/tech-support-popup", "scams/grandparent-scam",
     "scams/government-impersonation", "scams/romance-scam",
 }
+_NEXT4 = {
+    "scams/charity-scams", "scams/medicare-scams", "scams/sim-swap",
+    "scams/lottery-sweepstakes",
+}
 # Languages that carry their own translation of the 5 scam-type articles
 # above (plus English, the source). Used to build the "listen in another
 # language" links next to the audio player -- only shown on pages where
 # more than one language version actually exists.
 ARTICLE_LANGS = ["en", "es", "vi", "zh", "ru", "ko"]
 LANG_AUDIO_PAGES = {
-    "es": {"nucleo"} | _SCAM5,
-    "vi": set(_SCAM5),
-    "zh": set(_SCAM5),
-    "ru": set(_SCAM5),
-    "ko": set(_SCAM5),
+    "es": {"nucleo"} | _SCAM5 | _NEXT4,
+    "vi": _SCAM5 | _NEXT4,
+    "zh": _SCAM5 | _NEXT4,
+    "ru": _SCAM5 | _NEXT4,
+    "ko": _SCAM5 | _NEXT4,
 }
 # Each language's landing-page content file isn't named "home.md" like
 # English's -- es's is nucleo.md. Maps lang -> its home page's content slug.

@@ -120,5 +120,5 @@ estas agencias desearían que hiciera todo el mundo.
 ---
 
 **Relacionado:** [El hacker fantasma](/es/scams/phantom-hacker) ·
-[Alguien está llamando sobre mi Medicare](/scams/medicare-scams) (en inglés) ·
+[Alguien está llamando sobre mi Medicare](/es/scams/medicare-scams) ·
 [Las tres señales](/es/)

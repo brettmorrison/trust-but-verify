@@ -126,5 +126,5 @@ identitytheft.gov и следите за счетами. Это займёт о�
 ---
 
 **Связанное:** [Призрачный хакер](/ru/scams/phantom-hacker) · [Мне звонят
-насчёт моей Medicare](/scams/medicare-scams) (на английском) · [Три
+насчёт моей Medicare](/ru/scams/medicare-scams) · [Три
 признака](/ru/) · [Все страницы на английском](/scams/government-impersonation)

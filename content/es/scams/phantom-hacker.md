@@ -158,5 +158,5 @@ antes de terminar de leer esta página.
 
 ---
 
-**Relacionado:** [Mi teléfono de repente no tiene señal](/scams/sim-swap) (en
-inglés) · [Las tres señales](/es/)
+**Relacionado:** [Mi teléfono de repente no tiene señal](/es/scams/sim-swap) ·
+[Las tres señales](/es/)

@@ -120,5 +120,5 @@ validated_by: (none yet)
 ---
 
 **관련:** [유령 해커](/ko/scams/phantom-hacker) ·
-[메디케어에 관해 전화가 왔습니다](/scams/medicare-scams) (영어) ·
+[메디케어에 관해 전화가 왔습니다](/ko/scams/medicare-scams) ·
 [세 가지 신호](/warning-signs) (영어)
