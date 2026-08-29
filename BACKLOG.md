@@ -302,25 +302,30 @@ looks safe.
    Cloudflare Rate Limiting Rule for `POST /api/feedback` — steps in
    DEPLOY.md. Not worth doing preemptively for this site's traffic
    level; noted so it's a known, ready fix if it ever comes up.
-7. Deeper content only exists in 4 languages (es/vi/zh/ru) plus English —
-   the other 40 are single landing pages. Decide whether to expand any.
+7. Deeper content: es/vi/zh/ru/ko now have 9 articles each (the original
+   5 + the 4 newer scam types, done 2026-08-27) plus English — the other
+   40 languages are still single landing pages. Decide whether to expand
+   any of those, using the LEP age-65+ standing metric if so.
 8. A few translated landing pages carry a narrower "before money is sent"
    -style section header right under the tagline (e.g. German's `##
    Bevor Geld überwiesen wird`) that's now slightly inconsistent with the
    broadened tagline above it — cosmetic, low priority, native-speaker
    validation will catch it anyway.
-9. The 4 new scam pages (charity/Medicare/SIM-swap/lottery) exist in
-   English only — no translations yet, unlike the original 13.
-10. 7 pages still have no hero photo: home (previous photo was disliked;
-   a dedicated Commons/Openverse search for a replacement came back with
-   nothing that cleanly fit license + landscape + tone + setting all at
-   once — see assets/photos/manifest.json for the specific candidates
-   considered), charity-scams and government-impersonation (candidates
-   were sourced but rejected on review — museum artifact / no visible
-   connection to the topic), plus recovery-scam, lottery-sweepstakes,
-   for-family, and printables (nothing suitable found at all, tried
-   twice independently). Try again, or leave them photo-less — the site
-   reads fine either way. phantom-hacker got a replacement and is done.
+9. **Resolved 2026-08-27:** the 4 new scam pages (charity/Medicare/
+   SIM-swap/lottery) are now translated into es/vi/zh/ru/ko (20 new
+   pages, free-voice audio, $0 cost) — same unvalidated-draft status as
+   everything else pending native-speaker review.
+10. Hero photos: 3 of 7 photo-less pages got real photos 2026-08-27 (home,
+   government-impersonation, charity-scams) — found by browsing
+   Shixart1985's full Commons catalog (source of 6 already-used photos)
+   instead of blind keyword search, which is what made the difference
+   this round. A 4th candidate for recovery-scam was added then reverted
+   on visual review (broke tone consistency with the rest of the site —
+   see assets/photos/manifest.json for the reasoning). Still photo-less:
+   recovery-scam, lottery-sweepstakes, for-family, printables — genuinely
+   re-searched this round too, nothing fit any of the four. The site
+   reads fine either way; try the Shixart1985-catalog approach again
+   later if revisiting, it's the only thing that's worked so far.
 
 ## Unrelated flag
 Password reset email clusters in GoDaddy account from an earlier session —
