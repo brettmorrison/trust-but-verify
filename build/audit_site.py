@@ -15,7 +15,7 @@ fail the build, because they are judgement calls rather than defects.
 
     python3 build/audit_site.py [--strict]     # --strict makes WARN fail too
 """
-import os, re, sys, glob, io, collections
+import os, re, sys, glob, io, json, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "site")
@@ -136,9 +136,96 @@ def check_focus_styles():
             continue
         err("focus rule removes the outline without a box-shadow replacement", sel[:70])
 
+
+# ------------------------------------------------------- English prose regression
+# Two sitewide writing standards are easy to state and easy to lose:
+# no em dashes in English copy, and prose that sounds like a person rather
+# than a form letter. Both have already regressed once. The em-dash pass
+# removed 614 of them and three came back in files written afterwards,
+# because nothing was watching.
+#
+# Neither check can simply fail on any occurrence: main already carries 47
+# em dashes, 45 of which are one repeated table cell on /validation-status,
+# and one page is measurably stiff today. So both work as a ratchet against
+# build/prose_baseline.json: the current state is recorded, anything worse
+# than the record fails, and anything better is reported so the record can
+# be tightened. The baseline can only move in the direction of less slop.
+
+PROSE_BASELINE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                              "prose_baseline.json")
+CONTRACTION_FLOOR_RATIO = 0.35   # of the site's own live median
+
+def _prose_only(text):
+    """Body text with front matter and table rows removed.
+
+    Table rows are excluded because a page that is mostly tabular data
+    (/resources-by-language is a helpline table) has no prose rhythm to
+    measure, and counting its cells as sentences produces a false stiffness
+    reading."""
+    body = re.sub(r"^---.*?^---", "", text, flags=re.S | re.M)
+    return "\n".join(l for l in body.split("\n") if not l.strip().startswith("|"))
+
+def _english_sources():
+    for f in sorted(glob.glob(os.path.join(ROOT, "content", "en", "**", "*.md"),
+                              recursive=True)):
+        yield os.path.relpath(f, ROOT), io.open(f, encoding="utf-8").read()
+
+def _load_baseline():
+    if not os.path.exists(PROSE_BASELINE):
+        return {"em_dashes": {}, "stiff_pages": {}}
+    return json.load(io.open(PROSE_BASELINE, encoding="utf-8"))
+
+def check_prose_regressions():
+    base = _load_baseline()
+    em_base = base.get("em_dashes", {})
+    stiff_base = base.get("stiff_pages", {})
+
+    rates, counts = {}, {}
+    for rel, text in _english_sources():
+        counts[rel] = text.count("\u2014") + text.count("\u2013")
+        body = _prose_only(text)
+        words = len(body.split())
+        if words >= 250:
+            con = len(re.findall(r"\b\w+['\u2019](?:s|t|re|ll|ve|d|m)\b", body))
+            rates[rel] = round(con * 1000.0 / words, 1)
+
+    # 1. em dashes: never more than the recorded number, never in a new file
+    for rel, n in sorted(counts.items()):
+        alw = em_base.get(rel)
+        if n == 0 and alw is None:
+            continue   # clean file, nothing recorded: the normal case
+        if alw is None:
+            err("em dash in English copy, not in the baseline", "%s has %d" % (rel, n))
+        elif n > alw:
+            err("em dashes increased", "%s has %d, baseline allows %d" % (rel, n, alw))
+        elif n < alw:
+            warn("em dashes reduced, tighten the baseline",
+                 "%s now %d, baseline still allows %d" % (rel, n, alw))
+
+    # 2. contraction rate, measured against the site's own median so the bar
+    #    moves with the writing rather than a number frozen in this file
+    if rates:
+        median = sorted(rates.values())[len(rates) // 2]
+        floor = round(median * CONTRACTION_FLOOR_RATIO, 1)
+        for rel, r in sorted(rates.items()):
+            if r >= floor:
+                if rel in stiff_base:
+                    warn("page no longer stiff, drop it from the baseline",
+                         "%s is %.1f per 1k, floor %.1f" % (rel, r, floor))
+                continue
+            allowed = stiff_base.get(rel)
+            if allowed is None:
+                err("English prose reads stiff (contractions far below site median)",
+                    "%s at %.1f per 1k, floor %.1f, median %.1f" % (rel, r, floor, median))
+            elif r < allowed - 0.05:
+                err("English prose got stiffer",
+                    "%s at %.1f per 1k, baseline recorded %.1f" % (rel, r, allowed))
+
+
 def main():
     strict = "--strict" in sys.argv
-    for fn in (check_accessibility, check_metadata, check_links, check_weight, check_focus_styles):
+    for fn in (check_accessibility, check_metadata, check_links, check_weight,
+               check_focus_styles, check_prose_regressions):
         fn()
     n = len(list(pages()))
     print("audited %d pages in %s" % (n, OUT))

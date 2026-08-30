@@ -1,0 +1,20 @@
+{
+  "_comment": [
+    "Recorded state of two English writing standards: no em dashes, and prose",
+    "that contracts like a person. Both regressed once already. These numbers",
+    "are a ceiling, not a target: build/audit_site.py fails on anything worse",
+    "and warns when a file improves so the number here can be lowered. Never",
+    "raise a value to make a build pass.",
+    "em_dashes: per-file count tolerated today. 45 of validation-status.md's",
+    "are one repeated table cell; the other 2 sitewide are prose and should go.",
+    "stiff_pages: contractions per 1000 prose words on pages measurably below",
+    "the site median. protect-your-privacy.md is queued for a voice rewrite."
+  ],
+  "em_dashes": {
+    "content/en/help-translate.md": 1,
+    "content/en/validation-status.md": 46
+  },
+  "stiff_pages": {
+    "content/en/protect-your-privacy.md": 4.9
+  }
+}
