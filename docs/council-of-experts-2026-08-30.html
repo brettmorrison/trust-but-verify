@@ -1,0 +1,90 @@
+<title>TBV Council of Experts</title>
+<style>
+:root{--bg:#fffdf9;--fg:#141414;--mut:#5c5c5c;--rule:#d9d4c6;--card:#fff;--accent:#123f7a;--warn:#8a5a00;--warnbg:#fdf3dd;--ok:#0b5d2a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15140f;--fg:#f2efe6;--mut:#a9a396;--rule:#3a382f;--card:#1d1b16;--accent:#9ec1f0;--warn:#f0c96b;--warnbg:#332812;--ok:#8fe0ab}}
+:root[data-theme="dark"]{--bg:#15140f;--fg:#f2efe6;--mut:#a9a396;--rule:#3a382f;--card:#1d1b16;--accent:#9ec1f0;--warn:#f0c96b;--warnbg:#332812;--ok:#8fe0ab}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);margin:0;padding:1.15rem;font:17px/1.6 Georgia,'Iowan Old Style',serif;-webkit-text-size-adjust:100%}
+main{max-width:44rem;margin:0 auto}
+h1{font-size:1.55rem;line-height:1.22;margin:0 0 1rem}
+h2{font-size:1.16rem;font-family:system-ui,sans-serif;margin:2.2rem 0 .8rem;padding-bottom:.32rem;border-bottom:2px solid var(--rule)}
+h3{font-size:1rem;font-family:system-ui,sans-serif;margin:1.7rem 0 .6rem;color:var(--accent)}
+p{margin:0 0 .85rem}
+hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
+table{width:100%;border-collapse:collapse;margin:0 0 1.1rem;font:15px/1.45 system-ui,sans-serif;display:block;overflow-x:auto}
+td{border-bottom:1px solid var(--rule);padding:.42rem .5rem;vertical-align:top}
+tr td:last-child{text-align:right;white-space:nowrap;color:var(--mut)}
+tr td:last-child strong{color:var(--fg)}
+blockquote{margin:1.1rem 0;padding:.7rem .9rem;background:var(--warnbg);border-left:4px solid var(--warn);border-radius:0 5px 5px 0;font-size:.95rem}
+.flag{font:700 .74rem/1 system-ui,sans-serif;letter-spacing:.05em;color:var(--warn)}
+ul{padding-left:1.15rem;margin:0 0 1rem}li{margin:.45rem 0}
+code{font:.85em ui-monospace,Menlo,monospace;background:var(--card);border:1px solid var(--rule);border-radius:3px;padding:.06em .32em}
+p.rec{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--accent);border-radius:0 6px 6px 0;padding:.7rem .9rem;margin:0 0 .55rem}
+strong{font-weight:700}
+em{color:var(--mut)}
+</style>
+<main><h1>Council of Experts — Trust But Verify</h1>
+<p><strong>Convened 2026-08-30.</strong> Six personas debating the highest-value next moves across extend/improve, secure, reach, and content quality.</p>
+<p>Nothing in this document has been shipped. Recommendations touching safety content are flagged for Brett and were deliberately not executed.</p>
+<hr>
+<h2>Ground truth put in front of the council</h2>
+<p>Measured from the repo, not assumed. Several of these disprove worries the council would otherwise have spent its time on.</p>
+<table><tr><td>Pages built</td><td>196, across 45 languages</td></tr><tr><td>English content</td><td>58 files, 18,134 words</td></tr><tr><td>Deep languages (es, vi, zh, ru, ko)</td><td>12 files each</td></tr><tr><td>Thin languages</td><td>39, at 2 files each (landing page + phishing)</td></tr><tr><td>Non-English pages validated by a native speaker</td><td><strong>0 of 138</strong></td></tr><tr><td>Non-English files missing the UNVALIDATED banner</td><td><strong>0</strong> (all 138 carry it)</td></tr><tr><td>Phone numbers in translations absent from the English set</td><td><strong>0</strong></td></tr><tr><td>Broken internal links sitewide</td><td><strong>0</strong></td></tr><tr><td><code>/right-now</code> (the mid-scam-call page)</td><td>present in <strong>6</strong> of 45 languages</td></tr><tr><td>English median reading grade</td><td><strong>6.3</strong></td></tr><tr><td><code>home.md</code> reading grade</td><td><strong>10.5</strong></td></tr><tr><td><code>/right-now</code> reading grade</td><td><strong>4.3</strong></td></tr><tr><td>Feedback form</td><td>broken for every visitor since launch (no <code>RESEND_API_KEY</code>)</td></tr><tr><td>Analytics</td><td>never confirmed enabled</td></tr><tr><td>Audit harness</td><td>0 errors, 11 warnings</td></tr></table>
+<p><strong>Two worries were tested and dismissed before the debate.</strong> Unvalidated AI translation has <em>not</em> corrupted any helpline number: every phone number across all 44 non-English languages appears in the English set. And every one of the 138 non-English files carries its in-language warning banner. The translation risk is real, but it is a <em>prose</em> risk rather than a <em>data</em> risk, which changes what to do about it.</p>
+<hr>
+<h2>The council</h2>
+<ul><li><strong>Dr. Amara Osei</strong> — geriatric fraud-prevention researcher. Studies how victimisation actually unfolds, not how it is described afterwards.</li><li><strong>Ruth Delgado</strong> — plain-language and editorial lead, ex-newspaper standards desk. Cares about comprehension under stress.</li><li><strong>Kwame Boateng</strong> — accessibility engineer and daily screen-reader user.</li><li><strong>Mei-Lin Chow</strong> — localisation director, has shipped safety content in 30+ languages.</li><li><strong>Judith Farrow</strong> — trust-and-safety skeptic. Her brief is to find the way this site hurts somebody.</li><li><strong>Tomas Reid</strong> — reach and distribution strategist, nonprofit sector.</li></ul>
+<hr>
+<h2>The debate</h2>
+<h3>Opening: what is this site for?</h3>
+<p><strong>Amara.</strong> Before anything gets ranked, the audience needs stating precisely, because the whole list changes depending on the answer. This site is not for people researching fraud. It is for a 78-year-old on the phone <em>right now</em> with someone claiming to be their grandson, and for the adult daughter who finds out on Sunday. Those are two different products sharing a domain.</p>
+<p><strong>Tomas.</strong> And neither of them arrives by searching &quot;grandparent scam.&quot; That is the fiction I want to kill early. Nobody in crisis Googles a taxonomy. They are handed a piece of paper by a librarian, or their daughter texts them a link.</p>
+<p><strong>Ruth.</strong> Then let me put the most uncomfortable number on the table. The median page reads at grade 6.3, which is genuinely good work. <code>/right-now</code>, the crisis page, reads at 4.3, which is excellent and exactly right. But <code>home.md</code> reads at <strong>10.5</strong>. The front door is the second-hardest page on the entire site, harder than either blog post, and more than four grades harder than the page that actually saves someone.</p>
+<p><strong>Amara.</strong> That is worse than it sounds, because comprehension collapses under adrenaline. A grade-10 sentence read by a frightened person is not a grade-10 sentence any more.</p>
+<p><strong>Judith.</strong> I will accept that as the strongest finding so far, and I have not even started.</p>
+<h3>The translations</h3>
+<p><strong>Judith.</strong> Here is my brief. This site publishes safety advice in 44 languages that <strong>no human has ever read</strong>. 138 pages. Zero validated. To an audience selected for vulnerability. If one of those pages inverts an instruction — if &quot;never say the code aloud&quot; becomes &quot;always say the code&quot; in Amharic — a person loses their savings and the site caused it.</p>
+<p><strong>Mei-Lin.</strong> I want to be careful, because that is a real risk stated in an unreal way. The council checked. Every phone number is correct. Every page carries a warning banner in its own language. Machine translation in 2026 does not typically invert imperatives; it degrades in register and idiom. The plausible failure is a page that reads oddly and loses trust, not a page that tells someone to hand over the code.</p>
+<p><strong>Judith.</strong> &quot;Does not typically&quot; is doing enormous work in that sentence, and nobody has looked at even one page to check.</p>
+<p><strong>Mei-Lin.</strong> Agreed, and that is the actual gap. But your implied remedy — withhold until validated — has a body count too. Somebody who reads only Tagalog gets nothing at all while we wait for a volunteer who may never arrive. Imperfect guidance in your own language beats perfect guidance you cannot read.</p>
+<p><strong>Judith.</strong> Then at minimum the banner should say what it means. Right now it says, in effect, &quot;not reviewed, do not print.&quot; It does not say &quot;this might be wrong.&quot; Those are different warnings and only one of them is honest.</p>
+<p><strong>Mei-Lin.</strong> That I will concede. The banner is written for a distributor, not for a reader.</p>
+<p><strong>Ruth.</strong> Which is a copy problem, and it is copy on safety pages, so it is not ours to fix. Flag it.</p>
+<blockquote><strong><span class='flag'>FLAGGED FOR BRETT</span> — not executed.</strong> Rewording the UNVALIDATED banner is a change to safety content in 44 languages. The council believes the current wording addresses the wrong reader, but this is Brett&#x27;s call and would need native-speaker review to ship.</blockquote>
+<h3>The inverted priority</h3>
+<p><strong>Amara.</strong> Something in the language rollout is backwards, and I think it is the single most actionable thing here. <code>/right-now</code> — the page for the person mid-call — exists in 6 languages. The <em>landing page</em> exists in 45.</p>
+<p><strong>Mei-Lin.</strong> So a Tagalog speaker gets a homepage and one phishing article, but not the page for the moment it is actually happening.</p>
+<p><strong>Amara.</strong> The value per visit is not remotely comparable. A landing page in your language is hospitality. The crisis page is the intervention. We have translated the hospitality 45 times and the intervention 6 times.</p>
+<p><strong>Tomas.</strong> That is the ranking argument I would make from distribution too. If a librarian hands out one URL, it should be that one.</p>
+<p><strong>Judith.</strong> No objection. This is the rare case where the highest-value move and the lowest-risk move are the same page, because <code>/right-now</code> is short and mostly imperative — the register machine translation handles best.</p>
+<h3>Reach</h3>
+<p><strong>Tomas.</strong> My turn. Everything above assumes people arrive. Nothing establishes that anyone does. Analytics were never confirmed on, and the feedback form has been broken for every visitor since launch. This project has no idea whether it has ever helped one person.</p>
+<p><strong>Ruth.</strong> That reframes the whole list. Every ranking we produce below that line is informed guesswork.</p>
+<p><strong>Tomas.</strong> It is worse than guesswork, it is unfalsifiable. And the fix is not mine to make; it is two dashboard actions only Brett can do. But note the second one: the feedback form is the only channel by which a native speaker could tell us a translation is wrong. Judith&#x27;s 138-page risk and my measurement gap are the same missing pipe.</p>
+<p><strong>Judith.</strong> That is a good point and I will steal it. The validation programme cannot start until the form works.</p>
+<p><strong>Kwame.</strong> Then the cheap intermediate is a fallback that does not depend on an API key at all. A plain mail link works with no service, no secret, no server.</p>
+<h3>Accessibility</h3>
+<p><strong>Kwame.</strong> Mine is short, but I do not want it minimised. The automated checks pass, the landmarks are real, the heading order is fixed. None of that tells you whether the site is <em>usable</em> with a screen reader, because no human has ever tried. Automated tooling catches maybe a third of real barriers.</p>
+<p><strong>Amara.</strong> And this audience skews to low vision at exactly the same rate it skews to fraud targeting. They are the same cohort.</p>
+<p><strong>Kwame.</strong> Right. Audio narration exists, which is genuinely ahead of most sites, but in 6 languages — mirroring the same inversion Amara found. I would not rank a VoiceOver pass above the crisis-page translations, but it is the highest-value thing needing a human hour rather than a budget.</p>
+<h3>The adversarial angle</h3>
+<p><strong>Judith.</strong> Last one, and nobody has raised it. This site teaches people to verify everything they are told. It does not teach them to verify <em>it</em>. A scammer who clones this site with one helpline number changed has built a near-perfect trap for precisely this audience: the victim believes they are doing the safe thing at the moment they are being robbed.</p>
+<p><strong>Amara.</strong> That is not hypothetical. Recovery scams already work by impersonating the help.</p>
+<p><strong>Tomas.</strong> The printed materials help here, oddly. A fridge sheet with the real domain is a physical anchor that cannot be cloned by SEO.</p>
+<p><strong>Judith.</strong> Partly. But there is still no DMARC record, so nothing stops mail being spoofed from the domain today.</p>
+<blockquote><strong><span class='flag'>FLAGGED FOR BRETT</span> — not executed.</strong> A &quot;how to know you&#x27;re on the real site&quot; note is new safety-adjacent content and should not be drafted without Brett. The missing DMARC record is already open item #5 in BACKLOG.md and is a dashboard action only Brett can take.</blockquote>
+<h3>Closing disagreement</h3>
+<p><strong>Ruth.</strong> I want the record to show the council did not reach consensus on one thing. Judith holds that 138 unvalidated safety pages is the site&#x27;s largest liability. Mei-Lin holds that withdrawing them would harm more people than it protects. Both positions are coherent. It is a values call, not a technical one, and it belongs to Brett.</p>
+<p><strong>Judith.</strong> Accurate. I would add only that the site&#x27;s own validation-status page already publishes this honestly, which is more than most projects would do.</p>
+<hr>
+<h2>Ranked recommendations</h2>
+<p>Ranked by expected harm prevented per unit of effort.</p>
+<p class="rec"><strong>1. Restore measurement. The project cannot tell whether it works.</strong> — <em>Brett</em> No confirmed analytics; feedback form broken for 100% of visitors since launch. Also the only channel through which a native speaker could report a bad translation, so it blocks recommendation 4 as well. Brett-only: set <code>RESEND_API_KEY</code>, confirm Cloudflare Web Analytics. <em>Partly executable:</em> a mail-link fallback that works with no API key at all.</p>
+<p class="rec"><strong>2. Simplify the homepage. The front door is the hardest page on the site.</strong> — <em>executable</em> Grade 10.5 against a site median of 6.3 and a crisis page at 4.3. Also the second-stiffest page by contraction rate. The page deciding whether a frightened person stays is written four grades above the page that helps them. English, non-safety, review-gated.</p>
+<p class="rec"><strong>3. Translate the crisis page before anything else.</strong> — <em>Brett, cost</em> <code>/right-now</code> is in 6 languages; the landing page is in 45. Highest value per visit, shortest page, mostly imperative and therefore also the lowest translation risk. Should precede any new scam article in any language.</p>
+<p class="rec"><strong>4. Start validation with one language, not a programme.</strong> — <em>Brett</em> Zero of 138 pages validated. A single validated language proves the pipeline and gives <code>learn_from_edits.py</code> its first real signal. Blocked behind 1.</p>
+<p class="rec"><strong>5. Lock in the invariants that are currently clean.</strong> — <em>executable</em> Phone numbers correct in all 44 languages, banners present on all 138 files, zero broken links. All true today, none enforced. Cheap insurance, no content change.</p>
+<p class="rec"><strong>6. Fix the 8 over-long page titles.</strong> — <em>executable</em> Truncated in search results and link previews, which is where the adult-child audience actually encounters the site. Metadata only.</p>
+<p class="rec"><strong>7. A human screen-reader pass.</strong> — <em>Brett, one hour</em> Automated checks catch roughly a third of real barriers. Same cohort as the fraud target.</p>
+<p class="rec"><strong>8. Reword the UNVALIDATED banner to address readers, not distributors.</strong> — <em>FLAGGED, not executed</em> Safety content in 44 languages. Council split on urgency, unanimous that the current wording addresses the wrong person.</p>
+<p class="rec"><strong>9. Teach people to verify this site.</strong> — <em>FLAGGED, not executed</em> A cloned site with one changed number is a near-perfect trap for this audience. New safety-adjacent content, plus the open DMARC item.</p></main>
