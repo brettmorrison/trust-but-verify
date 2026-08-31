@@ -331,11 +331,35 @@ def check_hreflang():
                     % (url, target, ",".join(sorted(set(langs) ^ set(other)))))
 
 
+
+# ------------------------------------------------------------ table semantics
+# Two things a data table needs that markdown does not supply, both measured
+# on the real rendered pages before being fixed:
+#
+#   scope on every header cell, so a screen reader can tie a value back to
+#   its column. /resources-by-language is 45 rows of helpline and interpreter
+#   data; without scope it reads as 45 rows of bare values.
+#
+#   tabindex on the scroll container, because a region that scrolls but
+#   cannot be focused cannot be scrolled without a mouse. At 320px that
+#   table is 491px wide in a 273px box, so about 45% of it was unreachable.
+
+def check_table_semantics():
+    for path, html in pages():
+        for th in re.findall(r"<th\b[^>]*>", html):
+            if "scope=" not in th:
+                err("table header cell without scope", "%s: %s" % (rel(path), th))
+        for div in re.findall(r'<div class="table-scroll"[^>]*>', html):
+            if 'tabindex="0"' not in div:
+                err("scrollable table container is not keyboard reachable", rel(path))
+
+
 def main():
     strict = "--strict" in sys.argv
     for fn in (check_accessibility, check_metadata, check_links, check_weight,
                check_focus_styles, check_prose_regressions,
-               check_translation_safety, check_hreflang):
+               check_translation_safety, check_hreflang,
+               check_table_semantics):
         fn()
     n = len(list(pages()))
     print("audited %d pages in %s" % (n, OUT))
