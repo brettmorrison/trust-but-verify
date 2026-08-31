@@ -190,6 +190,16 @@ cannot start until the form works.
 **Kwame.** Then the cheap intermediate is a fallback that does not depend on an
 API key at all. A plain mail link works with no service, no secret, no server.
 
+**Ruth.** Checked after the session: that already exists. Both `/feedback` and
+the error page a failed submission lands on offer
+`translations [at] trustbutverifyproject [dot] org`, which is live through
+Cloudflare Email Routing and confirmed working. So the channel is degraded
+rather than dead, and Kwame's fallback needs no building.
+
+**Tomas.** Then I will narrow my claim rather than defend it. The form is broken
+for every visitor; the site is not unreachable. What remains is genuinely
+Brett-only.
+
 ### Accessibility
 
 **Kwame.** Mine is short, but I do not want it minimised. The automated checks
@@ -249,7 +259,10 @@ No confirmed analytics; feedback form broken for 100% of visitors since launch.
 Also the only channel through which a native speaker could report a bad
 translation, so it blocks recommendation 4 as well.
 Brett-only: set `RESEND_API_KEY`, confirm Cloudflare Web Analytics.
-*Partly executable:* a mail-link fallback that works with no API key at all.
+*Nothing executable remains here.* The council proposed a no-API-key mail
+fallback; it turned out to already exist on both `/feedback` and the error page,
+via an address that is live and confirmed working. The channel is degraded, not
+dead.
 
 **2. Simplify the interpreter-guidance page.** — *FLAGGED, not executed*
 `resources-by-language.md` reads at grade **9.4**, second-hardest on the site,
