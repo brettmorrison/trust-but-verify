@@ -1263,6 +1263,36 @@ def lang_nav(pre, current):
     return "\n".join(parts)
 
 
+
+def _translation_key(lang, slug):
+    """Language-independent identity of a page, or None if it has none.
+
+    /scams/phishing and /es/scams/phishing are the same page in two
+    languages and both answer "scams/phishing". A language landing page,
+    whether it is /es/ or the long-form /es/ built from nucleo.md, answers
+    "" and so pairs with the English homepage.
+    """
+    bare = slug.strip("/")
+    if lang == "en":
+        return bare
+    if bare == lang:
+        return ""
+    prefix = lang + "/"
+    return bare[len(prefix):] if bare.startswith(prefix) else None
+
+
+def build_translation_map(pages):
+    """key -> {lang: absolute url} for every page that exists in 2+ languages."""
+    by_key = {}
+    for _src, _meta, _body, lang, slug in pages:
+        key = _translation_key(lang, slug)
+        if key is None:
+            continue
+        bare = slug.strip("/")
+        by_key.setdefault(key, {})[lang] = SITE + "/" + (bare + "/" if bare else "")
+    return {k: v for k, v in by_key.items() if len(v) > 1}
+
+
 def build():
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
@@ -1286,6 +1316,8 @@ def build():
             if not re.match(r'^/?[a-z0-9/_-]*$', slug):
                 raise ValueError("Unsafe slug %r in %s" % (slug, src))
             pages.append((src, meta, body, lang, slug))
+
+    translations = build_translation_map(pages)
 
     # blog index: any content/en/blog/*.md other than blog.md itself.
     # Sorted newest first by the `date:` frontmatter field (ISO, so a
@@ -1397,18 +1429,33 @@ def build():
         og_rel = slug.strip("/") or "index"
         ogimage = SITE + "/og/" + og_rel.replace("/", "_") + ".png"
 
-        # hreflang: only the 45 language landing pages are true translations
-        # of each other. Deep content (scams/, questions/, talk/) exists in
-        # English only, so pointing hreflang at it would misclaim a
-        # translation that doesn't exist.
+        # hreflang connects the versions of a page that really are
+        # translations of each other, so search engines serve a reader the
+        # one in their language instead of treating 45 pages as duplicates
+        # competing with one another.
+        #
+        # This used to be hardcoded to the language landing pages, on the
+        # correct reasoning at the time that nothing deeper had been
+        # translated. That stopped being true: /scams/phishing now exists in
+        # all 45 languages and /right-now in 6, and none of them were linked.
+        # The set is derived from the pages actually being built, so it stays
+        # right as translation continues rather than needing a comment kept
+        # in sync with the content tree.
         hreflang = ""
-        slug_bare = slug.strip("/")
-        if slug_bare == "" or slug_bare == lang:
+        variants = translations.get(_translation_key(lang, slug) or "", {}) \
+            if _translation_key(lang, slug) is not None else {}
+        if len(variants) > 1:
             tags = []
             for code, _short, _native in LANGS:
-                href = SITE + "/" if code == "en" else "%s/%s/" % (SITE, code)
-                tags.append('<link rel="alternate" hreflang="%s" href="%s">' % (code, href))
-            tags.append('<link rel="alternate" hreflang="x-default" href="%s/">' % SITE)
+                if code in variants:
+                    tags.append('<link rel="alternate" hreflang="%s" href="%s">'
+                                % (code, variants[code]))
+            # x-default is where a reader goes when none of the declared
+            # languages match theirs. English is the source text.
+            default = variants.get("en")
+            if default:
+                tags.append('<link rel="alternate" hreflang="x-default" href="%s">'
+                            % default)
             hreflang = "\n".join(tags) + "\n"
 
         page = PAGE.format(

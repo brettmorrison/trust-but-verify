@@ -286,11 +286,56 @@ def check_translation_safety():
                 err("unvalidated translation is missing its warning banner", rel)
 
 
+
+# ------------------------------------------------------------------ hreflang
+# hreflang is only valid if it is reciprocal: every page in a translation set
+# must declare the whole set, itself included. A one-directional or incomplete
+# set is worse than none, because search engines discard the lot and go back
+# to treating 45 translations as duplicate pages competing with each other.
+#
+# This is easy to break silently. The tags are generated from the pages being
+# built, so adding one translated page changes the correct answer for every
+# other page in its set, and nothing on screen looks wrong when it goes bad.
+
+def check_hreflang():
+    declared, built = {}, set()
+    for path, html in pages():
+        url = "/" + os.path.relpath(os.path.dirname(path), OUT).strip("/")
+        if url == "/.":
+            url = "/"
+        built.add(url)
+        tags = re.findall(r'hreflang="([a-z-]+)" href="([^"]+)"', html)
+        if tags:
+            declared[url] = {c: u for c, u in tags if c != "x-default"}
+
+    def to_path(href):
+        # Absolute URLs; keep only the path so it can be matched against
+        # what was actually built.
+        return (re.sub(r"^https?://[^/]+", "", href).rstrip("/")) or "/"
+
+    for url, langs in sorted(declared.items()):
+        if not any(to_path(h) == url for h in langs.values()):
+            err("hreflang set omits the page declaring it", url)
+        for code, href in sorted(langs.items()):
+            target = to_path(href)
+            if target not in built:
+                err("hreflang points at a page that does not exist",
+                    "%s -> %s" % (url, href))
+                continue
+            other = declared.get(target)
+            if other is None:
+                err("hreflang target declares none of its own", "%s -> %s" % (url, target))
+            elif set(other) != set(langs):
+                err("hreflang sets disagree",
+                    "%s and %s differ on %s"
+                    % (url, target, ",".join(sorted(set(langs) ^ set(other)))))
+
+
 def main():
     strict = "--strict" in sys.argv
     for fn in (check_accessibility, check_metadata, check_links, check_weight,
                check_focus_styles, check_prose_regressions,
-               check_translation_safety):
+               check_translation_safety, check_hreflang):
         fn()
     n = len(list(pages()))
     print("audited %d pages in %s" % (n, OUT))
