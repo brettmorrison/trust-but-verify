@@ -24,11 +24,23 @@ council would otherwise have spent its time on.
 | Broken internal links sitewide | **0** |
 | `/right-now` (the mid-scam-call page) | present in **6** of 45 languages |
 | English median reading grade | **6.3** |
-| `home.md` reading grade | **10.5** |
+| English pages above grade 8 | **5** |
+| `resources-by-language.md` (interpreter guidance) reading grade | **9.4** |
+| `home.md` reading grade | **6.8** |
 | `/right-now` reading grade | **4.3** |
 | Feedback form | broken for every visitor since launch (no `RESEND_API_KEY`) |
 | Analytics | never confirmed enabled |
 | Audit harness | 0 errors, 11 warnings |
+
+> **Correction, made after the debate.** The council was first given a
+> reading grade of 10.5 for `home.md` and spent part of its time on it. That
+> number was wrong. The script measuring it did not exclude raw HTML blocks,
+> so the homepage's 250-word card grid was counted as a single enormous
+> sentence. `home.md` was the only page on the site affected, and its real
+> grade is **6.8** — slightly above the 6.3 median, never the hardest page.
+> The recommendation built on it has been demoted accordingly, and the
+> corrected numbers surfaced a better finding, recorded below as
+> recommendation 2. The rest of the debate stands.
 
 **Two worries were tested and dismissed before the debate.** Unvalidated AI
 translation has *not* corrupted any helpline number: every phone number across
@@ -68,19 +80,35 @@ on Sunday. Those are two different products sharing a domain.
 the fiction I want to kill early. Nobody in crisis Googles a taxonomy. They are
 handed a piece of paper by a librarian, or their daughter texts them a link.
 
-**Ruth.** Then let me put the most uncomfortable number on the table. The median
-page reads at grade 6.3, which is genuinely good work. `/right-now`, the crisis
-page, reads at 4.3, which is excellent and exactly right. But `home.md` reads at
-**10.5**. The front door is the second-hardest page on the entire site, harder
-than either blog post, and more than four grades harder than the page that
-actually saves someone.
+**Ruth.** Then let me put the reading numbers on the table. The median page
+reads at grade 6.3, which is genuinely good work. `/right-now`, the crisis page,
+reads at 4.3, which is excellent and exactly right. Five pages sit above grade 8.
 
-**Amara.** That is worse than it sounds, because comprehension collapses under
-adrenaline. A grade-10 sentence read by a frightened person is not a grade-10
-sentence any more.
+**Amara.** Which five? That matters more than the count, because comprehension
+collapses under adrenaline. A grade-9 sentence read by a frightened person is
+not a grade-9 sentence any more.
 
-**Judith.** I will accept that as the strongest finding so far, and I have not
-even started.
+**Ruth.** Two are the blog posts, and I do not care about those — they are read
+calmly by adult children, not by anyone mid-crisis. `terms.md` is 10.2 and it is
+legal boilerplate. `about.md` is 8.2 and it is fine.
+
+**Ruth.** The one that stops me is `resources-by-language.md` at **9.4**. That
+is the page telling people with limited English how to ask for an interpreter.
+
+**Mei-Lin.** That is the worst possible page to have that number on. Its entire
+audience is defined by not reading English well, and it is the second-hardest
+page on the site.
+
+**Judith.** And it is safety content, so we cannot touch it. Flag it.
+
+**Kwame.** Flag it loudly. That is not a style problem, that is the page failing
+the specific people it exists for.
+
+> **FLAGGED FOR BRETT — not executed.** `resources-by-language.md` carries
+> helpline and interpreter guidance, which is safety content under the standing
+> guardrail. The council did not modify it. It reads at grade 9.4 for an
+> audience defined by limited English proficiency, and the council believes this
+> is the single most valuable simplification available on the site.
 
 ### The translations
 
@@ -223,11 +251,12 @@ translation, so it blocks recommendation 4 as well.
 Brett-only: set `RESEND_API_KEY`, confirm Cloudflare Web Analytics.
 *Partly executable:* a mail-link fallback that works with no API key at all.
 
-**2. Simplify the homepage. The front door is the hardest page on the site.** — *executable*
-Grade 10.5 against a site median of 6.3 and a crisis page at 4.3. Also the
-second-stiffest page by contraction rate. The page deciding whether a frightened
-person stays is written four grades above the page that helps them. English,
-non-safety, review-gated.
+**2. Simplify the interpreter-guidance page.** — *FLAGGED, not executed*
+`resources-by-language.md` reads at grade **9.4**, second-hardest on the site,
+for an audience defined by limited English proficiency. It is the page telling
+people how to ask for an interpreter. This is safety content, so the council
+recommends it rather than shipping it, but it is the most valuable
+simplification available anywhere on the site.
 
 **3. Translate the crisis page before anything else.** — *Brett, cost*
 `/right-now` is in 6 languages; the landing page is in 45. Highest value per
@@ -242,6 +271,12 @@ gives `learn_from_edits.py` its first real signal. Blocked behind 1.
 Phone numbers correct in all 44 languages, banners present on all 138 files,
 zero broken links. All true today, none enforced. Cheap insurance, no content
 change.
+
+**5b. Loosen the homepage's stiffest prose.** — *executable, minor*
+Originally ranked 2 on a measurement that turned out to be wrong. The real
+gain is modest: grade 6.8 to 6.4, and contractions 12.0 to 23.0 per 1,000,
+which brings the front page's voice in line with the rest of the site. Worth
+having, not worth prioritising.
 
 **6. Fix the 8 over-long page titles.** — *executable*
 Truncated in search results and link previews, which is where the adult-child
