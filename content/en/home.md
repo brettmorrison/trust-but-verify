@@ -7,12 +7,12 @@ lang: en
 
 # You can stay trusting, but add a pause.
 
-Scammers are not beating people because people are foolish. They are beating
-people because they are good at their jobs, and because they arrive when you are
-tired, or busy, or worried about someone you love.
+Scammers aren't beating people because people are foolish. They're beating
+people because they're good at their jobs. They arrive when you're tired, or
+busy, or worried about someone you love.
 
-So we are not going to ask you to be smarter than a professional. We are going to
-ask you to be slower than one.
+So we won't ask you to be smarter than a professional. We'll ask you to be
+slower than one.
 
 ## The three steps
 
@@ -100,11 +100,11 @@ entered<span>Lottery, sweepstakes, and inheritance scams</span></a>
 
 ## Why "trust but verify"
 
-It's an old translation of a Russian proverb (*doveryai, no proveryai*) and it
-was said so often in the 1980s that most Americans over sixty can finish the
-phrase without being prompted.
+It's an old translation of a Russian proverb, *doveryai, no proveryai*. It was
+said so often in the 1980s that most Americans over sixty can finish the phrase
+without being prompted.
 
-We chose it for what it does *not* say. It does not say trust nobody. It does not
+We chose it for what it does *not* say. It doesn't say trust nobody. It doesn't
 say the world is full of liars and you're a fool for not seeing it. It says: go
 ahead and trust. Then check. The two were never in conflict.
 
@@ -114,10 +114,11 @@ ahead and trust. Then check. The two were never in conflict.
 
 A volunteer project. Free, and staying free. No products, no sponsors, no
 advertising, no mailing list, no donation button. No cookies, no accounts,
-nothing sold or shared. We keep one anonymous number (how many people visited each page) with
-no way to trace it back to you. A website about not
-getting your information taken should say plainly what little it keeps, and
-it does.
+nothing sold or shared.
+
+We keep one anonymous number: how many people visited each page. There's no way
+to trace it back to you. A site about not getting your information taken should
+say plainly what little it keeps.
 
 Everything here can be printed, copied, translated, read aloud, or handed to a
 neighbor without asking us. That's the point.
