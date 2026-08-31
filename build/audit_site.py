@@ -354,12 +354,63 @@ def check_table_semantics():
                 err("scrollable table container is not keyboard reachable", rel(path))
 
 
+
+# ----------------------------------------------------------- external links
+# This site's usefulness rests on a handful of outside URLs staying alive:
+# reportfraud.ftc.gov appears on 210 pages and ic3.gov on 204. If either
+# moves, every reporting instruction on the site quietly points at nothing,
+# and the people least able to recover from that are the ones following it.
+#
+# Off by default because it needs the network and takes a few seconds. Run
+# it deliberately: python3 build/audit_site.py --links
+#
+# A redirect is reported rather than passed over. It usually means the
+# canonical address has changed and the old one is living on borrowed time.
+#
+# Known limit, stated so nobody trusts this further than it goes: it cannot
+# see a soft 404. reportfraud.ftc.gov answers 200 for a path that does not
+# exist, so a broken deep link into that site would pass here. What this
+# does catch is a dead domain, a DNS failure, a hard 4xx/5xx, and a moved
+# address. That covers the realistic failure for the two URLs that matter.
+
+def check_external_links():
+    import urllib.request, urllib.error, ssl, collections
+
+    urls = collections.Counter()
+    for path, html in pages():
+        for u in re.findall(r'href="(https?://[^"]+)"', html):
+            if "trustbutverifyproject.org" not in u:
+                urls[u] += 1
+
+    ctx = ssl.create_default_context()
+    for url, count in sorted(urls.items(), key=lambda kv: -kv[1]):
+        req = urllib.request.Request(url, method="GET", headers={
+            "User-Agent": "Mozilla/5.0 (compatible; trustbutverify-linkcheck)"})
+        try:
+            with urllib.request.urlopen(req, timeout=20, context=ctx) as r:
+                final = r.geturl()
+                if r.status >= 400:
+                    err("external link returns %d" % r.status,
+                        "%s (on %d pages)" % (url, count))
+                elif final.rstrip("/") != url.rstrip("/"):
+                    warn("external link redirects",
+                         "%s -> %s (on %d pages)" % (url, final, count))
+        except urllib.error.HTTPError as e:
+            err("external link returns %d" % e.code, "%s (on %d pages)" % (url, count))
+        except Exception as e:
+            err("external link unreachable",
+                "%s (on %d pages): %s" % (url, count, type(e).__name__))
+
+
 def main():
     strict = "--strict" in sys.argv
-    for fn in (check_accessibility, check_metadata, check_links, check_weight,
-               check_focus_styles, check_prose_regressions,
-               check_translation_safety, check_hreflang,
-               check_table_semantics):
+    checks = [check_accessibility, check_metadata, check_links, check_weight,
+              check_focus_styles, check_prose_regressions,
+              check_translation_safety, check_hreflang,
+              check_table_semantics]
+    if "--links" in sys.argv:
+        checks.append(check_external_links)
+    for fn in checks:
         fn()
     n = len(list(pages()))
     print("audited %d pages in %s" % (n, OUT))
