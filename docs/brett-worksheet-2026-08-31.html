@@ -1,0 +1,308 @@
+<title>TBV Decision Worksheet</title>
+<style>
+:root{--bg:#fffdf9;--fg:#141414;--mut:#5c5c5c;--rule:#d9d4c6;--card:#fff;--accent:#123f7a;
+--warn:#8a5a00;--warnbg:#fdf3dd;--ok:#0b5d2a;--okbg:#e7f5ec;--stop:#8a1c1c;--stopbg:#fbe9e9;--code:#f4f1e8}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15140f;--fg:#f2efe6;--mut:#a9a396;--rule:#3a382f;--card:#1d1b16;--accent:#9ec1f0;--warn:#f0c96b;--warnbg:#332812;--ok:#8fe0ab;--okbg:#17311f;--stop:#ff9c9c;--stopbg:#3a1f1f;--code:#12110d}}
+:root[data-theme="dark"]{--bg:#15140f;--fg:#f2efe6;--mut:#a9a396;--rule:#3a382f;--card:#1d1b16;--accent:#9ec1f0;--warn:#f0c96b;--warnbg:#332812;--ok:#8fe0ab;--okbg:#17311f;--stop:#ff9c9c;--stopbg:#3a1f1f;--code:#12110d}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);margin:0;padding:1rem .9rem 4rem;
+font:17px/1.6 Georgia,'Iowan Old Style',serif;-webkit-text-size-adjust:100%}
+main{max-width:46rem;margin:0 auto}
+h1{font-size:1.5rem;line-height:1.22;margin:0 0 .35rem}
+.sub{color:var(--mut);font:.92rem/1.5 system-ui,sans-serif;margin:0 0 1rem}
+.prog{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--rule);
+padding:.55rem 0 .6rem;margin-bottom:1.3rem;font:600 .82rem/1 system-ui,sans-serif;color:var(--mut)}
+.bar{height:6px;background:var(--rule);border-radius:3px;margin-top:.45rem;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .25s}
+h2{font:700 .78rem/1 system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;
+color:var(--mut);margin:2.3rem 0 .85rem}
+.step{border:1px solid var(--rule);border-radius:8px;background:var(--card);margin:0 0 1rem;overflow:hidden}
+.step.done{opacity:.55}
+.hd{display:flex;gap:.6rem;align-items:flex-start;padding:.8rem .9rem .1rem}
+.hd input{width:1.35rem;height:1.35rem;margin-top:.15rem;flex:none;accent-color:var(--accent)}
+.hd h3{font:700 1.02rem/1.35 system-ui,sans-serif;margin:0}
+.step.done .hd h3{text-decoration:line-through}
+.chips{padding:.1rem .9rem .3rem 2.95rem;display:flex;flex-wrap:wrap;gap:.35rem}
+.chip{font:600 .7rem/1 system-ui,sans-serif;padding:.3rem .5rem;border-radius:99px;border:1px solid var(--rule);color:var(--mut)}
+.chip.you{background:var(--warnbg);color:var(--warn);border-color:transparent}
+.chip.me{background:var(--okbg);color:var(--ok);border-color:transparent}
+.chip.safety{background:var(--stopbg);color:var(--stop);border-color:transparent}
+.bd{padding:.35rem .9rem 1rem 2.95rem}
+@media(max-width:520px){.chips,.bd{padding-left:.9rem}}
+.bd p{margin:.55rem 0}
+.why{font-size:.95rem;color:var(--mut)}
+a.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
+font:600 .86rem/1 system-ui,sans-serif;padding:.62rem .85rem;border-radius:6px;margin:.35rem .35rem .35rem 0}
+a.btn.alt{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
+pre{background:var(--code);border:1px solid var(--rule);border-radius:6px;padding:.6rem .7rem;
+overflow-x:auto;font:.82rem/1.5 ui-monospace,Menlo,monospace;margin:.5rem 0}
+code{font:.86em ui-monospace,Menlo,monospace;background:var(--code);border:1px solid var(--rule);border-radius:3px;padding:.05em .3em;overflow-wrap:anywhere}
+pre code{border:0;background:none;padding:0;overflow-wrap:normal}
+a{overflow-wrap:anywhere}
+ol,ul{padding-left:1.2rem;margin:.5rem 0}li{margin:.35rem 0}
+.opt{border:1px solid var(--rule);border-left:4px solid var(--rule);border-radius:0 6px 6px 0;
+padding:.6rem .8rem;margin:.6rem 0;font-size:.95rem}
+.opt.rec{border-left-color:var(--ok);background:var(--okbg)}
+.opt h4{font:700 .88rem/1.3 system-ui,sans-serif;margin:0 0 .35rem}
+.opt dl{margin:.3rem 0 0;font-size:.9rem}
+.opt dt{font:700 .7rem/1 system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);margin-top:.45rem}
+.opt dd{margin:.15rem 0 0}
+.meta{border-top:1px dashed var(--rule);margin-top:.8rem;padding-top:.6rem;font-size:.9rem}
+.meta b{font:700 .7rem/1 system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);display:block}
+.regret{color:var(--stop)}
+.note{border-left:3px solid var(--accent);background:var(--card);padding:.6rem .85rem;margin:0 0 1.3rem;font-size:.94rem}
+</style>
+<main>
+<h1>Trust But Verify — what needs you</h1>
+<p class="sub">31 Aug 2026 · 12 items · tick as you go — progress saves in this browser<br>
+<span style="font-size:.86rem">Verified working over <code>http://</code>. If you open the file directly and ticks stop sticking, your browser is blocking storage on <code>file://</code>; run <code>python3 -m http.server 8766 --directory docs</code> in the repo and use <a href="http://localhost:8766/brett-worksheet-2026-08-31.html">localhost:8766</a>.</span></p>
+
+<div class="prog"><span id="ptxt">0 of 12 done</span><div class="bar"><i id="pbar"></i></div></div>
+
+<div class="note"><b>Nothing here is on fire.</b> The site is live, green, and 196 pages build with zero audit errors. Item&nbsp;1 is the only one with a real cost to waiting: the feedback form has never worked for a single visitor, and it is also the only channel a native speaker could use to tell you a translation is wrong — so it blocks the validation programme too.</div>
+
+<h2>Do these two first</h2>
+
+<div class="step" id="s1">
+<div class="hd"><input type="checkbox"><h3>1. Turn on the feedback form</h3></div>
+<div class="chips"><span class="chip you">You</span><span class="chip">~25 min</span><span class="chip">blocks item 4</span></div>
+<div class="bd">
+<p class="why">The form has been broken for <strong>every visitor since launch</strong>. Submissions land on a styled error page that offers your email address, so nothing is silently lost — but almost nobody retypes an address. <code>functions/api/feedback.js</code> is already built and deployed; this is only account setup.</p>
+
+<p><a class="btn" href="https://resend.com/signup">1 · Create Resend account</a>
+<a class="btn alt" href="https://resend.com/domains">2 · Add domain</a></p>
+<p>Add <code>trustbutverifyproject.org</code>. Resend shows you SPF/DKIM DNS records.</p>
+
+<p><a class="btn alt" href="https://dash.cloudflare.com/84de69bef9647f0cd0f11e2e6f6b6d66/trustbutverifyproject.org/dns/records">3 · Add those records in Cloudflare DNS</a></p>
+<p><strong>The one trap:</strong> Cloudflare Email Routing already created an SPF <code>TXT</code> record at the root. Do <em>not</em> add a second one — <strong>edit the existing record</strong> and merge Resend's <code>include:</code> into it. A domain may have only one SPF record; two break both.</p>
+
+<p><a class="btn alt" href="https://resend.com/domains">4 · Click Verify</a> — usually confirms in a few minutes.</p>
+
+<p><a class="btn alt" href="https://resend.com/api-keys">5 · Create API key</a></p>
+<p>Name <code>tbv-feedback-form</code>, permission <strong>Sending access only</strong>, scoped to the domain if offered. It is shown once — copy it before leaving the page.</p>
+
+<p><a class="btn" href="https://dash.cloudflare.com/84de69bef9647f0cd0f11e2e6f6b6d66/pages/view/trust-but-verify/settings/environment-variables">6 · Add the secret to Cloudflare Pages</a></p>
+<p>Add variable <code>RESEND_API_KEY</code>, paste the key, toggle <strong>Encrypt / Secret</strong>, apply to <strong>Production</strong>. Then redeploy so the Function picks it up:</p>
+<p><a class="btn alt" href="https://dash.cloudflare.com/84de69bef9647f0cd0f11e2e6f6b6d66/pages/view/trust-but-verify/deployments">Retry latest deployment</a></p>
+
+<div class="meta"><b>What you should see</b>
+<p>Submitting <a href="https://trustbutverifyproject.org/feedback/">the live form</a> lands on <code>/feedback/thanks/</code> instead of <code>/feedback/error/</code>, and the message arrives at translations@.</p>
+<b>Done when</b><p>You receive your own test submission by email.</p>
+<b class="regret">Regret if you skip it</b><p class="regret">You keep shipping to 45 languages with no way for anyone to tell you something is wrong, and no way to know if the site has ever helped one person.</p></div>
+</div></div>
+
+<div class="step" id="s2">
+<div class="hd"><input type="checkbox"><h3>2. Confirm Cloudflare Web Analytics is on</h3></div>
+<div class="chips"><span class="chip you">You</span><span class="chip">~3 min</span></div>
+<div class="bd">
+<p class="why">The site's copy already tells visitors you keep "one anonymous number (how many people visited each page)". If analytics is off, that sentence is inaccurate — and you cannot tell whether any of this work reaches anyone.</p>
+<p><a class="btn" href="https://dash.cloudflare.com/84de69bef9647f0cd0f11e2e6f6b6d66/web-analytics">Open Web Analytics</a></p>
+<p>Confirm <code>trustbutverifyproject.org</code> is listed with <strong>automatic setup</strong> enabled.</p>
+<div class="meta"><b class="regret">Do not enable RUM</b>
+<p class="regret">On the same page Cloudflare offers <strong>Real User Measurements</strong>. That is a different, more invasive product — it collects device, location and network context, not just anonymous page views. <code>privacy.md</code> does not disclose it. Leave it off; if you ever want it, set "Exclude EU" and update the privacy page first.</p>
+<b>Done when</b><p>The dashboard shows page-view data for the domain.</p></div>
+</div></div>
+
+<h2>Three pull requests waiting on you</h2>
+
+<div class="step" id="s3">
+<div class="hd"><input type="checkbox"><h3>3. PR #3 — hero photos, 43% smaller</h3></div>
+<div class="chips"><span class="chip you">You</span><span class="chip">~5 min</span><span class="chip me">already built &amp; tested</span></div>
+<div class="bd">
+<p class="why">2532 KB → 1451 KB across 19 photos. This is the site's <em>only</em> real page-weight problem: the homepage is 227 KB total and 218 KB of that is one photo. It also clears the last audit warning of its kind (<code>charity-scams.jpg</code>, 304 KB).</p>
+<p><a class="btn" href="https://github.com/brettmorrison/trust-but-verify/pull/3">Review PR #3</a></p>
+
+<div class="opt rec"><h4>A · Merge it (recommended)</h4>
+<dl><dt>For</dt><dd>Real gain for the audience most likely to be on slow connections and older phones. Photos are decorative; nothing informational is lost.</dd>
+<dt>Against</dt><dd>It changes what visitors see. Re-encoding at 1200px is visually lossy if you look closely at a large screen.</dd>
+<dt class="regret">Regret</dt><dd class="regret">A photo looks soft on a retina display and you re-run the pipeline at a higher quality setting. Fully reversible — sources are kept in <code>assets/photos/source/</code>.</dd></dl></div>
+
+<div class="opt"><h4>B · Look at two or three photos first, then merge</h4>
+<dl><dt>For</dt><dd>Costs ten minutes and removes the only real objection.</dd>
+<dt>Against</dt><dd>Delays a change that is very likely fine.</dd>
+<dt class="regret">Regret</dt><dd class="regret">Almost none — this is the cautious path.</dd></dl></div>
+
+<div class="opt"><h4>C · Leave it</h4>
+<dl><dt>For</dt><dd>Zero visual risk.</dd>
+<dt>Against</dt><dd>Every visitor keeps paying for a 218 KB homepage photo.</dd>
+<dt class="regret">Regret</dt><dd class="regret">You keep the site's one measurable performance problem for no benefit.</dd></dl></div>
+</div></div>
+
+<div class="step" id="s4">
+<div class="hd"><input type="checkbox"><h3>4. PR #5 — /protect-your-privacy rewrite</h3></div>
+<div class="chips"><span class="chip you">You</span><span class="chip">~15 min</span><span class="chip">live copy</span></div>
+<div class="bd">
+<p class="why">The one machine-stiff page on the site: <strong>4.9 contractions per 1,000 words against a site median of 30</strong>. 16 passages rewritten for voice; two hedges committed to. Every protective instruction keeps its exact substance — bureau phone numbers, Innovis/NCTUE, the "type, never say" rule, the never-hand-over list — verified mechanically, not by eye.</p>
+<p><a class="btn" href="https://github.com/brettmorrison/trust-but-verify/pull/5">Review PR #5</a>
+<a class="btn alt" href="https://github.com/brettmorrison/trust-but-verify/blob/copy/protect-your-privacy-voice/docs/protect-your-privacy-rewrite.html">Side-by-side diff</a></p>
+<p>To read all 16 passages side by side locally without a git diff:</p>
+<pre><code>cd ~/Claude/trustbutverify-site
+git fetch origin copy/protect-your-privacy-voice
+git checkout copy/protect-your-privacy-voice
+open docs/protect-your-privacy-rewrite.html</code></pre>
+
+<div class="opt rec"><h4>A · Merge (recommended)</h4>
+<dl><dt>For</dt><dd>The page currently reads like a form letter on a site whose whole appeal is that it sounds like a person. Invariants were machine-checked: 4 phone numbers, 6 domains, 8 links, 9 headings, 18 numerals all identical.</dd>
+<dt>Against</dt><dd>It is 385 lines of changed customer-facing copy on a page containing protective instructions.</dd>
+<dt class="regret">Regret</dt><dd class="regret">A sentence reads worse to you than the original. One revert, no consequence — and no safety fact can have moved, because none of them changed.</dd></dl></div>
+
+<div class="opt"><h4>B · Merge only the non-instructional sections</h4>
+<dl><dt>For</dt><dd>Keeps every word near the credit-freeze and 2FA steps exactly as it is.</dd>
+<dt>Against</dt><dd>Splitting it is fiddly and leaves the page in two voices, which is the problem it set out to fix.</dd>
+<dt class="regret">Regret</dt><dd class="regret">You spend real effort for a half-fixed page.</dd></dl></div>
+
+<div class="opt"><h4>C · Leave it</h4>
+<dl><dt>For</dt><dd>Zero risk to a page that gives financial-security advice.</dd>
+<dt>Against</dt><dd>It stays the one page that sounds machine-written.</dd>
+<dt class="regret">Regret</dt><dd class="regret">Low. This is a polish item, not a correctness one.</dd></dl></div>
+</div></div>
+
+<div class="step" id="s5">
+<div class="hd"><input type="checkbox"><h3>5. PR #8 — homepage voice pass</h3></div>
+<div class="chips"><span class="chip you">You</span><span class="chip">~5 min</span><span class="chip">live copy</span></div>
+<div class="bd">
+<p class="why"><strong>Deliberately ranked low, and I want to be straight about why.</strong> I originally called this urgent on a reading grade of 10.5. That number was wrong — my script counted the homepage's 250-word card grid as a single sentence. The real grade was 6.8, near the 6.3 median. This is a modest improvement, not a rescue: three 33–38 word sentences split, grade 6.8 → 6.4, contractions 12.0 → 23.0. The three steps are untouched byte for byte.</p>
+<p><a class="btn" href="https://github.com/brettmorrison/trust-but-verify/pull/8">Review PR #8</a></p>
+<div class="opt rec"><h4>A · Merge (recommended)</h4>
+<dl><dt>For</dt><dd>13 lines. Brings the front page's voice in line with the rest of the site.</dd>
+<dt>Against</dt><dd>It is live homepage copy for a small gain.</dd>
+<dt class="regret">Regret</dt><dd class="regret">You prefer a longer original sentence. One revert.</dd></dl></div>
+<div class="opt"><h4>B · Leave it</h4>
+<dl><dt>For</dt><dd>The page was never in bad shape, as the correction above shows.</dd>
+<dt>Against</dt><dd>The homepage stays the second-stiffest page on the site.</dd>
+<dt class="regret">Regret</dt><dd class="regret">Very little. This is the most droppable item on the page.</dd></dl></div>
+</div></div>
+
+<h2>Safety content — I did not touch these</h2>
+
+<div class="step" id="s6">
+<div class="hd"><input type="checkbox"><h3>6. Non-canonical reporting URL on 6 pages</h3></div>
+<div class="chips"><span class="chip safety">Safety content</span><span class="chip you">You decide</span><span class="chip">~10 min</span></div>
+<div class="bd">
+<p class="why">Six pages link <code>https://ic3.gov</code>, which redirects to <code>https://www.ic3.gov/</code>. The other 198 pages already use the canonical form. <strong>It works today</strong> — this is an extra hop and an inconsistency, not an outage. Found by the new <code>--links</code> check.</p>
+<pre><code>content/en/scams/lottery-sweepstakes.md:66
+content/es/scams/lottery-sweepstakes.md:83
+content/vi/scams/lottery-sweepstakes.md:83
+content/ru/scams/lottery-sweepstakes.md:82
+content/zh/scams/lottery-sweepstakes.md:69
+content/ko/scams/lottery-sweepstakes.md:81</code></pre>
+<p>The English file is the origin; the five translations inherited it. The link <em>text</em> reads "ic3.gov" in all six and would not need to change — only the <code>href</code>.</p>
+<div class="opt rec"><h4>A · Tell me to fix the href only, all six (recommended)</h4>
+<dl><dt>For</dt><dd>Changes zero visible words in any language — only the URL inside the link. Removes a redirect hop from a reporting instruction.</dd>
+<dt>Against</dt><dd>It still edits files containing safety content, which is why I stopped.</dd>
+<dt class="regret">Regret</dt><dd class="regret">Essentially none; <code>www.ic3.gov</code> is where the redirect already sends everyone.</dd></dl></div>
+<div class="opt"><h4>B · Fix English only, let translations follow later</h4>
+<dl><dt>For</dt><dd>Respects English-first strictly.</dd>
+<dt>Against</dt><dd>Leaves five translated pages inconsistent for no reason, since the href is language-neutral.</dd>
+<dt class="regret">Regret</dt><dd class="regret">You do the same job twice.</dd></dl></div>
+<div class="opt"><h4>C · Leave it</h4>
+<dl><dt>For</dt><dd>Zero change to safety pages.</dd>
+<dt>Against</dt><dd>A redirect is a dependency on the FTC keeping it alive.</dd>
+<dt class="regret">Regret</dt><dd class="regret">If IC3 ever drops the bare-domain redirect, six reporting instructions break at once.</dd></dl></div>
+</div></div>
+
+<div class="step" id="s7">
+<div class="hd"><input type="checkbox"><h3>7. The interpreter page is the second-hardest page to read</h3></div>
+<div class="chips"><span class="chip safety">Safety content</span><span class="chip you">You decide</span><span class="chip">council rec 2</span></div>
+<div class="bd">
+<p class="why"><code>resources-by-language.md</code> reads at <strong>grade 9.4</strong> against a site median of 6.3. It is the page telling people with limited English how to ask for an interpreter. Its entire audience is defined by not reading English well. The council considered this the most valuable simplification available anywhere on the site — and it is exactly the content I am not allowed to rewrite.</p>
+<div class="opt rec"><h4>A · Authorise a draft PR I cannot merge (recommended)</h4>
+<dl><dt>For</dt><dd>You see a concrete before/after instead of an abstract problem, and nothing ships without you.</dd>
+<dt>Against</dt><dd>Costs you a careful read of safety copy.</dd>
+<dt class="regret">Regret</dt><dd class="regret">You read a draft and reject it. Cost is your time only.</dd></dl></div>
+<div class="opt"><h4>B · Have a native-speaker volunteer do it as part of validation</h4>
+<dl><dt>For</dt><dd>The right people, eventually.</dd>
+<dt>Against</dt><dd>Zero of 138 pages are validated and nobody is recruited yet. This could mean never.</dd>
+<dt class="regret">Regret</dt><dd class="regret">The hardest page for the least-served audience stays hard indefinitely.</dd></dl></div>
+<div class="opt"><h4>C · Leave it</h4>
+<dl><dt>For</dt><dd>It is accurate and complete as written.</dd>
+<dt>Against</dt><dd>Accurate is not the same as usable by the person who needs it.</dd>
+<dt class="regret">Regret</dt><dd class="regret">The site's stated purpose is undercut on the one page where language is the barrier.</dd></dl></div>
+</div></div>
+
+<div class="step" id="s8">
+<div class="hd"><input type="checkbox"><h3>8. The UNVALIDATED banner addresses the wrong reader</h3></div>
+<div class="chips"><span class="chip safety">Safety content · 44 languages</span><span class="chip you">You decide</span><span class="chip">council rec 8</span></div>
+<div class="bd">
+<p class="why">All 138 non-English pages carry it, which is good. But it says, in effect, <em>"not reviewed by a native speaker; do not print or distribute."</em> That is written for a <strong>distributor</strong>. It never tells the <strong>reader</strong> the page might be wrong. The council split on urgency and was unanimous that it addresses the wrong person.</p>
+<div class="opt rec"><h4>A · Change English wording now, translate after (recommended)</h4>
+<dl><dt>For</dt><dd>Follows your English-first rule exactly, and the English banner is what you can judge.</dd>
+<dt>Against</dt><dd>Leaves 44 languages on the old wording until translation catches up.</dd>
+<dt class="regret">Regret</dt><dd class="regret">A transitional period of mixed wording — invisible to any single reader, who sees one language.</dd></dl></div>
+<div class="opt"><h4>B · Rewrite all 45 at once</h4>
+<dl><dt>For</dt><dd>Consistent immediately.</dd>
+<dt>Against</dt><dd>Machine-translating a warning about machine translation, into 44 unvalidated languages.</dd>
+<dt class="regret">Regret</dt><dd class="regret">The one sentence you most need to be right is the one nobody checked.</dd></dl></div>
+<div class="opt"><h4>C · Leave it</h4>
+<dl><dt>For</dt><dd>It is honest and present everywhere. <code>/validation-status</code> already publishes the full picture.</dd>
+<dt>Against</dt><dd>A reader in difficulty will not infer "this might be wrong" from "do not distribute".</dd>
+<dt class="regret">Regret</dt><dd class="regret">Someone follows a mistranslated page believing it was checked.</dd></dl></div>
+</div></div>
+
+<h2>Smaller and later</h2>
+
+<div class="step" id="s9">
+<div class="hd"><input type="checkbox"><h3>9. Translate /right-now before any new article</h3></div>
+<div class="chips"><span class="chip you">You · cost</span><span class="chip">council rec 3</span></div>
+<div class="bd">
+<p class="why">The crisis page — for someone mid-scam-call — exists in <strong>6 languages</strong>. The landing page exists in <strong>45</strong>. That inverts value per visit: a landing page in your language is hospitality, the crisis page is the intervention. It is also short and mostly imperative, the register machine translation handles best, so it is simultaneously the highest-value and lowest-risk translation available.</p>
+<p><strong>Recommendation:</strong> when the next translation budget opens, spend it here before any new scam article in any language. Per your standing rule, pick the order using LEP age-65+ (Census ACS B16004), with Spanish always first.</p>
+</div></div>
+
+<div class="step" id="s10">
+<div class="hd"><input type="checkbox"><h3>10. Add a DMARC record</h3></div>
+<div class="chips"><span class="chip you">You</span><span class="chip">~5 min</span><span class="chip">after item 1</span></div>
+<div class="bd">
+<p class="why">Without it there is no enforced policy when a spoofed <code>@trustbutverifyproject.org</code> message fails SPF/DKIM. Do this <em>after</em> item 1, so SPF and DKIM are both live first.</p>
+<p><a class="btn" href="https://dash.cloudflare.com/84de69bef9647f0cd0f11e2e6f6b6d66/trustbutverifyproject.org/dns/records">Open Cloudflare DNS</a></p>
+<pre><code>Type:    TXT
+Name:    _dmarc
+Content: v=DMARC1; p=quarantine; rua=mailto:translations@trustbutverifyproject.org</code></pre>
+<p><code>p=quarantine</code> rather than <code>p=reject</code> on purpose: it sends failing mail to spam instead of bouncing it, which is safer while this domain's mail flow is new. Reassess after a few weeks of clean reports.</p>
+<div class="meta"><b class="regret">Regret if you skip it</b><p class="regret">A scammer can spoof mail from your domain to the exact audience trained to trust it — and impersonating the help is how recovery scams already work.</p></div>
+</div></div>
+
+<div class="step" id="s11">
+<div class="hd"><input type="checkbox"><h3>11. The scrollable table has no accessible name</h3></div>
+<div class="chips"><span class="chip you">You decide</span><span class="chip">45 languages</span></div>
+<div class="bd">
+<p class="why">I made the scroll container keyboard-reachable, which removed a real trap — about 45% of the interpreter table was unreachable without a mouse. But a screen reader still announces the region unnamed. Naming it properly needs <code>role="region"</code> <em>plus</em> a label, and a label is new copy in 45 languages. I stopped rather than invent it.</p>
+<p><strong>Recommendation:</strong> bundle it with item 7 or 8 — if safety copy is being touched anyway, one short label ("Helpline table", or similar) rides along at almost no extra cost.</p>
+</div></div>
+
+<div class="step" id="s12">
+<div class="hd"><input type="checkbox"><h3>12. Two over-long meta descriptions</h3></div>
+<div class="chips"><span class="chip">Low priority</span><span class="chip">translated copy</span></div>
+<div class="bd">
+<p class="why">French (221 chars) and Hmong (206) exceed the ~200 char limit, so search results truncate them. Both are translated copy, so trimming them is a translation change and waits behind the English-first rule. Cosmetic; native-speaker validation would catch it anyway.</p>
+</div></div>
+
+<script>
+(function(){
+  var K='tbv-worksheet-2026-08-31';
+  var boxes=[].slice.call(document.querySelectorAll('.step input[type=checkbox]'));
+  var saved={};
+  try{saved=JSON.parse(localStorage.getItem(K)||'{}')}catch(e){saved={}}
+  function paint(){
+    var n=0;
+    boxes.forEach(function(b){
+      var s=b.closest('.step');
+      if(b.checked){n++;s.classList.add('done')}else{s.classList.remove('done')}
+    });
+    var t=boxes.length;
+    document.getElementById('ptxt').textContent=n+' of '+t+' done';
+    document.getElementById('pbar').style.width=(t?100*n/t:0)+'%';
+  }
+  boxes.forEach(function(b){
+    var s=b.closest('.step');
+    if(saved[s.id])b.checked=true;
+    b.addEventListener('change',function(){
+      saved[s.id]=b.checked;
+      try{localStorage.setItem(K,JSON.stringify(saved))}catch(e){}
+      paint();
+    });
+  });
+  paint();
+})();
+</script>
+</main>
