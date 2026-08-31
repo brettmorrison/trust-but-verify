@@ -222,10 +222,75 @@ def check_prose_regressions():
                     "%s at %.1f per 1k, baseline recorded %.1f" % (rel, r, allowed))
 
 
+
+# --------------------------------------------------- translated safety invariants
+# Three properties of the 138 non-English pages are true today and nothing
+# was enforcing any of them. They are cheap to keep and expensive to lose,
+# because this is safety copy for people who cannot read the English original
+# and so cannot notice when it is wrong.
+#
+#   1. Every phone number in a translation also appears in the English copy.
+#      A helpline number that drifts during translation sends a frightened
+#      person to a number nobody answers, or to somebody else entirely.
+#   2. Every unvalidated page carries its in-language warning banner. That
+#      banner is the only thing telling a reader no human has checked the page.
+#   3. Every non-English page declares validated_by, so "checked" is a
+#      recorded fact rather than an assumption.
+#
+# This is insurance on a currently-clean state, not a repair.
+
+PHONE_RE = re.compile(r"\b(?:\d{3}[-.\s]?\d{3}[-.\s]?\d{4}|\d{3}-\d{4})\b")
+
+def _content_files():
+    for f in sorted(glob.glob(os.path.join(ROOT, "content", "*", "**", "*.md"),
+                              recursive=True)):
+        rel = os.path.relpath(f, ROOT)
+        yield rel, rel.split(os.sep)[1], io.open(f, encoding="utf-8").read()
+
+def _front_matter(text):
+    m = re.match(r"^---\n(.*?)\n---", text, re.S)
+    if not m:
+        return {}
+    fm = {}
+    for line in m.group(1).split("\n"):
+        if ":" in line:
+            k, v = line.split(":", 1)
+            fm[k.strip()] = v.strip()
+    return fm
+
+def check_translation_safety():
+    english, files = set(), []
+    for rel, lang, text in _content_files():
+        nums = set(PHONE_RE.findall(text.replace(".", "-")))
+        if lang == "en":
+            english |= nums
+        else:
+            files.append((rel, nums, _front_matter(text)))
+
+    if not english:
+        err("no English phone numbers found", "the subset check cannot run")
+        return
+
+    for rel, nums, fm in files:
+        stray = sorted(nums - english)
+        if stray:
+            err("phone number in a translation that is not in the English copy",
+                "%s has %s" % (rel, ", ".join(stray)))
+
+        validator = fm.get("validated_by", "").strip()
+        if not validator:
+            err("non-English page does not declare validated_by", rel)
+        elif validator.startswith("(none"):
+            # Not yet checked by a human, so the reader must be told so.
+            if "UNVALIDATED" not in fm.get("status", ""):
+                err("unvalidated translation is missing its warning banner", rel)
+
+
 def main():
     strict = "--strict" in sys.argv
     for fn in (check_accessibility, check_metadata, check_links, check_weight,
-               check_focus_styles, check_prose_regressions):
+               check_focus_styles, check_prose_regressions,
+               check_translation_safety):
         fn()
     n = len(list(pages()))
     print("audited %d pages in %s" % (n, OUT))
