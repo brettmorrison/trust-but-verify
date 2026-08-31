@@ -1,0 +1,52 @@
+<title>Broad sweep — accessibility, SEO, performance, structure</title>
+<style>
+:root{--bg:#fffdf9;--fg:#141414;--mut:#5c5c5c;--rule:#d9d4c6;--card:#fff;--accent:#123f7a;--warn:#8a5a00;--warnbg:#fdf3dd}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15140f;--fg:#f2efe6;--mut:#a9a396;--rule:#3a382f;--card:#1d1b16;--accent:#9ec1f0;--warn:#f0c96b;--warnbg:#332812}}
+:root[data-theme="dark"]{--bg:#15140f;--fg:#f2efe6;--mut:#a9a396;--rule:#3a382f;--card:#1d1b16;--accent:#9ec1f0;--warn:#f0c96b;--warnbg:#332812}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);margin:0;padding:1.15rem;font:17px/1.6 Georgia,'Iowan Old Style',serif;-webkit-text-size-adjust:100%}
+main{max-width:44rem;margin:0 auto}
+h1{font-size:1.55rem;line-height:1.22;margin:0 0 1rem}
+h2{font-size:1.16rem;font-family:system-ui,sans-serif;margin:2.2rem 0 .8rem;padding-bottom:.32rem;border-bottom:2px solid var(--rule)}
+h3{font-size:1rem;font-family:system-ui,sans-serif;margin:1.7rem 0 .6rem;color:var(--accent)}
+p{margin:0 0 .85rem}
+hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
+table{width:100%;border-collapse:collapse;margin:0 0 1.1rem;font:15px/1.45 system-ui,sans-serif;display:block;overflow-x:auto}
+td{border-bottom:1px solid var(--rule);padding:.42rem .5rem;vertical-align:top}
+tr td:last-child{text-align:right;color:var(--mut)}
+tr td:last-child strong{color:var(--fg)}
+blockquote{margin:1.1rem 0;padding:.7rem .9rem;background:var(--warnbg);border-left:4px solid var(--warn);border-radius:0 5px 5px 0;font-size:.95rem}
+.flag{font:700 .74rem/1 system-ui,sans-serif;letter-spacing:.05em;color:var(--warn)}
+ul{padding-left:1.15rem;margin:0 0 1rem}li{margin:.45rem 0}
+a{color:var(--accent)}
+code{font:.85em ui-monospace,Menlo,monospace;background:var(--card);border:1px solid var(--rule);border-radius:3px;padding:.06em .32em}
+p.rec{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--accent);border-radius:0 6px 6px 0;padding:.7rem .9rem;margin:0 0 .55rem}
+em{color:var(--mut)}
+</style>
+<main><h1>Broad sweep — accessibility, SEO, performance, structure</h1>
+<p class="rec"><strong>2026-08-31.</strong> Executing the council&#x27;s non-safety, no-approval recommendations across mixed work types. Nothing published. Safety content untouched in every language; three items are flagged for Brett instead.</p>
+<hr>
+<h2>What shipped</h2>
+<table><tr><td>#</td><td>area</td><td>change</td><td>state</td></tr><tr><td>11</td><td>SEO / i18n</td><td>hreflang now links pages that really are translations</td><td>PR, for Brett</td></tr><tr><td>12</td><td>Accessibility</td><td>table headers get <code>scope</code>; scroll containers keyboard-reachable</td><td>PR, stacked on 11</td></tr><tr><td>13</td><td>Tooling</td><td>opt-in external link check</td><td>PR, stacked on 12</td></tr><tr><td>9</td><td>SEO / metadata</td><td>site-name suffix no longer truncates real titles</td><td>PR, for Brett</td></tr></table>
+<p>All four change rendered output or metadata, so none was merged.</p>
+<hr>
+<h2>The two defects worth the sweep</h2>
+<p><strong>hreflang was stale, not wrong.</strong> It was hardcoded to the 45 landing pages, with a comment explaining that deep content was English-only. That was true when written. It stopped being true: <code>/scams/phishing</code> now exists in all 45 languages and <code>/right-now</code> in 6, and none of them were connected. So 45 translations of the site&#x27;s most-reported-scam page were competing with each other in search instead of being served to the reader who needs that language. Pages carrying hreflang go from 45 to 150. It is now derived from what is actually built, so it stays right as translation continues rather than depending on a comment being maintained.</p>
+<p><strong>The interpreter table was partly unreachable.</strong> Measured in a browser at 320px: the table is 491px wide inside a 273px container, and the container was not focusable. A region that scrolls but cannot be focused cannot be scrolled without a mouse, so roughly 45% of the helpline and interpreter data was unavailable to keyboard users. Separately, none of the site&#x27;s 66 header cells had a <code>scope</code> attribute, so a screen reader had nothing tying 45 rows of helpline values back to their columns. Both fixed in markup only. No word of safety content changed.</p>
+<hr>
+<h2>Checked and found healthy</h2>
+<p>Reported because &quot;we looked and it is fine&quot; is worth as much as a fix, and because each of these was a plausible defect worth ruling out.</p>
+<ul><li><strong>Performance.</strong> Homepage is 2 subresources, 227 KB, zero scripts, DOMContentLoaded 10ms. Audio is <code>preload=&quot;none&quot;</code>, so the 289 MB of narration costs nothing until someone presses play. <code>aspect-ratio</code> is set, so no layout shift. The only real weight is one 218 KB photo, which the already-open PR #3 addresses. No new performance work was warranted.</li><li><strong>Mobile.</strong> No horizontal overflow at 320px. Language-switcher links measure 41.7 × 89.7px, comfortably past the 24px minimum target size.</li><li><strong>Contrast.</strong> Every palette pair is AAA; the focus indicator is AA.</li><li><strong>Structure.</strong> Every page has one <code>h1</code>, zero heading-level jumps, zero images without alt, a <code>main</code> landmark and a skip link. Sitemap is 196 of 196 with <code>lastmod</code>, no orphans, no phantom entries. Zero broken internal links.</li><li><strong>External links.</strong> All 28 resolve.</li><li><strong>Reduced motion.</strong> The site has no animations, so nothing to gate.</li></ul>
+<hr>
+<h2>Two false positives caught before they became findings</h2>
+<p><strong>&quot;36 of 44 language links fail target size.&quot;</strong> Measured against a <code>file://</code> snapshot where the stylesheet never loaded, so it was measuring unstyled HTML at Times 16px. Served properly over HTTP, every link is 41.7px tall and zero fail.</p>
+<p><strong>&quot;A YouTube link is dead.&quot;</strong> Its page contains &quot;Video unavailable&quot; — but so does the page of a known-working video, as boilerplate. <code>playabilityStatus</code> is <code>OK</code> for both.</p>
+<p>There was also a real self-inflicted one: the first version of the table guard passed its own injection test because it had been branched off <code>main</code> and was patching a string that only existed on another branch, so it was never wired into the runner. The wiring is now covered by the same injection test.</p>
+<hr>
+<h2>Flagged for Brett, deliberately not changed</h2>
+<blockquote><strong>Non-canonical reporting URL.</strong> Six pages link <code>https://ic3.gov</code>, which redirects to <code>https://www.ic3.gov/</code>; the rest of the site uses the canonical form. This is reporting-step content. The six are <code>lottery-sweepstakes</code> in en/es/vi/zh/ru/ko — the English source is the origin and the five translations inherited it, so correcting English and re-translating that one line resolves all six. It works today; this is an extra hop, not an outage.</blockquote>
+<blockquote><strong>The scroll container has no accessible name.</strong> <code>tabindex</code> removes the keyboard trap, but a screen reader announces the region unnamed. Naming it properly needs a <code>role=&quot;region&quot;</code> plus a label, and a label means new copy in 45 languages. Not this sweep&#x27;s call to make.</blockquote>
+<blockquote><strong>Two over-long meta descriptions</strong>, French (221 chars) and Hmong (206). Both are translated copy, so trimming them is a translation change awaiting the English-first rule.</blockquote>
+<hr>
+<h2>Standing limits</h2>
+<p>The external link checker cannot see a soft 404: <code>reportfraud.ftc.gov</code> answers 200 for a path that does not exist, verified directly. It catches a dead domain, a DNS failure, a hard 4xx/5xx and a moved address, which is the realistic failure for the URLs that matter. Written down so nobody trusts it further than it goes.</p></main>
