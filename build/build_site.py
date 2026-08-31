@@ -906,6 +906,9 @@ blockquote > :last-child{margin-bottom:0}
 blockquote h3{margin-top:0}
 
 .table-scroll{overflow-x:auto;margin:1.3rem 0;-webkit-overflow-scrolling:touch}
+/* Focusable so it can be scrolled by keyboard, so it needs the same
+   visible focus ring as every other focusable thing here. */
+.table-scroll:focus-visible{outline:4px solid #0b57d0;outline-offset:2px}
 table{border-collapse:collapse;width:100%;min-width:26rem;margin:0;font-size:.98rem}
 th,td{border:1px solid #bbb;padding:.55rem .6rem;text-align:left;vertical-align:top}
 th{background:var(--band);font-weight:800;white-space:nowrap}
@@ -1202,8 +1205,28 @@ def wrap_tables(s):
     # character ("reportfraud.ftc.gov" -> "reportf/raud.ft/c.gov"). A
     # horizontal-scroll container is the standard fix: the table keeps its
     # natural width and the page itself never scrolls sideways.
-    return re.sub(r"(<table>.*?</table>)",
-                  r'<div class="table-scroll">\1</div>', s, flags=re.S)
+    def wrap(m):
+        table = m.group(1)
+        # scope="col" tells a screen reader which header belongs to which
+        # cell. python-markdown's table extension only ever produces column
+        # headers, so "col" is correct for all of them and there is no row
+        # header case to detect. Without it, a reader working through the
+        # interpreter table hears 45 rows of bare values with nothing tying
+        # them back to a column.
+        table = table.replace("<th>", '<th scope="col">')
+        # The container scrolls horizontally, and a scrollable region that
+        # cannot be focused cannot be scrolled without a mouse. Measured on
+        # a 320px screen, that table is 491px wide, so roughly 45% of it was
+        # unreachable by keyboard. tabindex="0" makes it focusable and
+        # therefore scrollable with the arrow keys.
+        #
+        # Deliberately no role="region"/aria-label: a region must have an
+        # accessible name, and inventing one would mean writing new copy
+        # into 45 languages, which is not this change's call to make. Left
+        # for Brett. tabindex alone is what removes the keyboard trap.
+        return '<div class="table-scroll" tabindex="0">%s</div>' % table
+
+    return re.sub(r"(<table>.*?</table>)", wrap, s, flags=re.S)
 
 
 _STEP_RE = re.compile(r'<p><strong>(\d{1,2})\.\s*(.*?)</strong>\s*(.*?)</p>', re.S)
