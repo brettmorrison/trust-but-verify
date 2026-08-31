@@ -1429,7 +1429,16 @@ def build():
 
         title = meta.get("title", "Trust But Verify")
         if slug.strip("/") not in ("", lang):
-            title = "%s — Trust But Verify" % title
+            # The site name is appended for brand recognition, but only while
+            # it still fits. Search results and link previews cut the title
+            # around 70 characters, so on a long title the suffix is invisible
+            # anyway and its only effect is to push the real words past the
+            # cut. Six pages were losing the end of their actual title to a
+            # suffix nobody could see, two of them translated pages carrying
+            # an English suffix at that.
+            suffixed = "%s — Trust But Verify" % title
+            if len(suffixed) <= 70:
+                title = suffixed
 
         # QAPage structured data for the questions/ pages — microdata, not a
         # <script type="application/ld+json"> block, because the site's own
