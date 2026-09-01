@@ -16,8 +16,9 @@ validated_by: (none yet)
 > **તમે ગુજરાતી બોલો છો?** એને ચકાસવા માટે એક કલાક પૂરતો છે. લખો:
 > **translations@trustbutverifyproject.org**
 >
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
+> *(NOTICE — this page was translated by a computer and has not been
+> checked by a native speaker, so it may contain mistakes. Please do
+> not print or distribute it yet.)*
 
 # «તમારા ખાતામાં સમસ્યા છે»
 

@@ -16,8 +16,9 @@ validated_by: (none yet)
 > **日本語を話される方へ。** 確認には一時間あれば足ります。ご連絡は
 > **translations@trustbutverifyproject.org**
 >
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
+> *(NOTICE — this page was translated by a computer and has not been
+> checked by a native speaker, so it may contain mistakes. Please do
+> not print or distribute it yet.)*
 
 # 「お客様の口座に問題があります」
 

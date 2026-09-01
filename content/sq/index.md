@@ -77,6 +77,8 @@ ndonjërën, do t'ju ishim mirënjohës. Na shkruani:
 Nuk mund të premtojmë se do të ndihmojmë secilin veç e veç, por çdo korrigjim
 që dërgoni e bën faqen më të mirë për personin tjetër që do ta ketë nevojë.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. Shqip speakers: we need one reader. It takes an hour.*
+*NOTICE — this page was translated by a computer. No Shqip speaker has checked
+it yet, so it may contain mistakes. Please do not print or distribute it yet.
+Shqip speakers: we need one reader. It takes an hour.*
 
 **Nëse ka ndodhur tashmë: nuk është faji juaj dhe nuk është vonë.**

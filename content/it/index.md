@@ -79,8 +79,8 @@ Non possiamo promettere di aiutare tutti uno per uno, ma ogni correzione che
 ci manda rende la pagina migliore per la persona successiva che ne avrà
 bisogno.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Italian speakers: we need one reader.
-It takes an hour.*
+*NOTICE — this page was translated by a computer. No Italian speaker has
+checked it yet, so it may contain mistakes. Please do not print or distribute
+it yet. Italian speakers: we need one reader. It takes an hour.*
 
 **Se è già successo: non è colpa sua, e non è troppo tardi.**

@@ -16,8 +16,9 @@ validated_by: (none yet)
 > **한국어를 하십니까?** 한 시간이면 검토하기에 충분합니다. 연락처:
 > **translations@trustbutverifyproject.org**
 >
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
+> *(NOTICE — this page was translated by a computer and has not been
+> checked by a native speaker, so it may contain mistakes. Please do
+> not print or distribute it yet.)*
 
 # 「계정에 문제가 있습니다」
 

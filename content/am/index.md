@@ -76,6 +76,8 @@ validated_by: (none yet)
 ለሁሉም ሰው በተናጠል መርዳት እንደምንችል ቃል መግባት አንችልም፣ ነገር ግን የሚልኩት እያንዳንዱ እርማት ገጹን ለሚቀጥለው
 ሰው የተሻለ ያደርገዋል።
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. አማርኛ speakers: we need one reader. It takes an hour.*
+*NOTICE — this page was translated by a computer. No አማርኛ speaker has checked
+it yet, so it may contain mistakes. Please do not print or distribute it yet.
+አማርኛ speakers: we need one reader. It takes an hour.*
 
 **አስቀድሞ ከተከሰተ፦ የእርስዎ ጥፋት አይደለም፣ እና ገና አልረፈደም።**

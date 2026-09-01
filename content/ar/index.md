@@ -74,6 +74,8 @@ validated_by: (none yet)
 لا يمكننا أن نعد بمساعدة كل شخص على حدة، لكن كل تصحيح ترسله يجعل الصفحة أفضل
 لمن يحتاجها بعدك.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. العربية speakers: we need one reader. It takes an hour.*
+*NOTICE — this page was translated by a computer. No العربية speaker has
+checked it yet, so it may contain mistakes. Please do not print or distribute
+it yet. العربية speakers: we need one reader. It takes an hour.*
 
 **إن كان قد حدث بالفعل: ليس ذنبك، ولم يفت الأوان.**

@@ -72,6 +72,8 @@ validated_by: (none yet)
 
 한 분 한 분께 개별로 도와드리겠다고 약속드릴 수는 없지만, 보내 주시는 수정 하나하나가 다음에 이 쪽이 필요한 분을 위해 내용을 더 낫게 만듭니다.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. 한국어 speakers: we need one reader. It takes an hour.*
+*NOTICE — this page was translated by a computer. No 한국어 speaker has checked it
+yet, so it may contain mistakes. Please do not print or distribute it yet. 한국어
+speakers: we need one reader. It takes an hour.*
 
 **이미 당하셨다면: 당신 잘못이 아니며, 아직 늦지 않았습니다.**

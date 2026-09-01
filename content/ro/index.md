@@ -81,8 +81,8 @@ Nu putem promite că îi ajutăm pe toți unul câte unul, dar fiecare corectur�
 care o trimiteți face pagina mai bună pentru următorul care va avea nevoie de
 ea.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Romanian speakers: we need one reader.
-It takes an hour.*
+*NOTICE — this page was translated by a computer. No Romanian speaker has
+checked it yet, so it may contain mistakes. Please do not print or distribute
+it yet. Romanian speakers: we need one reader. It takes an hour.*
 
 **Dacă s-a întâmplat deja: nu e vina ta și încă nu e prea târziu.**
