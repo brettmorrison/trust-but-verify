@@ -8,8 +8,8 @@ lang: en
 # Help in your language
 
 The honest summary: **almost every US federal fraud resource is published in
-English and Spanish only.** For the other languages on this site, the way you get
-help is not a separate phone number, it's an interpreter on the main number.
+English and Spanish only.** For the other languages on this site, help does not come from a separate
+phone number. It comes from an interpreter on the main number.
 
 That's a real service, it's free, and most people don't know to ask for it. This
 page is mostly about how to ask.
@@ -44,8 +44,8 @@ Run by the Department of Justice, Office for Victims of Crime. For anyone 60 or
 older who has been targeted by fraud. Case managers help you report it and
 connect you to other services.
 
-Open Monday through Friday, 10 a.m. to 6 p.m. Eastern time, with services available for
-speakers of English, Spanish, and other languages.
+Open Monday through Friday, 10 a.m. to 6 p.m. Eastern time. Services are
+available in English, Spanish, and other languages.
 
 Free. You can ask to remain anonymous.
 
@@ -60,26 +60,26 @@ anything is wrong. That's what it's for.
 
 ### Eldercare Locator, 800-677-1116
 
-Connects you to aging services in your own county, which is where
+Connects you to aging services in your own county. That is where
 language-specific help actually lives. Interpretation available.
 
-**This is the most useful number on this page for language access**, because
-local Area Agencies on Aging often have bilingual staff or contracts with
-community organizations that serve your language specifically.
+**This is the most useful number on this page for language access.** Local
+Area Agencies on Aging often have bilingual staff. Many also have contracts
+with community organizations that serve your language.
 
 ### NAPCA Multilingual Helpline, for Mandarin, Cantonese, Korean, and Vietnamese speakers
 
 The National Asian Pacific Center on Aging runs a helpline in Mandarin
 (800-683-7427), Cantonese (800-582-4218), Korean (800-582-4259), and
 Vietnamese (800-582-4336), plus English (800-336-2722). Staff walk you
-through Medicare, Social Security, and other benefits in your language, not a fraud
-hotline specifically, but exactly the kind of person who can
-tell you whether a call about your benefits was real.
+through Medicare, Social Security, and other benefits in your language. It is
+not a fraud hotline. But these are exactly the people who can tell you whether
+a call about your benefits was real.
 
-This is the one specific organization named on this page, as an exception
-to the rule below: it's national, not local, has run continuously since
-2004, and its number was verified directly on napca.org while writing
-this. If that ever changes, [tell us](/feedback).
+It is the one specific organization named on this page, an exception to the
+rule below. It is national, not local. It has run without a break since 2004.
+We checked its number on napca.org while writing this. If that ever changes,
+[tell us](/feedback).
 
 ---
 
@@ -102,9 +102,9 @@ phone. This is a normal thing to request.
 
 ## Language by language
 
-All 45 languages this site is drafted in, checked against what the FTC
-(ftc.gov/languages) and Social Security (ssa.gov/multilanguage) actually
-publish as of 2026, not guessed:
+All 45 languages this site is drafted in. We checked each one against what
+the FTC (ftc.gov/languages) and Social Security (ssa.gov/multilanguage)
+actually publish, as of 2026. None of it is guessed:
 
 | Language | Federal materials | How to get help |
 |---|---|---|
@@ -188,20 +188,19 @@ The kinds of places worth asking, in roughly this order:
 
 1. **Your county's Area Agency on Aging**: call 800-677-1116 to find it
 2. **Mutual assistance associations and refugee resettlement agencies**: most
-   metro areas have one per major community, and they usually do benefits and
-   fraud help alongside everything else
+   metro areas have one for each major community. They usually handle benefits
+   and fraud help too
 3. **Your place of worship**: often the single most effective distribution point
    for this material
 4. **Community health centers** with bilingual staff
 5. **Ethnic media**: a community radio show or newspaper will often run this
    material for free
 
-**We deliberately don't list specific *local* organizations here**: the
-NAPCA helpline above is the one exception, because it's national rather
-than tied to one city. Local orgs change, they
-move, and a dead phone number on a page about fraud does real harm to the trust
-this whole site depends on. Your Area Agency on Aging will know the current ones
-for your county.
+**We deliberately don't list specific *local* organizations here.** The NAPCA
+helpline above is the one exception, because it is national rather than tied to
+one city. Local organizations close and move. A dead phone number on a page
+about fraud does real harm to the trust this whole site depends on. Your Area
+Agency on Aging will know the current ones for your county.
 
 ---
 
@@ -221,9 +220,9 @@ moment someone needs it is worse than no promise.
 
 ## You can do this
 
-Asking for an interpreter is not an imposition and it is not a favor anyone is
-doing you. It is a service that exists, that is paid for, and that you are
-entitled to use.
+Asking for an interpreter is not an imposition. It is not a favor anyone is
+doing you. It is a service that exists, that is paid for, and that you have
+every right to use.
 
 Two words in English (your language, then "please") and the rest of the
 conversation happens in the language you think in. That's all it takes.

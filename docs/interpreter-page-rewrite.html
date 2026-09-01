@@ -1,0 +1,65 @@
+<title>Interpreter Page Simplification</title>
+<style>
+:root{--bg:#fffdf9;--fg:#111;--mut:#5a5a5a;--rule:#d8d3c4;--card:#fff;--del:#8a1c1c;--delbg:#fbe9e9;--ins:#0b5d2a;--insbg:#e7f5ec;--accent:#123f7a;--warn:#8a5a00;--warnbg:#fdf3dd}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15140f;--fg:#f2efe6;--mut:#a9a396;--rule:#3a382f;--card:#1d1b16;--del:#ff9c9c;--delbg:#3a1f1f;--ins:#8fe0ab;--insbg:#17311f;--accent:#9ec1f0;--warn:#f0c96b;--warnbg:#332812}}
+:root[data-theme="dark"]{--bg:#15140f;--fg:#f2efe6;--mut:#a9a396;--rule:#3a382f;--card:#1d1b16;--del:#ff9c9c;--delbg:#3a1f1f;--ins:#8fe0ab;--insbg:#17311f;--accent:#9ec1f0;--warn:#f0c96b;--warnbg:#332812}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);margin:0;padding:1.1rem;font:17px/1.55 Georgia,'Iowan Old Style',serif;-webkit-text-size-adjust:100%}
+main{max-width:60rem;margin:0 auto}
+h1{font-size:1.45rem;line-height:1.25;margin:0 0 .3rem}
+.sub{color:var(--mut);margin:0 0 1.1rem;font-size:.92rem;font-family:system-ui,sans-serif}
+.draft{background:var(--warnbg);border-left:4px solid var(--warn);padding:.7rem .9rem;margin:0 0 1.3rem;font-size:.95rem;border-radius:0 5px 5px 0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr));gap:.6rem;margin:0 0 1.3rem}
+.stat{border:1px solid var(--rule);border-radius:6px;padding:.6rem .7rem;background:var(--card)}
+.stat b{display:block;font-size:1.3rem;font-family:system-ui,sans-serif}
+.stat span{font-size:.76rem;color:var(--mut);font-family:system-ui,sans-serif}
+h2{font-size:1.02rem;font-family:system-ui,sans-serif;margin:1.9rem 0 .8rem;padding-bottom:.3rem;border-bottom:1px solid var(--rule)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;margin:0 0 .9rem}
+@media (max-width:720px){.pair{grid-template-columns:1fr;gap:.4rem}}
+.col{border:1px solid var(--rule);border-radius:6px;padding:.5rem .7rem .7rem;background:var(--card);min-width:0}
+.col p{margin:.2rem 0 0}
+.tag{font:600 .67rem/1 system-ui,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--mut)}
+del{background:var(--delbg);color:var(--del);padding:0 .12em;border-radius:2px}
+ins{background:var(--insbg);color:var(--ins);text-decoration:none;padding:0 .12em;border-radius:2px}
+table{width:100%;border-collapse:collapse;font:14.5px/1.45 system-ui,sans-serif;margin:.4rem 0 0}
+td{border-bottom:1px solid var(--rule);padding:.35rem .5rem}
+td:last-child{text-align:right;color:var(--ins);font-weight:600}
+code{font:.85em ui-monospace,Menlo,monospace;background:var(--bg);border:1px solid var(--rule);border-radius:3px;padding:.05em .3em}
+</style>
+<main>
+<h1>Simplifying the interpreter page</h1>
+<p class="sub">/resources-by-language &middot; council recommendation 2</p>
+<div class="draft"><b>DRAFT &mdash; awaiting Brett's review. Not merged, not published.</b><br>
+This is safety content: helpline numbers and interpreter guidance. Only sentence length and wording changed. Every fact, number and instruction is unchanged, verified mechanically below.</div>
+<div class="stats">
+<div class="stat"><b>9.7 &rarr; 7.7</b><span>reading grade (median 6.3)</span></div>
+<div class="stat"><b>16.2 &rarr; 11.8</b><span>words per sentence</span></div>
+<div class="stat"><b>53 &rarr; 33</b><span>longest sentence, words</span></div>
+<div class="stat"><b>0</b><span>facts changed</span></div>
+</div>
+<h2>What was checked, not eyeballed</h2>
+<table>
+<tr><td>Phone numbers</td><td>19 &rarr; 19 identical</td></tr>
+<tr><td>Every numeral on the page</td><td>70 &rarr; 70 identical</td></tr>
+<tr><td>Domains (ftc.gov, napca.org&hellip;)</td><td>9 &rarr; 9 identical</td></tr>
+<tr><td>Internal links</td><td>46 &rarr; 46 identical</td></tr>
+<tr><td>Headings</td><td>13 &rarr; 13 identical</td></tr>
+<tr><td>Table rows</td><td>62 &rarr; 62 identical</td></tr>
+<tr><td>&ldquo;[Language], please&rdquo; phrases</td><td>45 &rarr; 45 identical</td></tr>
+<tr><td>Language links</td><td>43 &rarr; 43 identical</td></tr>
+</table>
+<p style="font-size:.92rem;color:var(--mut);margin-top:.7rem">The table-row count matters especially: an earlier automated pass on this site silently fused rows and made five languages' helpline guidance unreachable for about a day. That count is now checked on every build.</p>
+<h2>Every changed passage</h2>
+<div class="pair"><div class="col"><span class="tag">before</span><p>The honest summary: **almost every US federal fraud resource is published in English and Spanish only.** For the other languages on this site, <del>the way you get</del> help <del>is</del> not a separate phone <del>number, it&#x27;s</del> an interpreter on the main number.</p></div><div class="col"><span class="tag">after</span><p>The honest summary: **almost every US federal fraud resource is published in English and Spanish only.** For the other languages on this site, help <ins>does</ins> not <ins>come from</ins> a separate phone <ins>number. It comes from</ins> an interpreter on the main number.</p></div></div>
+<div class="pair"><div class="col"><span class="tag">before</span><p>Open Monday through Friday, 10 a.m. to 6 p.m. Eastern <del>time, with services</del> available <del>for speakers of</del> English, Spanish, and other languages.</p></div><div class="col"><span class="tag">after</span><p>Open Monday through Friday, 10 a.m. to 6 p.m. Eastern <ins>time. Services are</ins> available <ins>in</ins> English, Spanish, and other languages.</p></div></div>
+<div class="pair"><div class="col"><span class="tag">before</span><p>Connects you to aging services in your own <del>county, which</del> is where language-specific help actually lives. Interpretation available.</p></div><div class="col"><span class="tag">after</span><p>Connects you to aging services in your own <ins>county. That</ins> is where language-specific help actually lives. Interpretation available.</p></div></div>
+<div class="pair"><div class="col"><span class="tag">before</span><p>**This is the most useful number on this page for language <del>access**, because local</del> Area Agencies on Aging often have bilingual <del>staff or</del> contracts with community organizations that serve your <del>language specifically.</del></p></div><div class="col"><span class="tag">after</span><p>**This is the most useful number on this page for language <ins>access.** Local</ins> Area Agencies on Aging often have bilingual <ins>staff. Many also have</ins> contracts with community organizations that serve your <ins>language.</ins></p></div></div>
+<div class="pair"><div class="col"><span class="tag">before</span><p>The National Asian Pacific Center on Aging runs a helpline in Mandarin (800-683-7427), Cantonese (800-582-4218), Korean (800-582-4259), and Vietnamese (800-582-4336), plus English (800-336-2722). Staff walk you through Medicare, Social Security, and other benefits in your <del>language,</del> not a fraud <del>hotline specifically, but</del> exactly the <del>kind of person</del> who can tell you whether a call about your benefits was real.</p></div><div class="col"><span class="tag">after</span><p>The National Asian Pacific Center on Aging runs a helpline in Mandarin (800-683-7427), Cantonese (800-582-4218), Korean (800-582-4259), and Vietnamese (800-582-4336), plus English (800-336-2722). Staff walk you through Medicare, Social Security, and other benefits in your <ins>language. It is</ins> not a fraud <ins>hotline. But these are</ins> exactly the <ins>people</ins> who can tell you whether a call about your benefits was real.</p></div></div>
+<div class="pair"><div class="col"><span class="tag">before</span><p><del>This</del> is the one specific organization named on this page, <del>as</del> an exception to the rule <del>below: it&#x27;s</del> national, not <del>local,</del> has run <del>continuously</del> since <del>2004, and</del> its number <del>was verified directly</del> on napca.org while writing this. If that ever changes, [tell us](/feedback).</p></div><div class="col"><span class="tag">after</span><p><ins>It</ins> is the one specific organization named on this page, an exception to the rule <ins>below. It is</ins> national, not <ins>local. It</ins> has run <ins>without a break</ins> since <ins>2004. We checked</ins> its number on napca.org while writing this. If that ever changes, [tell us](/feedback).</p></div></div>
+<div class="pair"><div class="col"><span class="tag">before</span><p>All 45 languages this site is drafted <del>in,</del> checked against what the FTC (ftc.gov/languages) and Social Security (ssa.gov/multilanguage) actually <del>publish</del> as of <del>2026, not</del> guessed:</p></div><div class="col"><span class="tag">after</span><p>All 45 languages this site is drafted <ins>in. We</ins> checked <ins>each one</ins> against what the FTC (ftc.gov/languages) and Social Security (ssa.gov/multilanguage) actually <ins>publish,</ins> as of <ins>2026. None of it is</ins> guessed:</p></div></div>
+<div class="pair"><div class="col"><span class="tag">before</span><p>1. **Your county&#x27;s Area Agency on Aging**: call 800-677-1116 to find it 2. **Mutual assistance associations and refugee resettlement agencies**: most metro areas have one <del>per</del> major <del>community, and they</del> usually <del>do</del> benefits and fraud help <del>alongside everything else</del> 3. **Your place of worship**: often the single most effective distribution point for this material 4. **Community health centers** with bilingual staff 5. **Ethnic media**: a community radio show or newspaper will often run this material for free</p></div><div class="col"><span class="tag">after</span><p>1. **Your county&#x27;s Area Agency on Aging**: call 800-677-1116 to find it 2. **Mutual assistance associations and refugee resettlement agencies**: most metro areas have one <ins>for each</ins> major <ins>community. They</ins> usually <ins>handle</ins> benefits and fraud help <ins>too</ins> 3. **Your place of worship**: often the single most effective distribution point for this material 4. **Community health centers** with bilingual staff 5. **Ethnic media**: a community radio show or newspaper will often run this material for free</p></div></div>
+<div class="pair"><div class="col"><span class="tag">before</span><p>**We deliberately don&#x27;t list specific *local* organizations <del>here**: the</del> NAPCA helpline above is the one exception, because <del>it&#x27;s</del> national rather than tied to one city. Local <del>orgs change, they move,</del> and <del>a</del> dead phone number on a page about fraud does real harm to the trust this whole site depends on. Your Area Agency on Aging will know the current ones for your county.</p></div><div class="col"><span class="tag">after</span><p>**We deliberately don&#x27;t list specific *local* organizations <ins>here.** The</ins> NAPCA helpline above is the one exception, because <ins>it is</ins> national rather than tied to one city. Local <ins>organizations close</ins> and <ins>move. A</ins> dead phone number on a page about fraud does real harm to the trust this whole site depends on. Your Area Agency on Aging will know the current ones for your county.</p></div></div>
+<div class="pair"><div class="col"><span class="tag">before</span><p>Asking for an interpreter is not an <del>imposition and it</del> is not a favor anyone is doing you. It is a service that exists, that is paid for, and that you <del>are entitled</del> to use.</p></div><div class="col"><span class="tag">after</span><p>Asking for an interpreter is not an <ins>imposition. It</ins> is not a favor anyone is doing you. It is a service that exists, that is paid for, and that you <ins>have every right</ins> to use.</p></div></div>
+<h2>Why it stops at 7.7 rather than 6.3</h2>
+<p>Getting below the site median would mean replacing terms the page cannot afford to lose &mdash; &ldquo;Area Agency on Aging&rdquo;, &ldquo;mutual assistance associations&rdquo;, &ldquo;refugee resettlement agencies&rdquo; are the actual names a caller has to ask for. Those are multi-syllable by necessity, and they hold the grade up. What was fixable was sentence length: the longest sentence went from 53 words to 33, and the page averages 11.8 words per sentence instead of 16.2.</p>
+</main>
