@@ -79,9 +79,9 @@ forbedre en av dem, er vi takknemlige. Skriv til oss:
 Vi kan ikke love å hjelpe alle én for én, men hver rettelse du sender, gjør
 siden bedre for den neste som trenger den.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Norwegian speakers: we need one reader.
-It takes an hour.*
+*NOTICE — this page was translated by a computer. No Norwegian speaker has
+checked it yet, so it may contain mistakes. Please do not print or distribute
+it yet. Norwegian speakers: we need one reader. It takes an hour.*
 
 **Hvis dette allerede har skjedd: det er ikke din skyld, og det er ikke for
 sent.**

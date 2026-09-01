@@ -70,8 +70,8 @@ validated_by: (none yet)
 અમે દરેકને એક-એક કરીને મદદ કરવાનું વચન આપી શકતા નથી, પણ તમે મોકલો છો તે દરેક
 સુધારો પછીના જેને જરૂર હોય તેના માટે પાનું વધુ સારું બનાવે છે.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Gujarati speakers: we need one reader.
-It takes an hour.*
+*NOTICE — this page was translated by a computer. No Gujarati speaker has
+checked it yet, so it may contain mistakes. Please do not print or distribute
+it yet. Gujarati speakers: we need one reader. It takes an hour.*
 
 **જો આ પહેલેથી જ બની ચૂક્યું છે: આ તમારો વાંક નથી, અને હજુ મોડું નથી થયું.**

@@ -72,6 +72,8 @@ validated_by: (none yet)
 
 お一人おひとりに個別に対応することはお約束できませんが、お送りいただいた訂正はどれも、次にこの頁を必要とする方のために内容を良くしてくれます。
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. 日本語 speakers: we need one reader. It takes an hour.*
+*NOTICE — this page was translated by a computer. No 日本語 speaker has checked it
+yet, so it may contain mistakes. Please do not print or distribute it yet. 日本語
+speakers: we need one reader. It takes an hour.*
 
 **すでに起きてしまった場合：あなたのせいではありません。まだ間に合います。**

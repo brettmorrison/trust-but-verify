@@ -16,8 +16,9 @@ validated_by: (none yet)
 > **អ្នកនិយាយភាសាខ្មែរទេ?** មួយម៉ោងនៃពេលវេលារបស់អ្នកគ្រប់គ្រាន់ដើម្បីត្រួតពិនិត្យ។
 > សូមសរសេរមក **translations@trustbutverifyproject.org**
 >
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
+> *(NOTICE — this page was translated by a computer and has not been
+> checked by a native speaker, so it may contain mistakes. Please do
+> not print or distribute it yet.)*
 
 # «មានបញ្ហាជាមួយគណនីរបស់អ្នក»
 

@@ -79,8 +79,8 @@ och kan förbättra någon av dem är vi tacksamma. Skriv till oss:
 Vi kan inte lova att hjälpa alla en och en, men varje rättelse du skickar gör
 sidan bättre för nästa person som behöver den.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Swedish speakers: we need one reader.
-It takes an hour.*
+*NOTICE — this page was translated by a computer. No Swedish speaker has
+checked it yet, so it may contain mistakes. Please do not print or distribute
+it yet. Swedish speakers: we need one reader. It takes an hour.*
 
 **Om det redan har hänt: det är inte ditt fel, och det är inte för sent.**

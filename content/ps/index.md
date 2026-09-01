@@ -78,6 +78,8 @@ validated_by: (none yet)
 موږ ژمنه نشو کولی چې له هر چا سره په جلا توګه مرسته وکړو، خو هر سمون چې تاسو
 یې راولېږئ، دا پاڼه د راتلونکي چا لپاره ښه کوي چې ورته اړتیا لري.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. پښتو speakers: we need one reader. It takes an hour.*
+*NOTICE — this page was translated by a computer. No پښتو speaker has checked
+it yet, so it may contain mistakes. Please do not print or distribute it yet.
+پښتو speakers: we need one reader. It takes an hour.*
 
 **که مخکې پېښ شوی وي: ستاسو ګناه نه ده، او لا ناوخته نه ده.**

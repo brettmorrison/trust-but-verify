@@ -70,8 +70,8 @@ validated_by: (none yet)
 ਅਸੀਂ ਹਰ ਕਿਸੇ ਦੀ ਵੱਖਰੇ-ਵੱਖਰੇ ਮਦਦ ਕਰਨ ਦਾ ਵਾਅਦਾ ਨਹੀਂ ਕਰ ਸਕਦੇ, ਪਰ ਤੁਸੀਂ ਜੋ ਵੀ
 ਸੁਧਾਰ ਭੇਜਦੇ ਹੋ ਉਹ ਅਗਲੇ ਲੋੜਵੰਦ ਲਈ ਇਸ ਸਫ਼ੇ ਨੂੰ ਬਿਹਤਰ ਬਣਾ ਦਿੰਦਾ ਹੈ।
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Punjabi speakers: we need one reader.
-It takes an hour.*
+*NOTICE — this page was translated by a computer. No Punjabi speaker has
+checked it yet, so it may contain mistakes. Please do not print or distribute
+it yet. Punjabi speakers: we need one reader. It takes an hour.*
 
 **ਜੇ ਇਹ ਪਹਿਲਾਂ ਹੀ ਹੋ ਚੁੱਕਾ ਹੈ: ਇਹ ਤੁਹਾਡੀ ਗ਼ਲਤੀ ਨਹੀਂ ਹੈ, ਅਤੇ ਹਾਲੇ ਬਹੁਤ ਦੇਰ ਨਹੀਂ ਹੋਈ।**

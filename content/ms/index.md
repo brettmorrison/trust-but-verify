@@ -84,8 +84,8 @@ Kami tidak dapat menjanjikan bantuan seorang demi seorang kepada semua, tetapi
 setiap pembetulan yang anda hantar menjadikan halaman ini lebih baik untuk
 orang seterusnya yang memerlukannya.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Malay speakers: we need one reader. It
-takes an hour.*
+*NOTICE — this page was translated by a computer. No Malay speaker has checked
+it yet, so it may contain mistakes. Please do not print or distribute it yet.
+Malay speakers: we need one reader. It takes an hour.*
 
 **Jika ini sudah berlaku: ini bukan salah anda, dan masih belum terlambat.**

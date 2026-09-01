@@ -81,8 +81,8 @@ karto, aad baan kuugu mahadsanaan lahayn. Noo qor:
 Ma ballan qaadi karno inaan qof kastaa gaar ahaan u caawinno, laakiin sixitaan
 kasta oo aad soo dirto wuxuu bogga uga wanaajiyaa qofka xiga ee u baahan.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Somali speakers: we need one reader.
-It takes an hour.*
+*NOTICE — this page was translated by a computer. No Somali speaker has checked
+it yet, so it may contain mistakes. Please do not print or distribute it yet.
+Somali speakers: we need one reader. It takes an hour.*
 
 **Haddii ay hore u dhacday: ma aha khaladkaaga, welina ma daahin.**

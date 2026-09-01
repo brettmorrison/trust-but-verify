@@ -80,8 +80,8 @@ būsime dėkingi. Rašykite mums:
 Negalime pažadėti padėti kiekvienam asmeniškai, bet kiekvienas jūsų atsiųstas
 pataisymas padaro puslapį geresnį kitam, kuriam jo prireiks.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Lithuanian speakers: we need one reader.
-It takes an hour.*
+*NOTICE — this page was translated by a computer. No Lithuanian speaker has
+checked it yet, so it may contain mistakes. Please do not print or distribute
+it yet. Lithuanian speakers: we need one reader. It takes an hour.*
 
 **Jei tai jau atsitiko: tai ne jūsų kaltė, ir dar nevėlu.**
