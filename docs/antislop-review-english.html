@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anti-slop review: English site</title>
+<style>
+:root{--bg:#faf9f7;--card:#fff;--ink:#16181c;--dim:#5a6169;--faint:#858d95;
+ --line:#e2e0dc;--soft:#f0eeea;--good:#1c6b45;--goodbg:#e6f2ec;
+ --warn:#8a5a12;--warnbg:#faf1e2;--bad:#93302f;--badbg:#fbeceb;--safe:#31456b;--safebg:#eaeef7}
+@media(prefers-color-scheme:dark){:root{--bg:#101215;--card:#181b1f;--ink:#e8eaec;--dim:#a2abb4;
+ --faint:#7d868f;--line:#2a2f35;--soft:#1e2227;--good:#6fbd97;--goodbg:#15291f;
+ --warn:#d5a256;--warnbg:#2a2317;--bad:#e09291;--badbg:#2c1b1b;--safe:#8fa8d8;--safebg:#1a2030}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+ padding:1rem 1rem 4rem;-webkit-text-size-adjust:100%}
+.w{max-width:52rem;margin:0 auto}
+h1{font-size:1.6rem;line-height:1.2;margin:.2rem 0 .4rem}
+h2{font-size:1.15rem;margin:2rem 0 .6rem;padding-top:.9rem;border-top:2px solid var(--line)}
+h3{font-size:.98rem;margin:1.2rem 0 .3rem}
+p{margin:0 0 .7rem}
+.sub{color:var(--dim);font-size:.95rem}
+.verdict{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--good);
+ border-radius:6px;padding:.9rem 1rem;margin:1rem 0}
+.verdict strong{font-size:1.05rem}
+.pills{display:flex;flex-wrap:wrap;gap:.35rem;margin:.6rem 0}
+.pill{font-size:.75rem;padding:.25rem .5rem;border-radius:99px;border:1px solid var(--line);
+ background:var(--card);color:var(--dim);white-space:nowrap}
+.pill.g{background:var(--goodbg);border-color:var(--good);color:var(--good)}
+.pill.w{background:var(--warnbg);border-color:var(--warn);color:var(--warn)}
+.pill.b{background:var(--badbg);border-color:var(--bad);color:var(--bad)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:.85rem .95rem;margin:.7rem 0}
+.card.clean{border-left:4px solid var(--good)}
+.card.minor{border-left:4px solid var(--warn)}
+.card.real{border-left:4px solid var(--bad)}
+.card.safety{border-left:4px solid var(--safe);background:var(--safebg)}
+.hd{display:flex;justify-content:space-between;align-items:baseline;gap:.5rem;flex-wrap:wrap;margin-bottom:.4rem}
+.hd b{font-size:1rem}
+.tag{font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:var(--faint)}
+q{display:block;background:var(--soft);border-radius:4px;padding:.55rem .7rem;margin:.45rem 0;
+ font-style:normal;quotes:none;font-size:.93rem;border-left:2px solid var(--line)}
+q:before{content:"“"}q:after{content:"”"}
+.fix{background:var(--goodbg);border-radius:4px;padding:.55rem .7rem;margin:.45rem 0;font-size:.93rem}
+.fix:before{content:"Suggested → ";font-weight:600;color:var(--good)}
+.tell{font-size:.82rem;color:var(--dim);margin:.3rem 0}
+.tell b{color:var(--ink)}
+table{width:100%;border-collapse:collapse;font-size:.88rem;margin:.6rem 0}
+th,td{text-align:left;padding:.4rem .5rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--faint)}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+ol.top{padding-left:1.2rem}ol.top li{margin-bottom:.7rem}
+code{background:var(--soft);padding:.1em .3em;border-radius:3px;font-size:.88em}
+footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--faint);font-size:.82rem}
+</style>
+</head>
+<body><div class="w">
+
+<p class="tag">trustbutverifyproject.org · English only · 2026-08-28</p>
+<h1>Anti-slop review: the English site</h1>
+<p class="sub">An examination, not a rewrite. Nothing here has been changed or deployed.</p>
+
+<div class="verdict">
+<strong>Verdict: the site reads human. Genuinely.</strong>
+<p style="margin:.5rem 0 0">Across 57 English pages the mechanical scan found <b>4 hits</b>, and one of those
+is a false positive. No filler vocabulary anywhere. No formulaic openers, no bow-tie closers, no
+"whether you're X or Y", no meta-hedging, no over-signposting. Sentence rhythm is varied (median
+stdev 8.0). The writing has a real voice: concrete dollar figures, named cases, and claims it
+commits to.</p>
+<p style="margin:.5rem 0 0">The one page that reads noticeably machine-made is
+<b>/protect-your-privacy</b>, and it is the page I wrote. It has <b>4.9 contractions per 1,000
+words against a site median of 26.7</b>, which makes it the stiffest page on the site by a factor
+of five. I over-corrected away from em dashes into uniform formality.</p>
+</div>
+
+<div class="pills">
+<span class="pill g">57 English pages examined</span>
+<span class="pill g">0 filler-vocab hits</span>
+<span class="pill g">0 formulaic openers</span>
+<span class="pill w">3 em dashes (new files)</span>
+<span class="pill b">1 page reads stiff</span>
+<span class="pill">4 safety items flagged, not touched</span>
+</div>
+
+<h2>How this was done</h2>
+<p><b>The de-slop skill files were not on disk.</b> I searched <code>~/Claude/outputs</code>,
+<code>~/outputs</code>, <code>./outputs</code> and <code>~/.claude/skills</code>; the only
+<code>*slop*</code> match was an unrelated GrailWatch git worktree. So I applied the ruleset as
+written in the request: strip em dashes, filler vocabulary, meta-hedging, rule-of-three, formulaic
+openers and bow-tie closers, "whether you're X or Y", over-signposting; then humanize by varying
+sentence length, committing to claims, preferring concrete specifics, and breaking symmetry.</p>
+<p>Method was a mechanical pre-scan for 9 tell patterns across all English content, then reading
+the non-safety prose, then measuring rhythm and contraction density per page to catch what reading
+alone misses.</p>
+
+<h2>Mechanical scan: what the whole English site returned</h2>
+<table>
+<thead><tr><th>Tell</th><th class="n">Hits</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td>Filler vocabulary <span class="sub">(leverage, delve, robust, tapestry, realm…)</span></td><td class="n">0</td><td>Clean</td></tr>
+<tr><td>Formulaic openers</td><td class="n">0</td><td>Clean</td></tr>
+<tr><td>Bow-tie closers</td><td class="n">0</td><td>Clean</td></tr>
+<tr><td>"whether you're X or Y"</td><td class="n">0</td><td>Clean</td></tr>
+<tr><td>Over-signposting</td><td class="n">0</td><td>Clean</td></tr>
+<tr><td>"not about X, it's about Y" symmetry</td><td class="n">0</td><td>Clean</td></tr>
+<tr><td>Hollow intensifiers</td><td class="n">0</td><td>Clean</td></tr>
+<tr><td>Meta-hedging</td><td class="n">1</td><td>False positive, see below</td></tr>
+<tr><td>Em / en dashes</td><td class="n">3</td><td>Both files created <i>after</i> the sitewide pass</td></tr>
+</tbody>
+</table>
+<p class="sub">For context, the sitewide de-slop pass removed 614 em dashes. Three have crept back
+in new files since, which is a process point rather than a writing one.</p>
+
+<h2>Findings by page</h2>
+
+<div class="card real">
+<div class="hd"><b>/protect-your-privacy</b><span class="tag">Reads machine-made</span></div>
+<p class="tell"><b>Tell:</b> uniform formality. Contractions almost entirely absent, 17 expanded
+forms ("it is", "does not", "cannot", "that is") where every neighbouring page would contract.
+Nothing else on the site sounds like this.</p>
+<q>It does not decide whether a scam works on you. That is still the three steps, and those work
+even against somebody who already knows your address.</q>
+<div class="fix">It doesn't decide whether a scam works on you. That's still the three steps, and
+those work even on somebody who already knows your address.</div>
+<q>Criminals ignore it completely. That is fine. It quiets the legitimate marketing calls…</q>
+<div class="fix">Criminals ignore it completely. That's fine. It quiets the legitimate marketing
+calls…</div>
+<p class="tell"><b>Second tell:</b> six numbered sections all open with a bolded imperative
+followed by one or two sentences, with no variation. The symmetry is visible once you scroll.
+Breaking two or three of them, so one opens with the reason and another with a bare fact, would
+kill the template feel without touching what it tells people to do.</p>
+<p class="tell"><b>Verdict:</b> the content is strong and specific. The <i>voice</i> is the
+problem, and it is a mechanical fix: restoring contractions alone moves it most of the way.</p>
+</div>
+
+<div class="card minor">
+<div class="hd"><b>/about</b><span class="tag">Mostly excellent, one dense patch</span></div>
+<p class="tell"><b>Verdict first: this is the best-written page on the site.</b> Specific and
+unfakeable. "$300,000 of his house, gone." A coworker's daughter sending money to a boyfriend
+"working in Oman." Real DOJ prosecutions with links. Nobody would mistake this for generated
+text.</p>
+<p class="tell"><b>Tell:</b> one paragraph compresses four separate policies into telegraphic
+fragments, and its negation rhythm repeats a construction the home page already uses.</p>
+<q>No shame, ever: someone who's already lost money should be able to read any page here without
+flinching. Free, no products, no sponsors, no affiliate links, nothing sold. No cookies, no
+accounts, no mailing list, see privacy for the one exception…</q>
+<div class="fix">Split it. Give "no shame, ever" its own line, because it is the most important
+promise on the page and it is currently buried mid-paragraph between funding and cookies.</div>
+<p class="tell"><b>Minor:</b> "hence the three steps" is the one stiff word on the page.</p>
+</div>
+
+<div class="card minor">
+<div class="hd"><b>/ (home)</b><span class="tag">Human, one duplication</span></div>
+<p class="tell"><b>Verdict:</b> reads like a person. The anaphora is deliberate and earned, not
+padding: "It does not say trust nobody. It does not say the world is full of liars…"</p>
+<p class="tell"><b>Tell:</b> the funding/privacy block near-duplicates the one on /about. Same
+negation-list construction, same content, two pages apart.</p>
+<q>No products, no sponsors, no advertising, no mailing list, no donation button. No cookies, no
+accounts, nothing sold or shared.</q>
+<div class="fix">Keep the full version on /about and cut the home page to one line that links to
+it. Repeating a distinctive construction verbatim across pages is the thing that reads templated,
+more than any single word choice.</div>
+</div>
+
+<div class="card clean">
+<div class="hd"><b>/scams/phishing — explanatory prose</b><span class="tag">Clean</span></div>
+<p class="tell"><b>Verdict: no changes suggested.</b> This is committed, confident writing. It
+states things flatly instead of hedging.</p>
+<q>A page looking right is not evidence. Looking right is the entire product.</q>
+<p class="tell">The six "shapes" subsections are parallel, but that is a deliberate taxonomy where
+symmetry aids scanning, not template filler. Leave it.</p>
+</div>
+
+<div class="card clean">
+<div class="hd"><b>/validation-status</b><span class="tag">Clean, and brave</span></div>
+<p class="tell"><b>Verdict:</b> new page, and it commits to an uncomfortable claim rather than
+softening it. That is the opposite of slop.</p>
+<q>That's not a comfortable thing to publish, and it's the honest number.</q>
+<p class="tell"><b>Only nit:</b> one em dash on the "138 pages across 44 languages" line, plus 44
+in a repeated table cell. The table ones are fine as table punctuation; the prose one is the single
+genuine em dash left in English prose.</p>
+</div>
+
+<div class="card clean">
+<div class="hd"><b>/printables</b><span class="tag">Clean; terse by design</span></div>
+<p class="tell">Flagged by the rhythm metric as the most uniform on the site (stdev 5.0), but that
+is a <b>false alarm</b>. "Free. Print as many as you like." is correct for a downloads page. Short
+uniform sentences are the right register here, not monotone.</p>
+<p class="tell"><b>One real defect,</b> a comma splice left by the sitewide punctuation pass:</p>
+<q>They carry a warning band saying so, in their own language, you'll need to get one validated by
+a native speaker before handing it out.</q>
+<div class="fix">…saying so, in their own language. You'll need to get one validated by a native
+speaker before handing it out.</div>
+</div>
+
+<div class="card clean">
+<div class="hd"><b>/give-this-talk, /help-translate, /feedback, /privacy, /terms, /blog</b><span class="tag">Clean</span></div>
+<p class="tell"><b>Verdict: no changes suggested.</b> No tells found. One em dash in
+/help-translate ("we publish that number whether or not it's flattering") which is itself a
+committed, human line worth keeping as prose.</p>
+</div>
+
+<h2>Safety content: flagged, not touched</h2>
+<div class="card safety">
+<p class="tell">Per the guardrail, these were examined and deliberately left alone. Each carries a
+mild stylistic tell, and in every case I judge the tell <b>not worth the risk</b> of editing
+protective copy. Listed so the decision is yours, not mine.</p>
+<table>
+<thead><tr><th>Location</th><th>Tell</th><th>Recommendation</th></tr></thead>
+<tbody>
+<tr><td>/right-now closer</td><td>"There's no prize for finishing a conversation…" plus "That's the
+trade this whole site is built on" reads slightly like a bow-tie closer</td><td><b>Leave.</b> It is
+reassurance at the end of a page read under stress. Tone matters more than symmetry here.</td></tr>
+<tr><td>/i-think-i-was-scammed</td><td>Heading "Things that are true and worth hearing" is soft
+signposting</td><td><b>Leave</b> unless Brett dislikes it. Changing headings on this page risks
+breaking anchors used elsewhere.</td></tr>
+<tr><td>/resources-by-language</td><td>Repeated row phrasing across 44 rows</td><td><b>Do not
+touch.</b> This is the table a previous pass broke. Any edit here needs the row-count test.</td></tr>
+<tr><td>Hotline blocks (2 pages)</td><td>Duplicated verbatim</td><td><b>Leave.</b> Duplication of a
+phone number across pages is correct, not a smell.</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Highest-impact fixes</h2>
+<ol class="top">
+<li><b>Restore contractions on /protect-your-privacy.</b> Single biggest win. Takes the stiffest
+page on the site from 4.9 to roughly the 26.7 median and fixes the only page that actually reads
+generated. Mechanical, no meaning changes.</li>
+<li><b>Break the six-section symmetry on /protect-your-privacy.</b> Vary how two or three sections
+open so the page stops looking stamped out.</li>
+<li><b>De-duplicate the funding/privacy block</b> between / and /about. Full version on /about, one
+line and a link on home.</li>
+<li><b>Split the dense policy paragraph on /about</b> so "no shame, ever" stands alone. It is the
+site's most important promise and it is currently buried between funding and cookies.</li>
+<li><b>Fix the comma splice on /printables</b> ("in their own language, you'll need"). Leftover
+damage from the punctuation pass, not a writing choice.</li>
+<li><b>Remove the one prose em dash on /validation-status</b> ("138 pages across 44 languages").
+Table-cell dashes can stay.</li>
+<li><b>Remove the em dash in /help-translate</b> line 94, or keep it deliberately and note the
+exception. Right now it is neither.</li>
+<li><b>Add the em-dash check to <code>audit_site.py</code></b> as a warning. Three have reappeared
+in new files since the sitewide pass, which will keep happening without a guard.</li>
+<li><b>Reword "hence the three steps"</b> on /about. One stiff word on an otherwise excellent
+page.</li>
+</ol>
+
+<h2>What I did not do</h2>
+<p>No file was modified. Nothing was built, committed, or deployed. No safety content was altered
+in any language, and no non-English content was examined, per scope.</p>
+<p>Two unrelated PRs are open and unmerged from earlier work: <b>#3</b> hero photo optimisation
+(2532 KB to 1451 KB), review-gated because it changes what people see.</p>
+
+<footer>
+Examination of 57 English pages. Mechanical scan across 9 tell patterns, rhythm analysis
+(sentence-length stdev per page), contraction-density analysis, cross-page duplication detection at
+9-gram granularity, plus close reading of all non-safety prose. De-slop skill files were not
+present on disk; ruleset applied as specified in the request.
+</footer>
+
+</div></body></html>
