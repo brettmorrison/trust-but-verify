@@ -63,7 +63,7 @@ Clearing House, for instance, confirms plainly that it never asks winners to
 pay anything.
 
 **Report it** at [reportfraud.ftc.gov](https://reportfraud.ftc.gov) or
-[ic3.gov](https://ic3.gov).
+[ic3.gov](https://www.ic3.gov).
 
 ---
 

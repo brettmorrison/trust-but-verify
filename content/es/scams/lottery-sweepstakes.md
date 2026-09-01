@@ -80,7 +80,7 @@ Publishers Clearing House, por ejemplo, confirma claramente que nunca pide
 a los ganadores que paguen nada.
 
 **Repórtelo** en [reportfraud.ftc.gov](https://reportfraud.ftc.gov) o
-[ic3.gov](https://ic3.gov).
+[ic3.gov](https://www.ic3.gov).
 
 ---
 

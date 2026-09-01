@@ -79,7 +79,7 @@ Publishers Clearing House, например, прямо подтверждает
 просит победителей ничего платить.
 
 **Сообщите об этом** на [reportfraud.ftc.gov](https://reportfraud.ftc.gov)
-или [ic3.gov](https://ic3.gov).
+или [ic3.gov](https://www.ic3.gov).
 
 ---
 
