@@ -78,7 +78,7 @@ FBI 인터넷 범죄 신고 센터(IC3)에 따르면 2025년 60세 이상 미국
 있습니다.
 
 **신고하십시오:** [reportfraud.ftc.gov](https://reportfraud.ftc.gov) 또는
-[ic3.gov](https://ic3.gov)에서.
+[ic3.gov](https://www.ic3.gov)에서.
 
 ---
 

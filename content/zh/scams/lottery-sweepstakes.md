@@ -66,7 +66,7 @@ validated_by: (none yet)
 去问一问。举例来说，「读者文摘抽奖活动」公开声明，他们绝不会要求中奖者付任何钱。
 
 **举报。** 到 [reportfraud.ftc.gov](https://reportfraud.ftc.gov)（英文）或
-[ic3.gov](https://ic3.gov)（英文）举报。
+[ic3.gov](https://www.ic3.gov)（英文）举报。
 
 ---
 

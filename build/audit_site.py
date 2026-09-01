@@ -402,12 +402,48 @@ def check_external_links():
                 "%s (on %d pages): %s" % (url, count, type(e).__name__))
 
 
+
+# ------------------------------------------------------- canonical report URLs
+# The two URLs the site's reporting instructions depend on must be written in
+# the form that answers directly, not one that answers via a redirect.
+#
+# Six pages linked the bare https://ic3.gov, which 301s to www. It worked, but
+# it made a reporting instruction depend on IC3 keeping a redirect alive, and
+# the rest of the site already used the canonical form. A redirect that
+# disappears takes six reporting instructions with it, in six languages, for
+# readers with no way to notice the link is wrong.
+#
+# Checked in content/ rather than in the built HTML so the message can name the
+# source file and line a person would actually edit.
+
+CANONICAL_REPORT_URLS = {
+    "https://ic3.gov": "https://www.ic3.gov",
+    "http://ic3.gov": "https://www.ic3.gov",
+    "http://www.ic3.gov": "https://www.ic3.gov",
+    "http://reportfraud.ftc.gov": "https://reportfraud.ftc.gov",
+}
+
+def check_canonical_report_urls():
+    for f in sorted(glob.glob(os.path.join(ROOT, "content", "**", "*.md"),
+                              recursive=True)):
+        text = io.open(f, encoding="utf-8").read()
+        for lineno, line in enumerate(text.split("\n"), 1):
+            for bad, good in CANONICAL_REPORT_URLS.items():
+                # Match the URL only where it ends, so https://ic3.gov does not
+                # fire on https://ic3.gov.example and www. is not flagged by the
+                # bare-domain rule.
+                if re.search(re.escape(bad) + r"(?![\w.-])", line):
+                    err("non-canonical reporting URL",
+                        "%s:%d uses %s, should be %s"
+                        % (os.path.relpath(f, ROOT), lineno, bad, good))
+
+
 def main():
     strict = "--strict" in sys.argv
     checks = [check_accessibility, check_metadata, check_links, check_weight,
               check_focus_styles, check_prose_regressions,
               check_translation_safety, check_hreflang,
-              check_table_semantics]
+              check_table_semantics, check_canonical_report_urls]
     if "--links" in sys.argv:
         checks.append(check_external_links)
     for fn in checks:

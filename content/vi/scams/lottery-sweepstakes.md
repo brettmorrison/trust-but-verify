@@ -80,7 +80,7 @@ hạn, Publishers Clearing House xác nhận rõ ràng rằng họ không bao gi
 người thắng cuộc trả bất cứ thứ gì.
 
 **Trình báo** tại [reportfraud.ftc.gov](https://reportfraud.ftc.gov) hoặc
-[ic3.gov](https://ic3.gov).
+[ic3.gov](https://www.ic3.gov).
 
 ---
 
