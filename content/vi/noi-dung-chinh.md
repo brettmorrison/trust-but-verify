@@ -7,25 +7,6 @@ note: Bản nháp. Cần người bản ngữ duyệt lại trước khi in.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> **⚠ LƯU Ý — BẢN DỊCH CHƯA ĐƯỢC KIỂM CHỨNG**
->
-> **Văn bản này do trí tuệ nhân tạo dịch và chưa được người bản ngữ duyệt
-> lại.** Thông tin, số điện thoại và lời khuyên đều chính xác. Nhưng cách hành
-> văn có thể nghe không tự nhiên, và có thể còn sai sót.
->
-> **Xin đừng in hoặc phát tán vội.** Hãy dùng bản này để đọc, góp ý và sửa.
->
-> **Quý vị nói tiếng Việt? Xin giúp chúng tôi.** Không cần là dịch giả chuyên
-> nghiệp. Chỉ cần đọc và cho biết chỗ nào nghe không xuôi, chỗ nào nghe như coi
-> thường người đọc, và quý vị sẽ nói thế nào. Một giờ của quý vị giúp tài liệu
-> này dùng được cho hàng ngàn người.
->
-> Xin liên lạc: **translations [at] trustbutverifyproject [dot] org**
->
-> *(NOTICE — UNVALIDATED AI TRANSLATION. Not reviewed by a native speaker. Do
-> not print or distribute. Vietnamese speakers: please help us check it.)*
-
 # Quý vị vẫn có thể tin tưởng, nhưng hãy thêm một khoảng dừng.
 
 Trước khi gửi tiền, đăng nhập, cài đặt bất cứ thứ gì, hoặc để ai đó truy cập

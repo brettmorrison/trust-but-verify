@@ -7,18 +7,6 @@ note: Utkast. Trenger gjennomlesing av en som har språket som morsmål før try
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ MERK — UKONTROLLERT OVERSETTELSE
->
-> Oversatt av kunstig intelligens og ennå ikke lest gjennom av noen som har språket
-> som morsmål. Ikke skriv den ut eller del den ennå.
->
-> **Snakker du norsk?** En time av tiden din er nok til å lese den gjennom. Skriv
-> til **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Det er et problem med kontoen din»
 
 Dette er svindelen amerikanere over seksti melder fra om oftest. Ikke den dyreste,

@@ -7,18 +7,6 @@ note: Սևագիր։ Տպելուց առաջ անհրաժեշտ է մայրեն�
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ ՈՒՇԱԴՐՈՒԹՅՈՒՆ — ՉՍՏՈՒԳՎԱԾ ԹԱՐԳՄԱՆՈՒԹՅՈՒՆ
->
-> Թարգմանված է արհեստական բանականությամբ և դեռ չի ստուգվել մայրենի լեզվով
-> խոսողի կողմից։ Առայժմ մի՛ տպեք և մի՛ տարածեք։
->
-> **Հայերեն խոսո՞ւմ եք։** Ձեր ժամանակից մեկ ժամը բավական է ստուգելու համար։
-> Գրե՛ք՝ **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Ձեր հաշվում խնդիր կա»
 
 Սա այն խաբեությունն է, որի մասին վաթսունն անց ամերիկացիներն ամենաշատն են

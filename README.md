@@ -123,8 +123,12 @@ These aren't preferences. They're what the material is for.
 ## Translations
 
 **Nothing non-English is treated as validated until a native speaker has read it
-and that's been confirmed.** Until then it carries a warning band, in its own
-language, saying so.
+and that's been confirmed.** Until then it carries a warning band saying so,
+directly under the page heading. That band is in the reader's own language for
+23 of the 44, and in English carrying the language's own name for the other 21
+until their notice is translated. It is generated from `build/notice.py`, which
+the printed sheets read too, so a language cannot have a printed warning and no
+web one.
 
 We need readers. One or two hours per language, no professional qualification —
 the best qualification is being the person in your family who translated at the

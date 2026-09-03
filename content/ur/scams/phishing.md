@@ -7,18 +7,6 @@ note: مسودہ۔ چھاپنے سے پہلے مادری زبان بولنے و�
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ اطلاع — بغیر جانچا ہوا ترجمہ
->
-> یہ ترجمہ مصنوعی ذہانت نے کیا ہے اور کسی مادری زبان بولنے والے نے ابھی تک نہیں
-> دیکھا۔ فی الحال اسے نہ چھاپیں اور نہ بانٹیں۔
->
-> **کیا آپ اردو بولتے ہیں؟** اسے جانچنے کے لیے ایک گھنٹہ کافی ہے۔ لکھیے:
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «آپ کے اکاؤنٹ میں مسئلہ ہے»
 
 ساٹھ سال سے اوپر کے امریکی سب سے زیادہ اسی دھوکہ دہی کی شکایت کرتے ہیں۔ یہ سب سے

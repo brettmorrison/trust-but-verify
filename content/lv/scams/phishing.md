@@ -7,18 +7,6 @@ note: Melnraksts. Pirms drukāšanas nepieciešama dzimtās valodas runātāja p
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ IEVĒRĪBAI — NEPĀRBAUDĪTS TULKOJUMS
->
-> Tulkojis mākslīgais intelekts, un dzimtās valodas runātājs to vēl nav pārskatījis.
-> Pagaidām to nedrukājiet un neizplatiet.
->
-> **Vai runājat latviski?** Viena jūsu laika stunda ir pietiekama, lai to pārskatītu.
-> Rakstiet uz **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Ar jūsu kontu ir problēma»
 
 Šī ir krāpšana, par kuru amerikāņi, kas vecāki par sešdesmit gadiem, ziņo visbiežāk.

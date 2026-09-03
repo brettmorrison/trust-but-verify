@@ -7,18 +7,6 @@ note: খসড়া। ছাপার আগে মাতৃভাষীর �
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ বিজ্ঞপ্তি — অযাচাইকৃত অনুবাদ
->
-> কৃত্রিম বুদ্ধিমত্তা দিয়ে অনুবাদ করা, কোনো মাতৃভাষী এখনো দেখেননি। এখনই ছাপবেন
-> না বা বিলি করবেন না।
->
-> **আপনি কি বাংলা বলেন?** এটি যাচাই করতে এক ঘণ্টাই যথেষ্ট। লিখুন:
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «আপনার অ্যাকাউন্টে সমস্যা হয়েছে»
 
 ষাটোর্ধ্ব আমেরিকানরা সবচেয়ে বেশি এই প্রতারণার কথাই জানান। এটি সবচেয়ে বেশি টাকার

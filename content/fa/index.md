@@ -77,6 +77,5 @@ validated_by: (none yet)
 نمی‌توانیم قول بدهیم که به همه به‌صورت تک‌به‌تک کمک کنیم، اما هر اصلاحی که
 بفرستید این صفحه را برای نفر بعدی که به آن نیاز دارد بهتر می‌کند.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. فارسی speakers: we need one reader. It takes an hour.*
 
 **اگر رخ داده: تقصیر شما نیست و هنوز دیر نشده است.**

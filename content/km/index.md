@@ -67,8 +67,5 @@ validated_by: (none yet)
 
 យើងមិនអាចសន្យាថានឹងជួយម្នាក់ៗដោយឡែកបានទេ ប៉ុន្តែរាល់ការកែតម្រូវដែលអ្នកផ្ញើមក ធ្វើឱ្យទំព័រនេះកាន់តែប្រសើរសម្រាប់អ្នកបន្ទាប់ដែលត្រូវការវា។
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Khmer speakers: we need one reader. It
-takes an hour.*
 
 **ប្រសិនបើវាបានកើតឡើងរួចហើយ៖ វាមិនមែនជាកំហុសរបស់អ្នកទេ ហើយវានៅមិនទាន់យឺតពេលនៅឡើយទេ។**

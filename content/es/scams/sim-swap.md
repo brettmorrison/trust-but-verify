@@ -7,18 +7,6 @@ note: Borrador. Requiere revisión de un hablante nativo antes de imprimir.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ AVISO — TRADUCCIÓN SIN VALIDAR
->
-> Traducido por IA, aún no revisado por un hablante nativo. No lo imprima ni
-> distribuya todavía.
->
-> **¿Habla español?** Una hora de su tiempo basta para revisarlo. Escriba a
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # Mi teléfono de repente no tiene señal
 
 Esta no empieza con una llamada. Empieza con que su teléfono se queda

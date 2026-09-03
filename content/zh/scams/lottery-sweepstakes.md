@@ -7,17 +7,6 @@ note: 草稿。付印前需请母语者审阅。
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ 注意 —— 未经核校的机器翻译
->
-> 由人工智能翻译，尚未经母语者审阅。请暂时不要打印或分发。
->
-> **您会说中文吗？** 一个小时就够审阅了。请联系：
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # 「您中奖了」——一份您从未参加过的抽奖
 
 2025 年，60 岁以上的美国人向 FBI 互联网犯罪投诉中心报告的彩票、抽奖和遗产骗局损

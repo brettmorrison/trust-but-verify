@@ -7,18 +7,6 @@ note: Mustand. Enne trükkimist vajab emakeelena kõneleja ülevaatust.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ MÄRKUS — KONTROLLIMATA TÕLGE
->
-> Tõlkinud tehisintellekt ja emakeelena kõneleja ei ole seda veel üle vaadanud.
-> Praegu ärge printige ega levitage.
->
-> **Kas räägite eesti keelt?** Tund teie ajast piisab selle ülevaatamiseks. Kirjutage
-> aadressil **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Teie kontoga on probleem»
 
 See on pettus, millest üle kuuekümneaastased ameeriklased kõige sagedamini teatavad.

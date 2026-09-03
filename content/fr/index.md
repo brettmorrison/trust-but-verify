@@ -82,9 +82,6 @@ Nous ne pouvons pas promettre d'aider tout le monde individuellement, mais
 chaque correction que vous envoyez rend la page meilleure pour la personne
 suivante qui en aura besoin.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. French speakers: we need one reader. It
-takes an hour.*
 
 **Si c'est déjà arrivé : ce n'est pas votre faute, et il n'est pas trop
 tard.**

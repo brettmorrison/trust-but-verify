@@ -7,18 +7,6 @@ note: مسوده. له چاپولو مخکې د مورنۍ ژبې ویونکي �
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ خبرتیا — نه کتل شوې ژباړه
->
-> په مصنوعي ځیرکتیا ژباړل شوې، لا تر اوسه یې مورنۍ ژبې ویونکي نه دي کتلې. دا مهال
-> یې مه چاپوئ او مه یې وېشئ.
->
-> **پښتو خبرې کوئ؟** د دې کتلو لپاره ستاسو یو ساعت بس دی. ولیکئ:
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «ستاسو په حساب کې ستونزه ده»
 
 دا هغه درغلي ده چې له شپېتو کلونو پورته امریکایان یې تر ټولو ډېر راپور ورکوي. تر

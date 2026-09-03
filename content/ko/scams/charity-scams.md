@@ -7,18 +7,6 @@ note: 초안. 인쇄 전에 원어민 검토가 필요합니다.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ 알림 — 검증되지 않은 번역
->
-> 인공지능이 번역했으며 아직 원어민이 검토하지 않았습니다. 아직 인쇄하거나
-> 배포하지 마십시오.
->
-> **한국어를 하십니까?** 한 시간이면 검토하기에 충분합니다. 연락처:
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # 누군가 재해 기부금을 걷고 있습니다
 
 뉴스에 허리케인, 산불, 지진 소식이 나오면 몇 시간 안에 가짜 자선단체가

@@ -79,8 +79,5 @@ az egyiken, hálásak leszünk. Írjon nekünk:
 Nem ígérhetjük, hogy mindenkinek egyenként segítünk, de minden javítás, amit
 elküld, jobbá teszi az oldalt a következőnek, akinek szüksége lesz rá.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Hungarian speakers: we need one reader.
-It takes an hour.*
 
 **Ha ez már megtörtént: nem az ön hibája, és még nem késő.**

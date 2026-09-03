@@ -7,18 +7,6 @@ note: Προσχέδιο. Χρειάζεται έλεγχο από φυσικό 
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ ΕΙΔΟΠΟΙΗΣΗ — ΜΕΤΑΦΡΑΣΗ ΧΩΡΙΣ ΕΛΕΓΧΟ
->
-> Μεταφράστηκε από τεχνητή νοημοσύνη και δεν την έχει ελέγξει ακόμη φυσικός
-> ομιλητής. Προς το παρόν μην την εκτυπώσετε και μην τη μοιράσετε.
->
-> **Μιλάτε ελληνικά;** Μία ώρα από τον χρόνο σας αρκεί για να την ελέγξετε.
-> Γράψτε στο **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Υπάρχει πρόβλημα με τον λογαριασμό σας»
 
 Αυτή είναι η απάτη που καταγγέλλουν περισσότερο οι Αμερικανοί άνω των εξήντα. Δεν

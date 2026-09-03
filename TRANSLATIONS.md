@@ -4,8 +4,11 @@
 speaker has validated it and the project maintainer has confirmed that.**
 
 Until then, every page, sheet, and card in that language carries a warning band
-in its own language saying it is machine-translated and should not be printed or
-distributed.
+saying it is machine-translated and should not be printed or distributed. It is
+written in the reader's own language for the 23 languages whose notice has been
+translated, and in English carrying that language's own name for the other 21,
+until each one's translated notice is written. One source of truth for both the
+web and the printed sheets: `build/notice.py`.
 
 This file is the single source of truth for what has been checked.
 
@@ -73,14 +76,22 @@ sheet and a wallet card — that gap closed in August 2026 (see BACKLOG.md).
 
 When a native speaker has read the material and you're satisfied:
 
-1. In `content/<code>/`, change the frontmatter:
+1. In `content/<code>/`, change the frontmatter of every file in that
+   language:
    - `status:` → `validated by a native speaker, <month year>`
    - `validated_by:` → their name, or `anonymous` if they preferred
-2. Remove the warning blockquote at the top of the page.
-3. In `build/make_fridge.py`, delete that language's entry from the `NOTICE`
-   dictionary. That removes the band from the printed sheet automatically.
-4. Rebuild: `python3 build/make_fridge.py && python3 build/build_site.py`
-5. Update the row above.
+2. In `build/notice.py`, delete that language's entry from the `NOTICE`
+   dictionary.
+3. Rebuild: `python3 build/make_fridge.py && python3 build/build_site.py`
+4. Update the row above.
+
+There is nothing to delete by hand from the pages themselves. The warning
+band is generated: `build/build_site.py` renders it under the `<h1>` of every
+page whose `validated_by` still starts with `(none`, and `build/make_fridge.py`
+prints it on that language's sheet, both reading the same `build/notice.py`.
+Changing the frontmatter removes it from all of that language's pages at once,
+and `build/audit_site.py` fails the build if a page that still needs one has
+lost it.
 
 **If the English source later changes, the translation becomes stale.** Put the
 banner back until someone re-reads it.

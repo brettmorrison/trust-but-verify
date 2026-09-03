@@ -79,8 +79,5 @@ njih, bili bismo zahvalni. Pišite nam:
 Ne možemo obećati da ćemo pomoći svakome pojedinačno, ali svaki ispravak koji
 pošaljete čini stranicu boljom za sljedećega kome zatreba.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Croatian speakers: we need one reader.
-It takes an hour.*
 
 **Ako se to već dogodilo: to nije vaša krivnja, i još nije prekasno.**

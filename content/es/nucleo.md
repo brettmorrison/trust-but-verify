@@ -7,18 +7,6 @@ note: Borrador. Requiere revisión de un hablante nativo antes de imprimir.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> **⚠ AVISO — TRADUCCIÓN SIN VALIDAR**
->
-> Traducido por IA, aún no revisado por un hablante nativo. No lo imprima ni
-> distribuya todavía.
->
-> **¿Habla español?** Una hora de su tiempo basta para revisarlo. Escriba a
-> **translations [at] trustbutverifyproject [dot] org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # Usted puede seguir confiando, pero añada una pausa.
 
 Antes de enviar dinero, iniciar sesión, instalar algo o dejar que alguien

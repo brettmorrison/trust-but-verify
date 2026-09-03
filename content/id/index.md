@@ -84,8 +84,5 @@ Kami tidak bisa menjanjikan bantuan satu per satu kepada semua orang, tetapi
 setiap koreksi yang Anda kirim membuat halaman ini lebih baik bagi orang
 berikutnya yang membutuhkannya.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Indonesian speakers: we need one
-reader. It takes an hour.*
 
 **Jika ini sudah terjadi: ini bukan salah Anda, dan belum terlambat.**

@@ -7,18 +7,6 @@ note: مسودة. تحتاج إلى مراجعة متحدث أصلي قبل ال
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ تنبيه — ترجمة غير مُراجَعة
->
-> تُرجمت بالذكاء الاصطناعي ولم يراجعها متحدث أصلي بعد. لا تطبعها ولا توزّعها
-> بعد.
->
-> **هل تتحدث العربية؟** ساعة واحدة من وقتك تكفي لمراجعتها. اكتب إلى
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «هناك مشكلة في حسابك»
 
 هذه أكثر عملية احتيال يبلّغ عنها الأمريكيون فوق الستين. ليست الأكثر كلفة، لكنها

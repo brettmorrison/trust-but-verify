@@ -79,8 +79,5 @@ oleme tänulikud. Kirjutage meile:
 Me ei saa lubada, et aitame igaüht eraldi, kuid iga parandus, mille saadate,
 muudab lehe paremaks järgmisele, kes seda vajab.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Estonian speakers: we need one reader.
-It takes an hour.*
 
 **Kui see on juba juhtunud: see pole teie süü ja pole veel liiga hilja.**

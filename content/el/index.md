@@ -75,8 +75,5 @@ validated_by: (none yet)
 διόρθωση που στέλνετε κάνει τη σελίδα καλύτερη για τον επόμενο που θα τη
 χρειαστεί.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Greek speakers: we need one reader. It
-takes an hour.*
 
 **Αν έχει ήδη συμβεί: δεν φταίτε εσείς, και δεν είναι πολύ αργά.**

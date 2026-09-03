@@ -7,18 +7,6 @@ note: Rasimu. Inahitaji kukaguliwa na mzungumzaji asilia kabla ya kuchapishwa.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ TAARIFA — TAFSIRI AMBAYO HAIJAKAGULIWA
->
-> Imetafsiriwa na akili bandia, bado haijakaguliwa na mzungumzaji asilia. Kwa sasa
-> usiichapishe wala kuisambaza.
->
-> **Unazungumza Kiswahili?** Saa moja ya wakati wako inatosha kuikagua. Andika kwa
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Kuna tatizo na akaunti yako»
 
 Huu ndio ulaghai unaoripotiwa zaidi na Wamarekani wenye zaidi ya miaka sitini. Si

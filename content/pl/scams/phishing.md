@@ -7,19 +7,6 @@ note: Szkic. Przed drukiem wymaga sprawdzenia przez rodzimego użytkownika języ
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ UWAGA — TŁUMACZENIE NIESPRAWDZONE
->
-> Przetłumaczone przez sztuczną inteligencję, jeszcze nieprzejrzane przez
-> rodzimego użytkownika języka. Na razie prosimy tego nie drukować ani nie
-> rozpowszechniać.
->
-> **Mówi Pan po polsku?** Godzina Pana czasu wystarczy, żeby to sprawdzić. Proszę
-> napisać na **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Jest problem z Pana kontem»
 
 To oszustwo najczęściej zgłaszane przez Amerykanów po sześćdziesiątce. Nie

@@ -7,18 +7,6 @@ note: Udkast. Kræver gennemlæsning af en indfødt taler før tryk.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ BEMÆRK — UKONTROLLERET OVERSÆTTELSE
->
-> Oversat af kunstig intelligens og endnu ikke gennemlæst af en indfødt taler.
-> Undlad indtil videre at printe eller dele den.
->
-> **Taler du dansk?** En time af din tid er nok til at gennemlæse den. Skriv til
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Der er et problem med din konto»
 
 Det er det svindelnummer, amerikanere over tres oftest anmelder. Ikke det dyreste,

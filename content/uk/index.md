@@ -79,8 +79,5 @@ validated_by: (none yet)
 Ми не можемо пообіцяти допомогти кожному особисто, але кожне виправлення, яке
 ви надсилаєте, робить сторінку кращою для наступного, кому вона знадобиться.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Ukrainian speakers: we need one reader.
-It takes an hour.*
 
 **Якщо це вже сталося: це не ваша провина, і ще не пізно.**
