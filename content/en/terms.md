@@ -7,55 +7,69 @@ lang: en
 
 # Terms of use
 
-**Free educational material, made with AI assistance, offered as-is, with no
-guarantee and no liability for how you use it.**
+**Free material, made with AI help, offered as-is. No guarantee. We're not
+liable for how you use it.**
 
-## AI-generated content
+## Written with AI
 
-Most writing here (English pages, translations, print materials) is
-AI-assisted, directed and reviewed by the maintainer. It isn't reviewed by a
-lawyer, financial advisor, or law enforcement, and isn't legal, financial,
-or investigative advice. Found a mistake?
+Most of what's here was written with AI. That covers the English pages, the
+translations, and the print sheets. The maintainer directs that work and
+reads it.
+
+No lawyer, financial advisor, or law enforcement officer has reviewed it. So
+it isn't legal advice. It isn't financial advice. And it isn't advice from an
+investigator.
+
+Found a mistake? Tell us:
 **translations [at] trustbutverifyproject [dot] org**
 
-## Translations aren't validated until we say so
+## No translation is checked yet
 
-Every non-English page and print piece is machine-translated and unchecked
-by a native speaker unless it says otherwise, each carries its own warning
-band. Don't print or hand one out until validation and confirmation from a
-native speaker. **[Help us validate one.](/help-translate)**
+Every page and sheet that isn't in English was translated by a machine. No
+native speaker has read it, unless that page says one has. Each one carries a
+warning band saying so.
 
-## No liability
+Please don't print one or hand it out yet. Wait until a native speaker has
+read it and we've said so here.
+**[Help us check one.](/help-translate)**
 
-This site is provided **as-is, with no warranty**, and **to the fullest
-extent the law allows, we're not liable for any loss or harm** from relying
-on it, including content that turns out inaccurate or mistranslated. It's
-one layer of protection, not a replacement for your bank's fraud department,
-law enforcement, or professional advice. If money's already moved, your
-bank and the hotlines listed throughout this site are the real help, not
-this paragraph.
+## What we don't promise
 
-## Free to reuse
+This site comes **as-is, with no warranty**. **To the fullest extent the law
+allows, we're not liable for any loss or harm from relying on it.** That
+includes anything here that turns out to be wrong or badly translated.
 
-Everything here (every page, sheet, slide, translation) is licensed
-**Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC)**. **Copy it,
-print it, translate it, rebrand it, hand it out, for free, without
-asking.** No fee. The one condition: credit "Trust But Verify Project,
-trustbutverifyproject.org" somewhere reasonable, a footer line, a
-credits slide, a mention when you hand out a sheet.
+It's one layer of protection, not a replacement. Your bank's fraud
+department, law enforcement, and professional advice all do things this site
+can't. If money has already moved, they are the real help, and so are the
+hotlines listed all over this site. This paragraph isn't.
 
-**Nursing homes, assisted living communities, senior centers, hospitals,
-and libraries can use this freely too**, printing it, handing it out, giving the
-talk to residents, even though those are commercial
-businesses. That's exactly the use this project is for. What's not
-allowed is selling the material itself or using it to promote a
-commercial product or service. See the
-**[license](https://github.com/brettmorrison/trust-but-verify/blob/main/LICENSE)**.
+## Yours to use
+
+Every page, sheet, slide, and translation here is licensed **Creative Commons
+Attribution-NonCommercial 4.0 (CC BY-NC)**. **Copy it. Print it. Translate
+it. Rebrand it. Hand it out. It's free, and you don't have to ask.** There's
+no fee.
+
+There is one condition. Credit "Trust But Verify Project,
+trustbutverifyproject.org" somewhere reasonable. A footer line is fine. So is
+a credits slide, or a word when you hand someone a sheet.
+
+**Nursing homes, assisted living communities, senior centers, hospitals, and
+libraries can use all of it too.** Print it. Hand it out. Give the talk to
+residents. Yes, those are commercial businesses. This is exactly the use the
+project is for.
+
+What's not allowed is selling the material itself. Nor may you use it to
+promote a commercial product or service. The
+**[license](https://github.com/brettmorrison/trust-but-verify/blob/main/LICENSE)**
+has the exact words.
 
 ## Feedback
 
-Open an issue or pull request on
-**[GitHub](https://github.com/brettmorrison/trust-but-verify)** (the whole project is public there) or email
+Open an issue or a pull request on
+**[GitHub](https://github.com/brettmorrison/trust-but-verify)**. The whole
+project is public there. Or write to
 **translations [at] trustbutverifyproject [dot] org**
 
 *Last reviewed: August 2026.*
