@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate the large-print one-page fridge sheet in five languages."""
-import os, html, subprocess
+import os, sys, html, subprocess
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 try:
     from weasyprint import HTML as _WeasyHTML
 except Exception:
@@ -160,72 +161,11 @@ L["zh"] = dict(
 )
 
 
-NOTICE = {
- "ur": ("اطلاع: غیر تصدیق شدہ مشینی ترجمہ — ابھی پرنٹ نہ کریں",
-        "یہ مصنوعی ذہانت کا ترجمہ ہے، کسی مادری بولنے والے نے نہیں دیکھا۔ اردو جانتے ہیں؟ مدد کریں: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. Urdu speakers: please help us check it."),
- "hi": ("सूचना: अप्रमाणित मशीनी अनुवाद — अभी प्रिंट न करें",
-        "यह AI अनुवाद है, किसी मातृभाषी ने जाँचा नहीं है। हिंदी जानते हैं? मदद कीजिए: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. Hindi speakers: please help us check it."),
- "fa": ("توجه: ترجمه ماشینی راستی‌آزمایی‌نشده — فعلاً چاپ نکنید",
-        "این متن با هوش مصنوعی ترجمه شده و هیچ فارسی‌زبانی آن را بازبینی نکرده است. کمک کنید: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. Farsi speakers: please help us check it."),
- "bn": ("বিজ্ঞপ্তি: যাচাই-না-করা যান্ত্রিক অনুবাদ — এখনই ছাপবেন না",
-        "এটি AI অনুবাদ, কোনো মাতৃভাষী দেখেননি। বাংলা জানেন? সাহায্য করুন: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. Bengali speakers: please help us check it."),
- "hy": ("ՈՒՇԱԴՐՈՒԹՅՈՒՆ՝ չստուգված մեքենայական թարգմանություն — դեռ մի՛ տպեք",
-        "Սա AI թարգմանություն է, կրող չի ստուգել։ Օգնե՛ք մեզ՝ translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. Armenian speakers: please help us check it."),
- "am": ("ማስታወሻ፦ ያልተረጋገጠ የማሽን ትርጉም — ገና አያትሙ",
-        "ይህ በAI የተተረጎመ ሲሆን በአፍ መፍቻ ተናጋሪ አልተመረመረም። ይርዱን፦ translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. Amharic speakers: please help us check it."),
- "sq": ("NJOFTIM: PËRKTHIM AI I PAVERIFIKUAR — MOS E PRINTONI ENDE",
-        "Përkthyer nga AI dhe i pashqyrtuar nga folës amtar. Na ndihmoni: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. Albanian speakers: please help us check it."),
- "ps": ("پام: ناتصدیق شوې ماشیني ژباړه — لا یې مه چاپوئ",
-        "دا د AI ژباړه ده او کوم مورنۍ ژبې ویونکي نه ده کتلې. مرسته وکړئ: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. Pashto speakers: please help us check it."),
- "ja": ("注意：未検証の機械翻訳 — まだ印刷しないでください",
-        "AIによる翻訳で、母語話者の確認をまだ受けていません。日本語を話せる方、"
-        "確認にご協力ください： translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "Japanese speakers: please help us check it."),
- "ko": ("주의: 검증되지 않은 기계 번역 — 아직 인쇄하지 마십시오",
-        "AI가 번역했으며 원어민의 검토를 아직 받지 않았습니다. 한국어를 하시는 분, "
-        "검토를 도와주십시오: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "Korean speakers: please help us check it."),
- "tl": ("PAUNAWA: HINDI PA NASUSURING AI TRANSLATION — HUWAG PA I-PRINT",
-        "Isinalin ng AI at hindi pa nasusuri ng katutubong nagsasalita. Marunong ka ba? "
-        "Tulungan mo kami: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "Tagalog speakers: please help us check it."),
- "ar": ("تنبيه: ترجمة آلية غير مراجَعة — يُرجى عدم الطباعة بعد",
-        "تُرجم هذا النص بالذكاء الاصطناعي ولم يراجعه ناطق بالعربية. هل تتحدث العربية؟ "
-        "ساعدنا: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "Arabic speakers: please help us check it."),
- "es": ("AVISO: TRADUCCIÓN SIN VALIDAR — NO IMPRIMIR AÚN",
-        "Traducido por inteligencia artificial. Todavía no lo ha revisado un hablante nativo. "
-        "¿Habla español? Ayúdenos a corregirlo: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "Spanish speakers: please help us check it."),
- "vi": ("LƯU Ý: BẢN DỊCH CHƯA KIỂM CHỨNG — XIN CHƯA IN",
-        "Do trí tuệ nhân tạo dịch. Chưa được người bản ngữ duyệt lại. "
-        "Quý vị nói tiếng Việt? Xin giúp chúng tôi: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "Vietnamese speakers: please help us check it."),
- "ru": ("ВНИМАНИЕ: НЕПРОВЕРЕННЫЙ ПЕРЕВОД — ПОКА НЕ ПЕЧАТАЙТЕ",
-        "Переведено искусственным интеллектом. Не проверено носителем языка. "
-        "Говорите по-русски? Помогите нам: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "Russian speakers: please help us check it."),
- "zh": ("注意：翻译未经核校 —— 请暂勿打印",
-        "由人工智能翻译，尚未经母语者审阅。您会说中文吗？请帮我们校对："
-        "translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "Chinese speakers: please help us check it."),
-}
+# The unvalidated-translation notice printed on every non-English sheet.
+# It lives in build/notice.py because the web build renders the same 23
+# translations, and a language must never be able to gain a printed notice
+# without gaining a web one.
+from notice import NOTICE
 
 
 L["uk"] = dict(font="DejaVu Sans", brand="ДОВІРЯЙ, АЛЕ ПЕРЕВІРЯЙ",
@@ -391,43 +331,6 @@ L["id"] = dict(font="DejaVu Sans", brand="PERCAYA, TAPI PERIKSA",
 
 
 
-NOTICE.update({
- "uk": ("УВАГА: НЕПЕРЕВІРЕНИЙ ПЕРЕКЛАД — ПОКИ НЕ ДРУКУЙТЕ",
-        "Перекладено штучним інтелектом. Не перевірено носієм мови. Розмовляєте українською? "
-        "Допоможіть нам: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "Ukrainian speakers: please help us check it."),
- "fr": ("AVIS : TRADUCTION NON VALIDÉE — NE PAS IMPRIMER",
-        "Traduit par intelligence artificielle. Non relu par un locuteur natif. Vous parlez français ? "
-        "Aidez-nous : translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "French speakers: please help us check it."),
- "de": ("HINWEIS: UNGEPRÜFTE ÜBERSETZUNG — NOCH NICHT DRUCKEN",
-        "Von künstlicher Intelligenz übersetzt. Nicht muttersprachlich geprüft. Sprechen Sie Deutsch? "
-        "Helfen Sie uns: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "German speakers: please help us check it."),
- "pt": ("AVISO: TRADUÇÃO NÃO VALIDADA — NÃO IMPRIMIR AINDA",
-        "Traduzido por inteligência artificial. Não revisado por falante nativo. Você fala português? "
-        "Ajude-nos: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "Portuguese speakers: please help us check it."),
- "pl": ("UWAGA: TŁUMACZENIE NIEZWERYFIKOWANE — NIE DRUKUJ",
-        "Przetłumaczone przez sztuczną inteligencję. Niesprawdzone przez native speakera. Mówisz po polsku? "
-        "Pomóż nam: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "Polish speakers: please help us check it."),
- "ro": ("ATENȚIE: TRADUCERE NEVERIFICATĂ — NU TIPĂRIȚI ÎNCĂ",
-        "Tradus de inteligență artificială. Neverificat de un vorbitor nativ. Vorbiți românește? "
-        "Ajutați-ne: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "Romanian speakers: please help us check it."),
- "id": ("PERHATIAN: TERJEMAHAN BELUM DIPERIKSA — JANGAN DICETAK DULU",
-        "Diterjemahkan oleh kecerdasan buatan. Belum diperiksa penutur asli. Anda berbahasa Indonesia? "
-        "Bantu kami: translations@trustbutverifyproject.org",
-        "UNVALIDATED AI TRANSLATION — not reviewed by a native speaker. Do not distribute. "
-        "Indonesian speakers: please help us check it."),
-})
 
 
 L["ja"] = dict(

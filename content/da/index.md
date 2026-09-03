@@ -79,9 +79,6 @@ forbedre en af dem, er vi taknemmelige. Skriv til os:
 Vi kan ikke love at hjælpe alle en for en, men hver rettelse, du sender, gør
 siden bedre for den næste, der har brug for den.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Danish speakers: we need one reader.
-It takes an hour.*
 
 **Hvis dette allerede er sket: det er ikke din skyld, og det er ikke for
 sent.**

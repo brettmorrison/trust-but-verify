@@ -7,18 +7,6 @@ note: Ciornă. Necesită verificarea unui vorbitor nativ înainte de tipărire.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ ATENȚIE — TRADUCERE NEVERIFICATĂ
->
-> Tradusă de inteligență artificială, încă neverificată de un vorbitor nativ.
-> Deocamdată nu o tipăriți și nu o distribuiți.
->
-> **Vorbiți română?** O oră din timpul dumneavoastră ajunge ca să o verificați.
-> Scrieți la **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Este o problemă cu contul dumneavoastră»
 
 Aceasta este înșelătoria cel mai des raportată de americanii de peste șaizeci de

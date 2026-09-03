@@ -7,18 +7,6 @@ note: ਖਰੜਾ। ਛਾਪਣ ਤੋਂ ਪਹਿਲਾਂ ਮਾਂ-ਬੋ
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ ਸੂਚਨਾ — ਬਿਨਾਂ ਜਾਂਚਿਆ ਅਨੁਵਾਦ
->
-> ਇਹ ਅਨੁਵਾਦ ਬਣਾਉਟੀ ਬੁੱਧੀ ਨੇ ਕੀਤਾ ਹੈ ਅਤੇ ਕਿਸੇ ਮਾਂ-ਬੋਲੀ ਬੋਲਣ ਵਾਲੇ ਨੇ ਅਜੇ ਤੱਕ ਨਹੀਂ
-> ਵੇਖਿਆ। ਫ਼ਿਲਹਾਲ ਇਸਨੂੰ ਨਾ ਛਾਪੋ ਤੇ ਨਾ ਵੰਡੋ।
->
-> **ਕੀ ਤੁਸੀਂ ਪੰਜਾਬੀ ਬੋਲਦੇ ਹੋ?** ਇਸਨੂੰ ਜਾਂਚਣ ਲਈ ਇੱਕ ਘੰਟਾ ਕਾਫ਼ੀ ਹੈ। ਲਿਖੋ:
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «ਤੁਹਾਡੇ ਖਾਤੇ ਵਿੱਚ ਸਮੱਸਿਆ ਹੈ»
 
 ਸੱਠ ਸਾਲ ਤੋਂ ਵੱਡੀ ਉਮਰ ਦੇ ਅਮਰੀਕੀ ਸਭ ਤੋਂ ਵੱਧ ਇਸੇ ਠੱਗੀ ਦੀ ਸ਼ਿਕਾਇਤ ਕਰਦੇ ਹਨ। ਇਹ ਸਭ ਤੋਂ

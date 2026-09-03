@@ -7,18 +7,6 @@ note: Draf. Perlu disemak oleh penutur asli sebelum dicetak.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ MAKLUMAN — TERJEMAHAN BELUM DISEMAK
->
-> Diterjemah oleh kecerdasan buatan dan belum disemak oleh penutur asli. Buat masa
-> ini jangan cetak atau edarkan.
->
-> **Anda bertutur bahasa Melayu?** Satu jam masa anda sudah cukup untuk
-> menyemaknya. Tulis kepada **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Ada masalah dengan akaun anda»
 
 Inilah penipuan yang paling banyak dilaporkan oleh rakyat Amerika berumur lebih

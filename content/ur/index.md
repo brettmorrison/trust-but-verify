@@ -77,6 +77,5 @@ validated_by: (none yet)
 ہم ہر ایک کی الگ الگ مدد کرنے کا وعدہ نہیں کر سکتے، مگر آپ جو بھی تصحیح بھیجتے
 ہیں وہ اگلے ضرورت مند کے لیے اس صفحے کو بہتر بنا دیتی ہے۔
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. اردو speakers: we need one reader. It takes an hour.*
 
 **اگر یہ ہو چکا ہے: یہ آپ کی غلطی نہیں، اور ابھی دیر نہیں ہوئی۔**

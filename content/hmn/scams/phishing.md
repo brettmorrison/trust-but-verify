@@ -7,18 +7,6 @@ note: Ntawv ceev. Xav tau ib tug neeg hais lus Hmoob xyuas ua ntej luam tawm.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ CEEB TOOM — TXHAIS LUS UAS TSEEM TSIS TAU XYUAS
->
-> Txhais los ntawm computer txawj ntse, tseem tsis tau muaj neeg hais lus Hmoob
-> xyuas. Tam sim no tsis txhob luam tawm los sis faib.
->
-> **Koj hais lus Hmoob?** Ib teev ntawm koj lub sijhawm txaus los xyuas nws. Sau
-> tuaj rau **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # "Muaj teeb meem nrog koj tus as khauj"
 
 Nov yog qhov kev dag uas cov neeg Asmeskas hnub nyoog tshaj rau caug xyoo qhia

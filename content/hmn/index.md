@@ -88,9 +88,6 @@ Peb tsis tuaj yeem cog lus tias yuav pab txhua tus ib leeg zuj zus, tab sis
 txhua qhov kev kho koj xa tuaj ua rau nplooj ntawv zoo dua rau tus tom ntej
 uas xav tau nws.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Hmong speakers: we need one reader. It
-takes an hour.*
 
 **Yog tias qhov no twb tshwm sim lawm: tsis yog koj txhaum, thiab tseem tsis
 tau lig.**

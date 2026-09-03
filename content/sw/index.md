@@ -79,8 +79,5 @@ mojawapo, tutashukuru sana. Tuandikie:
 Hatuwezi kuahidi kumsaidia kila mtu mmoja mmoja, lakini kila sahihisho
 unalotuma hufanya ukurasa huu kuwa bora kwa mtu anayefuata anayeuhitaji.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Swahili speakers: we need one reader.
-It takes an hour.*
 
 **Ikiwa hili tayari limetokea: si kosa lako, na bado haijachelewa.**

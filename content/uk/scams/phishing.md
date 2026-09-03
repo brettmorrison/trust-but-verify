@@ -7,18 +7,6 @@ note: Чернетка. Перед друком потрібна вичитка 
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ УВАГА — НЕПЕРЕВІРЕНИЙ ПЕРЕКЛАД
->
-> Перекладено штучним інтелектом, ще не перевірено носієм мови. Поки що не
-> друкуйте і не поширюйте.
->
-> **Говорите українською?** Однієї години вашого часу вистачить, щоб це
-> перевірити. Пишіть: **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «З вашим рахунком проблема»
 
 Це шахрайство, про яке найчастіше повідомляють американці старші шістдесяти. Не

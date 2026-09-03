@@ -7,18 +7,6 @@ note: मसौदा। छापने से पहले किसी मा
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ सूचना — बिना जाँचा हुआ अनुवाद
->
-> यह अनुवाद कृत्रिम बुद्धिमत्ता ने किया है और किसी मातृभाषी ने अभी तक इसे नहीं
-> देखा है। फ़िलहाल इसे न छापें और न बाँटें।
->
-> **क्या आप हिन्दी बोलते हैं?** इसे जाँचने के लिए एक घंटा काफ़ी है। लिखिए:
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «आपके खाते में समस्या है»
 
 साठ साल से ऊपर के अमेरिकी सबसे ज़्यादा इसी ठगी की शिकायत करते हैं। यह सबसे महँगी

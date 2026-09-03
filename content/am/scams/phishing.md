@@ -7,18 +7,6 @@ note: ረቂቅ። ከመታተሙ በፊት በአፍ መፍቻ ቋንቋ ተ�
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ ማስታወቂያ — ያልተረጋገጠ ትርጉም
->
-> በሰው ሠራሽ አስተውሎት የተተረጎመ ሲሆን በአፍ መፍቻ ቋንቋ ተናጋሪ ገና አልታየም። ለጊዜው አያትሙት፣
-> አያሰራጩትም።
->
-> **አማርኛ ይናገራሉ?** እሱን ለመመልከት አንድ ሰዓት በቂ ነው። ይጻፉልን፦
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «በሒሳብዎ ላይ ችግር አለ»
 
 ዕድሜያቸው ከስድሳ ዓመት በላይ የሆኑ አሜሪካውያን በብዛት የሚያመለክቱት ማጭበርበር ይህ ነው። በጣም ውድ የሆነው

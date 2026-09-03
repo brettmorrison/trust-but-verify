@@ -77,6 +77,5 @@ validated_by: (none yet)
 हम हर किसी की अलग-अलग मदद करने का वादा नहीं कर सकते, पर आप जो भी सुधार भेजते
 हैं वह अगले ज़रूरतमंद के लिए इस पन्ने को बेहतर बना देता है।
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. हिन्दी speakers: we need one reader. It takes an hour.*
 
 **अगर हो चुका है: यह आपकी गलती नहीं, और अभी देर नहीं हुई।**

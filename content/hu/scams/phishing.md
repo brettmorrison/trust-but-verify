@@ -7,18 +7,6 @@ note: Piszkozat. Nyomtatás előtt anyanyelvi ellenőrzés szükséges.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ FIGYELEM — ELLENŐRIZETLEN FORDÍTÁS
->
-> Mesterséges intelligencia fordította, anyanyelvi beszélő még nem nézte át.
-> Egyelőre ne nyomtassa ki és ne ossza tovább.
->
-> **Beszél magyarul?** Egy óra az idejéből elég az átnézéséhez. Írjon a
-> **translations@trustbutverifyproject.org** címre.
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Probléma van a számlájával»
 
 Ez az a csalás, amelyet a hatvan év feletti amerikaiak a legtöbbször jelentenek

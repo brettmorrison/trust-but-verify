@@ -7,18 +7,6 @@ note: მონახაზი. დაბეჭდვამდე საჭი�
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ შენიშვნა — შეუმოწმებელი თარგმანი
->
-> თარგმნილია ხელოვნური ინტელექტით და ჯერ არ შეუმოწმებია მშობლიური ენის
-> მატარებელს. ჯერჯერობით ნუ დაბეჭდავთ და ნუ გაავრცელებთ.
->
-> **ქართულად საუბრობთ?** ერთი საათი საკმარისია მის შესამოწმებლად. მოგვწერეთ:
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «თქვენს ანგარიშზე პრობლემაა»
 
 ეს ის თაღლითობაა, რომელსაც სამოცს გადაცილებული ამერიკელები ყველაზე ხშირად

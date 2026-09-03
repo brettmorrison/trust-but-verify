@@ -7,18 +7,6 @@ note: Черновик. Перед печатью нужна вычитка но
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ ВНИМАНИЕ — НЕПРОВЕРЕННЫЙ ПЕРЕВОД
->
-> Переведено искусственным интеллектом, ещё не проверено носителем языка. Пока
-> не печатайте и не распространяйте.
->
-> **Говорите по-русски?** Одного часа вашего времени хватит, чтобы это
-> проверить. Пишите: **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Вы выиграли» приз, в розыгрыше которого вы даже не участвовали
 
 В 2025 году американцы старше 60 лет сообщили о потерях в **138 миллионов

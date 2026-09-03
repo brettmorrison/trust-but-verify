@@ -7,18 +7,6 @@ note: Bản nháp. Cần người bản ngữ duyệt lại trước khi in.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ LƯU Ý — BẢN DỊCH CHƯA ĐƯỢC KIỂM CHỨNG
->
-> Do trí tuệ nhân tạo dịch, chưa được người bản ngữ duyệt lại. Xin đừng in hoặc
-> phát tán vội.
->
-> **Quý vị nói tiếng Việt?** Một giờ của quý vị là đủ để duyệt lại. Xin liên lạc:
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # Người chưa từng có thật
 
 Có hai điều cần nói trước khi nói gì khác.

@@ -79,9 +79,6 @@ davon verbessern können, sind wir dankbar. Schreiben Sie uns:
 Wir können nicht versprechen, allen einzeln zu helfen, aber jede Korrektur,
 die Sie schicken, macht die Seite besser für den Nächsten, der sie braucht.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. German speakers: we need one reader. It
-takes an hour.*
 
 **Wenn es schon passiert ist: Es ist nicht Ihre Schuld, und es ist noch nicht
 zu spät.**

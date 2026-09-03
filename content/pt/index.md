@@ -79,8 +79,5 @@ melhorar alguma, ficaremos gratos. Escreva para nós:
 Não podemos prometer atender todo mundo um a um, mas cada correção que você
 envia deixa a página melhor para a próxima pessoa que precisar dela.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Portuguese speakers: we need one reader.
-It takes an hour.*
 
 **Se já aconteceu: a culpa não é sua, e ainda não é tarde demais.**

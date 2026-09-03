@@ -7,18 +7,6 @@ note: Brouillon. Une relecture par un locuteur natif est nécessaire avant impre
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ AVIS — TRADUCTION NON VÉRIFIÉE
->
-> Traduit par intelligence artificielle, pas encore relu par un locuteur natif.
-> Ne l'imprimez pas et ne le distribuez pas pour l'instant.
->
-> **Vous parlez français ?** Une heure de votre temps suffit à le relire. Écrivez
-> à **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Il y a un problème avec votre compte»
 
 C'est l'arnaque la plus signalée par les Américains de plus de soixante ans. Ce

@@ -79,8 +79,5 @@ i potrafi poprawić któreś z nich, będziemy wdzięczni. Proszę do nas napisa
 Nie możemy obiecać, że pomożemy każdemu z osobna, ale każda przysłana poprawka
 sprawia, że strona jest lepsza dla następnej osoby, która jej potrzebuje.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Polish speakers: we need one reader. It
-takes an hour.*
 
 **Jeśli to już się stało: to nie twoja wina i jeszcze nie jest za późno.**

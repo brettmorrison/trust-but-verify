@@ -7,18 +7,6 @@ note: Qoraal aan dhammaystirnayn. Waxay u baahan tahay eegis qof afka u dhashay 
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ OGEYSIIS — TARJUMAAD AAN LA HUBIN
->
-> Waxaa tarjumay garaad macmal ah, weli lama eegin qof afka u dhashay. Hadda ha
-> daabicin hana qeybin.
->
-> **Af-Soomaali ma ku hadashaa?** Hal saac oo waqtigaaga ah ayaa ku filan in la
-> eego. Noo qor **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Waxaa jira dhibaato ku saabsan akoonkaaga»
 
 Tanu waa khiyaanada ugu badan ee ay soo sheegaan Mareykanka ka weyn lixdanka jir.

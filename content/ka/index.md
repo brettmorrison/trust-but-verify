@@ -72,8 +72,5 @@ validated_by: (none yet)
 ვერ დაგპირდებით, რომ ყველას ცალ-ცალკე დავეხმარებით, მაგრამ ყოველი შესწორება,
 რომელსაც გამოგზავნით, აუმჯობესებს გვერდს შემდეგისთვის, ვისაც ის დასჭირდება.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Georgian speakers: we need one reader.
-It takes an hour.*
 
 **თუ ეს უკვე მოხდა: ეს შენი ბრალი არ არის და ჯერ არ არის გვიან.**

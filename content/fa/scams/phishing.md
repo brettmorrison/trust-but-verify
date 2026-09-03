@@ -7,18 +7,6 @@ note: پیش‌نویس. پیش از چاپ نیاز به بازبینی گوی�
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ توجه — ترجمه بازبینی‌نشده
->
-> با هوش مصنوعی ترجمه شده و هنوز هیچ گویشور بومی آن را ندیده است. فعلاً آن را چاپ
-> یا پخش نکنید.
->
-> **فارسی صحبت می‌کنید؟** یک ساعت از وقت شما برای بازبینی کافی است. بنویسید به
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «در حساب شما مشکلی پیش آمده است»
 
 این پرگزارش‌ترین کلاهبرداری در میان آمریکایی‌های بالای شصت سال است. پرهزینه‌ترین

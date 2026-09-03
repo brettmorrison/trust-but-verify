@@ -7,18 +7,6 @@ note: Utkast. Behöver granskas av en modersmålstalare före tryck.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ OBS — OGRANSKAD ÖVERSÄTTNING
->
-> Översatt av artificiell intelligens och ännu inte granskad av någon
-> modersmålstalare. Skriv inte ut den och sprid den inte än.
->
-> **Talar du svenska?** En timme av din tid räcker för att granska den. Skriv till
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Det är ett problem med ditt konto»
 
 Det här är det bedrägeri som amerikaner över sextio anmäler oftast. Inte det

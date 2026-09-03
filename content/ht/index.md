@@ -78,8 +78,5 @@ rekonesan. Ekri nou:
 Nou pa ka pwomèt pou nou ede tout moun youn pa youn, men chak koreksyon ou
 voye fè paj la vin pi bon pou pwochen moun ki bezwen l.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Haitian Creole speakers: we need one
-reader. It takes an hour.*
 
 **Si sa deja rive: se pa fòt ou, e li poko twò ta.**

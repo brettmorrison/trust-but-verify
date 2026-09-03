@@ -7,18 +7,6 @@ note: טיוטה. נדרשת בדיקה של דובר שפת אם לפני הד�
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ הודעה — תרגום שלא נבדק
->
-> תורגם על ידי בינה מלאכותית ועדיין לא נבדק על ידי דובר שפת אם. בינתיים אל תדפיסו
-> ואל תפיצו.
->
-> **דוברים עברית?** שעה אחת מהזמן שלכם מספיקה כדי לבדוק את זה. כתבו אל
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «יש בעיה בחשבון שלך»
 
 זו ההונאה שאמריקאים מעל גיל שישים מדווחים עליה הכי הרבה. היא לא היקרה ביותר, אבל

@@ -72,8 +72,5 @@ validated_by: (none yet)
 Не можемо да обећамо да ћемо помоћи свакоме појединачно, али сваки исправак
 који пошаљете чини страницу бољом за следећег коме затреба.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Serbian speakers: we need one reader.
-It takes an hour.*
 
 **Ако се то већ догодило: то није ваша кривица, и још није прекасно.**

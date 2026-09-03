@@ -79,8 +79,5 @@ uzlabot, būsim pateicīgi. Rakstiet mums:
 Nevaram apsolīt palīdzēt katram atsevišķi, bet katrs labojums, ko atsūtāt,
 padara lapu labāku nākamajam, kuram tā būs vajadzīga.
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please
-do not print or distribute this yet. Latvian speakers: we need one reader.
-It takes an hour.*
 
 **Ja tas jau ir noticis: tā nav jūsu vaina, un vēl nav par vēlu.**

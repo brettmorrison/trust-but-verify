@@ -7,18 +7,6 @@ note: Bozza. Richiede la revisione di un madrelingua prima della stampa.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ AVVISO — TRADUZIONE NON VERIFICATA
->
-> Tradotta da un'intelligenza artificiale, non ancora rivista da un madrelingua.
-> Per ora non la stampi e non la distribuisca.
->
-> **Parla italiano?** Un'ora del suo tempo basta per rivederla. Scriva a
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «C'è un problema con il suo conto»
 
 È la truffa più segnalata dagli americani sopra i sessant'anni. Non la più

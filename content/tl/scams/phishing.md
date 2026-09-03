@@ -7,18 +7,6 @@ note: Draft. Kailangan ng pagsusuri ng katutubong tagapagsalita bago i-print.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ PAALALA — SALIN NA HINDI PA NASUSURI
->
-> Isinalin ng artificial intelligence, hindi pa nasusuri ng katutubong
-> tagapagsalita. Huwag muna itong i-print o ipamahagi.
->
-> **Nagsasalita kayo ng Tagalog?** Sapat na ang isang oras para masuri ito.
-> Sumulat sa **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # "May problema sa account ninyo"
 
 Ito ang pinakamadalas iulat na panloloko ng mga Amerikanong mahigit animnapung

@@ -7,23 +7,6 @@ note: 草稿。付印前需请母语者审阅。
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> **⚠ 注意 —— 未经核校的机器翻译**
->
-> **本文由人工智能翻译，尚未经母语者审阅。** 其中的事实、电话号码和建议都是准确的。
-> 但措辞可能读起来不自然，也可能存在错误。
->
-> **请暂时不要打印或分发。** 请把它当作供阅读、讨论和修改的草稿。
->
-> **您会说中文吗？请帮我们一把。** 不需要专业译者。只要读一遍，告诉我们哪里读着别扭、
-> 哪里显得居高临下，以及换成您会怎么说。您一个小时的时间，能让这份材料真正帮到成千上万
-> 的人。
->
-> 请联系：**translations [at] trustbutverifyproject [dot] org**
->
-> *(NOTICE — UNVALIDATED AI TRANSLATION. Not reviewed by a native speaker. Do
-> not print or distribute. Chinese speakers: please help us check it.)*
-
 # 您可以继续信任别人，但请加一个停顿。
 
 在转账、登录账户、安装任何软件，或让别人接触您的电脑之前。

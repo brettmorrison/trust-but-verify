@@ -7,18 +7,6 @@ note: 초안. 인쇄 전에 원어민 검토가 필요합니다.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ 알림 — 검증되지 않은 번역
->
-> 인공지능이 번역했으며 아직 원어민이 검토하지 않았습니다. 아직 인쇄하거나
-> 배포하지 마십시오.
->
-> **한국어를 하십니까?** 한 시간이면 검토하기에 충분합니다. 연락처:
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # 유령 해커
 
 이것은 모든 것을 앗아가는 수법입니다.

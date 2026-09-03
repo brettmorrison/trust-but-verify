@@ -7,18 +7,6 @@ note: Bouyon. Li bezwen yon moun ki pale lang lan tcheke l anvan enprime.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ AVÈTISMAN — TRADIKSYON KI POKO TCHEKE
->
-> Se entèlijans atifisyèl ki tradui l, okenn moun ki pale lang lan poko gade l.
-> Pa enprime l ni pataje l pou kounye a.
->
-> **Ou pale kreyòl?** Yon èdtan nan tan ou kont pou tcheke l. Ekri nan
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # "Gen yon pwoblèm ak kont ou"
 
 Se eskrokri Ameriken ki gen plis pase swasant an rapòte plis la. Se pa sa ki koute

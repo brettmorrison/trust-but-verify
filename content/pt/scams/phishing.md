@@ -7,18 +7,6 @@ note: Rascunho. Precisa de revisão de um falante nativo antes de imprimir.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ AVISO — TRADUÇÃO NÃO VERIFICADA
->
-> Traduzido por inteligência artificial, ainda não revisado por um falante
-> nativo. Por enquanto, não imprima nem distribua.
->
-> **Você fala português?** Uma hora do seu tempo basta para revisar. Escreva para
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Há um problema com a sua conta»
 
 Este é o golpe mais relatado pelos americanos com mais de sessenta anos. Não é o

@@ -7,18 +7,6 @@ note: Draft. Kërkon shqyrtim nga një folës amtar para se të shtypet.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ NJOFTIM — PËRKTHIM I PASHQYRTUAR
->
-> Përkthyer nga inteligjenca artificiale, ende i pashqyrtuar nga një folës amtar.
-> Për momentin mos e shtypni dhe mos e shpërndani.
->
-> **Flisni shqip?** Një orë e kohës suaj mjafton për ta shqyrtuar. Shkruani në
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Ka një problem me llogarinë tuaj»
 
 Ky është mashtrimi që amerikanët mbi gjashtëdhjetë vjeç raportojnë më shumë. Nuk

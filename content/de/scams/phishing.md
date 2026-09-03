@@ -7,18 +7,6 @@ note: Entwurf. Vor dem Druck ist eine Prüfung durch einen Muttersprachler nöti
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ HINWEIS — UNGEPRÜFTE ÜBERSETZUNG
->
-> Von künstlicher Intelligenz übersetzt, noch nicht von einem Muttersprachler
-> geprüft. Bitte drucken oder verteilen Sie sie vorerst nicht.
->
-> **Sprechen Sie Deutsch?** Eine Stunde Ihrer Zeit reicht, um sie zu prüfen.
-> Schreiben Sie an **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Es gibt ein Problem mit Ihrem Konto»
 
 Das ist der Betrug, den Amerikaner über sechzig am häufigsten melden. Nicht der

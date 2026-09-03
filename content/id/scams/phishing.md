@@ -7,18 +7,6 @@ note: Draf. Perlu diperiksa penutur asli sebelum dicetak.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ PEMBERITAHUAN — TERJEMAHAN BELUM DIPERIKSA
->
-> Diterjemahkan oleh kecerdasan buatan, belum diperiksa penutur asli. Untuk
-> sementara jangan dicetak atau dibagikan.
->
-> **Anda berbahasa Indonesia?** Satu jam waktu Anda sudah cukup untuk
-> memeriksanya. Tulis ke **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Ada masalah dengan akun Anda»
 
 Inilah penipuan yang paling banyak dilaporkan orang Amerika berusia di atas enam

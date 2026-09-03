@@ -7,18 +7,6 @@ note: Nacrt. Prije tiskanja potrebna je provjera izvornog govornika.
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ NAPOMENA — NEPROVJERENI PRIJEVOD
->
-> Prevela ga je umjetna inteligencija i još ga nije pregledao izvorni govornik.
-> Zasad ga nemojte tiskati ni dijeliti.
->
-> **Govorite hrvatski?** Jedan sat vašeg vremena dovoljan je da ga pregledate.
-> Pišite na **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «Postoji problem s vašim računom»
 
 Ovo je prijevara koju Amerikanci stariji od šezdeset godina najčešće prijavljuju.

@@ -7,17 +7,6 @@ note: 草稿。付印前需请母语者审阅。
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ 注意 —— 未经核校的机器翻译
->
-> 由人工智能翻译，尚未经母语者审阅。请暂时不要打印或分发。
->
-> **您会说中文吗？** 一个小时就够审阅了。请联系：
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # 「您的账户有问题」
 
 这是六十岁以上的美国人报案最多的一种骗局。它不是损失最大的，却是来得最频繁、伪装

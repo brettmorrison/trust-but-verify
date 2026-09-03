@@ -78,6 +78,5 @@ validated_by: (none yet)
 յուրաքանչյուր ուղղում էջն ավելի լավն է դարձնում հաջորդի համար, ում այն պետք
 կգա։
 
-*NOTICE — unvalidated AI translation, not reviewed by a native speaker. Please do not print or distribute this yet. Հայերեն speakers: we need one reader. It takes an hour.*
 
 **Եթե արդեն պատահել է՝ ձեր մեղքը չէ, և դեռ ուշ չէ։**

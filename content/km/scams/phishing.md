@@ -7,18 +7,6 @@ note: សេចក្តីព្រាង។ ត្រូវការការ�
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ សេចក្តីជូនដំណឹង — ការបកប្រែដែលមិនទាន់ត្រួតពិនិត្យ
->
-> បកប្រែដោយបញ្ញាសិប្បនិម្មិត ហើយមិនទាន់មានអ្នកនិយាយភាសាកំណើតណាមើលទេ។
-> សូមកុំទាន់បោះពុម្ព ឬចែកចាយ។
->
-> **អ្នកនិយាយភាសាខ្មែរទេ?** មួយម៉ោងនៃពេលវេលារបស់អ្នកគ្រប់គ្រាន់ដើម្បីត្រួតពិនិត្យ។
-> សូមសរសេរមក **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «មានបញ្ហាជាមួយគណនីរបស់អ្នក»
 
 នេះជាការបោកបញ្ឆោតដែលជនជាតិអាមេរិកអាយុលើសហុកសិបឆ្នាំរាយការណ៍ច្រើនជាងគេ។ វាមិនមែនជា

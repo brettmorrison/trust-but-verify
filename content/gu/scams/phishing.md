@@ -7,18 +7,6 @@ note: મુસદ્દો. છાપતાં પહેલાં માતૃ�
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ સૂચના — ચકાસ્યા વગરનો અનુવાદ
->
-> આ અનુવાદ કૃત્રિમ બુદ્ધિએ કર્યો છે અને કોઈ માતૃભાષીએ હજી સુધી જોયો નથી. હમણાં
-> એને છાપશો નહીં કે વહેંચશો નહીં.
->
-> **તમે ગુજરાતી બોલો છો?** એને ચકાસવા માટે એક કલાક પૂરતો છે. લખો:
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # «તમારા ખાતામાં સમસ્યા છે»
 
 સાઠ વર્ષથી ઉપરના અમેરિકનો સૌથી વધુ આ જ છેતરપિંડીની ફરિયાદ કરે છે. એ સૌથી મોંઘી

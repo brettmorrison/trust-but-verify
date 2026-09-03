@@ -7,18 +7,6 @@ note: 草稿。印刷前に母語話者の確認が必要です。
 status: UNVALIDATED AI TRANSLATION — not reviewed by a native speaker; do not print or distribute
 validated_by: (none yet)
 ---
-
-> ### ⚠ お知らせ — 未確認の翻訳
->
-> 人工知能による翻訳で、母語話者の確認はまだ受けていません。当面は印刷も配布も
-> なさらないでください。
->
-> **日本語を話される方へ。** 確認には一時間あれば足ります。ご連絡は
-> **translations@trustbutverifyproject.org**
->
-> *(NOTICE — unvalidated AI translation, not reviewed by a native speaker.
-> Please do not print or distribute this yet.)*
-
 # 「お客様の口座に問題があります」
 
 六十歳以上のアメリカ人からの届け出が最も多い詐欺です。被害額が最も大きいわけでは
