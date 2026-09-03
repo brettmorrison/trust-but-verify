@@ -192,17 +192,52 @@ def out_path(lang, slug, ext):
     return os.path.join(OUT, flat + "." + ext)
 
 
+# The encode target for everything in assets/audio/, whichever voice made it.
+#
+# 64 kbps mono is the delivery format for spoken word; music bitrates buy
+# nothing on a voice recording. The audience for this site skews to metered
+# mobile data, rural DSL, and older phones -- the same reasoning that took the
+# hero photos from 1600px to 1200px -- and preload="none" means the download
+# only happens for the people who actually press play, which is to say the
+# people most engaged with the page. The narration was 128 kbps for 45 of the
+# 78 files, which cost those listeners twice what it needed to.
+#
+# Set here rather than at each call site so a re-narration batch cannot
+# quietly reintroduce the old size.
+AUDIO_BITRATE = "64k"
+AUDIO_CHANNELS = "1"
+# Anything above this is re-encoded; anything at or below it is left alone,
+# because a second lossy pass on an already-small file costs quality and
+# saves nothing. The macOS `say` files land near 58 kbps at 22 kHz already.
+AUDIO_REENCODE_ABOVE = 73000
+
+
+def encode_to_target(src, dst):
+    """One ffmpeg pass to the delivery format. src and dst may be the same."""
+    tmp = dst + ".tmp.mp3"
+    subprocess.run(
+        ["ffmpeg", "-y", "-loglevel", "error", "-i", src,
+         "-codec:a", "libmp3lame", "-b:a", AUDIO_BITRATE, "-ac", AUDIO_CHANNELS, tmp],
+        check=True,
+    )
+    os.replace(tmp, dst)
+
+
+def bitrate_of(mp3):
+    out = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=bit_rate",
+         "-of", "default=nw=1:nk=1", mp3],
+        capture_output=True, text=True, check=True).stdout.strip()
+    return int(out) if out.isdigit() else 0
+
+
 def make_mac(lang, slug):
     text = markdown_to_speech_text(
         split_front_matter(open(find_source(lang, slug), encoding="utf-8").read())[1]
     )
     aiff, mp3 = out_path(lang, slug, "aiff"), out_path(lang, slug, "mp3")
     subprocess.run(["say", "-v", MAC_VOICES[lang], "-o", aiff, text], check=True)
-    subprocess.run(
-        ["ffmpeg", "-y", "-loglevel", "error", "-i", aiff,
-         "-codec:a", "libmp3lame", "-qscale:a", "4", mp3],
-        check=True,
-    )
+    encode_to_target(aiff, mp3)
     os.remove(aiff)
     print("wrote %s (%.1f MB, macOS, %s)" % (mp3, os.path.getsize(mp3) / 1e6, lang))
 
@@ -233,7 +268,14 @@ def make_elevenlabs(lang, slug, api_key):
                 return False
     with open(mp3, "wb") as f:
         f.write(data)
-    print("wrote %s (%.1f MB, ElevenLabs/%s, %d chars)" % (mp3, len(data) / 1e6, model, len(text)))
+    # ElevenLabs returns 128 kbps by default, which is a music bitrate for a
+    # voice recording. Re-encode only when it is actually above target, so an
+    # account whose tier already returns 64 kbps does not pay for a second
+    # lossy generation.
+    if bitrate_of(mp3) > AUDIO_REENCODE_ABOVE:
+        encode_to_target(mp3, mp3)
+    print("wrote %s (%.1f MB, ElevenLabs/%s, %d chars)"
+          % (mp3, os.path.getsize(mp3) / 1e6, model, len(text)))
     return True
 
 
