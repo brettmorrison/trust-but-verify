@@ -403,6 +403,98 @@ def check_external_links():
 
 
 
+# --------------------------------------------------------- _headers collisions
+# Cloudflare Pages does not treat a more specific _headers rule as an override.
+# Every rule whose pattern matches the request contributes its headers, and the
+# browser receives all of them. For most headers that is merely confusing; for
+# Content-Security-Policy it is a trap, because a browser given two policies
+# enforces the intersection (CSP3 sec. 8.1) -- the strictest value of each
+# directive wins no matter which rule looks more specific.
+#
+# That is exactly how the feedback form was dead from launch: /* set
+# form-action 'none' and /feedback/* set form-action 'self', the live response
+# carried two content-security-policy lines, and the intersection was 'none'.
+# Pressing Send did nothing at all, with no JavaScript on the page to say why.
+#
+# So: expand every rule against every built path and fail if any path is
+# matched by two rules that set the same header. Comparing patterns to each
+# other would not have caught this on its own -- /* and /feedback/* overlap
+# only once you know what was built.
+
+def _parse_headers_file(text):
+    """[(pattern, [(header-name, value), ...]), ...] from _headers syntax.
+
+    Unindented non-comment lines are path patterns; indented "Name: value"
+    lines belong to the pattern above them."""
+    rules, current = [], None
+    for raw in text.split("\n"):
+        if not raw.strip() or raw.lstrip().startswith("#"):
+            continue
+        if raw[0].isspace():
+            if current is not None and ":" in raw:
+                name, value = raw.split(":", 1)
+                current[1].append((name.strip(), value.strip()))
+        else:
+            current = (raw.strip(), [])
+            rules.append(current)
+    return rules
+
+def _headers_pattern_re(pattern):
+    """Cloudflare Pages matching: * is a wildcard, :name is one path segment."""
+    path = re.sub(r"^https?://[^/]*", "", pattern) or "/"
+    out = []
+    for part in re.split(r"(\*|:[A-Za-z_][A-Za-z0-9_]*)", path):
+        if part == "*":
+            out.append(".*")
+        elif part.startswith(":"):
+            out.append("[^/]+")
+        elif part:
+            out.append(re.escape(part))
+    return re.compile("^" + "".join(out) + "$")
+
+def _built_paths():
+    """Every file in site/ as the URL path a visitor would request."""
+    for dirpath, _dirs, files in os.walk(OUT):
+        for fn in files:
+            if fn == "_headers":
+                continue
+            full = os.path.join(dirpath, fn)
+            r = os.path.relpath(full, OUT).replace(os.sep, "/")
+            if fn == "index.html":
+                d = os.path.dirname(r)
+                yield ("/" + d + "/") if d else "/"
+            else:
+                yield "/" + r
+
+def check_header_collisions():
+    hp = os.path.join(OUT, "_headers")
+    if not os.path.exists(hp):
+        err("_headers missing", "site/_headers"); return
+    rules = _parse_headers_file(io.open(hp, encoding="utf-8").read())
+    if not rules:
+        err("_headers has no rules", "site/_headers"); return
+    compiled = [(pat, _headers_pattern_re(pat), hdrs) for pat, hdrs in rules]
+
+    seen = set()
+    for path in _built_paths():
+        setters = collections.defaultdict(list)
+        for pat, rx, hdrs in compiled:
+            if not rx.match(path):
+                continue
+            for name, _value in hdrs:
+                setters[name.lower()].append(pat)
+        for name, pats in sorted(setters.items()):
+            if len(pats) < 2:
+                continue
+            key = (name, tuple(pats))
+            if key in seen:
+                continue
+            seen.add(key)
+            err("two _headers rules set the same header on one path",
+                "%s gets %s from %s -- Pages appends both, it does not override"
+                % (path, name, " and ".join(pats)))
+
+
 # ------------------------------------------------------- canonical report URLs
 # The two URLs the site's reporting instructions depend on must be written in
 # the form that answers directly, not one that answers via a redirect.
@@ -443,7 +535,8 @@ def main():
     checks = [check_accessibility, check_metadata, check_links, check_weight,
               check_focus_styles, check_prose_regressions,
               check_translation_safety, check_hreflang,
-              check_table_semantics, check_canonical_report_urls]
+              check_table_semantics, check_header_collisions,
+              check_canonical_report_urls]
     if "--links" in sys.argv:
         checks.append(check_external_links)
     for fn in checks:
