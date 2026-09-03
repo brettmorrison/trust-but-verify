@@ -15,7 +15,8 @@ fail the build, because they are judgement calls rather than defects.
 
     python3 build/audit_site.py [--strict]     # --strict makes WARN fail too
 """
-import os, re, sys, glob, io, json, collections
+import os, re, sys, glob, io, json, bisect, collections
+from html.parser import HTMLParser
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "site")
@@ -403,6 +404,269 @@ def check_external_links():
 
 
 
+# --------------------------------------------------------------- CSS plumbing
+# A small CSS reader shared by the two checks below. It descends into at-rules
+# so a rule inside @media is seen with the media query it lives under, which
+# is the whole point -- the two type-floor defects this catches were both
+# inside a media query, where nothing reading the top level would find them.
+
+def _strip_css_comments(css):
+    return re.sub(r"/\*.*?\*/", "", css, flags=re.S)
+
+def _css_rules(css, context=""):
+    """Yield (selector, declarations, context) for every style rule."""
+    i, n = 0, len(css)
+    while i < n:
+        j = css.find("{", i)
+        if j < 0:
+            return
+        sel = css[i:j].strip()
+        depth, k = 1, j + 1
+        while k < n and depth:
+            if css[k] == "{":
+                depth += 1
+            elif css[k] == "}":
+                depth -= 1
+            k += 1
+        body = css[j + 1:k - 1]
+        if sel.startswith("@"):
+            if "{" in body:
+                for r in _css_rules(body, (context + " " + sel).strip()):
+                    yield r
+        elif sel:
+            yield sel, body, context
+        i = k
+
+def _declarations(body):
+    for decl in body.split(";"):
+        if ":" in decl:
+            prop, value = decl.split(":", 1)
+            yield prop.strip().lower(), value.strip()
+
+def _site_css():
+    path = os.path.join(OUT, "style.css")
+    if not os.path.exists(path):
+        return None
+    return _strip_css_comments(io.open(path, encoding="utf-8").read())
+
+
+# ------------------------------------------------------------- the 20px floor
+# README.md: "20px minimum type on screen. Non-negotiable." It was not being
+# kept. Thirteen declarations sat under 1rem, and @media (max-width:26rem)
+# dropped the root to 118% -- 18.88px -- so on a phone body copy landed at
+# 19.8px and the interpreter table under 19px, below the floor on the exact
+# device and page where it matters most.
+#
+# The floor is expressed as 1rem against a 125% root (= 20px), so this reads
+# the generated CSS and fails on anything smaller. Two decorative exceptions
+# are named, with a reason each, rather than left to judgement.
+#
+# Print is excluded: it is sized in pt against a 100% root deliberately, and
+# the project's print standard is a separate number (18pt on the typeset
+# sheets, ~13pt for a browser printout).
+
+TYPE_FLOOR_ALLOWLIST = {
+    "figure.hero-photo figcaption": "photo credit line, not reading matter",
+    "aside.rail .label": "the rail's own heading, decorative chrome",
+}
+ROOT_FONT_FLOOR_PCT = 125.0
+
+def _px_of(value):
+    """font-size in px assuming a 20px root, or None if not a plain length."""
+    m = re.match(r"^([\d.]+)(rem|em|px|pt|%)$", value.strip())
+    if not m:
+        return None
+    n, unit = float(m.group(1)), m.group(2)
+    return {"rem": n * 20.0, "em": n * 20.0, "px": n,
+            "pt": n * 96.0 / 72.0, "%": n * 20.0 / 100.0}[unit]
+
+def check_type_floor():
+    css = _site_css()
+    if css is None:
+        err("stylesheet missing", "site/style.css"); return
+    for sel, body, context in _css_rules(css):
+        if "print" in context:
+            continue
+        for prop, value in _declarations(body):
+            if prop != "font-size":
+                continue
+            norm = re.sub(r"\s+", " ", sel).strip()
+            where = norm + ((" in " + context) if context else "")
+            if norm in TYPE_FLOOR_ALLOWLIST:
+                continue
+            # The root percentage sets what 1rem is worth, so it is the one
+            # value that has to be checked against 125% rather than 20px.
+            if norm == "html":
+                m = re.match(r"^([\d.]+)%$", value)
+                if not m or float(m.group(1)) < ROOT_FONT_FLOOR_PCT:
+                    err("root font-size below the 125% the 20px floor rests on",
+                        "%s sets font-size:%s" % (where, value))
+                continue
+            px = _px_of(value)
+            if px is None:
+                continue
+            if px < 20.0:
+                err("font-size below the 20px floor",
+                    "%s sets font-size:%s (%.1fpx at a 125%% root)"
+                    % (where, value, px))
+
+
+# ------------------------------------------------------- the printed page
+# Browser printing is how this material reaches most of the people it is for:
+# a volunteer prints a page and hands it over. The print stylesheet used to
+# hide footer.site outright, which quietly removed the National Elder Fraud
+# Hotline, AARP Fraud Watch, reportfraud.ftc.gov and ic3.gov from every
+# printed page -- the four things the reader is meant to act on.
+#
+# So the rule is stated as an invariant rather than as a fix: nothing hidden
+# in print may contain a phone number. PHONE_RE is the same expression the
+# translation-safety check uses, so "a phone number" means the same thing in
+# both places.
+#
+# It needs to know what a selector actually matches on the real pages, so
+# there is a small DOM below. Anything more complicated than tag/class/id and
+# descendant combinators is refused rather than guessed at, which keeps the
+# print block simple enough to stay checkable.
+
+_VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link",
+         "meta", "param", "source", "track", "wbr"}
+
+class _Dom(HTMLParser):
+    """Elements with their class/id, content span, and parent."""
+    def __init__(self, text):
+        super().__init__(convert_charrefs=False)
+        self.text = text
+        self.line_starts, pos = [0], 0
+        for line in text.split("\n"):
+            pos += len(line) + 1
+            self.line_starts.append(pos)
+        self.nodes, self.stack = [], []
+        self.feed(text)
+        for i in self.stack:
+            self.nodes[i]["end"] = len(text)
+
+    def _offset(self):
+        line, col = self.getpos()
+        return self.line_starts[line - 1] + col
+
+    def _open(self, tag, attrs, void):
+        a = dict(attrs)
+        start = self._offset() + len(self.get_starttag_text() or "")
+        self.nodes.append({
+            "tag": tag,
+            "classes": set((a.get("class") or "").split()),
+            "id": a.get("id"),
+            "start": start,
+            "end": start if void else None,
+            "parent": self.stack[-1] if self.stack else None,
+        })
+        if not void:
+            self.stack.append(len(self.nodes) - 1)
+
+    def handle_starttag(self, tag, attrs):
+        self._open(tag, attrs, tag in _VOID)
+
+    def handle_startendtag(self, tag, attrs):
+        self._open(tag, attrs, True)
+
+    def handle_endtag(self, tag):
+        for depth in range(len(self.stack) - 1, -1, -1):
+            if self.nodes[self.stack[depth]]["tag"] == tag:
+                off = self._offset()
+                for i in self.stack[depth:]:
+                    if self.nodes[i]["end"] is None:
+                        self.nodes[i]["end"] = off
+                del self.stack[depth:]
+                return
+
+_COMPOUND = re.compile(r"^([a-zA-Z][\w-]*)?((?:[.#][\w-]+)+)?$")
+
+def _parse_selector(sel):
+    """[(tag, classes, id), ...] left to right, or None if unsupported."""
+    parts = []
+    for part in sel.split():
+        m = _COMPOUND.match(part)
+        if not m or not part:
+            return None
+        tag = (m.group(1) or "").lower() or None
+        classes, ident = set(), None
+        for token in re.findall(r"[.#][\w-]+", m.group(2) or ""):
+            if token[0] == ".":
+                classes.add(token[1:])
+            else:
+                ident = token[1:]
+        parts.append((tag, classes, ident))
+    return parts or None
+
+def _matches(dom, node_index, parts):
+    node = dom.nodes[node_index]
+    def hit(part, n):
+        tag, classes, ident = part
+        return ((tag is None or n["tag"] == tag)
+                and classes <= n["classes"]
+                and (ident is None or n["id"] == ident))
+    if not hit(parts[-1], node):
+        return False
+    remaining = list(parts[:-1])
+    i = node["parent"]
+    while remaining and i is not None:
+        if hit(remaining[-1], dom.nodes[i]):
+            remaining.pop()
+        i = dom.nodes[i]["parent"]
+    return not remaining
+
+def check_print_stylesheet():
+    css = _site_css()
+    if css is None:
+        err("stylesheet missing", "site/style.css"); return
+    hidden, saw_print = [], False
+    for sel, body, context in _css_rules(css):
+        if "print" not in context:
+            continue
+        saw_print = True
+        for prop, value in _declarations(body):
+            if prop == "display" and value.lower() == "none":
+                hidden.extend(s.strip() for s in sel.split(",") if s.strip())
+    if not saw_print:
+        err("no @media print block in the stylesheet",
+            "printing is how most of this material reaches people"); return
+    if not hidden:
+        return
+
+    parsed = {}
+    for sel in hidden:
+        parts = _parse_selector(re.sub(r"\s+", " ", sel))
+        if parts is None:
+            err("print rule hides a selector this check cannot evaluate",
+                "%s -- keep print hiding to tag/class/id and descendants "
+                "so it stays checkable" % sel)
+            continue
+        parsed[sel] = parts
+    if not parsed:
+        return
+
+    reported = set()
+    for f, h in pages():
+        found = [(m.start(), m.group(0)) for m in PHONE_RE.finditer(h)]
+        if not found:
+            continue
+        at = [pos for pos, _n in found]
+        dom = _Dom(h)
+        for i, node in enumerate(dom.nodes):
+            if node["end"] is None or node["end"] <= node["start"]:
+                continue
+            j = bisect.bisect_left(at, node["start"])
+            if j >= len(at) or at[j] >= node["end"]:
+                continue
+            for sel, parts in parsed.items():
+                if sel in reported or not _matches(dom, i, parts):
+                    continue
+                reported.add(sel)
+                err("print stylesheet hides a phone number",
+                    "%s hides <%s> on %s, which contains %s"
+                    % (sel, node["tag"], rel(f), found[j][1]))
+
+
 # --------------------------------------------------------- _headers collisions
 # Cloudflare Pages does not treat a more specific _headers rule as an override.
 # Every rule whose pattern matches the request contributes its headers, and the
@@ -535,7 +799,8 @@ def main():
     checks = [check_accessibility, check_metadata, check_links, check_weight,
               check_focus_styles, check_prose_regressions,
               check_translation_safety, check_hreflang,
-              check_table_semantics, check_header_collisions,
+              check_table_semantics, check_type_floor,
+              check_print_stylesheet, check_header_collisions,
               check_canonical_report_urls]
     if "--links" in sys.argv:
         checks.append(check_external_links)
