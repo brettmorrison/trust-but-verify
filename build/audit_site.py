@@ -242,6 +242,27 @@ def check_prose_regressions():
 
 PHONE_RE = re.compile(r"\b(?:\d{3}[-.\s]?\d{3}[-.\s]?\d{4}|\d{3}-\d{4})\b")
 
+# What counts as the reader having been told. Either the marker the build
+# stamps on a generated notice, or the English fallback sentence that every
+# hand-written notice in the repo carries today, so this works before and
+# after the notice becomes a build-time component.
+NOTICE_MARKER = 'data-notice="unvalidated"'
+NOTICE_TEXT = re.compile(r"unvalidated\s+ai\s+translation", re.I)
+
+# Landing pages that put the notice at the foot of the page rather than above
+# the first section. Measured, not assumed: on these 40 it sits at 93-94% of
+# document depth, below the three steps and below the helpline numbers.
+#
+# This list may only ever get shorter. A page not on it that puts its notice
+# below the first <h2> is an error; a page on it that no longer needs to be
+# is reported so the list can be tightened. TBV-003 empties it.
+NOTICE_BELOW_FIRST_H2 = {
+    "am", "ar", "bn", "da", "de", "el", "et", "fa", "fr", "gu", "he", "hi",
+    "hmn", "hr", "ht", "hu", "hy", "id", "it", "ja", "ka", "km", "ko", "lt",
+    "lv", "ms", "no", "pa", "pl", "ps", "pt", "ro", "so", "sq", "sr", "sv",
+    "sw", "tl", "uk", "ur",
+}
+
 def _content_files():
     for f in sorted(glob.glob(os.path.join(ROOT, "content", "*", "**", "*.md"),
                               recursive=True)):
@@ -259,6 +280,24 @@ def _front_matter(text):
             fm[k.strip()] = v.strip()
     return fm
 
+def _built_page_for(fm):
+    """The built page a content file's slug produces, or None."""
+    slug = (fm.get("slug") or "").strip().strip("/")
+    path = os.path.join(OUT, slug, "index.html") if slug else os.path.join(OUT, "index.html")
+    return (slug or "/", path) if os.path.exists(path) else (slug or "/", None)
+
+def _main_html(html):
+    m = re.search(r"<main[^>]*>(.*?)</main>", html, re.S)
+    return m.group(1) if m else ""
+
+def _notice_position(main_html):
+    """Where the visible notice starts inside <main>, or -1."""
+    hits = [main_html.find(NOTICE_MARKER)]
+    m = NOTICE_TEXT.search(main_html)
+    hits.append(m.start() if m else -1)
+    hits = [h for h in hits if h >= 0]
+    return min(hits) if hits else -1
+
 def check_translation_safety():
     english, files = set(), []
     for rel, lang, text in _content_files():
@@ -272,6 +311,7 @@ def check_translation_safety():
         err("no English phone numbers found", "the subset check cannot run")
         return
 
+    unvalidated = 0
     for rel, nums, fm in files:
         stray = sorted(nums - english)
         if stray:
@@ -281,10 +321,49 @@ def check_translation_safety():
         validator = fm.get("validated_by", "").strip()
         if not validator:
             err("non-English page does not declare validated_by", rel)
-        elif validator.startswith("(none"):
-            # Not yet checked by a human, so the reader must be told so.
-            if "UNVALIDATED" not in fm.get("status", ""):
-                err("unvalidated translation is missing its warning banner", rel)
+            continue
+        if not validator.startswith("(none"):
+            continue
+
+        # Not yet checked by a human, so the reader must be told so -- and
+        # told on the page, not in front matter nobody renders.
+        unvalidated += 1
+        if "UNVALIDATED" not in fm.get("status", ""):
+            err("unvalidated translation is missing its warning banner", rel)
+
+        url, path = _built_page_for(fm)
+        if path is None:
+            err("unvalidated translation has no built page to check",
+                "%s declares slug %s" % (rel, fm.get("slug", "(none)")))
+            continue
+
+        body = _main_html(io.open(path, encoding="utf-8").read())
+        if not body:
+            err("built page has no <main> to look in", "%s -> /%s/" % (rel, url))
+            continue
+
+        at = _notice_position(body)
+        if at < 0:
+            err("no visible unvalidated-translation notice on the built page",
+                "%s -> /%s/ renders nothing telling the reader this is "
+                "machine-translated" % (rel, url))
+            continue
+
+        h2 = body.find("<h2")
+        late = h2 >= 0 and at > h2
+        if late and url not in NOTICE_BELOW_FIRST_H2:
+            err("notice sits below the first section heading",
+                "/%s/ puts it at %d%% of the page; a reader deciding whether "
+                "to trust the page has already read past it"
+                % (url, round(100.0 * at / max(len(body), 1))))
+        elif not late and url in NOTICE_BELOW_FIRST_H2:
+            warn("notice is above the fold now, drop it from NOTICE_BELOW_FIRST_H2",
+                 "/%s/" % url)
+
+    if not unvalidated:
+        err("no unvalidated translations found",
+            "45 languages are unvalidated; this check cannot silently "
+            "stop applying")
 
 
 
@@ -374,6 +453,13 @@ def check_table_semantics():
 # does catch is a dead domain, a DNS failure, a hard 4xx/5xx, and a moved
 # address. That covers the realistic failure for the two URLs that matter.
 
+# 429 and 403 mean the site refused to talk to a script, not that the link is
+# dead. YouTube answers 429 to this checker while serving the page perfectly to
+# a person, which turned the whole run red and taught everyone to ignore it --
+# and a check that is routinely ignored stops protecting reportfraud.ftc.gov
+# and ic3.gov, which is the only reason it exists. Reported, not fatal.
+BOT_BLOCKED = {403, 429}
+
 def check_external_links():
     import urllib.request, urllib.error, ssl, collections
 
@@ -390,14 +476,24 @@ def check_external_links():
         try:
             with urllib.request.urlopen(req, timeout=20, context=ctx) as r:
                 final = r.geturl()
-                if r.status >= 400:
+                if r.status in BOT_BLOCKED:
+                    warn("external link blocked the checker (%d)" % r.status,
+                         "%s (on %d pages) -- says nothing about the link"
+                         % (url, count))
+                elif r.status >= 400:
                     err("external link returns %d" % r.status,
                         "%s (on %d pages)" % (url, count))
                 elif final.rstrip("/") != url.rstrip("/"):
                     warn("external link redirects",
                          "%s -> %s (on %d pages)" % (url, final, count))
         except urllib.error.HTTPError as e:
-            err("external link returns %d" % e.code, "%s (on %d pages)" % (url, count))
+            if e.code in BOT_BLOCKED:
+                warn("external link blocked the checker (%d)" % e.code,
+                     "%s (on %d pages) -- says nothing about the link"
+                     % (url, count))
+            else:
+                err("external link returns %d" % e.code,
+                    "%s (on %d pages)" % (url, count))
         except Exception as e:
             err("external link unreachable",
                 "%s (on %d pages): %s" % (url, count, type(e).__name__))

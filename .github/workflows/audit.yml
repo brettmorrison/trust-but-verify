@@ -1,0 +1,53 @@
+# Build the site and run the audit on every pull request.
+#
+# Nine of the audit's checks -- accessibility attributes, metadata, internal
+# links, page weight, focus indicators, English prose regressions, translated
+# safety invariants, hreflang reciprocity, table semantics, the 20px type
+# floor, the print stylesheet and _headers collisions -- could not stop
+# anything before this existed. The four open content PRs were reviewed by
+# eye, and the two sitewide find-and-replace passes that silently damaged
+# this site both looked fine in review.
+#
+# This is the pull-request half. The deploy half is one dashboard edit,
+# appending `&& python3 build/audit_site.py` to the Cloudflare Pages build
+# command (DEPLOY.md, TBV-008) -- that command exists only in the dashboard,
+# so it cannot live here.
+#
+# --links is deliberately NOT run. It needs the network, it takes tens of
+# seconds, and outside sites answer 429/403 to a script on their own
+# schedule. A check that goes red for reasons a contributor cannot fix
+# teaches people to ignore the red. Run it deliberately instead:
+#     python3 build/audit_site.py --links
+
+name: audit
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: audit-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'   # matches runtime.txt and PYTHON_VERSION on Pages
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build the site
+        run: python3 build/build_site.py
+
+      - name: Audit the built site
+        run: python3 build/audit_site.py
