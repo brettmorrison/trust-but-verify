@@ -863,7 +863,7 @@ header.site a.brand{
   font-weight:800;font-size:1.15rem;letter-spacing:.06em;
   text-transform:uppercase;color:var(--ink);text-decoration:none;line-height:1.2}
 header.site a.brand svg{flex:none;width:1.7rem;height:1.7rem;color:var(--accent)}
-header.site p.strap{font-size:.95rem;color:var(--muted);margin-top:.55rem}
+header.site p.strap{font-size:1rem;color:var(--muted);margin-top:.55rem}
 
 nav.sitenav{display:flex;flex-wrap:wrap;gap:1.1rem 1.4rem;margin-top:.85rem;
   font-size:1rem;font-weight:700}
@@ -872,7 +872,7 @@ nav.sitenav a:hover{color:var(--accent)}
 
 details.langswitch{position:relative}
 details.langswitch summary{list-style:none;cursor:pointer;font-weight:700;
-  font-size:.95rem;padding:.5rem .8rem;border:2px solid var(--rule);
+  font-size:1rem;padding:.5rem .8rem;border:2px solid var(--rule);
   border-radius:.3rem;white-space:nowrap;user-select:none}
 details.langswitch summary::-webkit-details-marker{display:none}
 details.langswitch summary::after{content:" \\25be";font-weight:400}
@@ -880,7 +880,7 @@ details.langswitch[open] summary::after{content:" \\25b4"}
 details.langswitch .panel{margin-top:.6rem;background:var(--band);
   border:2px solid var(--rule);border-radius:.4rem;padding:.9rem 1rem}
 details.langswitch .panel a,details.langswitch .panel strong{display:block;
-  padding:.32rem 0;font-size:.98rem}
+  padding:.32rem 0;font-size:1rem}
 @media (min-width:32rem){
   details.langswitch .panel{columns:2;column-gap:1.4rem}
 }
@@ -909,20 +909,20 @@ blockquote h3{margin-top:0}
 /* Focusable so it can be scrolled by keyboard, so it needs the same
    visible focus ring as every other focusable thing here. */
 .table-scroll:focus-visible{outline:4px solid #0b57d0;outline-offset:2px}
-table{border-collapse:collapse;width:100%;min-width:26rem;margin:0;font-size:.98rem}
+table{border-collapse:collapse;width:100%;min-width:26rem;margin:0;font-size:1rem}
 th,td{border:1px solid #bbb;padding:.55rem .6rem;text-align:left;vertical-align:top}
 th{background:var(--band);font-weight:800;white-space:nowrap}
 td a{white-space:nowrap}
 
-code{background:var(--band);padding:.05em .3em;font-size:.95em}
+code{background:var(--band);padding:.05em .3em;font-size:1em}
 
 .tel{white-space:nowrap;font-weight:800}
 
 footer.site{margin-top:2.6rem;padding-top:1rem;border-top:5px solid var(--rule);
-  font-size:.92rem;color:var(--muted)}
+  font-size:1rem;color:var(--muted)}
 footer.site a{color:var(--accent)}
-footer.site p{margin-bottom:.5rem;font-size:.92rem}
-footer.site nav.sitenav{margin-bottom:1rem;font-size:.92rem;font-weight:700}
+footer.site p{margin-bottom:.5rem;font-size:1rem}
+footer.site nav.sitenav{margin-bottom:1rem;font-size:1rem;font-weight:700}
 
 .cards{display:grid;grid-template-columns:1fr;gap:.85rem;margin:1.3rem 0 1.6rem}
 @media (min-width:32rem){.cards{grid-template-columns:1fr 1fr}}
@@ -930,7 +930,7 @@ a.card{display:block;border:3px solid var(--rule);border-radius:.4rem;
   padding:1rem 1.1rem;text-decoration:none;color:var(--ink);background:var(--band);
   font-weight:800;font-size:1.06rem;line-height:1.35;min-height:3.4rem}
 a.card:hover,a.card:focus-visible{border-color:var(--accent);background:#fff}
-a.card span{display:block;font-weight:400;font-size:.88rem;color:var(--muted);
+a.card span{display:block;font-weight:400;font-size:1rem;color:var(--muted);
   margin-top:.3rem}
 
 .steps{margin:1.5rem 0;list-style:none;padding:0}
@@ -950,13 +950,17 @@ a.card span{display:block;font-weight:400;font-size:.88rem;color:var(--muted);
   border-radius:.4rem;background:var(--band)}
 .audio-player strong{display:block;margin-bottom:.5rem}
 .audio-player audio{width:100%;display:block}
-.audio-langs{display:block;margin-top:.6rem;font-size:.85rem;color:var(--muted)}
+.audio-langs{display:block;margin-top:.6rem;font-size:1rem;color:var(--muted)}
 .audio-langs a{color:var(--muted)}
 .audio-langs strong{display:inline;margin:0;color:inherit}
 
 figure.hero-photo{margin:1.1rem 0 1.6rem}
 figure.hero-photo img{width:100%;aspect-ratio:16/9;object-fit:cover;
   border-radius:.4rem;display:block;background:var(--band)}
+/* Below the 1rem floor on purpose, and the only two places that are:
+   the photo credit line and the rail's own label are chrome, not
+   reading matter. Both are listed in audit_site.py:TYPE_FLOOR_ALLOWLIST
+   -- anything else under 1rem fails the audit. */
 figure.hero-photo figcaption{font-size:.78rem;color:var(--muted);margin-top:.4rem}
 figure.hero-photo figcaption a{color:var(--muted)}
 
@@ -993,7 +997,7 @@ aside.rail{display:none}
 @media (min-width:68rem){
   body{padding-left:15.5rem}
   aside.rail{display:block;position:fixed;left:2rem;top:2.2rem;width:12.5rem;
-    font-size:.92rem;line-height:1.7}
+    font-size:1rem;line-height:1.7}
   aside.rail .label{font-weight:800;text-transform:uppercase;letter-spacing:.05em;
     font-size:.75rem;color:var(--muted);margin-bottom:.5rem}
   aside.rail a{display:block;color:var(--ink);text-decoration:none;padding:.15rem 0}
@@ -1003,18 +1007,56 @@ aside.rail{display:none}
 .shell[dir="rtl"] aside.rail{left:auto;right:2rem}
 @media (min-width:68rem){.shell[dir="rtl"]{padding-left:0}body:has(.shell[dir="rtl"]){padding-left:1.25rem;padding-right:15.5rem}}
 
-.crumb{font-size:.92rem;margin-bottom:.6rem}
+.crumb{font-size:1rem;margin-bottom:.6rem}
 .crumb a{color:var(--muted)}
 
 .shell[dir="rtl"]{direction:rtl;text-align:right}
 .shell[dir="rtl"] ul,.shell[dir="rtl"] ol{margin:0 1.35rem 1.15rem 0}
 
+/* Printing is a first-class output: this material is meant to be printed and
+   handed to somebody. The old block hid footer.site wholesale, which took the
+   National Elder Fraud Hotline, AARP Fraud Watch, reportfraud.ftc.gov and
+   ic3.gov off every printed page -- the four things a reader acts on -- and
+   a{text-decoration:none} left every link as plain text with its address
+   nowhere on the paper. Naming a reporting site without saying where it is
+   is worse than not mentioning it.
+
+   The footer's navigation is still hidden: a list of site sections is
+   useless on paper. Everything else in the footer prints.
+
+   html goes back to 100% here and the text is sized in pt, because 34rem of
+   measure against a 125% root is about 680px, wider than the ~624px a
+   letter page has between default margins, so the column was being clipped
+   or shrunk by the browser. 13pt base, sized against the project's 18pt
+   standard for the printed sheets, which are typeset separately.
+
+   audit_site.py:check_print_stylesheet() fails the build if anything hidden
+   in print contains a phone number. */
 @media print{
-  body{background:#fff;padding:0!important}
-  header.site,footer.site,.crumb,aside.rail{display:none}
+  html{font-size:100%}
+  body{background:#fff;padding:0!important;font-size:13pt;line-height:1.45}
+  p,li{font-size:13pt}
+  h1{font-size:22pt}
+  h2{font-size:17pt}
+  h3{font-size:15pt}
+  h4{font-size:13pt}
+  table{font-size:12pt}
+  header.site,.crumb,aside.rail,.audio-player,footer.site nav.sitenav{display:none}
+  footer.site{margin-top:1.4rem;padding-top:.7rem;border-top:2pt solid #000;
+    color:#000;font-size:12pt}
+  footer.site p{font-size:12pt}
   a{color:#000;text-decoration:none}
+  /* the address, on the paper, where a reader can type it in */
+  a[href^="http"]::after{content:" (" attr(href) ")";word-break:break-all}
+  h2,h3{break-after:avoid;page-break-after:avoid}
+  .steps .step-item{break-inside:avoid;page-break-inside:avoid}
+  blockquote,figure.hero-photo,.table-scroll{break-inside:avoid;page-break-inside:avoid}
 }
-@media (max-width:26rem){ html{font-size:118%} h1{font-size:1.8rem} }
+/* No root downscale at narrow widths. It set 118% -> 18.88px, which put body
+   copy at 19.8px and the interpreter table under 19px on exactly the device
+   and page where the 20px floor matters most. The layout already wraps and
+   the one wide table already scrolls, so nothing needed shrinking. */
+@media (max-width:26rem){ h1{font-size:1.8rem} }
 """
 
 PAGE = """<!DOCTYPE html>
