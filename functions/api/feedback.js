@@ -9,11 +9,19 @@
 // Spam defense is a honeypot field, not Turnstile: Turnstile needs
 // client-side JavaScript, which this site's CSP does not allow anywhere.
 
+// The addresses stay hardcoded on purpose -- mail always goes to the real
+// project inbox from the real verified sending domain, whichever deploy is
+// running. Redirect targets are the opposite: they are derived from the
+// request, so a submission on a *.pages.dev preview lands on that preview's
+// own thanks/error page instead of bouncing the tester to production, which
+// made a preview look like it worked when it had not.
 const TO_ADDRESS = "translations@trustbutverifyproject.org";
 const FROM_ADDRESS = "Trust But Verify <feedback@trustbutverifyproject.org>";
-const SITE = "https://trustbutverifyproject.org";
+
+const originOf = (request) => new URL(request.url).origin;
 
 export async function onRequestPost({ request, env }) {
+  const site = originOf(request);
   let form;
   try {
     form = await request.formData();
@@ -23,7 +31,7 @@ export async function onRequestPost({ request, env }) {
 
   // Honeypot: a hidden field real visitors never see or fill in.
   if (String(form.get("website") || "").trim() !== "") {
-    return Response.redirect(SITE + "/feedback/thanks/", 303);
+    return Response.redirect(site + "/feedback/thanks/", 303);
   }
 
   const message = String(form.get("message") || "").trim();
@@ -31,11 +39,11 @@ export async function onRequestPost({ request, env }) {
 
   const emailLooksValid = !email || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   if (!message || message.length > 5000 || email.length > 200 || !emailLooksValid) {
-    return Response.redirect(SITE + "/feedback/error/", 303);
+    return Response.redirect(site + "/feedback/error/", 303);
   }
 
   if (!env.RESEND_API_KEY) {
-    return Response.redirect(SITE + "/feedback/error/", 303);
+    return Response.redirect(site + "/feedback/error/", 303);
   }
 
   const body = {
@@ -56,12 +64,12 @@ export async function onRequestPost({ request, env }) {
   });
 
   if (!resp.ok) {
-    return Response.redirect(SITE + "/feedback/error/", 303);
+    return Response.redirect(site + "/feedback/error/", 303);
   }
 
-  return Response.redirect(SITE + "/feedback/thanks/", 303);
+  return Response.redirect(site + "/feedback/thanks/", 303);
 }
 
-export async function onRequestGet() {
-  return Response.redirect(SITE + "/feedback/", 303);
+export async function onRequestGet({ request }) {
+  return Response.redirect(originOf(request) + "/feedback/", 303);
 }

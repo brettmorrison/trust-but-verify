@@ -1624,6 +1624,20 @@ def build():
         + "\n".join(urls) + "\n</urlset>\n")
 
     # security + caching headers (Cloudflare Pages reads _headers)
+    #
+    # ONE Content-Security-Policy, applied by one rule. Cloudflare Pages does
+    # not let a more specific rule override a broader one -- it appends, and
+    # the browser then enforces every policy it receives as an intersection
+    # (CSP3 sec. 8.1). A second /feedback/* rule with form-action 'self' was
+    # therefore intersected with /*'s form-action 'none', which is 'none':
+    # the feedback form was blocked in every browser from launch until
+    # 2026-09-02, silently, because the site has no JavaScript to report it.
+    # audit_site.py:check_header_collisions() now fails the build if any
+    # built path is ever matched by two rules setting the same header again.
+    #
+    # form-action 'self' is the sitewide value now. The other 195 pages have
+    # no <form> at all, so it grants nothing there; base-uri 'none' and
+    # frame-ancestors 'none' are untouched.
     open(os.path.join(OUT, "_headers"), "w").write(
         "/*\n"
         "  X-Frame-Options: DENY\n"
@@ -1634,15 +1648,9 @@ def build():
         # media falls back to default-src 'none' and every player is blocked
         # in every browser -- silently, apart from a console warning.
         "  Content-Security-Policy: default-src 'none'; style-src 'self'; img-src 'self'; "
-        "media-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'\n"
+        "media-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'\n"
         "  Strict-Transport-Security: max-age=31536000; includeSubDomains\n"
-        "\n/print/*\n  Cache-Control: public, max-age=86400\n"
-        # The one page on the site with a <form>: same policy as everywhere
-        # else, except form-action allows same-origin so the feedback form
-        # can actually submit to /api/feedback.
-        "\n/feedback/*\n"
-        "  Content-Security-Policy: default-src 'none'; style-src 'self'; img-src 'self'; "
-        "media-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'\n")
+        "\n/print/*\n  Cache-Control: public, max-age=86400\n")
 
     # 404
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
